@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "ad4c3c0852384e90",
+    "type": "split",
+    "children": [
+      {
+        "id": "f39eac50d8f1e097",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8bf2fbf0645933f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CMake/CMake Study Plan.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CMake Study Plan"
+            }
+          },
+          {
+            "id": "52dba84c759fe6ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "War Games.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "War Games"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ca472a3cf81b4824",
+    "type": "split",
+    "children": [
+      {
+        "id": "fcfb299a9d5db927",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "01a6819391e2223b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a90a5540c89ac929",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5ec7646a65ea9733",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "72ec3def940de40c",
+    "type": "split",
+    "children": [
+      {
+        "id": "01604c19b41c4e50",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "51ea68bd5bdb8a12",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CMake/CMake Study Plan.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for CMake Study Plan"
+            }
+          },
+          {
+            "id": "7881a1364f76b38b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CMake/CMake Study Plan.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from CMake Study Plan"
+            }
+          },
+          {
+            "id": "8c69421fd7d720ce",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5c814bebc9e384e8",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "f26114fa2ea078ca",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CMake/CMake Study Plan.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of CMake Study Plan"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "52dba84c759fe6ec",
+  "lastOpenFiles": [
+    "CMake/CMake Study Plan.md",
+    "War Games.md",
+    "Untitled",
+    "WarGame",
+    "test.md",
+    "IPP",
+    "C++/Effective Modern C++",
+    "Python",
+    "C++",
+    "CMake/Cmake.base",
+    "CMake",
+    "create a link.md",
+    "Welcome.md"
+  ]
+}
