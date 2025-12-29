@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "War Games.md",
+                "file": "WarGame/War Games.md",
                 "mode": "source",
                 "source": false
               },
@@ -199,10 +199,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "52dba84c759fe6ec",
+  "active": "01a6819391e2223b",
   "lastOpenFiles": [
     "CMake/CMake Study Plan.md",
-    "War Games.md",
+    "WarGame/War Games.md",
     "Untitled",
     "WarGame",
     "test.md",
