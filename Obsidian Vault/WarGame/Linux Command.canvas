@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"d8137ace142ab219","type":"text","text":"Linux","x":-100,"y":0,"width":200,"height":60},
+		{"id":"0f81adfe2c8ac4a7","type":"text","text":"file system commands\n","x":-620,"y":-80,"width":337,"height":55},
+		{"id":"d028ff4bd6ecb4e3","type":"text","text":"## find\n\n```\nfind [-H] [-L] [-P] [-D debugopts] [-Olevel] [starting-point...] [expression]\n```\n\n### Options\n\n-P      Never  follow  symbolic  links.\n-L       Follow symbolic links.\n-H       Do not follow symbolic links, except while processing  the command  line  arguments.\n-D debugopts       Print  diagnostic information; this can be helpful to diagnose problems with why **find** is not doing what you want.\n","x":-1340,"y":-640,"width":580,"height":348},
+		{"id":"703ca0cdb3fbce34","type":"text","text":"## find\n\n```\nfind [-H] [-L] [-P] [-D debugopts] [-Olevel] [starting-point...] [expression]\n```\n\n### Options\n\n-P      Never  follow  symbolic  links.\n-L       Follow symbolic links.\n-H       Do not follow symbolic links, except while processing  the command  line  arguments.\n-D debugopts       Print  diagnostic information; this can be helpful to diagnose problems with why **find** is not doing what you want.\n-d     A synonym for -depth, for compatibility with FreeBSD, NetBSD, MacOS X and OpenBSD.","x":-1340,"y":-640,"width":580,"height":348},
+		{"id":"1b60a368b8615cd2","type":"text","text":"## find\n\n```\nfind [-H] [-L] [-P] [-D debugopts] [-Olevel] [starting-point...] [expression]\n```\n\n### Options\n\n-P      Never  follow  symbolic  links.\n-L       Follow symbolic links.\n-H       Do not follow symbolic links, except while processing  the command  line  arguments.\n-D debugopts       Print  diagnostic information; this can be helpful to diagnose problems with why **find** is not doing what you want.\n-d     A synonym for -depth, for compatibility with FreeBSD, NetBSD, MacOS X and OpenBSD.","x":-1340,"y":-660,"width":580,"height":380}
+	],
+	"edges":[
+		{"id":"2d7e10e6cb71f55d","fromNode":"d8137ace142ab219","fromSide":"left","toNode":"0f81adfe2c8ac4a7","toSide":"right"},
+		{"id":"e47e049c9ffb9af2","fromNode":"0f81adfe2c8ac4a7","fromSide":"left","toNode":"d028ff4bd6ecb4e3","toSide":"right"}
+	]
+}
