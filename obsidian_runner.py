@@ -7,7 +7,7 @@ def runner(cmd: str):
     success = proc.returncode == 0
     if success:
         subprocess.run(["git", "commit", "-am" , "auto commit"], cwd=os.getcwd())
-        subprocess.run(["git", "push"],cwd=os.getcwd(), shell=True)
+        subprocess.run(["git", "push"],cwd=os.getcwd())
 
 def main():
     runner( "obsidian")
