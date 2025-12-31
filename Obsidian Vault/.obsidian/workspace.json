@@ -11,17 +11,14 @@
             "id": "eee84e7a55798e41",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Linux Command.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 111.60000000000001,
-                  "zoom": 0
-                }
+                "file": "C++/Effective Modern C++17.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Linux Command"
+              "icon": "lucide-file",
+              "title": "Effective Modern C++17"
             }
           }
         ]
@@ -189,11 +186,14 @@
   },
   "active": "eee84e7a55798e41",
   "lastOpenFiles": [
+    "Python/Design Patterns.canvas",
+    "C++/Effective Modern C++17.md",
+    "Python/Python Essentials.md",
+    "Linux Command.canvas",
     "WarGame/War Games.md",
     "WarGame/Passwords.md",
     "WarGame/WarGame.md",
     "CMake/CMake Study Plan.md",
-    "Linux Command.canvas",
     "Untitled.md",
     "AI",
     "Docker",
