@@ -4,21 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "f39eac50d8f1e097",
+        "id": "e1946c50e4c65d75",
         "type": "tabs",
         "children": [
           {
-            "id": "8bf2fbf0645933f3",
+            "id": "eee84e7a55798e41",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "CMake/CMake Study Plan.md",
-                "mode": "source",
-                "source": false
+                "file": "Linux Command.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 111.60000000000001,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "CMake Study Plan"
+              "icon": "lucide-layout-dashboard",
+              "title": "Linux Command"
             }
           }
         ]
@@ -78,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 263.5
   },
   "right": {
     "id": "72ec3def940de40c",
@@ -94,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CMake/CMake Study Plan.md",
+                "file": "Linux Command.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +107,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for CMake Study Plan"
+              "title": "Backlinks for Linux Command"
             }
           },
           {
@@ -156,13 +159,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CMake/CMake Study Plan.md",
+                "file": "Linux Command.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CMake Study Plan"
+              "title": "Outline of Linux Command"
             }
           }
         ],
@@ -184,13 +187,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "8bf2fbf0645933f3",
+  "active": "eee84e7a55798e41",
   "lastOpenFiles": [
-    "CMake/Commands.canvas",
-    "CMake/CMake Study Plan.md",
-    "CMake/Untitled.md",
     "WarGame/War Games.md",
-    "Untitled",
+    "WarGame/Passwords.md",
+    "WarGame/WarGame.md",
+    "CMake/CMake Study Plan.md",
+    "Linux Command.canvas",
+    "Untitled.md",
+    "AI",
+    "Docker",
+    "C++",
+    "Python",
+    "CMake/Commands.canvas",
+    "CMake/Untitled.md",
     "WarGame",
     "test.md",
     "IPP",
@@ -198,7 +208,6 @@
     "Python",
     "C++",
     "CMake/Cmake.base",
-    "CMake",
     "create a link.md",
     "Welcome.md"
   ]

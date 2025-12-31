@@ -1,6 +1,6 @@
 **advanced multi-language C++ ecosystem**, the kind used in telecom, data pipelines, plugin engines, micro-kernel architectures, and DevOps-heavy environments.
 
-🚀 **Advanced CMake Study + Build Plan (21 Days**
+🚀 **Advanced CMake Study + Build Plan (21 Days)**
 
 
 #### Final Monorepo Structure
@@ -76,6 +76,7 @@ NebulaEngine/
 
 
 create **NebulaEngine/CMakeLists.txt**:
+[[Commands.canvas|Commands]]
 
 ```cmake
 cmake_minimum_required(VERSION 3.27)

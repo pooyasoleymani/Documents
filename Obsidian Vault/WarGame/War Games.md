@@ -1,5 +1,8 @@
 ---
 aliases:
+  - War Game
+cssclasses:
+  - Linux
 ---
 ## Bandit
 ---
@@ -17,10 +20,6 @@ SSH was designed for [Unix-like](https://en.wikipedia.org/wiki/Unix-like "Unix-
 > The [ssh-keygen](https://en.wikipedia.org/wiki/Ssh-keygen "Ssh-keygen") utility produces the public and private keys, always in pairs.
 
 
-**Level0: The password you are looking for is: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If**
-**Level1: password is: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx**
-*Level2: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx**
-**Level3: The password is: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ**
 
 
 
