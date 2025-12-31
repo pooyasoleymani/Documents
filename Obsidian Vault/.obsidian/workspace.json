@@ -4,24 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e1946c50e4c65d75",
+        "id": "869bdef40d074a78",
         "type": "tabs",
         "children": [
           {
-            "id": "eee84e7a55798e41",
+            "id": "a1feb08188cb256e",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "WarGame/Linux Command.canvas",
-                "viewState": {
-                  "x": -741.8526287579783,
-                  "y": -335.0822022531844,
-                  "zoom": -1.6
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Linux Command"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -81,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263.5
+    "width": 388.5
   },
   "right": {
     "id": "72ec3def940de40c",
@@ -187,10 +180,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "eee84e7a55798e41",
+  "active": "a1feb08188cb256e",
   "lastOpenFiles": [
-    "WarGame/Passwords.md",
+    "IPP/Concepts/SIMD.md",
+    "IPP/IPP Study Guide.md",
+    "IPP/Concepts/toolchain.md",
+    "IPP/Concepts/LLVM.md",
+    "IPP/Concepts/programming language.md",
+    "IPP/Concepts/compiler.md",
+    "11.md",
+    "6.md",
+    "IPP/Concepts",
     "WarGame/Linux Command.canvas",
+    "IPP",
+    "WarGame/Passwords.md",
     "C++/Effective Modern C++17.md",
     "Python/Design Patterns.canvas",
     "Python/Python Essentials.md",
@@ -209,8 +212,6 @@
     "IPP",
     "C++/Effective Modern C++",
     "Python",
-    "C++",
-    "CMake/Cmake.base",
     "create a link.md",
     "Welcome.md"
   ]
