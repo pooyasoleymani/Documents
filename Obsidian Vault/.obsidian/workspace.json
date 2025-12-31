@@ -11,10 +11,14 @@
             "id": "a1feb08188cb256e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "IPP/IPP Study Guide.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "IPP Study Guide"
             }
           }
         ]

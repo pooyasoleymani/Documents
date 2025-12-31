@@ -177,3 +177,6 @@ int main() {
 ✅ How to benchmark and compare IPP vs plain C++
 
 ---
+
+## Part 3: First Signal Processing Exercise (RMS computation)
+
