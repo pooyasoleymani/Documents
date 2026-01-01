@@ -27,6 +27,7 @@ def auto_commit_and_push():
 
 
 def main():
+    subprocess.run(["git", "pull"])
     if run_command(["obsidian"]):
         auto_commit_and_push()
 
