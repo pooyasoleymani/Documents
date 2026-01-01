@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 388.5
+    "width": 200
   },
   "right": {
     "id": "72ec3def940de40c",
@@ -184,7 +184,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "a1feb08188cb256e",
+  "active": "01a6819391e2223b",
   "lastOpenFiles": [
     "IPP/Concepts/SIMD.md",
     "IPP/IPP Study Guide.md",
