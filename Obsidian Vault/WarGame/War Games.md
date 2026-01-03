@@ -21,5 +21,7 @@ SSH was designed for [Unix-like](https://en.wikipedia.org/wiki/Unix-like "Unix-
 
 
 
+---
 
-
+tags: #wargame #linux
+references: [[Passwords]]

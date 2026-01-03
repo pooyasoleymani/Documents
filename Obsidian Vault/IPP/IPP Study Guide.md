@@ -1,5 +1,8 @@
 ---
 IPP: ipp
+tags:
+  - programming
+  - need-work
 ---
 ---
 ## 🧰 Step 1 — Download & Install oneAPI Base Toolkit
@@ -180,3 +183,7 @@ int main() {
 
 ## Part 3: First Signal Processing Exercise (RMS computation)
 
+
+
+---
+Reference: ... 
