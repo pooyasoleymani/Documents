@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Effective Modern C++17.md",
+                "file": "Python/Python Essentials.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -42,7 +42,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Effective Modern C++17"
+              "title": "Python Essentials"
             }
           },
           {
@@ -233,8 +233,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "e1b3a0024b4a038a",
+  "active": "01a6819391e2223b",
   "lastOpenFiles": [
+    "C++/Effective Modern C++17.md",
     "OPP/Refrences/OOP.md",
     "Design Patterns/Design Patterns.canvas",
     "Design Patterns/Refrences/Design patterns.md",
@@ -250,7 +251,6 @@
     "OPP/Refrences",
     "OPP",
     "IPP/Concepts/programming language.md",
-    "C++/Effective Modern C++17.md",
     "Python/Python Essentials.md",
     "Design Patterns/Refrences",
     "Design Patterns",
