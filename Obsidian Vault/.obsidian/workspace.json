@@ -4,63 +4,179 @@
     "type": "split",
     "children": [
       {
-        "id": "869bdef40d074a78",
+        "id": "78d6c2c678158dae",
         "type": "tabs",
         "children": [
           {
-            "id": "4c025495b0e373c0",
+            "id": "fd5b859709ecffb1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OPP/Refrences/OOP.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "OOP"
-            }
-          },
-          {
-            "id": "e1b3a0024b4a038a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IPP/IPP Study Guide.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "IPP Study Guide"
-            }
-          },
-          {
-            "id": "2c1c507aa9de03b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Design Patterns/Refrences/Creational patterns.md",
+                "file": "C++/Effective Modern C++/Effective Modern C++17.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
-                  "collapseAll": true,
-                  "extraContext": true,
+                  "collapseAll": false,
+                  "extraContext": false,
                   "sortOrder": "alphabetical",
                   "showSearch": false,
                   "searchQuery": "",
-                  "backlinkCollapsed": true,
+                  "backlinkCollapsed": false,
                   "unlinkedCollapsed": true
                 }
               },
               "icon": "lucide-file",
-              "title": "Creational patterns"
+              "title": "Effective Modern C++17"
+            }
+          },
+          {
+            "id": "86fcafad50624c4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++/Effective Modern C++/References/Deducing Type.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Deducing Type"
+            }
+          },
+          {
+            "id": "c8fda108fec4a0f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++/Effective Modern C++/Effective Modern C++17.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Effective Modern C++17"
+            }
+          },
+          {
+            "id": "56bf27ba5b204a81",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++/Effective Modern C++/References/Deducing Type.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Deducing Type"
+            }
+          },
+          {
+            "id": "a19160202003485a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++/Effective Modern C++/Effective Modern C++17.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Effective Modern C++17"
+            }
+          },
+          {
+            "id": "c9b10e443f56efac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++/Effective Modern C++/References/Deducing Type.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Deducing Type"
+            }
+          },
+          {
+            "id": "57da65bedfa69d2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++/Effective Modern C++/References/Understand template type deduction.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Understand template type deduction"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -92,7 +208,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "design",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -117,7 +233,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341.5
+    "width": 239.5
   },
   "right": {
     "id": "72ec3def940de40c",
@@ -223,8 +339,34 @@
       "bases:Create new base": false
     }
   },
-  "active": "e1b3a0024b4a038a",
+  "active": "01a6819391e2223b",
   "lastOpenFiles": [
+    "C++/Templates",
+    "C++/Effective Modern C++/References/Deducing Type.md",
+    "C++/Effective Modern C++/References/Know how to view deduced types.md",
+    "C++/Effective Modern C++/References/Understand decltype.md",
+    "C++/Effective Modern C++/References/Understand template type deduction.md",
+    "C++/Effective Modern C++/Effective Modern C++17.md",
+    "C++/Effective Modern C++/References/Understand auto type deduction.md",
+    "CMake/Commands.canvas",
+    "C++/Effective Modern C++/Untitled.base",
+    "C++/Effective Modern C++",
+    "Item 1.md",
+    "C++/Item 1.md",
+    "C++/item 1.md",
+    "C++/Item 24.md",
+    "2026-01-05.md",
+    "Python/Python Essentials.md",
+    "CMake/CMake Study Plan.md",
+    "IPP/IPP Study Guide.md",
+    "2026-01-04.md",
+    "Templates/Cmake.md",
+    "WarGame/Passwords.md",
+    "Templates",
+    "WarGame/Linux Command.canvas",
+    "WarGame/War Games.md",
+    "IPP/Concepts/SIMD.md",
+    "C++/Effective Modern C++/References",
     "Design Patterns/Refrences/Structural patterns.md",
     "Design Patterns/Refrences/Design patterns.md",
     "Design Patterns/Refrences/Creational patterns.md",
@@ -239,32 +381,7 @@
     "OPP/Refrences",
     "OPP",
     "IPP/Concepts/programming language.md",
-    "C++/Effective Modern C++17.md",
-    "Python/Python Essentials.md",
     "Design Patterns/Refrences",
-    "Design Patterns",
-    "IPP/Concepts/LLVM.md",
-    "WarGame/War Games.md",
-    "WarGame/Linux Command.canvas",
-    "WarGame/Passwords.md",
-    "IPP/Concepts/compiler.md",
-    "CMake/Commands.canvas",
-    "IPP/IPP Study Guide.md",
-    "CMake/CMake Study Plan.md",
-    "CMake/<% tp.date.now(\"YYYY-MM-DD\", -1) %>.md",
-    "IPP/Concepts/toolchain.md",
-    "IPP/Concepts/SIMD.md",
-    "11.md",
-    "6.md",
-    "IPP/Concepts",
-    "IPP",
-    "WarGame/WarGame.md",
-    "Untitled.md",
-    "AI",
-    "Docker",
-    "CMake/Untitled.md",
-    "test.md",
-    "create a link.md",
-    "Welcome.md"
+    "Design Patterns"
   ]
 }

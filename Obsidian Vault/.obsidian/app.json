@@ -1,4 +1,6 @@
 {
   "alwaysUpdateLinks": true,
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "newFileFolderPath": "C++",
+  "attachmentFolderPath": "C++/Effective Modern C++/References"
 }
