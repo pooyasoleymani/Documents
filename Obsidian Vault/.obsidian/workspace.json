@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Python Essentials.md",
+                "file": "IPP/IPP Study Guide.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -42,7 +42,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Python Essentials"
+              "title": "IPP Study Guide"
             }
           },
           {
@@ -233,10 +233,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "01a6819391e2223b",
+  "active": "e1b3a0024b4a038a",
   "lastOpenFiles": [
-    "C++/Effective Modern C++17.md",
+    "IPP/Concepts/toolchain.md",
+    "IPP/Concepts/SIMD.md",
+    "IPP/Concepts/programming language.md",
+    "IPP/Concepts/LLVM.md",
+    "IPP/Concepts/compiler.md",
     "OPP/Refrences/OOP.md",
+    "C++/Effective Modern C++17.md",
+    "Python/Python Essentials.md",
     "Design Patterns/Design Patterns.canvas",
     "Design Patterns/Refrences/Design patterns.md",
     "Design Patterns/Refrences/Structural patterns.md",
@@ -250,20 +256,14 @@
     "Design Patterns/Utils",
     "OPP/Refrences",
     "OPP",
-    "IPP/Concepts/programming language.md",
-    "Python/Python Essentials.md",
     "Design Patterns/Refrences",
     "Design Patterns",
-    "IPP/Concepts/LLVM.md",
     "WarGame/War Games.md",
     "WarGame/Linux Command.canvas",
     "WarGame/Passwords.md",
-    "IPP/Concepts/compiler.md",
     "CMake/Commands.canvas",
     "CMake/CMake Study Plan.md",
     "CMake/<% tp.date.now(\"YYYY-MM-DD\", -1) %>.md",
-    "IPP/Concepts/toolchain.md",
-    "IPP/Concepts/SIMD.md",
     "11.md",
     "6.md",
     "IPP/Concepts",
