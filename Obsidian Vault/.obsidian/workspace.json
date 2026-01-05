@@ -27,12 +27,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IPP/IPP Study Guide.md",
+                "file": "C++/Effective Modern C++17.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "IPP Study Guide"
+              "title": "Effective Modern C++17"
             }
           },
           {
@@ -225,12 +235,13 @@
   },
   "active": "e1b3a0024b4a038a",
   "lastOpenFiles": [
-    "Design Patterns/Refrences/Structural patterns.md",
-    "Design Patterns/Refrences/Design patterns.md",
-    "Design Patterns/Refrences/Creational patterns.md",
     "OPP/Refrences/OOP.md",
-    "Design Patterns/Refrences/Behavioral patterns.md",
     "Design Patterns/Design Patterns.canvas",
+    "Design Patterns/Refrences/Design patterns.md",
+    "Design Patterns/Refrences/Structural patterns.md",
+    "Design Patterns/Refrences/Creational patterns.md",
+    "Design Patterns/Refrences/Behavioral patterns.md",
+    "IPP/IPP Study Guide.md",
     "OPP/Utils/oop001.png",
     "OPP/Utils/oop002.png",
     "OPP/Utils/opp001.png",
@@ -249,7 +260,6 @@
     "WarGame/Passwords.md",
     "IPP/Concepts/compiler.md",
     "CMake/Commands.canvas",
-    "IPP/IPP Study Guide.md",
     "CMake/CMake Study Plan.md",
     "CMake/<% tp.date.now(\"YYYY-MM-DD\", -1) %>.md",
     "IPP/Concepts/toolchain.md",
