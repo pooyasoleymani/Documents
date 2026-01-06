@@ -56,3 +56,6 @@ f(cx); // T is const int, param's type is const int&
 f(rx); // T is const int, param's type is const int&
 
 ```
+
+
+ In the second and third calls, notice that because **cx** and **rx** designate **const** values, **T** is deduced to be **const int**, thus yielding a parameter type of **const int&**.
