@@ -1,3 +1,12 @@
+---
+Created Date: 2025-03-01
+Related: "[[IPP Study Guide]]"
+tags:
+  - programming
+---
+---
+
+
 **SIMD** (Single Instruction, Multiple Data) is a parallel computing paradigm where one instruction is executed simultaneously on multiple data elements. It is a key component of modern computer architectures, including CPUs and GPUs, used to boost performance in data-heavy tasks.
 
 #### Core Concepts
@@ -23,4 +32,4 @@ Common Use Cases
 - **Scientific Computing**: Fast Fourier Transforms (FFT), physical modeling, and cryptography.
 
 ### Software
-SIMD instructions are widely used to process 3D graphics, although modern [graphics cards](https://en.wikipedia.org/wiki/Video_card "Video card") with embedded SIMD have largely taken over this task from the CPU. Some systems also include permute functions that re-pack elements inside vectors, making them especially useful for data processing and compression. They are also used in cryptography.The trend of general-purpose computing on GPUs ([GPGPU](https://en.wikipedia.org/wiki/GPGPU "GPGPU")) may lead to wider use of SIMD in the future. Recent compilers such as [[LLVM]], [GNU Compiler Collection](https://en.wikipedia.org/wiki/GNU_Compiler_Collection "GNU Compiler Collection") (GCC), and Intel's ICC offer aggressive auto-vectoring options. Developers can often enable these with flags like `-O3` or `-ftree-vectorize`, which guide the compiler to restructure loops for SIMD compatibility.
+SIMD instructions are widely used to process 3D graphics, although modern [graphics cards](https://en.wikipedia.org/wiki/Video_card "Video card") with embedded SIMD have largely taken over this task from the CPU. Some systems also include permute functions that re-pack elements inside vectors, making them especially useful for data processing and compression. They are also used in cryptography.The trend of general-purpose computing on GPUs ([GPGPU](https://en.wikipedia.org/wiki/GPGPU "GPGPU")) may lead to wider use of SIMD in the future. Recent compilers such as [[LLVM]], [GNU Compiler Collection](https://en.wikipedia.org/wiki/GNU_Compiler_Collection "GNU Compiler Collection") (GCC), and Intel's ICC offer aggressive auto-vectoring options. Developers can often enable these with flags like `-O3` or `-ftree-vectorize`, which guide the compiler to restructure loops for SIMD compatibility.--

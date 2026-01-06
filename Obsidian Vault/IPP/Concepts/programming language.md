@@ -1,3 +1,10 @@
+---
+Created Date: 2025-03-01
+Related: "[[LLVM]]"
+tags:
+  - programming
+---
+
 A **programming language** is an artificial language for expressing [computer programs](https://en.wikipedia.org/wiki/Computer_program "Computer program")
 
 Programming languages typically allow software to be [written](https://en.wikipedia.org/wiki/Software_development "Software development") in a [human readable](https://en.wikipedia.org/wiki/Human-readable "Human-readable") manner.

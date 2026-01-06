@@ -68,9 +68,33 @@
               "icon": "lucide-file",
               "title": "Creational patterns"
             }
+          },
+          {
+            "id": "7458a46daa868afb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++/Effective Modern C++17.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Effective Modern C++17"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -127,7 +151,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341.5
+    "width": 285.5
   },
   "right": {
     "id": "72ec3def940de40c",
@@ -233,22 +257,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "e1b3a0024b4a038a",
+  "active": "7458a46daa868afb",
   "lastOpenFiles": [
-    "IPP/Concepts/toolchain.md",
+    "Design Patterns/Refrences/Design patterns.md",
+    "IPP/IPP Study Guide.md",
+    "Design Patterns/Refrences/Creational patterns.md",
     "IPP/Concepts/SIMD.md",
-    "IPP/Concepts/programming language.md",
     "IPP/Concepts/LLVM.md",
     "IPP/Concepts/compiler.md",
+    "IPP/Concepts/programming language.md",
+    "IPP/Concepts/toolchain.md",
     "OPP/Refrences/OOP.md",
     "C++/Effective Modern C++17.md",
     "Python/Python Essentials.md",
     "Design Patterns/Design Patterns.canvas",
-    "Design Patterns/Refrences/Design patterns.md",
     "Design Patterns/Refrences/Structural patterns.md",
-    "Design Patterns/Refrences/Creational patterns.md",
     "Design Patterns/Refrences/Behavioral patterns.md",
-    "IPP/IPP Study Guide.md",
     "OPP/Utils/oop001.png",
     "OPP/Utils/oop002.png",
     "OPP/Utils/opp001.png",
