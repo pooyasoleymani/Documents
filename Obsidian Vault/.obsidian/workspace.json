@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rvalue References, Move Semantics, and Perfect Forwarding.md",
+                "file": "CMake/CMake Study Plan.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Rvalue References, Move Semantics, and Perfect Forwarding"
+              "title": "CMake Study Plan"
             }
           }
         ],
@@ -293,6 +293,9 @@
   },
   "active": "a21aa06bcfa309ef",
   "lastOpenFiles": [
+    "CMake/Commands.canvas",
+    "CMake/CMake Study Plan.md",
+    "Rvalue References, Move Semantics, and Perfect Forwarding.md",
     "OPP/Utils/oop002.png",
     "OPP/Utils/oop001.png",
     "OPP/Refrences/OOP.md",
@@ -307,7 +310,6 @@
     "Design Patterns/Design Patterns.canvas",
     "Design Patterns",
     "C++/Effective Modern C++/Effective Modern C++17.md",
-    "Rvalue References, Move Semantics, and Perfect Forwarding.md",
     "C++/Effective Modern C++/References/Deducing Type.md",
     "C++/Effective Modern C++/References/auto.md",
     "C++/Effective Modern C++/References/Prefer auto to explicit type declarations.md",
@@ -324,12 +326,10 @@
     "C++/Effective Modern C++/References/[[[Distinguish.md",
     "C++/Effective Modern C++/References/Effective Modern C++17]],  [[Understand template type deduction.md",
     "C++/Templates",
-    "CMake/Commands.canvas",
     "C++/Effective Modern C++/Untitled.base",
     "C++/Effective Modern C++",
     "Item 1.md",
     "C++/Item 1.md",
-    "C++/item 1.md",
     "Templates",
     "WarGame/Linux Command.canvas",
     "C++/Effective Modern C++/References",
