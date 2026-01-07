@@ -31,8 +31,6 @@ f(x); // call f with an int
 ```
 
 
-The type deduced for T is dependent not just on the type of expr, but also on the form of ParamType. There are three cases:
-
 • *ParamType* is a pointer or reference type, but not a universal reference. (**Universal references** are described in *Item 24* [[Distinguish universal references from rvalue references]]. At this point, all you need to know is that they exist and that they’re not the same as **lvalue** references or **rvalue** references.)
 • *ParamType* is a universal reference.
 • *ParamType* is neither a pointer nor a reference.
@@ -156,3 +154,132 @@ f(cx); // T's and param's types are again both int
 f(rx); // T's and param's types are still both int
 ```
 
+
+
+> [!NOTE] 
+> Even though **cx** and **rx** represent **const values**, param isn’t **const**. That
+makes sense. param is an object that’s completely independent of **cx** and **rx**—a copy
+of **cx** or **rx**. The fact that **cx** and **rx** can’t be modified says nothing about whether
+param can be. That’s why expr’s **constness** (and **volatileness**, if any) is ignored
+when deducing a type for param: just because expr can’t be modified doesn’t mean
+that a copy of it can’t be.
+
+> [!IMPORTANT] 
+> It’s important to recognize that **const** (and **volatile**) is **ignored** only for *by-value* parameters.
+The type deduced for T is dependent not just on the type of expr, but also on the form of ParamType. There are three cases:
+
+
+case where expr is a const pointer to a const object, and expr is passed to a by value
+param:
+
+```c++
+template<typename T>
+void f(T param); // param is still passed by value
+const char* const ptr = "Fun with pointers"; // ptr is const pointer to const object
+
+f(ptr); // pass arg of type const char * const Here, the const to the right of the asterisk declares ptr to be const: ptr can’t
+```
+
+##### the **const** to the right of the asterisk declares **ptr** to be const: **ptr** can’t be made to point to a different location, nor can it be set to null.
+
+
+> [!NOTE] 
+> The constness of what ptr points to is preserved during type deduction, but the **constness** of **ptr** itself is ignored when copying it to *create the new pointer*, param.
+
+---
+
+## Array Arguments
+
+A primary contributor to this illusion is that, in many contexts, an array decays into a pointer to its first element. This decay is what permits code like this to compile:
+
+```c++
+const char name[] = "J. P. Briggs"; // name's type is // const char[13]
+const char * ptrToName = name; // array decays to pointer
+```
+
+>[!NOTE] 
+> These types (**const char* and const char[13]**) are not the same, but because of the array-to-pointer decay rule, the code compiles.
+****
+
+
+
+```cpp
+void myFunc(int param[]);
+void myFunc(int* param); // same function as above
+
+template<typename T>
+void f(T param); // template with by-value parameter
+f(name); // name is array, but T deduced as const char*
+
+---------------------------------------------------------------
+	/* Declare parameters that are references to arrays: */
+---------------------------------------------------------------
+
+template<typename T>
+void f(T& param); // template with by-reference parameter
+f(name); // pass array to f
+
+---------------------------------------------------------------
+/* 
+	T is deduced to be const char [13], and the type of f’s
+	parameter (a reference to this array) is const char (&)[13]. 
+*/
+---------------------------------------------------------------
+```
+
+
+Interestingly, the ability to declare references to arrays enables creation of a template
+that deduces the number of elements that an array contains:
+
+```cpp
+// return size of an array as a compile-time constant. (The
+// array parameter has no name, because we care only about
+// the number of elements it contains.)
+template<typename T, std::size_t N> 
+constexpr std::size_t arraySize(T (&)[N]) noexcept 
+// see info  below on constexpr and noexcept
+{ 
+	return N;
+} 
+// As Item 15 explains, declaring this function constexpr makes its result available during compilation
+
+int keyVals[] = { 1, 3, 7, 9, 11, 22, 35 }; // keyVals has 7 elements
+
+int mappedVals[arraySize(keyVals)]; // so does mappedVals
+
+std::array<int, arraySize(keyVals)> mappedVals;
+
+```
+
+
+As for arraySize being declared noexcept, that’s to help compilers generate better
+code. For details, see **Item 14 [[Declare functions noexcept if they won’t emit exceptions.]].**
+
+
+---
+
+## Function Arguments
+
+arrays applies to type deduction for functions and their decay into function
+pointers:
+
+```cpp
+void someFunc(int, double); // someFunc is a function; type is void(int, double)
+template<typename T>
+void f1(T param); // in f1, param passed by value
+template<typename T>
+void f2(T& param); // in f2, param passed by ref
+
+f1(someFunc); // param deduced as ptr-to-func;  type is void (*)(int, double)
+f2(someFunc); // param deduced as ref-to-func; type is void (&)(int, double)
+```
+
+
+---
+
+> [!IMPORTANT] Things to Remember
+>                     
+> - During template type deduction, arguments that are references are treated as non-references, i.e., their reference-ness is ignored.
+> - When deducing types for universal reference parameters, lvalue arguments get special treatment.
+> -  When deducing types for by-value parameters, const and/or volatile arguments are treated as non-const and non-volatile.
+> -  During template type deduction, arguments that are array or function names decay to pointers, unless they’re used to initialize references.
