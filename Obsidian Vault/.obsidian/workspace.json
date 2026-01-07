@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Effective Modern C++/References/Deducing Type.md",
+                "file": "C++/Effective Modern C++/Effective Modern C++17.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Deducing Type"
+              "title": "Effective Modern C++17"
             }
           },
           {
@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Effective Modern C++/References/Understand template type deduction.md",
+                "file": "C++/Effective Modern C++/Effective Modern C++17.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,11 +100,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Understand template type deduction"
+              "title": "Effective Modern C++17"
+            }
+          },
+          {
+            "id": "a21aa06bcfa309ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rvalue References, Move Semantics, and Perfect Forwarding.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Rvalue References, Move Semantics, and Perfect Forwarding"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -267,22 +291,24 @@
       "bases:Create new base": false
     }
   },
-  "active": "57da65bedfa69d2a",
+  "active": "a21aa06bcfa309ef",
   "lastOpenFiles": [
+    "C++/Effective Modern C++/Effective Modern C++17.md",
+    "Rvalue References, Move Semantics, and Perfect Forwarding.md",
+    "C++/Effective Modern C++/References/Deducing Type.md",
+    "C++/Effective Modern C++/References/auto.md",
+    "C++/Effective Modern C++/References/Prefer auto to explicit type declarations.md",
     "C++/Effective Modern C++/References/Distinguish universal references from rvalue references.md",
+    "C++/Effective Modern C++/References/Know how to view deduced types.md",
+    "C++/Effective Modern C++/References/Understand auto type deduction.md",
+    "C++/Effective Modern C++/References/Understand decltype.md",
     "C++/Effective Modern C++/References/Understand template type deduction.md",
     "C++/Effective.md",
-    "C++/Effective Modern C++/Effective Modern C++17.md",
     "C++/Effective Modern C++/Distinguish universal references from rvalue references.md",
-    "C++/Effective Modern C++/References/Know how to view deduced types.md",
     "C++/Effective Modern C++/References/Distinguish.md",
     "C++/Effective Modern C++/References/[[Distinguish.md",
     "C++/Effective Modern C++/References/'Distinguish.md",
-    "C++/Effective Modern C++/auto.md",
-    "C++/Effective Modern C++/References/Deducing Type.md",
     "C++/Effective Modern C++/References/[[[Distinguish.md",
-    "C++/Effective Modern C++/References/Understand decltype.md",
-    "C++/Effective Modern C++/References/Understand auto type deduction.md",
     "C++/Effective Modern C++/References/Effective Modern C++17]],  [[Understand template type deduction.md",
     "C++/Templates",
     "CMake/Commands.canvas",
@@ -297,8 +323,6 @@
     "CMake/CMake Study Plan.md",
     "IPP/IPP Study Guide.md",
     "2026-01-04.md",
-    "Templates/Cmake.md",
-    "WarGame/Passwords.md",
     "Templates",
     "WarGame/Linux Command.canvas",
     "C++/Effective Modern C++/References",
