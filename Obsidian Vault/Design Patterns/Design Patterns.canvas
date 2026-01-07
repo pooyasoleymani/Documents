@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"b42bed57834bc0c5","type":"text","text":"# [[Design patterns]]","x":-220,"y":-120,"width":360,"height":60},
+		{"id":"4640f4faf7fa48d8","type":"text","text":"[[Behavioral patterns]]","x":240,"y":-122,"width":320,"height":60},
+		{"id":"ed475fbf514323ea","type":"text","text":"[[Structural patterns]]","x":240,"y":-5,"width":320,"height":60},
+		{"id":"b47777b33ed1a097","type":"text","text":"[[Creational patterns]]","x":240,"y":-260,"width":320,"height":60},
+		{"id":"89c70bfb7a058a09","x":-520,"y":-121,"width":200,"height":60,"type":"text","text":"[[OOP]]"}
+	],
+	"edges":[
+		{"id":"3e3e8299005c9589","fromNode":"b42bed57834bc0c5","fromSide":"right","toNode":"b47777b33ed1a097","toSide":"left"},
+		{"id":"18c978483310985c","fromNode":"b42bed57834bc0c5","fromSide":"right","toNode":"4640f4faf7fa48d8","toSide":"left"},
+		{"id":"822254c29ae3235e","fromNode":"b42bed57834bc0c5","fromSide":"right","toNode":"ed475fbf514323ea","toSide":"left"},
+		{"id":"155a5460e6da0eea","fromNode":"b42bed57834bc0c5","fromSide":"left","toNode":"89c70bfb7a058a09","toSide":"right"}
+	]
+}
