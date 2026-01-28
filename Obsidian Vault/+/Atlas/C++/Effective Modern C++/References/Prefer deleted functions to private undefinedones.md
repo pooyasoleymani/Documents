@@ -4,7 +4,7 @@ tags:
   - cpp
   - programming
 Up: "[[Prefer scoped enums to unscoped enums]]"
-Next:
+Next: "[[Declare overriding functions override]]"
 Home: "[[Effective Modern C++17]]"
 ---
 ---
