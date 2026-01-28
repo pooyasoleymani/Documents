@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 import subprocess
-import os
 
 
 def run_command(cmd: list[str]) -> bool:

@@ -1,7 +1,7 @@
 ---
 Home: "[[Effective Modern C++17]]"
 Up: "[[Deducing Type]]"
-Related: "[[Understand auto type deduction]]"
+Next: "[[Understand auto type deduction]]"
 Created Date: 2026-01-05
 tags:
   - cpp
@@ -108,11 +108,13 @@ f(px); // T is const int, // param's type is const int*
 
 
 ## Case 2: ParamType is a Universal Reference
+
 Such parameters are declared like **rvalue references** (i.e., in a function template taking a type parameter *T*, a **universal reference’s** declared type is *T&&*), but they behave differently when **lvalue arguments** are passed in.
 The complete story is told in **Item 24**, but here’s the headline version:
 
 -  If expr is an **lvalue**, both **T** and **ParamType** are deduced to be **lvalue references**. Second, although ParamType is declared using the syntax for an **rvalue** **reference**, its deduced type is an **lvalue reference**.
 -  If expr is an **rvalue**, the “normal” (i.e., Case 1) rules apply. 
+
 For example:
 
 ```c++
@@ -157,20 +159,18 @@ f(rx); // T's and param's types are still both int
 
 
 > [!NOTE] 
-> Even though **cx** and **rx** represent **const values**, param isn’t **const**. That
-makes sense. param is an object that’s completely independent of **cx** and **rx**—a copy
-of **cx** or **rx**. The fact that **cx** and **rx** can’t be modified says nothing about whether
-param can be. That’s why expr’s **constness** (and **volatileness**, if any) is ignored
-when deducing a type for param: just because expr can’t be modified doesn’t mean
-that a copy of it can’t be.
+> Even though **cx** and **rx** represent **const values**, param isn’t **const**. 
+> That makes sense. param is an object that’s completely independent of **cx** and **rx**—a copy of **cx** or **rx**.
+>  The fact that **cx** and **rx** can’t be modified says nothing about whether param can be. 
+>  That’s why expr’s **constness** (and **volatileness**, if any) is ignored when deducing a type for param:
+>   just because expr can’t be modified doesn’t mean that a copy of it can’t be.
 
 > [!IMPORTANT] 
 > It’s important to recognize that **const** (and **volatile**) is **ignored** only for *by-value* parameters.
 The type deduced for T is dependent not just on the type of expr, but also on the form of ParamType. There are three cases:
 
 
-case where expr is a const pointer to a const object, and expr is passed to a by value
-param:
+Case where expr is a const pointer to a const object, and expr is passed to a by value param:
 
 ```c++
 template<typename T>
@@ -279,7 +279,7 @@ f2(someFunc); // param deduced as ref-to-func; type is void (&)(int, double)
 
 > [!IMPORTANT] Things to Remember
 >                     
-> - During template type deduction, arguments that are references are treated as non-references, i.e., their reference-ness is ignored.
-> - When deducing types for universal reference parameters, lvalue arguments get special treatment.
-> -  When deducing types for by-value parameters, const and/or volatile arguments are treated as non-const and non-volatile.
+> - During template type deduction, arguments that are references are treated as non-**references**, i.e., their **reference-ness** is ignored.
+> - When deducing types for **universal reference** parameters, **lvalue** arguments get special treatment.
+> -  When deducing types for by-value parameters, **const and/or volatile** arguments are treated as non-const and non-volatile.
 > -  During template type deduction, arguments that are array or function names decay to pointers, unless they’re used to initialize references.

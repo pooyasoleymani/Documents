@@ -1,5 +1,5 @@
 
-**advanced multi-language C++ ecosystem**, the kind used in telecom, data pipelines, plugin engines, micro-kernel architectures, and DevOps-heavy environments.
+**Advanced multi-language C++ ecosystem**, the kind used in telecom, data pipelines, plugin engines, micro-kernel architectures, and DevOps-heavy environments.
 
 🚀 **Advanced CMake Study + Build Plan (21 Days)**
 
@@ -40,7 +40,6 @@ NebulaEngine/
 
 ---
 
-
 ### 🟦 DAY 1: Create Project Structure
 
 Today you will create the **root project**, **core library**, **runtime executable**, and learn **proper target-based CMake**.
@@ -76,8 +75,7 @@ NebulaEngine/
 #### 🟦 Root `CMakeLists.txt`
 
 
-create **NebulaEngine/CMakeLists.txt**:
-[[Commands.canvas|Commands]]
+Create **NebulaEngine/CMakeLists.txt**:
 
 ```cmake
 cmake_minimum_required(VERSION 3.27)

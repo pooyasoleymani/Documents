@@ -1,7 +1,6 @@
 ---
 Home: "[[Effective Modern C++17]]"
-Up: "[[Effective Modern C++17]]"
-Related: "[[Understand template type deduction]]"
+Next: "[[Understand template type deduction]]"
 Created Date: 2026-01-05
 tags:
   - cpp

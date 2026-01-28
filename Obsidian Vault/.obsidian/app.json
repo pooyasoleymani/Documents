@@ -2,5 +2,8 @@
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
   "newFileFolderPath": "C++",
-  "attachmentFolderPath": "C++/Effective Modern C++/References"
+  "attachmentFolderPath": "C++/Effective Modern C++/References",
+  "showLineNumber": false,
+  "readableLineLength": true,
+  "promptDelete": false
 }

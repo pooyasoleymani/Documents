@@ -3,9 +3,7 @@ Created Date: 2025-12-30
 Related: "[[Effective Modern C++17]]"
 tags:
   - programming
-  - need-work
-Created Date: 2026-01-04
-Modified Date: 2026-01-05
+  - cpp
 ---
 
 
