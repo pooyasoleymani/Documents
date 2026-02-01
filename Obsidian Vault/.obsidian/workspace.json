@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Atlas/C++/Effective Modern C++/References/Prefer const_iterators to iterators.md",
+                "file": "+/Daily Notes/2026-01-31.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Prefer const_iterators to iterators"
+              "title": "2026-01-31"
             }
           }
         ]
@@ -196,11 +196,20 @@
   },
   "active": "a25e4800d9643574",
   "lastOpenFiles": [
-    "+/Atlas/C++/Effective Modern C++/Effective Modern C++17.md",
+    "+/Daily Notes/2026-02-01.md",
+    "+/Atlas/Python/Scikit Build Core/Scikit Build Core.md",
+    "+/Daily Notes/2026-01-31.md",
+    "+/Atlas/Python/Python Essentials.md",
+    "+/Atlas/Python/Scikit Build Core/Untitled.base",
+    "+/Atlas/Python/Scikit Build Core/Refrences",
+    "+/Atlas/Python/Scikit Build Core",
+    "+/Atlas/CMake/CMake Study Plan.md",
+    "+/Atlas/Design Patterns/Refrences/Behavioral patterns.md",
+    "+/Atlas/Design Patterns/Design Patterns.canvas",
     "+/Atlas/C++/Effective Modern C++/References/Prefer const_iterators to iterators.md",
+    "+/Atlas/C++/Effective Modern C++/Effective Modern C++17.md",
     "+/Atlas/C++/Effective Modern C++/References/Declare overriding functions override.md",
     "+/Atlas/C++/Effective Modern C++/References/Prefer deleted functions to private undefinedones.md",
-    "+/Atlas/CMake/CMake Study Plan.md",
     "+/Daily Notes/2026-01-28.md",
     "+/Atlas/IPP/Concepts/toolchain.md",
     "+/Atlas/IPP/Concepts/LLVM.md",
@@ -218,23 +227,14 @@
     "+/Daily Notes/2026-01-26.md",
     "+/Daily Notes/2026-01-25.md",
     "+/Daily Notes/2026-01-24.md",
-    "+/Daily Notes/2026-01-20.md",
-    "+/Daily Notes/2026-01-19.md",
-    "+/Daily Notes/2026-01-13.md",
-    "+/Daily Notes/2026-01-12.md",
-    "+/Atlas/C++/Effective Modern C++/References/Prefer scoped enums to unscoped enums.md",
     "Untitled.base",
     "+/Atlas/CMake/Commands.canvas",
-    "+/Atlas/Design Patterns/Design Patterns.canvas",
     "+/Daily Notes/Untitled.base",
     "+/Atlas/TDD",
     "+/Atlas/UML/Utils",
     "+/Atlas/UML/Refrences",
     "+/Atlas/UML",
     "+",
-    "Templates",
-    "+/Daily Notes",
-    "+/Atlas",
     "+/Atlas/OPP/Utils/oop002.png",
     "+/Atlas/OPP/Utils/oop001.png",
     "OPP/Utils/opp001.png"
