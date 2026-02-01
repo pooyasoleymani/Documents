@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a25e4800d9643574",
+            "id": "74d528adc12c0a5a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Daily Notes/2026-01-31.md",
+                "file": "+/Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences/Introduction.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-01-31"
+              "title": "Introduction"
             }
           }
         ]
@@ -194,11 +194,25 @@
       "bases:Create new base": false
     }
   },
-  "active": "a25e4800d9643574",
+  "active": "01a6819391e2223b",
   "lastOpenFiles": [
+    "+/Atlas/Software Architecture/Fundamentals of Software Architecture.md",
+    "+/Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences/Measuring and Governing Architecture Characteristics.md",
+    "+/Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences/Identifying Architecture Characteristics.md",
+    "+/Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences/Architecture Characteristics Defined.md",
+    "+/Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences/Modularity.md",
+    "+/Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences/Architectural Thinking.md",
+    "+/Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences/Introduction.md",
+    "+/Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences/Invalidating Axioms.md",
+    "+/Daily Notes/2026-01-10.md",
+    "+/Daily Notes/2026-01-31.md",
+    "+/Atlas/C++/Effective Modern C++/Effective Modern C++17.md",
+    "+/Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences",
+    "+/Atlas/Software Architecture/Fundamentals of Software Architecture",
+    "+/Atlas/Software Architecture",
+    "+/Daily Notes/2026-01-28.md",
     "+/Daily Notes/2026-02-01.md",
     "+/Atlas/Python/Scikit Build Core/Scikit Build Core.md",
-    "+/Daily Notes/2026-01-31.md",
     "+/Atlas/Python/Python Essentials.md",
     "+/Atlas/Python/Scikit Build Core/Untitled.base",
     "+/Atlas/Python/Scikit Build Core/Refrences",
@@ -207,34 +221,20 @@
     "+/Atlas/Design Patterns/Refrences/Behavioral patterns.md",
     "+/Atlas/Design Patterns/Design Patterns.canvas",
     "+/Atlas/C++/Effective Modern C++/References/Prefer const_iterators to iterators.md",
-    "+/Atlas/C++/Effective Modern C++/Effective Modern C++17.md",
     "+/Atlas/C++/Effective Modern C++/References/Declare overriding functions override.md",
     "+/Atlas/C++/Effective Modern C++/References/Prefer deleted functions to private undefinedones.md",
-    "+/Daily Notes/2026-01-28.md",
     "+/Atlas/IPP/Concepts/toolchain.md",
     "+/Atlas/IPP/Concepts/LLVM.md",
     "+/Atlas/IPP/Concepts/compiler.md",
     "+/Atlas/IPP/Concepts/SIMD.md",
-    "+/Daily Notes/2026-01-10.md",
     "+/Atlas/WarGame/Linux Command.canvas",
     "+/Atlas/WarGame/Passwords.md",
     "+/Atlas/WarGame/War Games.md",
-    "+/Atlas/C++/Effective Modern C++/References/Understand template type deduction.md",
-    "+/Atlas/C++/Effective Modern C++/References/Deducing Type.md",
-    "+/Atlas/C++/Effective Modern C++/References/Use the explicitly typed initializer idiom when auto deduces undesired types.md",
-    "+/Atlas/C++/Effective Modern C++/References/Understand auto type deduction.md",
-    "+/Daily Notes/2026-01-11.md",
-    "+/Daily Notes/2026-01-26.md",
-    "+/Daily Notes/2026-01-25.md",
-    "+/Daily Notes/2026-01-24.md",
     "Untitled.base",
     "+/Atlas/CMake/Commands.canvas",
     "+/Daily Notes/Untitled.base",
     "+/Atlas/TDD",
     "+/Atlas/UML/Utils",
-    "+/Atlas/UML/Refrences",
-    "+/Atlas/UML",
-    "+",
     "+/Atlas/OPP/Utils/oop002.png",
     "+/Atlas/OPP/Utils/oop001.png",
     "OPP/Utils/opp001.png"

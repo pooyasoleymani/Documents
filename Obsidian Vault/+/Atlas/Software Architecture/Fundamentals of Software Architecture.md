@@ -1,0 +1,21 @@
+---
+Created Date: 2026-02-01
+tags:
+  - architecture
+---
+---
+- Chapter 1: [[Introduction]]
+- Chapter 2: [[Architectural Thinking]]
+- Chapter 3: [[Modularity]]
+- Chapter 4: [[Architecture Characteristics Defined]]
+- Chapter 5: [[Identifying Architecture Characteristics]]
+- Chapter 6: [[Measuring and Governing Architecture Characteristics]]
+- Chapter 7: [[Scope of Architecture Characteristics]]
+- Chapter 8: [[Component-Based Thinking]]
+- Chapters 9: Layered 
+- Chapters 10: Pipeline 
+- Chapters 11: Microkernel 
+- Chapters 12: Service-Based 
+- Chapters 13: Event-Driven
+- Chapters 15–18 (Space-Based, SOA, Microservices, Choosing Styles)
+- Chapters 19–24 (Decisions, Risk, Diagrams, Teams, Leadership, Career)
