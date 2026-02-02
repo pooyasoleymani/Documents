@@ -5,7 +5,6 @@ tags:
   - programming
 Up: "[[Prefer alias declarations to typedefs]]"
 Next: "[[Prefer deleted functions to private undefinedones]]"
-Home: "[[Effective Modern C++17]]"
 ---
 ---
 

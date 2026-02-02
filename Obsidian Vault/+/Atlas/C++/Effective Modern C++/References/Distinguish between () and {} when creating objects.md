@@ -1,11 +1,10 @@
 ---
-Home: "[[Effective Modern C++17]]"
-Up: "[[Use the explicitly typed initializer idiom when auto deduces undesired types]]"
-Next: "[[Prefer nullptr to 0 and NULL]]"
 Created Date: 2026-01-11
 tags:
   - cpp
   - programming
+Up: "[[Use the explicitly typed initializer idiom when auto deduces undesired types]]"
+Next: "[[Prefer nullptr to 0 and NULL]]"
 ---
 ---
 

@@ -1,11 +1,10 @@
 ---
-Home: "[[Effective Modern C++17]]"
-Up: "[[Deducing Type]]"
-Next: "[[Understand auto type deduction]]"
 Created Date: 2026-01-05
 tags:
   - cpp
   - programming
+Up: "[[Deducing Type]]"
+Next: "[[Understand auto type deduction]]"
 ---
 ---
 

@@ -1,11 +1,10 @@
 ---
-Home: "[[Effective Modern C++17]]"
-Up: "[[Understand decltype]]"
-Next: "[[Prefer auto to explicit type declarations]]"
 Created Date: 2026-01-11
 tags:
   - cpp
   - programming
+Up: "[[Understand decltype]]"
+Next: "[[Prefer auto to explicit type declarations]]"
 ---
 ---
 In concept, **auto** is as simple as simple can be, but it’s more subtle than it looks. 

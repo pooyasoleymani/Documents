@@ -5,7 +5,6 @@ tags:
   - programming
 Up: "[[Prefer deleted functions to private undefinedones]]"
 Next: "[[Prefer const_iterators to iterators]]"
-Home: "[[Effective Modern C++17]]"
 ---
 ---
 

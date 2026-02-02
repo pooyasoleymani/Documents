@@ -1,11 +1,10 @@
 ---
-Home: "[[Effective Modern C++17]]"
-Up: "[[Distinguish between () and {} when creating objects]]"
-Next: "[[Prefer alias declarations to typedefs]]"
 Created Date: 2026-01-20
 tags:
   - cpp
   - programming
+Up: "[[Distinguish between () and {} when creating objects]]"
+Next: "[[Prefer alias declarations to typedefs]]"
 ---
 ---
 

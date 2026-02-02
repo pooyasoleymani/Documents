@@ -1,11 +1,10 @@
 ---
-Home: "[[Effective Modern C++17]]"
-Up: "[[auto]]"
-Next: "[[Use the explicitly typed initializer idiom when auto deduces undesired types]]"
 Created Date: 2026-01-11
 tags:
   - cpp
   - programming
+Up: "[[auto]]"
+Next: "[[Use the explicitly typed initializer idiom when auto deduces undesired types]]"
 ---
 ---
 
