@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Daily Notes/2026-02-02.md",
+                "file": "+/Atlas/CMake/CMake Study Plan.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-02-02"
+              "title": "CMake Study Plan"
             }
           }
         ]
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux Command.canvas",
+                "file": "+/Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Linux Command"
+              "title": "Backlinks for Introduction"
             }
           },
           {
@@ -123,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IPP/IPP Study Guide.md",
+                "file": "+/Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from IPP Study Guide"
+              "title": "Outgoing links from Introduction"
             }
           },
           {
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IPP/IPP Study Guide.md",
-                "followCursor": true,
-                "showSearch": true,
+                "file": "+/Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences/Introduction.md",
+                "followCursor": false,
+                "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of IPP Study Guide"
+              "title": "Outline of Introduction"
             }
           }
         ],
@@ -196,47 +196,16 @@
   },
   "active": "74d528adc12c0a5a",
   "lastOpenFiles": [
-    "+/Atlas/Python/Python Essentials.md",
-    "+/Daily Notes/2026-02-02.md",
-    "+/Daily Notes/2026-01-10.md",
-    "+/Daily Notes/2026-01-31.md",
-    "+/Atlas/C++/Effective Modern C++/References/Declare functions noexcept if they won’t emit exceptions.md",
-    "+/Atlas/C++/Effective Modern C++/References/Prefer const_iterators to iterators.md",
-    "+/Atlas/C++/Effective Modern C++/References/Deducing Type.md",
-    "+/Atlas/C++/Effective Modern C++/References/Understand template type deduction.md",
-    "+/Atlas/C++/Effective Modern C++/References/Understand auto type deduction.md",
-    "+/Atlas/C++/Effective Modern C++/References/Understand decltype.md",
-    "+/Atlas/C++/Effective Modern C++/References/auto.md",
-    "+/Atlas/C++/Effective Modern C++/References/Prefer auto to explicit type declarations.md",
-    "+/Atlas/C++/Effective Modern C++/References/Use the explicitly typed initializer idiom when auto deduces undesired types.md",
-    "+/Atlas/C++/Effective Modern C++/References/Distinguish between () and {} when creating objects.md",
-    "+/Atlas/C++/Effective Modern C++/References/Prefer nullptr to 0 and NULL.md",
-    "+/Atlas/C++/Effective Modern C++/References/Prefer alias declarations to typedefs.md",
-    "+/Atlas/C++/Effective Modern C++/References/Prefer scoped enums to unscoped enums.md",
-    "+/Atlas/C++/Effective Modern C++/References/Prefer deleted functions to private undefinedones.md",
-    "+/Atlas/C++/Effective Modern C++/References/Declare overriding functions override.md",
     "+/Atlas/C++/Effective Modern C++/Effective Modern C++17.md",
+    "+/Atlas/CMake/CMake Study Plan.md",
     "+/Atlas/Software Architecture/Fundamentals of Software Architecture.md",
+    "+/Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences/Architectural Thinking.md",
+    "+/Atlas/C++/Effective Modern C++/References/Declare functions noexcept if they won’t emit exceptions.md",
+    "+/Daily Notes/2026-02-04.md",
     "+/Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences/Introduction.md",
-    "+/Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences/Measuring and Governing Architecture Characteristics.md",
-    "+/Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences/Identifying Architecture Characteristics.md",
-    "+/Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences/Architecture Characteristics Defined.md",
-    "+/Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences/Modularity.md",
-    "+/Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences",
-    "+/Atlas/Software Architecture/Fundamentals of Software Architecture",
-    "+/Atlas/Software Architecture",
-    "+/Atlas/Python/Scikit Build Core/Untitled.base",
-    "+/Atlas/Python/Scikit Build Core/Refrences",
-    "+/Atlas/Python/Scikit Build Core",
-    "+/Atlas/Design Patterns/Design Patterns.canvas",
-    "+/Atlas/WarGame/Linux Command.canvas",
-    "Untitled.base",
-    "+/Atlas/CMake/Commands.canvas",
-    "+/Daily Notes/Untitled.base",
-    "+/Atlas/TDD",
-    "+/Atlas/UML/Utils",
-    "+/Atlas/OPP/Utils/oop002.png",
-    "+/Atlas/OPP/Utils/oop001.png",
-    "OPP/Utils/opp001.png"
+    "+/Daily Notes/2026-01-31.md",
+    "+/Daily Notes/2026-02-01.md",
+    "+/Daily Notes/2026-01-10.md",
+    "+/Daily Notes/2026-01-30.md"
   ]
 }

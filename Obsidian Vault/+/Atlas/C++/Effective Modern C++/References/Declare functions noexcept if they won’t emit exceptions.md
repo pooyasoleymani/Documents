@@ -8,7 +8,7 @@ Next:
 ---
 ---
 
-## ## The Evolution: A Historical Perspective
+## The Evolution: A Historical Perspective
 
  - C++98: The Fragile `throw()` Specification
 ```cpp
@@ -54,7 +54,7 @@ class Database {
 ```
 
 
-## ### C++11: The Simple `noexcept` Model
+##  C++11: The Simple `noexcept` Model
 
 ```cpp
 // C++11 style - simple binary choice
@@ -91,7 +91,7 @@ void function() noexcept {
 ```
 
 
-### ### Real Compiler Output Comparison
+### Real Compiler Output Comparison
 
 Consider this simple function:
 ```cpp
@@ -116,7 +116,7 @@ int sum2(int a, int b) noexcept {
 
 
 
-### ## The Standard Library's Critical Dependency on `noexcept`
+###  The Standard Library's Critical Dependency on `noexcept`
 
 #####  `std::vector`: The Perfect Case Study
 
