@@ -104,6 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
+
                 "file": "+/Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
@@ -196,16 +197,11 @@
   },
   "active": "74d528adc12c0a5a",
   "lastOpenFiles": [
-    "+/Atlas/C++/Effective Modern C++/Effective Modern C++17.md",
-    "+/Atlas/CMake/CMake Study Plan.md",
     "+/Atlas/Software Architecture/Fundamentals of Software Architecture.md",
-    "+/Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences/Architectural Thinking.md",
-    "+/Atlas/C++/Effective Modern C++/References/Declare functions noexcept if they won’t emit exceptions.md",
-    "+/Daily Notes/2026-02-04.md",
-    "+/Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences/Introduction.md",
     "+/Daily Notes/2026-01-31.md",
     "+/Daily Notes/2026-02-01.md",
     "+/Daily Notes/2026-01-10.md",
-    "+/Daily Notes/2026-01-30.md"
+    "+/Daily Notes/2026-01-30.md",
+    "+/Atlas/C++/Effective Modern C++/Effective Modern C++17.md"
   ]
 }
