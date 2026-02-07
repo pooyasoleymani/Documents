@@ -1,5 +1,9 @@
 {
   "cssTheme": "Dracula + LYT",
-  "theme": "moonstone",
-  "interfaceFontFamily": ""
+  "theme": "obsidian",
+  "interfaceFontFamily": "",
+  "nativeMenus": true,
+  "accentColor": "#733fee",
+  "baseFontSize": 14,
+  "baseFontSizeAction": true
 }

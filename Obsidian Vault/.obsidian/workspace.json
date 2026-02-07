@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences/Introduction.md",
+                "file": "Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences/Introduction.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences/Introduction.md",
+                "file": "Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,13 +165,33 @@
               "icon": "lucide-list",
               "title": "Outline of Introduction"
             }
+          },
+          {
+            "id": "cb4b11472f736e58",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "f3a4e7919e48ab12",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,23 +201,27 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "74d528adc12c0a5a",
+  "active": "01a6819391e2223b",
   "lastOpenFiles": [
+    "Effort",
+    "Calendar",
+    "Templates",
     "+/Daily Notes/2026-02-07.md",
-    "+/Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences/Introduction.md",
-    "+/Atlas/Software Architecture/Fundamentals of Software Architecture.md",
-    "+/Atlas/C++/Effective Modern C++/References/Declare functions noexcept if they won’t emit exceptions.md",
-    "+/Atlas/C++/Effective Modern C++/Effective Modern C++17.md",
-    "+/Daily Notes/2026-01-31.md",
+    "Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences/Introduction.md",
+    "Atlas/Software Architecture/Fundamentals of Software Architecture.md",
+    "Atlas/C++/Effective Modern C++/References/Declare functions noexcept if they won’t emit exceptions.md",
+    "Atlas/C++/Effective Modern C++/Effective Modern C++17.md",
+    "Daily Notes/2026-01-31.md",
     "+/Daily Notes/2026-02-02.md",
-    "+/Atlas/CMake/CMake Study Plan.md",
+    "Atlas/CMake/CMake Study Plan.md",
     "+/Daily Notes/2026-02-05.md",
     "+/Daily Notes/2026-02-04.md",
     "+/Daily Notes/2026-02-01.md",
-    "+/Daily Notes/2026-01-10.md",
+    "Daily Notes/2026-01-10.md",
     "+/Daily Notes/2026-01-30.md"
   ]
 }
