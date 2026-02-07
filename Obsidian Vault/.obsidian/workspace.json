@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Daily Notes/2026-02-02.md",
+                "file": "+/Daily Notes/2026-02-03.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-02-02"
+              "title": "2026-02-03"
+            }
+          },
+          {
+            "id": "5a716fe779906ed5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+/Atlas/C++/Effective Modern C++/References/Use constexpr whenever possible.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Use constexpr whenever possible"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -194,13 +219,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "74d528adc12c0a5a",
+  "active": "5a716fe779906ed5",
   "lastOpenFiles": [
-    "+/Atlas/Python/Python Essentials.md",
-    "+/Daily Notes/2026-02-02.md",
-    "+/Daily Notes/2026-01-10.md",
-    "+/Daily Notes/2026-01-31.md",
+    "+/Daily Notes/2026-02-07.md",
+    "+/Atlas/C++/Effective Modern C++/References/Use constexpr whenever possible.md",
+    "+/Atlas/C++/Effective Modern C++/Effective Modern C++17.md",
     "+/Atlas/C++/Effective Modern C++/References/Declare functions noexcept if they won’t emit exceptions.md",
+    "+/Daily Notes/2026-02-03.md",
+    "+/Daily Notes/2026-01-31.md",
+    "+/Daily Notes/2026-02-02.md",
+    "+/Atlas/Python/Python Essentials.md",
+    "+/Daily Notes/2026-01-10.md",
     "+/Atlas/C++/Effective Modern C++/References/Prefer const_iterators to iterators.md",
     "+/Atlas/C++/Effective Modern C++/References/Deducing Type.md",
     "+/Atlas/C++/Effective Modern C++/References/Understand template type deduction.md",
@@ -215,13 +244,9 @@
     "+/Atlas/C++/Effective Modern C++/References/Prefer scoped enums to unscoped enums.md",
     "+/Atlas/C++/Effective Modern C++/References/Prefer deleted functions to private undefinedones.md",
     "+/Atlas/C++/Effective Modern C++/References/Declare overriding functions override.md",
-    "+/Atlas/C++/Effective Modern C++/Effective Modern C++17.md",
     "+/Atlas/Software Architecture/Fundamentals of Software Architecture.md",
     "+/Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences/Introduction.md",
     "+/Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences/Measuring and Governing Architecture Characteristics.md",
-    "+/Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences/Identifying Architecture Characteristics.md",
-    "+/Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences/Architecture Characteristics Defined.md",
-    "+/Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences/Modularity.md",
     "+/Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences",
     "+/Atlas/Software Architecture/Fundamentals of Software Architecture",
     "+/Atlas/Software Architecture",
