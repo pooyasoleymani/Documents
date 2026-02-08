@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/C++/Effective Modern C++/Effective Modern C++17.md",
+                "file": "dependency hell.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Effective Modern C++17"
+              "title": "dependency hell"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/C++/Effective Modern C++/Effective Modern C++17.md",
+                "file": "dependency hell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Effective Modern C++17"
+              "title": "Backlinks for dependency hell"
             }
           },
           {
@@ -114,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/C++/Effective Modern C++/Effective Modern C++17.md",
+                "file": "dependency hell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Effective Modern C++17"
+              "title": "Outgoing links from dependency hell"
             }
           },
           {
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/C++/Effective Modern C++/Effective Modern C++17.md",
+                "file": "dependency hell.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Effective Modern C++17"
+              "title": "Outline of dependency hell"
             }
           },
           {
@@ -191,7 +191,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,14 +206,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "77b5d930ccb82103",
+  "active": "f8d46cbbce306fb4",
   "lastOpenFiles": [
+    "Daily Notes/2026-02-03.md",
+    "PEP 517.md",
+    "PEP 517 backend protocol.md",
+    "pip.md",
+    "pyproject.toml.md",
+    "dependency isolation.md",
+    "dependency hell.md",
+    "Untitled",
+    "Atlas/C++/Effective Modern C++/Effective Modern C++17.md",
     "Calendar",
     "Templates",
     "Effort",
-    "Daily Notes/2026-02-03.md",
     "Atlas/C++/Effective Modern C++/References/Use constexpr whenever possible.md",
-    "Atlas/C++/Effective Modern C++/References/Declare functions noexcept if they won’t emit exceptions.md",
-    "Atlas/C++/Effective Modern C++/Effective Modern C++17.md"
+    "Atlas/C++/Effective Modern C++/References/Declare functions noexcept if they won’t emit exceptions.md"
   ]
 }
