@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "9fbebbc8c147398d",
+    "type": "split",
+    "children": [
+      {
+        "id": "0213d81fedc1f867",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f8d46cbbce306fb4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Atlas/C++/Effective Modern C++/Effective Modern C++17.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Effective Modern C++17"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "69b0a4fbd7e0462d",
+    "type": "split",
+    "children": [
+      {
+        "id": "258884d1f061f777",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "77b5d930ccb82103",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "20d151ebb67e55e9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1e3109cc2cfc9037",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7965c69a42e62fbd",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e7c3c78211da4fd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6d91ba38e219d261",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Atlas/C++/Effective Modern C++/Effective Modern C++17.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Effective Modern C++17"
+            }
+          },
+          {
+            "id": "711d86ffd47b468a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Atlas/C++/Effective Modern C++/Effective Modern C++17.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Effective Modern C++17"
+            }
+          },
+          {
+            "id": "6dd31c6eebfbef05",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "234937fa7805df71",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "3369fc5fd54ff864",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Atlas/C++/Effective Modern C++/Effective Modern C++17.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Effective Modern C++17"
+            }
+          },
+          {
+            "id": "a89746950e7242eb",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "12d83b769816be49",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "77b5d930ccb82103",
+  "lastOpenFiles": [
+    "Calendar",
+    "Templates",
+    "Effort",
+    "Daily Notes/2026-02-03.md",
+    "Atlas/C++/Effective Modern C++/References/Use constexpr whenever possible.md",
+    "Atlas/C++/Effective Modern C++/References/Declare functions noexcept if they won’t emit exceptions.md",
+    "Atlas/C++/Effective Modern C++/Effective Modern C++17.md"
+  ]
+}
