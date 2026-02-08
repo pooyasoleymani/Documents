@@ -22,8 +22,12 @@ Next: "[[Use constexpr whenever possible]]"
 
 ---
 
+<<<<<<< HEAD:Obsidian Vault/+/Atlas/C++/Effective Modern C++/References/Declare functions noexcept if they won’t emit exceptions.md
 
 ##  The Evolution: A Historical Perspective
+=======
+## The Evolution: A Historical Perspective
+>>>>>>> 970e5a1657f4ec0c0cd22b1dd1925b9f73b1213b:Obsidian Vault/Atlas/C++/Effective Modern C++/References/Declare functions noexcept if they won’t emit exceptions.md
 
  - C++98: The Fragile `throw()` Specification
 ```cpp
@@ -131,7 +135,11 @@ int sum2(int a, int b) noexcept {
 
 
 
+<<<<<<< HEAD:Obsidian Vault/+/Atlas/C++/Effective Modern C++/References/Declare functions noexcept if they won’t emit exceptions.md
 ### The Standard Library's Critical Dependency on `noexcept`
+=======
+###  The Standard Library's Critical Dependency on `noexcept`
+>>>>>>> 970e5a1657f4ec0c0cd22b1dd1925b9f73b1213b:Obsidian Vault/Atlas/C++/Effective Modern C++/References/Declare functions noexcept if they won’t emit exceptions.md
 
 #####  `std::vector`: The Perfect Case Study
 

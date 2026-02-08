@@ -4,13 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "34360f43e81c524f",
+        "id": "703f25e74a52eb4b",
         "type": "tabs",
         "children": [
           {
-            "id": "74d528adc12c0a5a",
+            "id": "26def578a32d969d",
             "type": "leaf",
             "state": {
+<<<<<<< HEAD
               "type": "markdown",
               "state": {
                 "file": "+/Daily Notes/2026-02-03.md",
@@ -53,6 +54,12 @@
               },
               "icon": "lucide-file",
               "title": "Use constexpr whenever possible"
+=======
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+>>>>>>> 970e5a1657f4ec0c0cd22b1dd1925b9f73b1213b
             }
           }
         ],
@@ -88,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"Next\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -129,7 +136,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux Command.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +145,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Linux Command"
+              "title": "Backlinks"
             }
           },
           {
@@ -148,12 +154,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IPP/IPP Study Guide.md",
+                "file": "+/Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from IPP Study Guide"
+              "title": "Outgoing links from Introduction"
             }
           },
           {
@@ -191,22 +197,41 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IPP/IPP Study Guide.md",
-                "followCursor": true,
-                "showSearch": true,
+                "file": "+/Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences/Introduction.md",
+                "followCursor": false,
+                "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of IPP Study Guide"
+              "title": "Outline of Introduction"
+            }
+          },
+          {
+            "id": "cb4b11472f736e58",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "f3a4e7919e48ab12",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,9 +241,11 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
+<<<<<<< HEAD
   "active": "5a716fe779906ed5",
   "lastOpenFiles": [
     "+/Daily Notes/2026-02-07.md",
@@ -263,5 +290,26 @@
     "+/Atlas/OPP/Utils/oop002.png",
     "+/Atlas/OPP/Utils/oop001.png",
     "OPP/Utils/opp001.png"
+=======
+  "active": "01a6819391e2223b",
+  "lastOpenFiles": [
+    "Atlas/Software Architecture/Fundamentals of Software Architecture/Refrences/Introduction.md",
+    "Untitled",
+    "Templates",
+    "Calendar",
+    "Effort",
+    "+/Daily Notes/2026-02-07.md",
+    "Atlas/Software Architecture/Fundamentals of Software Architecture.md",
+    "Atlas/C++/Effective Modern C++/References/Declare functions noexcept if they won’t emit exceptions.md",
+    "Atlas/C++/Effective Modern C++/Effective Modern C++17.md",
+    "Daily Notes/2026-01-31.md",
+    "+/Daily Notes/2026-02-02.md",
+    "Atlas/CMake/CMake Study Plan.md",
+    "+/Daily Notes/2026-02-05.md",
+    "+/Daily Notes/2026-02-04.md",
+    "+/Daily Notes/2026-02-01.md",
+    "Daily Notes/2026-01-10.md",
+    "+/Daily Notes/2026-01-30.md"
+>>>>>>> 970e5a1657f4ec0c0cd22b1dd1925b9f73b1213b
   ]
 }
