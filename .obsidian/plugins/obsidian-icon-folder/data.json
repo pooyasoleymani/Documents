@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "🧠",
-      "LiLayoutTemplate",
-      "LiRecycle",
-      "☢",
-      "LiStickyNote"
+      "📰",
+      "📘",
+      "🍀",
+      "☔",
+      "🧠"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -35,9 +35,10 @@
     "useInternalPlugins": true
   },
   "Templates": "LiLayoutTemplate",
-  "Calendar": "LiCalendar1",
-  "Atlas": "LiAtom",
   "Daily Notes": "LiStickyNote",
-  "Effort": "LiRecycle",
-  "Fleeting note": "🧠"
+  "Fleeting Note": "🧠",
+  "Permanet Note": "☔",
+  "Evergreen Note": "🍀",
+  "Refrences Note": "📘",
+  "Literature notes": "📰"
 }
