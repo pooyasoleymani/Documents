@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanet Note/202402071700 uv resolver performance advantage.md",
+                "file": "Refrences Note/Base References.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "202402071700 uv resolver performance advantage"
+              "title": "Base References"
             }
           }
         ]
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanet Note/202402071700 uv resolver performance advantage.md",
+                "file": "Refrences Note/Base References.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 202402071700 uv resolver performance advantage"
+              "title": "Outline of Base References"
             }
           },
           {
@@ -205,13 +205,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "77b5d930ccb82103",
+  "active": "1d5665e7868bf0e6",
   "lastOpenFiles": [
+    "Permanet Note/202402071700 uv resolver performance advantage.md",
+    "Refrences Note/Base References.md",
     "Refrences Note/C++",
     "Permanet Note/202402071715 build toolchain performance chain.md",
     "Permanet Note/scikit-build-core CMake-Python bridge.md",
     "Permanet Note/Python build system knowledge map.md",
-    "Permanet Note/202402071700 uv resolver performance advantage.md",
     "Literature notes/C++/Effective Modern C++/Effective Modern C++17.md",
     "Daily Notes/2026-01-31.md",
     "Daily Notes/2026-01-10.md",
