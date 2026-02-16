@@ -1,4 +1,9 @@
-# uv resolver performance advantage
+---
+Created Date: 2026-02-16
+tags:
+  - inbox
+---
+
 
 uv's Rust-based dependency resolver completes installs ~5x faster than pip's resolver—critical for [[CI/CD pipeline speed]] and reducing [[developer wait time]] during environment setup.
 

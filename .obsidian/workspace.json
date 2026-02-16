@@ -11,14 +11,15 @@
             "id": "1d5665e7868bf0e6",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/plugins/obsidian-git/data.json",
-                "bFile": ".obsidian/plugins/obsidian-git/data.json",
-                "aRef": ""
+                "file": "Literature notes/C++/Effective Modern C++/References/Use constexpr whenever possible.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "diff",
-              "title": "Diff: data.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Use constexpr whenever possible"
             }
           }
         ]
@@ -156,12 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Literature notes/C++/Effective Modern C++/References/Use constexpr whenever possible.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Use constexpr whenever possible"
             }
           },
           {
@@ -205,6 +207,12 @@
   },
   "active": "1d5665e7868bf0e6",
   "lastOpenFiles": [
+    "Literature notes/C++/Effective Modern C++/Effective Modern C++17.md",
+    "Permanet Note/Python build system knowledge map.md",
+    "Permanet Note/scikit-build-core CMake-Python bridge.md",
+    "Permanet Note/uv resolver performance advantage.md",
+    "Permanet Note/build toolchain performance chain.md",
+    "Refrences Note/Base References.md",
     "Daily Notes/2026-02-16.md",
     "Fleeting Note/UV install 5x faster than pip install.md",
     "Fleeting Note/PEP 517.md",
@@ -217,13 +225,7 @@
     "Fleeting Note/PEP 517 backend protocol.md",
     "Literature notes/C++/Effective Modern C++/References/Untitled.md",
     "Literature notes/C++/Effective Modern C++/References/Use constexpr whenever possible.md",
-    "Literature notes/C++/Effective Modern C++/Effective Modern C++17.md",
-    "Refrences Note/Base References.md",
-    "Permanet Note/202402071700 uv resolver performance advantage.md",
     "Refrences Note/C++",
-    "Permanet Note/202402071715 build toolchain performance chain.md",
-    "Permanet Note/scikit-build-core CMake-Python bridge.md",
-    "Permanet Note/Python build system knowledge map.md",
     "Daily Notes/2026-01-31.md",
     "Daily Notes/2026-01-10.md",
     "Daily Notes/2026-02-03.md",

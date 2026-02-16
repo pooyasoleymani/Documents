@@ -1,4 +1,10 @@
-  
+---
+Created Date: 2026-02-16
+tags:
+  - inbox
+---
+
+
 
 Core insight: Resolver speed ([[uv resolver performance advantage]]) enables build isolation ([[scikit-build-core CMake-Python bridge]]) → faster feedback loops.
 
