@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🧠",
+      "📔",
       "📰",
       "📘",
-      "🍀",
-      "☔",
-      "🧠"
+      "🍀"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -35,10 +35,11 @@
     "useInternalPlugins": true
   },
   "Templates": "LiLayoutTemplate",
-  "Daily Notes": "LiStickyNote",
+  "Daily Notes": "📔",
   "Fleeting Note": "🧠",
   "Permanet Note": "☔",
   "Evergreen Note": "🍀",
   "Refrences Note": "📘",
-  "Literature notes": "📰"
+  "Literature notes": "📰",
+  "Fleeting note": "🧠"
 }
