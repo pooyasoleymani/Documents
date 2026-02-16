@@ -64,5 +64,19 @@ public:
 private:
 double x, y;
 }
+
+constexpr Point p1(9.4, 27.7); // fine, "runs" constexpr ctor during compilation
+
+constexpr Point midPoint(const Point& p1, const Point& p2) noexcept
+{
+	return {
+	(p1.xValue() + p2.xValue()) / 2, 
+	(p1.yValue() + p2.yValue()) / 2
+	}
+};
+
+constexpr auto mid = midPoint(p1, p2);
 ```
+
+
 

@@ -207,7 +207,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,8 +224,8 @@
   },
   "active": "1d5665e7868bf0e6",
   "lastOpenFiles": [
-    "Literature notes/C++/Effective Modern C++/References/Untitled.md",
     "Literature notes/C++/Effective Modern C++/References/Use constexpr whenever possible.md",
+    "Literature notes/C++/Effective Modern C++/References/Untitled.md",
     "Literature notes/C++/Effective Modern C++/Effective Modern C++17.md",
     "Refrences Note/Base References.md",
     "Permanet Note/202402071700 uv resolver performance advantage.md",
