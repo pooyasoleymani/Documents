@@ -13,28 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2026-02-16.md",
+                "file": "Fleeting Note/static class member.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2026-02-16"
-            }
-          },
-          {
-            "id": "0088d116b78a3e52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Literature notes/C++/Effective Modern C++/References/Untitled.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "static class member"
             }
           }
         ]
@@ -172,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2026-02-16.md",
+                "file": "Fleeting Note/static class member.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2026-02-16"
+              "title": "Outline of static class member"
             }
           },
           {
@@ -206,8 +191,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -221,11 +205,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1d5665e7868bf0e6",
+  "active": "77b5d930ccb82103",
   "lastOpenFiles": [
-    "Literature notes/C++/Effective Modern C++/References/Use constexpr whenever possible.md",
+    "Fleeting Note/UV install 5x faster than pip install.md",
+    "Fleeting Note/PEP 517.md",
+    "Fleeting Note/memory pool in C++ and memory fragmenting.md",
+    "Fleeting Note/dependency isolation.md",
+    "Fleeting Note/dependency hell.md",
+    "Fleeting Note/build automation reduce context switching.md",
+    "Fleeting Note/static class member.md",
+    "Fleeting Note/pyproject.toml.md",
+    "Fleeting Note/PEP 517 backend protocol.md",
     "Daily Notes/2026-02-16.md",
     "Literature notes/C++/Effective Modern C++/References/Untitled.md",
+    "Literature notes/C++/Effective Modern C++/References/Use constexpr whenever possible.md",
     "Literature notes/C++/Effective Modern C++/Effective Modern C++17.md",
     "Refrences Note/Base References.md",
     "Permanet Note/202402071700 uv resolver performance advantage.md",
@@ -244,16 +237,7 @@
     "Literature notes",
     "Refrences Note",
     "Evergreen Note",
-    "Fleeting Note/build automation reduce context switching.md",
     "Fleeting Note/scikit-build-core target-scoped dependencies.md",
-    "Fleeting Note/UV install 5x faster than pip install.md",
-    "Fleeting Note/pyproject.toml.md",
-    "Fleeting Note/pip.md",
-    "Fleeting Note/PEP 517 backend protocol.md",
-    "Fleeting Note/memory pool in C++ and memory fragmenting.md",
-    "Fleeting Note/dependency isolation.md",
-    "Fleeting Note/dependency hell.md",
-    "Daily Notes/Untitled.md",
     "Permanet Note",
     "Fleeting Note",
     "Calendar",
