@@ -3,7 +3,6 @@ Created Date: 2026-01-11
 tags:
   - cpp
   - programming
-Up: "[[Understand decltype]]"
 Next: "[[Prefer auto to explicit type declarations]]"
 ---
 ---

@@ -3,7 +3,6 @@ Created Date: 2026-01-25
 tags:
   - cpp
   - programming
-Up: "[[Prefer scoped enums to unscoped enums]]"
 Next: "[[Declare overriding functions override]]"
 ---
 ---

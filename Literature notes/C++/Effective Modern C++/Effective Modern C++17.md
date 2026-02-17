@@ -5,7 +5,6 @@ tags:
 Created Date: 2025-12-29
 ---
 ---
-
 1. CHAPTER 1
 	-   [[Deducing Type]]
 		- Item 1: [[Understand template type deduction]]

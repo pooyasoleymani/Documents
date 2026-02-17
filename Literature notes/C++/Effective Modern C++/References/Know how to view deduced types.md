@@ -1,10 +1,8 @@
 ---
-Home: "[[Effective Modern C++17]]"
-Up: "[[Understand decltype]]"
-Next: "[[auto]]"
 Created Date: 2026-01-11
 tags:
   - cpp
+Next: "[[auto]]"
 ---
 ---
 

@@ -3,7 +3,6 @@ Created Date: 2026-01-24
 tags:
   - cpp
   - programming
-Up: "[[Prefer alias declarations to typedefs]]"
 Next: "[[Prefer deleted functions to private undefinedones]]"
 ---
 ---

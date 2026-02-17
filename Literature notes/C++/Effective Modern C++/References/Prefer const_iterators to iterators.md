@@ -3,7 +3,6 @@ Created Date: 2026-01-28
 tags:
   - cpp
   - programming
-Up: "[[Declare overriding functions override]]"
 Next: "[[Declare functions noexcept if they won’t emit exceptions]]"
 ---
 ---

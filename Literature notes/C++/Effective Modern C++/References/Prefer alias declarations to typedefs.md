@@ -3,7 +3,6 @@ Created Date: 2026-01-21
 tags:
   - cpp
   - programming
-Up: "[[Prefer nullptr to 0 and NULL]]"
 Next: "[[Prefer scoped enums to unscoped enums]]"
 ---
 ---
