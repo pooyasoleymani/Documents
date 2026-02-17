@@ -33,17 +33,17 @@ Created Date: 2025-12-29
 		
 4. CHAPTER 4
 	- [[Smart Pointers]]
-		- Item 18: [[Use std::unique_ptr for exclusive-ownership resource management]]
-		- Item 19: [[Use std::shared_ptr for shared-ownership resource management]]
-		- Item 20: [[Use std::weak_ptr for std::shared_ptr like pointers that can dangle]]
-		- Item 21: [[Prefer std::make_unique and std::make_shared to direct use of new]]
+		- Item 18: [[Use unique_ptr for exclusive-ownership resource management]]
+		- Item 19: [[Use shared_ptr for shared-ownership resource management]]
+		- Item 20: [[Use weak_ptr for std::shared_ptr like pointers that can dangle]]
+		- Item 21: [[Prefer make_unique and make_shared to direct use of new]]
 		- Item 22: [[When using the Pimpl Idiom, define special member functions in the implementation file]]
 		
 5. CHAPTER 5
 	- [[Rvalue References, Move Semantics, and Perfect Forwarding]]
-		- Item 23: [[Understand std::move and std::forward]]
+		- Item 23: [[Understand move and forward]]
 		- Item 24: [[Distinguish universal references from rvalue references]]
-		- Item 25: [[Use std::move on rvalue references, std::forward on universal references]]
+		- Item 25: [[Use move on rvalue references, forward on universal references]]
 		- Item 26: [[Avoid overloading on universal references]]
 		- Item 27: [[Familiarize yourself with alternatives to overloading on universal references]]
 		- Item 28: [[Understand reference collapsing]]
