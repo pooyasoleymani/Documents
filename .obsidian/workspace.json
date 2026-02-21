@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/C++/Effective Modern C++/References/Use unique_ptr for exclusive-ownership resource management.md",
+                "file": "Literature notes/C++/Effective Modern C++/References/Use shared_ptr for shared-ownership resource management.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Use unique_ptr for exclusive-ownership resource management"
+              "title": "Use shared_ptr for shared-ownership resource management"
             }
           }
         ],
@@ -174,13 +174,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/C++/Effective Modern C++/References/Use unique_ptr for exclusive-ownership resource management.md",
+                "file": "Literature notes/C++/Effective Modern C++/References/Use shared_ptr for shared-ownership resource management.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Use unique_ptr for exclusive-ownership resource management"
+              "title": "Outline of Use shared_ptr for shared-ownership resource management"
             }
           },
           {
@@ -224,11 +224,11 @@
   },
   "active": "a62f2e31775c54ab",
   "lastOpenFiles": [
+    "Literature notes/C++/Effective Modern C++/References/Use unique_ptr for exclusive-ownership resource management.md",
     "Literature notes/C++/Effective Modern C++/References/Smart Pointers.md",
     "Literature notes/C++/Effective Modern C++/Effective Modern C++17.md",
     "Literature notes/C++/Effective Modern C++/References/Understand special member function generation.md",
     "Daily Notes/2026-02-21.md",
-    "Literature notes/C++/Effective Modern C++/References/Use unique_ptr for exclusive-ownership resource management.md",
     "Literature notes/C++/Effective Modern C++/References/Use shared_ptr for shared-ownership resource management.md",
     "Literature notes/C++/Effective Modern C++/References/Use the explicitly typed initializer idiom when auto deduces undesired types.md",
     "Daily Notes/2026-02-17.md",
