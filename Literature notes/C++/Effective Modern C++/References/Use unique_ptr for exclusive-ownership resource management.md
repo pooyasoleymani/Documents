@@ -22,3 +22,16 @@ Next: "[[Use shared_ptr for shared-ownership resource management]]"
 - If *std::abort* , *std::Exite*, *std::exit*, *std::quick_exit* is called.
 
 ## Use Case
+A common use for *std::unique_ptr* is as a *factory function* _return type_ for objects in a *hierarchy*:
+
+```cpp
+class Investmenty {...};
+
+class Stock: public Investmnet {...};
+class Bond: public Investmnet {...};
+class RealEstate: public Investmnet {...};
+```
+
+```mermid
+
+```
