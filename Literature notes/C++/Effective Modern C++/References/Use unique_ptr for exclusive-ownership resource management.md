@@ -15,23 +15,64 @@ Next: "[[Use shared_ptr for shared-ownership resource management]]"
 
 - **unique_ptr**  use *delete* for destroy object but we can configure *custom deleters*  : arbitrary functions (function object, lambda function) 
 
-## Exceptions:
 
+
+## Exceptions:
 - If **exception** propagates out of the *thread*'s primary function.
 - If a **noexcept** specification is violated.
 - If *std::abort* , *std::Exite*, *std::exit*, *std::quick_exit* is called.
+
+
 
 ## Use Case
 A common use for *std::unique_ptr* is as a *factory function* _return type_ for objects in a *hierarchy*:
 
 ```cpp
-class Investmenty {...};
+class Investment {...};
 
 class Stock: public Investmnet {...};
 class Bond: public Investmnet {...};
 class RealEstate: public Investmnet {...};
 ```
 
-```mermid
+```mermaid
+graph TD;
+  Stock-->Investment;
+  Bond-->Investment;
+  RealEstate-->Investment;
 
+```
+
+```cpp
+template<typename... Ts> // return std::unique_ptr
+std::unique_ptr<Investment> makeInvestment(Ts&&... params);// to an object created 
+// from the given args
+
+
+auto delInvmt = [](Investment* pInvestment) // custom
+{ // deleter
+	makeLogEntry(pInvestment); // (a lambda
+	delete pInvestment; // expression)
+};
+
+template<typename... Ts> // revised
+std::unique_ptr<Investment, decltype(delInvmt)> // return type
+makeInvestment(Ts&&... params)
+{
+std::unique_ptr<Investment, decltype(delInvmt)> // ptr to be
+pInv(nullptr, delInvmt); // returned
+if ( /* a Stock object should be created */ )
+	{
+	pInv.reset(new Stock(std::forward<Ts>(params)...));
+	}
+else if ( /* a Bond object should be created */ )
+	{
+	pInv.reset(new Bond(std::forward<Ts>(params)...));
+	}
+else if ( /* a RealEstate object should be created */ )
+	{
+	pInv.reset(new RealEstate(std::forward<Ts>(params)...));
+	}
+return pInv;
+}
 ```
