@@ -19,4 +19,3 @@ Next: "[[Use unique_ptr for exclusive-ownership resource management]]"
 *Smart pointers* are one way to address these issues. *Smart pointers* are wrappers around *raw pointers* that act much like the raw pointers they wrap, but that avoid many of their *pitfalls*. You should therefore prefer *smart pointers* to raw pointers. Smart pointers can do *virtually* everything raw pointers can, but with far fewer opportunities for error.
 
 There are *four* *smart* *pointers* in C++11: **std::auto_ptr**, **std::unique_ptr**, **std::shared_ptr**, and**std::weak_ptr*.
-
