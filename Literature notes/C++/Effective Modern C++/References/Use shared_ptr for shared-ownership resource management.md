@@ -30,3 +30,37 @@ sp1 = sp2; // copy constructor
 >[[ Atomic operations]] are typically slower than [[non-atomic operations]]
 
 
+
+- *Moving* **std::shared_ptr** is faster than *copy* because in *move constructor* no *reference count* manipulation but set source pointer to *null*.
+
+
+- **std::shared_ptr** support custom deleters.
+```cpp
+auto loggingDel = [](Widget* pw) 
+{
+	makeLogEnrty(pw);
+	delete pw;
+};
+
+std::unique_ptr<Widget, decltype(loggingDle)> 
+upw(new Widget, loggingDel); // deleters is part of type
+
+std::shared_ptr<Widget> spw(new Widget, loggingDel);
+// deleters is not part of type
+```
+
+
+- **std::shared_ptr** with same type can have different deleters:
+```cpp
+auto customDel1 = [](Widget* pw) {...};
+auto customDel2 = [](Widget* pw) {...};
+
+std::shared_ptr<Widget> pw1(new Widget, customDel1);
+std::shared_ptr<Widget> pw2(new Widget, customDel2);
+
+// they can be placed in a container of objects of that type:
+std::vector<std::shared_ptr<Widget>> vpw{ pw1, pw2 };
+```
+
+
+## Key Concepts
