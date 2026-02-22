@@ -64,3 +64,21 @@ std::vector<std::shared_ptr<Widget>> vpw{ pw1, pw2 };
 
 
 ## Key Concepts
+
+### Control Block
+*larger data structure* known as the **control block** contain:
+1. *reference count*
+2. a copy of the *custom deleter*, if one has been specified.
+3. If a *custom allocator* was specified, the control block contains a copy of that, too.
+4. A secondary reference count known as the *weak count*(Weak reference).
+
+
+### std::make_shared
+**std::make_shared** always create a *control block* if that object was new.
+
+
+### unique_ptr -> shared_ptr
+A *control block* is created when a *std::shared_ptr* is constructed from a *unique-ownership pointer* (i.e., a *std::unique_ptr* or *std::auto_ptr*).
+
+
+### std::shared_ptr construct with raw pointer
