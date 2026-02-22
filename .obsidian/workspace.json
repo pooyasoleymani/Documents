@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/IPP/IPP Study Guide.md",
+                "file": "Permanet Note/Python build system knowledge map.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "IPP Study Guide"
+              "title": "Python build system knowledge map"
             }
           }
         ]
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/IPP/IPP Study Guide.md",
+                "file": "Permanet Note/Python build system knowledge map.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of IPP Study Guide"
+              "title": "Outline of Python build system knowledge map"
             }
           },
           {
@@ -207,12 +207,20 @@
   },
   "active": "1d5665e7868bf0e6",
   "lastOpenFiles": [
+    "Refrences Note/Home.base",
+    "Permanet Note/Python build system knowledge map.md",
+    "Refrences Note/Base References.md",
+    "Permanet Note/build toolchain performance chain.md",
+    "Permanet Note/uv resolver performance advantage.md",
+    "Permanet Note/scikit-build-core CMake-Python bridge.md",
+    "Literature notes/C++/Effective Modern C++/References/Prefer make_unique and make_shared to direct use of new.md",
+    "Literature notes/C++/Effective Modern C++/Effective Modern C++17.md",
+    "Literature notes/IPP/IPP Study Guide.md",
     "Literature notes/Fundamentals of Software Architecture/Refrences/Modularity.md",
     "Literature notes/Fundamentals of Software Architecture/Refrences/Identifying Architecture Characteristics.md",
     "Literature notes/Fundamentals of Software Architecture/Refrences/Architectural Thinking.md",
     "Literature notes/CMake/CMake Study Plan.md",
     "Fleeting note/dependency hell.md",
-    "Permanet Note/build toolchain performance chain.md",
     "Literature notes/C++/Effective Modern C++/References/Use weak_ptr for shared_ptr like pointers that can dangle.md",
     "Literature notes/C++/Effective Modern C++/References/Use unique_ptr for exclusive-ownership resource management.md",
     "Literature notes/C++/Effective Modern C++/References/Use the explicitly typed initializer idiom when auto deduces undesired types.md",
@@ -225,14 +233,6 @@
     "Literature notes/C++/Effective Modern C++/References/Understand auto type deduction.md",
     "Literature notes/C++/Effective Modern C++/References/Smart Pointers.md",
     "Literature notes/C++/Effective Modern C++/References/Rvalue References, Move Semantics, and Perfect Forwarding.md",
-    "Literature notes/C++/Effective Modern C++/References/Prefer scoped enums to unscoped enums.md",
-    "Literature notes/C++/Effective Modern C++/References/Prefer nullptr to 0 and NULL.md",
-    "Literature notes/C++/Effective Modern C++/References/Prefer make_unique and make_shared to direct use of new.md",
-    "Literature notes/C++/Effective Modern C++/References/Prefer deleted functions to private undefinedones.md",
-    "Literature notes/C++/Effective Modern C++/References/Prefer const_iterators to iterators.md",
-    "Literature notes/C++/Effective Modern C++/References/Prefer alias declarations to typedefs.md",
-    "Literature notes/C++/Effective Modern C++/References/Prefer auto to explicit type declarations.md",
-    "Literature notes/C++/Effective Modern C++/References/Make const member functions thread safe.md",
     "Refrences Note/C++",
     "Literature notes/WarGame/Linux Command.canvas",
     "Literature notes",
