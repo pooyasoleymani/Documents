@@ -15,44 +15,37 @@
       }
     },
     {
-      "query": "path:+/Atlas/C++  ",
+      "query": "tag:#cpp  ",
       "color": {
         "a": 1,
-        "rgb": 8183890
+        "rgb": 2523136
       }
     },
     {
       "query": "tag:#desing-pattern  ",
       "color": {
         "a": 1,
-        "rgb": 8147680
+        "rgb": 3608724
       }
     },
     {
-      "query": "path:\"+/Atlas/Software Architecture\"  ",
+      "query": "tag:#architecture  ",
       "color": {
         "a": 1,
         "rgb": 14454745
-      }
-    },
-    {
-      "query": "tag:#inbox  ",
-      "color": {
-        "a": 1,
-        "rgb": 5431473
       }
     }
   ],
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": -3,
-  "nodeSizeMultiplier": 0.667682926829268,
-  "lineSizeMultiplier": 1.11585365853659,
+  "nodeSizeMultiplier": 0.454605263157895,
+  "lineSizeMultiplier": 0.422368421052632,
   "collapse-forces": false,
-  "centerStrength": 0.421052631578947,
-  "repelStrength": 8.02631578947368,
-  "linkStrength": 0.348684210526316,
-  "linkDistance": 113,
-  "scale": 0.24192491286746431,
-  "close": true
+  "centerStrength": 0.322368421052632,
+  "repelStrength": 8.55263157894737,
+  "linkStrength": 0.828947368421053,
+  "linkDistance": 209,
+  "scale": 0.5443310539517944,
+  "close": false
 }

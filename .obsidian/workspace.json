@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/C++/Effective Modern C++/References/Use shared_ptr for shared-ownership resource management.md",
+                "file": "Fleeting note/dependency hell.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Use shared_ptr for shared-ownership resource management"
+              "title": "dependency hell"
             }
           }
         ]
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/C++/Effective Modern C++/References/Use shared_ptr for shared-ownership resource management.md",
+                "file": "Fleeting note/dependency hell.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Use shared_ptr for shared-ownership resource management"
+              "title": "Outline of dependency hell"
             }
           },
           {
@@ -207,32 +207,32 @@
   },
   "active": "1d5665e7868bf0e6",
   "lastOpenFiles": [
-    "Literature notes/C++/Effective Modern C++/Effective Modern C++17.md",
-    "Literature notes/C++/Effective Modern C++/References/Declare functions noexcept if they won’t emit exceptions.md",
-    "Literature notes/C++/Effective Modern C++/References/Use weak_ptr for shared_ptr like pointers that can dangle.md",
-    "Daily Notes/2026-02-03.md",
-    "Daily Notes/2026-01-31.md",
-    "Daily Notes/2026-01-10.md",
-    "Literature notes/C++/Effective Modern C++/References/Use constexpr whenever possible.md",
-    "conflict-files-obsidian-git.md",
-    "Literature notes/C++/Effective Modern C++/References/Use unique_ptr for exclusive-ownership resource management.md",
-    "Literature notes/C++/Effective Modern C++/References/Use shared_ptr for shared-ownership resource management.md",
-    "Literature notes/C++/Effective Modern C++/References/Understand special member function generation.md",
-    "Literature notes/C++/Effective Modern C++/References/Smart Pointers.md",
-    "Literature notes/C++/Effective Modern C++/References/Make const member functions thread safe.md",
-    "Daily Notes/2026-02-21.md",
-    "Daily Notes/2026-02-17.md",
-    "Daily Notes/2026-02-22.md",
-    "Permanet Note/Python build system knowledge map.md",
-    "Permanet Note/scikit-build-core CMake-Python bridge.md",
-    "Permanet Note/uv resolver performance advantage.md",
     "Permanet Note/build toolchain performance chain.md",
-    "Refrences Note/Base References.md",
-    "Daily Notes/2026-02-16.md",
-    "Fleeting Note/UV install 5x faster than pip install.md",
-    "Fleeting Note/PEP 517.md",
-    "Fleeting Note/memory pool in C++ and memory fragmenting.md",
-    "Fleeting Note/dependency isolation.md",
+    "Literature notes/C++/Effective Modern C++/References/Use weak_ptr for shared_ptr like pointers that can dangle.md",
+    "Literature notes/C++/Effective Modern C++/References/Use unique_ptr for exclusive-ownership resource management.md",
+    "Literature notes/C++/Effective Modern C++/References/Use the explicitly typed initializer idiom when auto deduces undesired types.md",
+    "Literature notes/C++/Effective Modern C++/References/Use shared_ptr for shared-ownership resource management.md",
+    "Literature notes/C++/Effective Modern C++/References/Use constexpr whenever possible.md",
+    "Literature notes/C++/Effective Modern C++/References/Understand template type deduction.md",
+    "Literature notes/C++/Effective Modern C++/References/Untitled.md",
+    "Literature notes/C++/Effective Modern C++/References/Understand special member function generation.md",
+    "Literature notes/C++/Effective Modern C++/References/Understand decltype.md",
+    "Literature notes/C++/Effective Modern C++/References/Understand auto type deduction.md",
+    "Literature notes/C++/Effective Modern C++/References/Smart Pointers.md",
+    "Literature notes/C++/Effective Modern C++/References/Rvalue References, Move Semantics, and Perfect Forwarding.md",
+    "Literature notes/C++/Effective Modern C++/References/Prefer scoped enums to unscoped enums.md",
+    "Literature notes/C++/Effective Modern C++/References/Prefer nullptr to 0 and NULL.md",
+    "Literature notes/C++/Effective Modern C++/References/Prefer make_unique and make_shared to direct use of new.md",
+    "Literature notes/C++/Effective Modern C++/References/Prefer deleted functions to private undefinedones.md",
+    "Literature notes/C++/Effective Modern C++/References/Prefer const_iterators to iterators.md",
+    "Literature notes/C++/Effective Modern C++/References/Prefer alias declarations to typedefs.md",
+    "Literature notes/C++/Effective Modern C++/References/Prefer auto to explicit type declarations.md",
+    "Literature notes/C++/Effective Modern C++/References/Make const member functions thread safe.md",
+    "Literature notes/C++/Effective Modern C++/References/Know how to view deduced types.md",
+    "Literature notes/C++/Effective Modern C++/References/Distinguish between () and {} when creating objects.md",
+    "Literature notes/C++/Effective Modern C++/References/Declare overriding functions override.md",
+    "Literature notes/C++/Effective Modern C++/References/Declare functions noexcept if they won’t emit exceptions.md",
+    "Literature notes/C++/Effective Modern C++/References/Declare functions noexcept if they won’t emit exceptions..md",
     "Refrences Note/C++",
     "Literature notes/WarGame/Linux Command.canvas",
     "Literature notes",
