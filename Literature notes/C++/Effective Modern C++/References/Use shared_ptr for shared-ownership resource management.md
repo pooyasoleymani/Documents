@@ -82,3 +82,55 @@ A *control block* is created when a *std::shared_ptr* is constructed from a *uni
 
 
 ### std::shared_ptr construct with raw pointer
+When a **std::shared_ptr** constructor is called with a *raw pointer*, it creates a *control block*. If you wanted to create a **std::shared_ptr** from an object that already had a *control block*, you’d presumably pass a **std::shared_ptr** or a *std::weak_ptr* (see Item 20) as a constructor argument, not a *raw pointer*.
+```cpp
+auto pw = new Widget;
+
+std::shared_ptr<Widget> spw1(pw, loggingDel1); // create control blcok
+std::shread_ptr<Widget> spw2(pw, loggoingDle2); // create 2nd cntrol block
+```
+
+- Direct use of *new* and use *spw1* with copy construct:
+```cpp
+std::shared_ptr<Widget> spw1(new Widget, loggingDel);
+std::shared_ptr<Widget> spw2(spw1); // use same control block
+```
+
+- using *raw pointer* variables as **std::shared_ptr** constructor arguments can lead to multiple *control blocks* involves the *this* pointer
+
+```cpp
+std::vector<std::shared_ptr<Widget>> processedWidgets;
+
+class Widget {
+	public:
+	void process();
+};
+
+/*
+**This code will compile, but it’s passing a raw
+** pointer (this) to a container of std::shared_ptrs
+** create a new control block for the pointed-to Widget (*this).
+*/
+void Widget::process() {
+ ...
+ processedWidgets.emplace_back(this);
+};
+```
+
+```cpp
+// Widget would inherit from std::enable_shared_from_this as follows:
+
+class Widget: public std::enable_shared_from_this<Widget> 
+{
+ void process();
+};
+
+
+void Widget::process()
+{
+// as before, process the Widget
+// add std::shared_ptr to current object to processedWidgets
+processedWidgets.emplace_back(shared_from_this());
+}
+```
+- **std::enable_shared_from_this** is *Base class* and type parameter is *Driven class* the name of this pattern is The [[ Curiously Recurring Template Pattern (CRTP)]]
