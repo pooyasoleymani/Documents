@@ -202,6 +202,44 @@ auto w = std::shared_ptr<Widget>(new Widget(args...)); // ❌ Two allocations
 
 ---
 
+## ✅ Operations That Do **NOT** Dereference
+| Operation                  | Example                   | Dereferences?                    |
+| -------------------------- | ------------------------- | -------------------------------- |
+| **Boolean check**          | `if (ptr)` or `if (!ptr)` | ❌ No                             |
+| **Get raw pointer**        | `ptr.get()`               | ❌ No                             |
+| **Reference count**        | `ptr.use_count()`         | ❌ No                             |
+| **Unique ownership check** | `ptr.unique()`            | ❌ No                             |
+| **Copy/Move**              | `auto p2 = ptr;`          | ❌ No (just increments ref count) |
+| **Reset**                  | `ptr.reset()`             | ❌ No                             |
+| **Swap**                   | `ptr.swap(other)`         | ❌ No                             |
+
+## ❌ Operations That **DO** Dereference
+
+These operations **access the pointed-to object** and will crash if the pointer is null:
+
+|Operation|Example|Dereferences?|Risk if null|
+|---|---|---|---|
+|**Dereference operator**|`*ptr`|✅ Yes|Undefined behavior (crash)|
+|**Member access**|`ptr->foo()`|✅ Yes|Undefined behavior (crash)|
+|**Get + dereference**|`*(ptr.get())`|✅ Yes|Undefined behavior (crash)|
+
+```cpp
+std::shared_ptr<Widget> ptr;
+
+// Safe - NO dereferencing
+if (ptr) {                    // ✅ Just checks if not null
+    std::cout << ptr.use_count();  // ✅ Just reads ref count
+    Widget* raw = ptr.get();  // ✅ Returns raw pointer (don't delete it!)
+}
+
+// Dangerous - DOES dereference
+*ptr;          // ❌ Dereferences - crashes if null
+ptr->doWork(); // ❌ Dereferences - crashes if null
+(*ptr).x;      // ❌ Dereferences - crashes if null
+```
+---
+
+
 >[!IMPORTANT] **Things to Remember**
 >- **std::shared_ptrs** offer convenience approaching that of *garbage collection* for the shared lifetime management of arbitrary resources.
 >-  Compared to **std::unique_ptr**, **std::shared_ptr** objects are typically twice as big, incur overhead for *control blocks*, and require *atomic* reference count manipulations.
