@@ -224,9 +224,9 @@
   },
   "active": "a62f2e31775c54ab",
   "lastOpenFiles": [
+    "Literature notes/C++/Effective Modern C++/References/Use shared_ptr for shared-ownership resource management.md",
     "Literature notes/C++/Effective Modern C++/Effective Modern C++17.md",
     "Literature notes/C++/Effective Modern C++/References/Use weak_ptr for shared_ptr like pointers that can dangle.md",
-    "Literature notes/C++/Effective Modern C++/References/Use shared_ptr for shared-ownership resource management.md",
     "Literature notes/C++/Effective Modern C++/References/Deducing Type.md",
     "Literature notes/C++/Effective Modern C++/References/Understand template type deduction.md",
     "Daily Notes/2026-02-22.md",
