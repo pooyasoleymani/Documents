@@ -2,10 +2,9 @@
 Created Date: 2025-12-30
 Related: "[[Effective Modern C++17]]"
 tags:
-  - programming
   - cpp
+  - programming
 ---
-
 
 ---
 

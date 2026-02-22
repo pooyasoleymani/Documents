@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting note/dependency hell.md",
+                "file": "Literature notes/IPP/IPP Study Guide.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "dependency hell"
+              "title": "IPP Study Guide"
             }
           }
         ]
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fleeting note/dependency hell.md",
+                "file": "Literature notes/IPP/IPP Study Guide.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of dependency hell"
+              "title": "Outline of IPP Study Guide"
             }
           },
           {
@@ -207,6 +207,11 @@
   },
   "active": "1d5665e7868bf0e6",
   "lastOpenFiles": [
+    "Literature notes/Fundamentals of Software Architecture/Refrences/Modularity.md",
+    "Literature notes/Fundamentals of Software Architecture/Refrences/Identifying Architecture Characteristics.md",
+    "Literature notes/Fundamentals of Software Architecture/Refrences/Architectural Thinking.md",
+    "Literature notes/CMake/CMake Study Plan.md",
+    "Fleeting note/dependency hell.md",
     "Permanet Note/build toolchain performance chain.md",
     "Literature notes/C++/Effective Modern C++/References/Use weak_ptr for shared_ptr like pointers that can dangle.md",
     "Literature notes/C++/Effective Modern C++/References/Use unique_ptr for exclusive-ownership resource management.md",
@@ -228,11 +233,6 @@
     "Literature notes/C++/Effective Modern C++/References/Prefer alias declarations to typedefs.md",
     "Literature notes/C++/Effective Modern C++/References/Prefer auto to explicit type declarations.md",
     "Literature notes/C++/Effective Modern C++/References/Make const member functions thread safe.md",
-    "Literature notes/C++/Effective Modern C++/References/Know how to view deduced types.md",
-    "Literature notes/C++/Effective Modern C++/References/Distinguish between () and {} when creating objects.md",
-    "Literature notes/C++/Effective Modern C++/References/Declare overriding functions override.md",
-    "Literature notes/C++/Effective Modern C++/References/Declare functions noexcept if they won’t emit exceptions.md",
-    "Literature notes/C++/Effective Modern C++/References/Declare functions noexcept if they won’t emit exceptions..md",
     "Refrences Note/C++",
     "Literature notes/WarGame/Linux Command.canvas",
     "Literature notes",
