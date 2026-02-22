@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/C++/Effective Modern C++/References/Use weak_ptr for shared_ptr like pointers that can dangle.md",
+                "file": "Literature notes/C++/Effective Modern C++/References/Use shared_ptr for shared-ownership resource management.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Use weak_ptr for shared_ptr like pointers that can dangle"
+              "title": "Use shared_ptr for shared-ownership resource management"
             }
           }
         ]
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/C++/Effective Modern C++/References/Use weak_ptr for shared_ptr like pointers that can dangle.md",
+                "file": "Literature notes/C++/Effective Modern C++/References/Use shared_ptr for shared-ownership resource management.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Use weak_ptr for shared_ptr like pointers that can dangle"
+              "title": "Outline of Use shared_ptr for shared-ownership resource management"
             }
           },
           {
@@ -208,7 +208,11 @@
   "active": "1d5665e7868bf0e6",
   "lastOpenFiles": [
     "Literature notes/C++/Effective Modern C++/Effective Modern C++17.md",
+    "Literature notes/C++/Effective Modern C++/References/Declare functions noexcept if they won’t emit exceptions.md",
     "Literature notes/C++/Effective Modern C++/References/Use weak_ptr for shared_ptr like pointers that can dangle.md",
+    "Daily Notes/2026-02-03.md",
+    "Daily Notes/2026-01-31.md",
+    "Daily Notes/2026-01-10.md",
     "Literature notes/C++/Effective Modern C++/References/Use constexpr whenever possible.md",
     "conflict-files-obsidian-git.md",
     "Literature notes/C++/Effective Modern C++/References/Use unique_ptr for exclusive-ownership resource management.md",
@@ -229,10 +233,6 @@
     "Fleeting Note/PEP 517.md",
     "Fleeting Note/memory pool in C++ and memory fragmenting.md",
     "Fleeting Note/dependency isolation.md",
-    "Fleeting Note/dependency hell.md",
-    "Fleeting Note/build automation reduce context switching.md",
-    "Fleeting Note/static class member.md",
-    "Fleeting Note/pyproject.toml.md",
     "Refrences Note/C++",
     "Literature notes/WarGame/Linux Command.canvas",
     "Literature notes",
