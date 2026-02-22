@@ -34,18 +34,25 @@
         "a": 1,
         "rgb": 14454745
       }
+    },
+    {
+      "query": "tag:#inbox  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
     }
   ],
   "collapse-display": false,
-  "showArrow": true,
+  "showArrow": false,
   "textFadeMultiplier": -3,
   "nodeSizeMultiplier": 0.667682926829268,
   "lineSizeMultiplier": 1.11585365853659,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.4755169750816091,
+  "collapse-forces": false,
+  "centerStrength": 0.421052631578947,
+  "repelStrength": 8.02631578947368,
+  "linkStrength": 0.348684210526316,
+  "linkDistance": 113,
+  "scale": 0.24192491286746431,
   "close": true
 }

@@ -3,7 +3,6 @@ Created Date: 2026-02-02
 tags:
   - cpp
   - programming
-Up: "[[Prefer const_iterators to iterators]]"
 Next: "[[Use constexpr whenever possible]]"
 ---
 ---

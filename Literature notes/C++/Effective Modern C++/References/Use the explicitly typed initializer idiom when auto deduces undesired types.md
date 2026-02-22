@@ -3,7 +3,6 @@ Created Date: 2026-01-11
 tags:
   - cpp
   - programming
-Up: "[[Prefer auto to explicit type declarations]]"
 Next: "[[Distinguish between () and {} when creating objects]]"
 ---
 ---

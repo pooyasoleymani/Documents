@@ -3,7 +3,6 @@ Created Date: 2026-01-05
 tags:
   - cpp
   - programming
-Up: "[[Understand template type deduction]]"
 Next: "[[Understand decltype]]"
 ---
 ---
