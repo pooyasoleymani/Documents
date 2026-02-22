@@ -35,7 +35,7 @@ Created Date: 2025-12-29
 	- [[Smart Pointers]]
 		- Item 18: [[Use unique_ptr for exclusive-ownership resource management]]
 		- Item 19: [[Use shared_ptr for shared-ownership resource management]]
-		- Item 20: [[Use weak_ptr for std::shared_ptr like pointers that can dangle]]
+		- Item 20: [[Use weak_ptr for shared_ptr like pointers that can dangle]]
 		- Item 21: [[Prefer make_unique and make_shared to direct use of new]]
 		- Item 22: [[When using the Pimpl Idiom, define special member functions in the implementation file]]
 		
