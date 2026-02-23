@@ -27,4 +27,4 @@ Dependency hell takes several forms:
 9. **Software appliances**
 10. **Portable applications**
 
-See also: [[Packet manager]], [[code refactoring]], [[Circular dependency]], [[Software appliance]],# [[Configuration management]],[[Coupling]]
+See also: [[Packet manager]], [[code refactoring]], [[Circular dependency]], [[Software appliance]],[[Configuration management]],[[Coupling]]

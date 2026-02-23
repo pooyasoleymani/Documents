@@ -3,7 +3,7 @@ Created Date: 2026-02-22
 tags:
   - cpp
   - programming
-Next:
+Next: "[[Prefer make_unique and make_shared to direct use of new]]"
 ---
 ---
 
