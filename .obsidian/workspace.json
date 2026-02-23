@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2026-02-23.md",
+                "file": "Literature notes/تندخوانی/خط بری بدون درک.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2026-02-23"
+              "title": "خط بری بدون درک"
             }
           }
         ]
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2026-02-23.md",
+                "file": "Literature notes/تندخوانی/خط بری بدون درک.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2026-02-23"
+              "title": "Outline of خط بری بدون درک"
             }
           },
           {
@@ -191,7 +191,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,8 +208,12 @@
   },
   "active": "9baafab3cdf45e1f",
   "lastOpenFiles": [
-    "Daily Notes/2026-02-16.md",
+    "Fleeting note/Untitled.md",
+    "Literature notes/تندخوانی/خط بری بدون درک.md",
+    "Literature notes/تندخوانی",
     "Daily Notes/2026-02-23.md",
+    "Fleeting note/build automation reduce context switching.md",
+    "Daily Notes/2026-02-16.md",
     "Daily Notes/2026-02-03.md",
     "Daily Notes/2026-01-31.md",
     "Daily Notes/2026-01-10.md",
@@ -231,9 +236,6 @@
     "Literature notes/Fundamentals of Software Architecture/Refrences/Architectural Thinking.md",
     "Literature notes/CMake/CMake Study Plan.md",
     "Fleeting note/dependency hell.md",
-    "Literature notes/C++/Effective Modern C++/References/Use weak_ptr for shared_ptr like pointers that can dangle.md",
-    "Literature notes/C++/Effective Modern C++/References/Use unique_ptr for exclusive-ownership resource management.md",
-    "Literature notes/C++/Effective Modern C++/References/Use the explicitly typed initializer idiom when auto deduces undesired types.md",
     "Refrences Note/C++",
     "Literature notes/WarGame/Linux Command.canvas",
     "Literature notes",
@@ -242,7 +244,6 @@
     "Permanet Note",
     "Fleeting Note",
     "Calendar",
-    "Templates",
-    "Effort"
+    "Templates"
   ]
 }
