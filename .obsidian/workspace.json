@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/C++/Effective Modern C++/References/Prefer auto to explicit type declarations.md",
+                "file": "Literature notes/C++/Effective Modern C++/References/Use the explicitly typed initializer idiom when auto deduces undesired types.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Prefer auto to explicit type declarations"
+              "title": "Use the explicitly typed initializer idiom when auto deduces undesired types"
             }
           }
         ]
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/C++/Effective Modern C++/References/Prefer auto to explicit type declarations.md",
+                "file": "Literature notes/C++/Effective Modern C++/References/Use the explicitly typed initializer idiom when auto deduces undesired types.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Prefer auto to explicit type declarations"
+              "title": "Outline of Use the explicitly typed initializer idiom when auto deduces undesired types"
             }
           },
           {
@@ -219,6 +219,7 @@
   },
   "active": "9baafab3cdf45e1f",
   "lastOpenFiles": [
+    "Literature notes/C++/Effective Modern C++/References/Prefer auto to explicit type declarations.md",
     "Literature notes/C++/Effective Modern C++/References/auto.md",
     "Literature notes/C++/Effective Modern C++/References/Know how to view deduced types.md",
     "Literature notes/C++/Effective Modern C++/References/Understand decltype.md",
@@ -244,7 +245,6 @@
     "Literature notes/C++/Effective Modern C++/References/Rvalue References, Move Semantics, and Perfect Forwarding.md",
     "Literature notes/C++/Effective Modern C++/References/Understand template type deduction.md",
     "Daily Notes/2026-02-16.md",
-    "Literature notes/C++/Effective Modern C++/References/Deducing Type.md",
     "Literature notes/تندخوانی",
     "Refrences Note/Home.base",
     "Refrences Note/C++",

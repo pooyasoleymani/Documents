@@ -50,7 +50,7 @@ Though` std::vector<bool>` conceptually holds bools, `operator[]` for `std::vect
 for the purpose of emulating and augmenting the behavior of some other type. 
 **Proxy classes** are employed for a variety of purposes. `std::vector<bool>::reference` exists to offer the *illusion* that `operator[]` for `std::vector<bool>` returns a reference to a bit.
 
-**smart pointe**r types (see Chapter4)are **proxy classes** that graft resource management onto **raw pointers**.
+**smart pointer** types (see Chapter4)are **proxy classes** that graft resource management onto **raw pointers**.
 
 
 *Some proxy classes are designed to be apparent to clients.*
