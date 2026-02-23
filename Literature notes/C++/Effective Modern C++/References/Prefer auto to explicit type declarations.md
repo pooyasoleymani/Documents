@@ -78,9 +78,9 @@ bool(const std::unique_ptr<Widget>&, const std::unique_ptr<Widget>&)
 
 std::function<bool(const std::unique_ptr<Widget>&, const std::unique_ptr<Widget>&)> func;
 
-// -------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------
 // Because lambda expressions yield callable objects, closures can be stored in // std::function objects.
-// -------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------
 
 std::function<bool(const std::unique_ptr<Widget>&, const std::unique_ptr<Widget>&)> DifferUpLess = [](const std::unique_ptr<Widget>& p1, const std::unique_ptr<Widget>& p2) { return *p1 > *p2; };
 
