@@ -41,6 +41,13 @@
         "a": 1,
         "rgb": 725738
       }
+    },
+    {
+      "query": "tag:#inbox  ",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
     }
   ],
   "collapse-display": false,
@@ -53,6 +60,6 @@
   "repelStrength": 8.55263157894737,
   "linkStrength": 0.828947368421053,
   "linkDistance": 209,
-  "scale": 0.7023319615912205,
+  "scale": 0.31214753848498666,
   "close": true
 }

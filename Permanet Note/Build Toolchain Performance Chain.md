@@ -8,4 +8,4 @@ Isolated builds ([[scikit-build-core]]) only become practical when resolver spee
   
 
 ## Anti-pattern: 
-Slow resolvers (pip) make isolation feel "too expensive," forcing monolithic builds that increase [[dependency hell]].
+Slow resolvers (pip) make isolation feel "too expensive," forcing monolithic builds that increase [[Dependency Hell]].

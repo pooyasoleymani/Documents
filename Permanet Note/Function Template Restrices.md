@@ -5,5 +5,5 @@ tags:
 ---
 ---
 
-A *[[function template]]* can be a [[member function]], but not a [[virtual member]].
+A *[[Function Template]]* can be a [[member function]], but not a [[virtual member]].
 The [[compiler]] would not know all [[instantiations]] of such a [[Template]] in a program, so it could not generate a [[vtbl]] .

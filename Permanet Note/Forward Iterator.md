@@ -27,7 +27,7 @@ A **Forward Iterator** is the most basic type of iterator that allows traversal 
 #### **Typical Use Cases:**
 
 - Iterating through a [[linked list]] to process each element.
-- Reading elements from a [[stream]].
+- Reading elements from a [[Stream]].
 
 ---
 Ref: [[Concepts and Generic Programming]], [[Iterator vs Pointer]]

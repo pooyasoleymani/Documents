@@ -16,7 +16,7 @@ Key connections:
 
 - [[scikit-build-core CMake-Python bridge]] → [[dependency isolation]]
 
-- [[build toolchain performance chain]] (emergent insight)
+- [[Build Toolchain Performance Chain]] (emergent insight)
 
   
 
