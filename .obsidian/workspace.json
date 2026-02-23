@@ -264,7 +264,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -280,9 +281,9 @@
   },
   "active": "f023219057663554",
   "lastOpenFiles": [
+    "Daily Notes/2026-02-23.md",
     "Literature notes/C++/Effective Modern C++/References/Prefer alias declarations to typedefs.md",
     "Fleeting note/Memory Pool in C++ and Memory Fragmenting.md",
-    "Daily Notes/2026-02-23.md",
     "Permanet Note/Compilation Process.md",
     "Permanet Note/Scope and Lifetime (C++).md",
     "Permanet Note/Build Toolchain Performance Chain.md",

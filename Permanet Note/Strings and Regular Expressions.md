@@ -94,3 +94,4 @@ auto s4 = cat({&king[0], 2}, "Henry"sv);
 
 
 ### Regular Expressions
+**Raw String Literal:** string that start with *R"(*  and terminated with *)"*  
