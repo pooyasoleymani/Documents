@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "9af3b31499cffff4",
+        "id": "878e3d7d60845734",
         "type": "tabs",
         "children": [
           {
-            "id": "af543d26c957cc9f",
+            "id": "c024c7d7697da536",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Literature notes/C++/Effective Modern C++/References/Declare functions noexcept if they won’t emit exceptions.md",
-                "bFile": "Literature notes/C++/Effective Modern C++/References/Declare functions noexcept if they won’t emit exceptions.md",
-                "aRef": "HEAD",
-                "bRef": ""
+                "file": "Literature notes/C++/Effective Modern C++/References/Prefer make_unique and make_shared to direct use of new.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "diff",
-              "title": "Diff: Declare functions noexcept if they won’t emit exceptions  (Index)"
+              "icon": "lucide-file",
+              "title": "Prefer make_unique and make_shared to direct use of new"
             }
           }
         ]
@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "7965c69a42e62fbd",
@@ -95,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Literature notes/C++/Effective Modern C++/References/Prefer make_unique and make_shared to direct use of new.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Prefer make_unique and make_shared to direct use of new"
             }
           },
           {
@@ -113,11 +115,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Literature notes/C++/Effective Modern C++/References/Prefer make_unique and make_shared to direct use of new.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Prefer make_unique and make_shared to direct use of new"
             }
           },
           {
@@ -155,12 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Literature notes/C++/Effective Modern C++/References/Prefer make_unique and make_shared to direct use of new.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Prefer make_unique and make_shared to direct use of new"
             }
           },
           {
@@ -188,7 +192,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 430.5
+    "width": 430.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,9 +207,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "af543d26c957cc9f",
+  "active": "c024c7d7697da536",
   "lastOpenFiles": [
     "Literature notes/C++/Effective Modern C++/Effective Modern C++17.md",
+    "Literature notes/C++/Effective Modern C++/References/When using the Pimpl Idiom, define special member functions in the implementation file.md",
     "Literature notes/C++/Effective Modern C++/References/Use weak_ptr for shared_ptr like pointers that can dangle.md",
     "Literature notes/C++/Effective Modern C++/References/Prefer make_unique and make_shared to direct use of new.md",
     "Literature notes/C++/Effective Modern C++/References/Declare functions noexcept if they won’t emit exceptions.md",
@@ -230,7 +236,6 @@
     "Literature notes/WarGame/Linux Command.canvas",
     "Literature notes/WarGame/War Games.md",
     "Literature notes/C++/Effective Modern C++/References/Use constexpr whenever possible.md",
-    "Literature notes/C++/Effective Modern C++/References/Prefer const_iterators to iterators.md",
     "Refrences Note/C++",
     "Literature notes",
     "Refrences Note",
