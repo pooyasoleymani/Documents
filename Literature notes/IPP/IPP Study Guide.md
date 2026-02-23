@@ -117,12 +117,12 @@ For that, IPP provides its own memory allocators and utility routines.
 
 ####  🧠 Key concepts
 
-|Concept|Function|Purpose|
-|---|---|---|
-|Memory allocation|`ippMalloc(size)`|Allocates 32-byte aligned memory (AVX-friendly).|
-|Memory free|`ippFree(ptr)`|Frees memory allocated with `ippMalloc`.|
-|Set / Copy|`ippsSet_32f(value, pDst, len)`|Fills a float array with a constant.|
-|Vector add|`ippsAdd_32f(a, b, dst, len)`|Adds two float arrays.|
+| Concept           | Function                        | Purpose                                          |
+| ----------------- | ------------------------------- | ------------------------------------------------ |
+| Memory allocation | `ippMalloc(size)`               | Allocates 32-byte aligned memory (AVX-friendly). |
+| Memory free       | `ippFree(ptr)`                  | Frees memory allocated with `ippMalloc`.         |
+| Set / Copy        | `ippsSet_32f(value, pDst, len)` | Fills a float array with a constant.             |
+| Vector add        | `ippsAdd_32f(a, b, dst, len)`   | Adds two float arrays.                           |
 
 #### 🧪 Mini Hands-On: Vector Addition Benchmark
 1. Allocates three aligned float arrays (`a`, `b`, `c`)
