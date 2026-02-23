@@ -23,7 +23,6 @@
                 "backlinks": false
               },
               "icon": "lucide-file",
-<<<<<<< HEAD
               "title": "2026-02-23"
 =======
               "title": "Prefer make_unique and make_shared to direct use of new"
