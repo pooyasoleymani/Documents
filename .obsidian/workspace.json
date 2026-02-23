@@ -4,29 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "878e3d7d60845734",
+        "id": "291a2e1143177116",
         "type": "tabs",
         "children": [
           {
-            "id": "c024c7d7697da536",
+            "id": "9baafab3cdf45e1f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "Daily Notes/2026-02-23.md",
-=======
-                "file": "Literature notes/C++/Effective Modern C++/References/Prefer make_unique and make_shared to direct use of new.md",
->>>>>>> origin/main
+                "file": "Daily Notes/2026-02-16.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2026-02-23"
-=======
-              "title": "Prefer make_unique and make_shared to direct use of new"
->>>>>>> origin/main
+              "title": "2026-02-16"
             }
           }
         ]
@@ -86,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7965c69a42e62fbd",
@@ -103,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Literature notes/C++/Effective Modern C++/References/Prefer make_unique and make_shared to direct use of new.md",
+                "file": "dependency hell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Prefer make_unique and make_shared to direct use of new"
+              "title": "Backlinks for dependency hell"
             }
           },
           {
@@ -122,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Literature notes/C++/Effective Modern C++/References/Prefer make_unique and make_shared to direct use of new.md",
+                "file": "dependency hell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Prefer make_unique and make_shared to direct use of new"
+              "title": "Outgoing links from dependency hell"
             }
           },
           {
@@ -165,21 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
-                "file": "Daily Notes/2026-02-23.md",
-=======
-                "file": "Literature notes/C++/Effective Modern C++/References/Prefer make_unique and make_shared to direct use of new.md",
->>>>>>> origin/main
+                "file": "Daily Notes/2026-02-16.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-<<<<<<< HEAD
-              "title": "Outline of 2026-02-23"
-=======
-              "title": "Outline of Prefer make_unique and make_shared to direct use of new"
->>>>>>> origin/main
+              "title": "Outline of 2026-02-16"
             }
           },
           {
@@ -188,8 +172,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -207,7 +191,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 430.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -221,47 +205,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c024c7d7697da536",
+  "active": "9baafab3cdf45e1f",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "Permanet Note/Python build system knowledge map.md",
+    "Daily Notes/2026-02-03.md",
+    "Daily Notes/2026-01-31.md",
+    "Daily Notes/2026-01-10.md",
     "Daily Notes/2026-02-23.md",
+    "Daily Notes/2026-02-16.md",
+    "Daily Notes/2026-02-17.md",
+    "Daily Notes/2026-02-21.md",
+    "Fleeting note/memory pool in C++ and memory fragmenting.md",
+    "Literature notes/C++/Effective Modern C++/Effective Modern C++17.md",
+    "Literature notes/C++/Effective Modern C++/References/Prefer make_unique and make_shared to direct use of new.md",
+    "Literature notes/C++/Effective Modern C++/References/When using the Pimpl Idiom, define special member functions in the implementation file.md",
+    "conflict-files-obsidian-git.md",
+    "Permanet Note/Python build system knowledge map.md",
     "Refrences Note/Home.base",
     "Refrences Note/Base References.md",
     "Permanet Note/build toolchain performance chain.md",
     "Permanet Note/uv resolver performance advantage.md",
     "Permanet Note/scikit-build-core CMake-Python bridge.md",
-    "Literature notes/C++/Effective Modern C++/References/Prefer make_unique and make_shared to direct use of new.md",
-=======
->>>>>>> origin/main
-    "Literature notes/C++/Effective Modern C++/Effective Modern C++17.md",
-    "Literature notes/C++/Effective Modern C++/References/When using the Pimpl Idiom, define special member functions in the implementation file.md",
-    "Literature notes/C++/Effective Modern C++/References/Use weak_ptr for shared_ptr like pointers that can dangle.md",
-    "Literature notes/C++/Effective Modern C++/References/Prefer make_unique and make_shared to direct use of new.md",
-    "Literature notes/C++/Effective Modern C++/References/Declare functions noexcept if they won’t emit exceptions.md",
-    "Literature notes/C++/Effective Modern C++/References/Make const member functions thread safe.md",
-    "Daily Notes/2026-02-23.md",
-    "conflict-files-obsidian-git.md",
-    "Fleeting note/Software appliance.md",
-    "Literature notes/C++/Effective Modern C++/References/Use shared_ptr for shared-ownership resource management.md",
-    "Literature notes/C++/Effective Modern C++/References/Deducing Type.md",
-    "Literature notes/C++/Effective Modern C++/References/Understand template type deduction.md",
-    "Daily Notes/2026-02-22.md",
-    "Literature notes/C++/Effective Modern C++/References/Use unique_ptr for exclusive-ownership resource management.md",
-    "Literature notes/C++/Effective Modern C++/References/Smart Pointers.md",
-    "Literature notes/C++/Effective Modern C++/References/Understand special member function generation.md",
-    "Daily Notes/2026-02-21.md",
-    "Literature notes/C++/Effective Modern C++/References/Use the explicitly typed initializer idiom when auto deduces undesired types.md",
-    "Daily Notes/2026-02-17.md",
-    "Daily Notes/2026-02-16.md",
-    "Refrences Note/Base References.md",
     "Literature notes/IPP/IPP Study Guide.md",
-    "Literature notes/IPP/Concepts/compiler.md",
-    "Literature notes/WarGame/Passwords.md",
-    "Literature notes/WarGame/Linux Command.canvas",
-    "Literature notes/WarGame/War Games.md",
-    "Literature notes/C++/Effective Modern C++/References/Use constexpr whenever possible.md",
+    "Literature notes/Fundamentals of Software Architecture/Refrences/Modularity.md",
+    "Literature notes/Fundamentals of Software Architecture/Refrences/Identifying Architecture Characteristics.md",
+    "Literature notes/Fundamentals of Software Architecture/Refrences/Architectural Thinking.md",
+    "Literature notes/CMake/CMake Study Plan.md",
+    "Fleeting note/dependency hell.md",
+    "Literature notes/C++/Effective Modern C++/References/Use weak_ptr for shared_ptr like pointers that can dangle.md",
+    "Literature notes/C++/Effective Modern C++/References/Use unique_ptr for exclusive-ownership resource management.md",
+    "Literature notes/C++/Effective Modern C++/References/Use the explicitly typed initializer idiom when auto deduces undesired types.md",
     "Refrences Note/C++",
+    "Literature notes/WarGame/Linux Command.canvas",
     "Literature notes",
     "Refrences Note",
     "Evergreen Note",
