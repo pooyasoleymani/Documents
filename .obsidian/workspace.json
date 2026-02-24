@@ -21,8 +21,23 @@
               "icon": "lucide-file",
               "title": "Prefer make_unique and make_shared to direct use of new"
             }
+          },
+          {
+            "id": "52fc47707507fca1",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json  (Working Tree)"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -157,13 +172,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/C++/Effective Modern C++/References/Prefer make_unique and make_shared to direct use of new.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Prefer make_unique and make_shared to direct use of new"
+              "title": "Outline"
             }
           },
           {
@@ -205,18 +219,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c024c7d7697da536",
+  "active": "52fc47707507fca1",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Literature notes/C++/Effective Modern C++/References/Prefer make_unique and make_shared to direct use of new.md",
     "Literature notes/C++/Effective Modern C++/References/Use weak_ptr for shared_ptr like pointers that can dangle.md",
     "Literature notes/C++/Effective Modern C++/Effective Modern C++17.md",
     "Literature notes/C++/Effective Modern C++/References/Prefer deleted functions to private undefinedones.md",
-    "Literature notes/C++/Effective Modern C++/References/Prefer make_unique and make_shared to direct use of new.md",
     "Daily Notes/2026-02-24.md",
     "Literature notes/C++/Effective Modern C++/References/When using the Pimpl Idiom, define special member functions in the implementation file.md",
     "Literature notes/C++/Effective Modern C++/References/Declare functions noexcept if they won’t emit exceptions.md",
     "Literature notes/C++/Effective Modern C++/References/Make const member functions thread safe.md",
     "Daily Notes/2026-02-23.md",
-    "conflict-files-obsidian-git.md",
     "Fleeting note/Software appliance.md",
     "Literature notes/C++/Effective Modern C++/References/Use shared_ptr for shared-ownership resource management.md",
     "Literature notes/C++/Effective Modern C++/References/Deducing Type.md",
