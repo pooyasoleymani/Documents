@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/C++/Effective Modern C++/References/Prefer make_unique and make_shared to direct use of new.md",
+                "file": "Daily Notes/2026-02-24.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Prefer make_unique and make_shared to direct use of new"
+              "title": "2026-02-24"
             }
           }
         ]
@@ -158,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/C++/Effective Modern C++/References/Prefer make_unique and make_shared to direct use of new.md",
+                "file": "Daily Notes/2026-02-24.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Prefer make_unique and make_shared to direct use of new"
+              "title": "Outline of 2026-02-24"
             }
           },
           {
@@ -192,7 +192,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 430.5
+    "width": 430.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,10 +209,11 @@
   },
   "active": "c024c7d7697da536",
   "lastOpenFiles": [
+    "Literature notes/C++/Effective Modern C++/References/Prefer make_unique and make_shared to direct use of new.md",
+    "Daily Notes/2026-02-24.md",
     "Literature notes/C++/Effective Modern C++/Effective Modern C++17.md",
     "Literature notes/C++/Effective Modern C++/References/When using the Pimpl Idiom, define special member functions in the implementation file.md",
     "Literature notes/C++/Effective Modern C++/References/Use weak_ptr for shared_ptr like pointers that can dangle.md",
-    "Literature notes/C++/Effective Modern C++/References/Prefer make_unique and make_shared to direct use of new.md",
     "Literature notes/C++/Effective Modern C++/References/Declare functions noexcept if they won’t emit exceptions.md",
     "Literature notes/C++/Effective Modern C++/References/Make const member functions thread safe.md",
     "Daily Notes/2026-02-23.md",
@@ -234,7 +236,6 @@
     "Literature notes/WarGame/Passwords.md",
     "Literature notes/WarGame/Linux Command.canvas",
     "Literature notes/WarGame/War Games.md",
-    "Literature notes/C++/Effective Modern C++/References/Use constexpr whenever possible.md",
     "Refrences Note/C++",
     "Literature notes",
     "Refrences Note",
