@@ -94,4 +94,40 @@ auto s4 = cat({&king[0], 2}, "Henry"sv);
 
 
 ### Regular Expressions
-**Raw String Literal:** string that start with *R"(*  and terminated with *)"*  
+**Raw String Literal:** string that start with *R"(*  and terminated with *)"* 
+
+```cpp
+std::regex pa{R"(\w{2}\s*\d{5}(-\d{4})?)"} // XX ddddd-dddd
+```
+
+In `<regex>` , the standard library provides support for regular expressions:
+
+- **regex_match():** Match a regular expression against a string (of known size) .
+- **regex_search():** Search for a string that matches a regular expression in an (arbitrarily long) stream of data 
+- **regex_replace():** Search for strings that match a regular expression in an (arbitrarily long) stream of data and replace them.
+- **regex_iterator:** Iterate over matches and submatches.
+- **regex_token_iterator:** Iterate over non-matches.
+
+```cpp
+void use()
+{
+ifstream in("fifile.txt"); // input fifile
+if (!in)
+	// check that the fifile was opened
+	cerr << "no fifile\n";
+
+regex pat {R"(\w{2}\s∗\d{5}(−\d{4})?)"}; // U.S. postal code pattern
+int lineno = 0;
+for (string line; getline(in,line); ) {
+	++lineno;
+	smatch matches; // matched strings go here
+	if (regex_search(line , matches, pat)) {
+	cout << lineno << ": " << matches[0] << '\n'; // the complete match
+	if (1<matches.siz e() && matches[1].matched) // if there is a sub-pattern
+		// and if it is matched
+		cout << "\t: " << matches[1] << '\n'; // submatch
+		}
+	}
+}
+```
+
