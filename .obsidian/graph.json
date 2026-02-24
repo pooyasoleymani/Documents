@@ -34,6 +34,13 @@
         "a": 1,
         "rgb": 14454745
       }
+    },
+    {
+      "query": "tag:#tond_khani  ",
+      "color": {
+        "a": 1,
+        "rgb": 725738
+      }
     }
   ],
   "collapse-display": false,
@@ -46,6 +53,6 @@
   "repelStrength": 8.55263157894737,
   "linkStrength": 0.828947368421053,
   "linkDistance": 209,
-  "scale": 0.8164965809276912,
-  "close": false
+  "scale": 0.8164965809276907,
+  "close": true
 }

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/تندخوانی/خط بری بدون درک.md",
+                "file": "Literature notes/تندخوانی/تقویت حافظه.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "خط بری بدون درک"
+              "title": "تقویت حافظه"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dependency hell.md",
+                "file": "Literature notes/تندخوانی/تقویت حافظه.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for dependency hell"
+              "title": "Backlinks for تقویت حافظه"
             }
           },
           {
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/تندخوانی/خط بری بدون درک.md",
+                "file": "Literature notes/تندخوانی/تقویت حافظه.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of خط بری بدون درک"
+              "title": "Outline of تقویت حافظه"
             }
           },
           {
@@ -185,9 +185,20 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "087035f7f990a2b4",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Literature notes/تندخوانی/تقویت حافظه.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for تقویت حافظه"
+            }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
@@ -208,10 +219,19 @@
   },
   "active": "9baafab3cdf45e1f",
   "lastOpenFiles": [
-    "Fleeting note/Untitled.md",
+    "Literature notes/تندخوانی/شرایط مطالعه.md",
+    "Literature notes/تندخوانی/تقویت حافظه.md",
+    "Permanet Note/build toolchain performance chain.md",
+    "Permanet Note/Python build system knowledge map.md",
+    "Permanet Note/uv resolver performance advantage.md",
+    "Permanet Note/scikit-build-core CMake-Python bridge.md",
+    "Literature notes/C++/Effective Modern C++/References/Deducing Type.md",
+    "Literature notes/C++/Effective Modern C++/Effective Modern C++17.md",
+    "Literature notes/C++/Effective Modern C++/References/Distinguish between () and {} when creating objects.md",
     "Literature notes/تندخوانی/خط بری بدون درک.md",
-    "Literature notes/تندخوانی",
     "Daily Notes/2026-02-23.md",
+    "Fleeting note/Untitled.md",
+    "Literature notes/تندخوانی",
     "Fleeting note/build automation reduce context switching.md",
     "Daily Notes/2026-02-16.md",
     "Daily Notes/2026-02-03.md",
@@ -220,22 +240,13 @@
     "Daily Notes/2026-02-17.md",
     "Daily Notes/2026-02-21.md",
     "Fleeting note/memory pool in C++ and memory fragmenting.md",
-    "Literature notes/C++/Effective Modern C++/Effective Modern C++17.md",
     "Literature notes/C++/Effective Modern C++/References/Prefer make_unique and make_shared to direct use of new.md",
     "Literature notes/C++/Effective Modern C++/References/When using the Pimpl Idiom, define special member functions in the implementation file.md",
     "conflict-files-obsidian-git.md",
-    "Permanet Note/Python build system knowledge map.md",
     "Refrences Note/Home.base",
     "Refrences Note/Base References.md",
-    "Permanet Note/build toolchain performance chain.md",
-    "Permanet Note/uv resolver performance advantage.md",
-    "Permanet Note/scikit-build-core CMake-Python bridge.md",
     "Literature notes/IPP/IPP Study Guide.md",
     "Literature notes/Fundamentals of Software Architecture/Refrences/Modularity.md",
-    "Literature notes/Fundamentals of Software Architecture/Refrences/Identifying Architecture Characteristics.md",
-    "Literature notes/Fundamentals of Software Architecture/Refrences/Architectural Thinking.md",
-    "Literature notes/CMake/CMake Study Plan.md",
-    "Fleeting note/dependency hell.md",
     "Refrences Note/C++",
     "Literature notes/WarGame/Linux Command.canvas",
     "Literature notes",
