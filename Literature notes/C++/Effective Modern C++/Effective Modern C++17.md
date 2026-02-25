@@ -40,7 +40,7 @@ Created Date: 2025-12-29
 		- Item 22: [[When using the Pimpl Idiom, define special member functions in the implementation file]]
 		
 5. CHAPTER 5
-	- [[Rvalue References, Move Semantics, and Perfect Forwarding]]
+	- Rvalue References, Move Semantics, and Perfect Forwarding
 		- Item 23: [[Understand move and forward]]
 		- Item 24: [[Distinguish universal references from rvalue references]]
 		- Item 25: [[Use move on rvalue references, forward on universal references]]
