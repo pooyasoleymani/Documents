@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/تندخوانی/تقویت حافظه.md",
+                "file": "Fleeting note/static class member.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "تقویت حافظه"
+              "title": "static class member"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Literature notes/تندخوانی/تقویت حافظه.md",
+                "file": "Fleeting note/static class member.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for تقویت حافظه"
+              "title": "Backlinks for static class member"
             }
           },
           {
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/تندخوانی/تقویت حافظه.md",
+                "file": "Fleeting note/static class member.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of تقویت حافظه"
+              "title": "Outline of static class member"
             }
           },
           {
@@ -192,10 +192,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Literature notes/تندخوانی/تقویت حافظه.md"
+                "file": "Fleeting note/static class member.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for تقویت حافظه"
+              "title": "File properties for static class member"
             }
           }
         ],
@@ -220,8 +220,19 @@
   },
   "active": "9baafab3cdf45e1f",
   "lastOpenFiles": [
-    "Fleeting note/Untitled.md",
+    "Fleeting note/Software appliance.md",
+    "Fleeting note/static class member.md",
+    "Fleeting note/scikit-build-core target-scoped dependencies.md",
+    "Fleeting note/pyproject.toml.md",
+    "Fleeting note/pip.md",
+    "Fleeting note/PEP 517 backend protocol.md",
+    "Fleeting note/PEP 517.md",
+    "Fleeting note/memory pool in C++ and memory fragmenting.md",
+    "Fleeting note/dependency isolation.md",
+    "Fleeting note/build automation reduce context switching.md",
+    "Permanet Note/dependency hell.md",
     "Literature notes/تندخوانی/تقویت حافظه.md",
+    "Fleeting note/Untitled.md",
     "Literature notes/تندخوانی/شرایط مطالعه.md",
     "Permanet Note/build toolchain performance chain.md",
     "Permanet Note/Python build system knowledge map.md",
@@ -233,21 +244,10 @@
     "Literature notes/تندخوانی/خط بری بدون درک.md",
     "Daily Notes/2026-02-23.md",
     "Literature notes/تندخوانی",
-    "Fleeting note/build automation reduce context switching.md",
     "Daily Notes/2026-02-16.md",
     "Daily Notes/2026-02-03.md",
     "Daily Notes/2026-01-31.md",
-    "Daily Notes/2026-01-10.md",
-    "Daily Notes/2026-02-17.md",
-    "Daily Notes/2026-02-21.md",
-    "Fleeting note/memory pool in C++ and memory fragmenting.md",
-    "Literature notes/C++/Effective Modern C++/References/Prefer make_unique and make_shared to direct use of new.md",
-    "Literature notes/C++/Effective Modern C++/References/When using the Pimpl Idiom, define special member functions in the implementation file.md",
-    "conflict-files-obsidian-git.md",
     "Refrences Note/Home.base",
-    "Refrences Note/Base References.md",
-    "Literature notes/IPP/IPP Study Guide.md",
-    "Literature notes/Fundamentals of Software Architecture/Refrences/Modularity.md",
     "Refrences Note/C++",
     "Literature notes/WarGame/Linux Command.canvas",
     "Literature notes",
