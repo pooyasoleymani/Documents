@@ -257,7 +257,6 @@ code. For details, see **Item 14 [[Declare functions noexcept if they won’t em
 ---
 
 ## Function Arguments
-
 arrays applies to type deduction for functions and their decay into function
 pointers:
 
