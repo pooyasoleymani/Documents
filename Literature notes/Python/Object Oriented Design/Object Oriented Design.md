@@ -39,7 +39,6 @@ The process of converting a *design* into a working program that does what the p
 In **Iterative Development Model** , a small part of the task is *modeled*, *designed* and *programmed* and *product* is *reviewed* and *expanded* to improve each *feature* and include *new feature* in a series of short *development cycles*.
 
 ---
-
 - **Objects vs Classes:**
 *Class* is blueprint of creating object .
 
@@ -56,9 +55,7 @@ Collection of *attributes* and *methods* that other objects can access to intera
 
 ---
 - **Encapsulation**
-Hiding the *implementation* of an object is suitably called **information**
-**hiding**. It is also sometimes referred to as *encapsulation*, but encapsulation is
-actually a more encompassing term. *Encapsulated* data is not necessarily hidden.
+Hiding the *implementation* of an object is suitably called **information hiding**. It is also sometimes referred to as *encapsulation*, but encapsulation is actually a more encompassing term. *Encapsulated* data is not necessarily hidden.
 
 ---
 - **Abstraction**
