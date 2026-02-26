@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanet Note/Socket.md",
+                "file": "Permanet Note/Function Object.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Socket"
+              "title": "Function Object"
             }
           }
         ]
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanet Note/Socket.md",
+                "file": "Permanet Note/Function Object.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Socket"
+              "title": "Outline of Function Object"
             }
           },
           {
@@ -219,6 +219,9 @@
   },
   "active": "7b7c1a71a61cc31d",
   "lastOpenFiles": [
+    "Permanet Note/Function Template Restrices.md",
+    "Permanet Note/Function Object.md",
+    "Literature notes/IPP/Concepts/compiler.md",
     "Daily Notes/2026-02-26.md",
     "Permanet Note/Socket.md",
     "Literature notes/Python/Data Analysis/Numpy.md",
@@ -244,9 +247,6 @@
     "Literature notes/C++/Effective Modern C++/References/Prefer auto to explicit type declarations.md",
     "Literature notes/C++/Effective Modern C++/References/Know how to view deduced types.md",
     "Literature notes/C++/Effective Modern C++/References/Understand decltype.md",
-    "Literature notes/C++/Effective Modern C++/References/Understand auto type deduction.md",
-    "Literature notes/IPP/IPP Study Guide.md",
-    "Literature notes/CMake/CMake Study Plan.md",
     "Literature notes/تندخوانی",
     "Refrences Note/Home.base",
     "Refrences Note/C++",
