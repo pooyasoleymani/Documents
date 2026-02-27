@@ -13,32 +13,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanet Note/Variadic Recursive Instantiation Engine.md",
+                "file": "Daily Notes/2026-02-16.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Variadic Recursive Instantiation Engine"
+              "title": "2026-02-16"
             }
           },
           {
             "id": "f199b148a608b09c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanet Note/Compilation Process.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Compilation Process"
-            }
-          },
-          {
-            "id": "f023219057663554",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -66,24 +51,9 @@
               "icon": "lucide-file",
               "title": "Compile-Time State Machine"
             }
-          },
-          {
-            "id": "71a52fdffdcc4d51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CI/CI-CD pipeline speed.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "CI-CD pipeline speed"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -278,35 +248,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f023219057663554",
+  "active": "f199b148a608b09c",
   "lastOpenFiles": [
-    "Permanet Note/Strings and Regular Expressions.md",
-    "Literature notes/Python/Object Oriented Design/Object Oriented Design.md",
-    "Literature notes/Python/Object Oriented Design",
     "Permanet Note/Compile-Time State Machine.md",
-    "Daily Notes/2026-02-24.md",
-    "Permanet Note/Stream Buffer.md",
     "CI/CI-CD pipeline speed.md",
+    "Literature notes/Python/Object Oriented Design/Object Oriented Design.md",
+    "Permanet Note/scikit-build-core Bridge CMake and Python.md",
+    "Permanet Note/scikit-build-core CMake-Python bridge.md",
+    "Permanet Note/Dependency Hell.md",
+    "Fleeting note/pyproject.toml.md",
+    "Daily Notes/2026-02-16.md",
+    "Permanet Note/Compilation Process.md",
+    "Daily Notes/2026-02-26.md",
+    "Daily Notes/2026-02-24.md",
+    "Daily Notes/2026-02-27.md",
+    "Daily Notes/2026-02-23.md",
+    "Permanet Note/Variadic Recursive Instantiation Engine.md",
+    "Permanet Note/Strings and Regular Expressions.md",
+    "Literature notes/Python/Object Oriented Design",
+    "Permanet Note/Stream Buffer.md",
     "Permanet Note/streambuf.md",
     "Permanet Note/Input and Output.md",
-    "Daily Notes/2026-02-23.md",
     "Literature notes/C++/Effective Modern C++/References/Prefer alias declarations to typedefs.md",
     "Fleeting note/Memory Pool in C++ and Memory Fragmenting.md",
-    "Permanet Note/Compilation Process.md",
     "Permanet Note/Scope and Lifetime (C++).md",
     "Permanet Note/Build Toolchain Performance Chain.md",
     "Permanet Note/compile-time.md",
-    "Permanet Note/Dependency Hell.md",
     "Permanet Note/Function Template.md",
     "Permanet Note/Socket.md",
     "Permanet Note/SFINAE.md",
-    "Permanet Note/Generic Type Filtering.md",
-    "Permanet Note/Function Template Restrices.md",
-    "Permanet Note/Function Object.md",
-    "Permanet Note/Forward Iterator.md",
-    "Permanet Note/Concepts and Generic Programming.md",
-    "Fleeting note/pip.md",
-    "Fleeting note/PEP 517 backend protocol.md",
     "CI",
     "Literature notes/Python/Data Analysis",
     "Literature notes/Python",

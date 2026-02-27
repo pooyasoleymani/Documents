@@ -1,6 +1,8 @@
 ---
 tags:
   - build-tools
+  - python
+  - cmake
 ---
 ---
 ## scikit-build-core Bridge CMake and Python 
