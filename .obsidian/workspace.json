@@ -219,8 +219,9 @@
   },
   "active": "7b7c1a71a61cc31d",
   "lastOpenFiles": [
-    "Permanet Note/Function Template Restrices.md",
+    "Permanet Note/Untitled.md",
     "Permanet Note/template.md",
+    "Permanet Note/Function Template Restrices.md",
     "Permanet Note/Constrained Template Arguments (C++20).md",
     "Permanet Note/function template.md",
     "Permanet Note/Function Object.md",
@@ -246,7 +247,6 @@
     "Literature notes/C++/Effective Modern C++/References/Prefer alias declarations to typedefs.md",
     "Literature notes/C++/Effective Modern C++/References/Prefer nullptr to 0 and NULL.md",
     "Literature notes/C++/Effective Modern C++/References/Distinguish between () and {} when creating objects.md",
-    "Literature notes/C++/Effective Modern C++/References/Use the explicitly typed initializer idiom when auto deduces undesired types.md",
     "Literature notes/تندخوانی",
     "Refrences Note/Home.base",
     "Refrences Note/C++",
