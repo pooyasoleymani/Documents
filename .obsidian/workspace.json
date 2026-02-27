@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanet Note/Function Object.md",
+                "file": "Permanet Note/template.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Function Object"
+              "title": "template"
             }
           }
         ]
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanet Note/Function Object.md",
+                "file": "Permanet Note/template.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Function Object"
+              "title": "Outline of template"
             }
           },
           {
@@ -220,6 +220,9 @@
   "active": "7b7c1a71a61cc31d",
   "lastOpenFiles": [
     "Permanet Note/Function Template Restrices.md",
+    "Permanet Note/template.md",
+    "Permanet Note/Constrained Template Arguments (C++20).md",
+    "Permanet Note/function template.md",
     "Permanet Note/Function Object.md",
     "Literature notes/IPP/Concepts/compiler.md",
     "Daily Notes/2026-02-26.md",
@@ -244,9 +247,6 @@
     "Literature notes/C++/Effective Modern C++/References/Prefer nullptr to 0 and NULL.md",
     "Literature notes/C++/Effective Modern C++/References/Distinguish between () and {} when creating objects.md",
     "Literature notes/C++/Effective Modern C++/References/Use the explicitly typed initializer idiom when auto deduces undesired types.md",
-    "Literature notes/C++/Effective Modern C++/References/Prefer auto to explicit type declarations.md",
-    "Literature notes/C++/Effective Modern C++/References/Know how to view deduced types.md",
-    "Literature notes/C++/Effective Modern C++/References/Understand decltype.md",
     "Literature notes/تندخوانی",
     "Refrences Note/Home.base",
     "Refrences Note/C++",
