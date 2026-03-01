@@ -168,3 +168,43 @@ LessThan Its {"Backus"s}; // compare i with Backus
 
 #### 3. Lambda Expressions
 
+The notation` [&](int a){ return a<x; } `is called a **lambda expression**. It generates a *function object*  exactly like `Less_than<int>{x}`.  The `[&]` is a capture list specifying that all local names used in the *lambda* body (such as x) will be accessed through references. Had we wanted to ‘‘capture’’ only x, we could have said so: `[&x]`. Had we wanted to give the generated object a copy of x, we could have said so: `[=x]`. Capture nothing is `[ ]`, capture all local names used by reference is `[&]`, and capture all local names used by value is `[=]`.
+Using lambdas can be convenient and terse, but also obscure. For nontrivial actions (say, more
+than a simple expression), I prefer to name the operation so as to more clearly state its purpose and
+to make it available for use in several places in a program.
+
+```cpp
+void User2() {
+	vector<std::unique_ptr<Shape>> v;
+	while(cin)
+		v.push_back(read_shape(cin));
+	for_all(v, [](std::unique_ptr<Shape>& ps){ps->draw();});
+	for_all(v, [](std::unique_ptr<Shape>& ps){ps->rotate(45);});
+}
+
+
+// Like a function, a lambda can be generic. For example:
+
+template<class S>
+void rotate_and_draw(vector<S>& v, int r)
+{
+	for_all(v,[](auto& s){ s−>rotate(r); s−>draw(); });
+}
+```
+
+
+>[!NOTE]
+>**Lambda** with *auto* parameter a template , is **a generic lambda**.
+>
+
+
+
+### Template Mechanisms
+To define good templates, we need some supporting language facilities:
+
+- Values dependent on a type: *variable templates* (§6.4.1).
+- Aliases for types and templates: *alias templates* (§6.4.2).
+- A compile-time selection mechanism: *if constexpr* (§6.4.3).
+- A *compile-time* mechanism to inquire about properties of types and expressions: *requires expressions* (§7.2.3).
+- In addition, *constexpr functions* (§1.6) and *static_asserts* (§3.5.5) often take part in template design and use.
+These basic mechanisms are primarily tools for building general, foundational abstractions.
