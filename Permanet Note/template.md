@@ -202,9 +202,10 @@ void rotate_and_draw(vector<S>& v, int r)
 ### Template Mechanisms
 To define good templates, we need some supporting language facilities:
 
-- Values dependent on a type: *variable templates* (§6.4.1).
-- Aliases for types and templates: *alias templates* (§6.4.2).
-- A compile-time selection mechanism: *if constexpr* (§6.4.3).
+- Values dependent on a type: *variable templates* .
+- Aliases for types and templates: *alias templates* .
+- A compile-time selection mechanism: *if constexpr* .
 - A *compile-time* mechanism to inquire about properties of types and expressions: *requires expressions* (§7.2.3).
-- In addition, *constexpr functions* (§1.6) and *static_asserts* (§3.5.5) often take part in template design and use.
+- In addition, *constexpr functions* and *static_asserts*  often take part in template design and use.
 These basic mechanisms are primarily tools for building general, foundational abstractions.
+
