@@ -192,3 +192,28 @@ it is *harmful* if parents provide *overlapping* .
 - **Method Resolution Order(MRO)**
 Python provide *MRO* to understand witch of the alternative methods will be used and avoiding *overlapping*.
 #### Multiple inheritance as a *mixin* *technique* for combining unrelated aspects can be helpful.
+
+
+
+---
+## "4+1"  Views
+
+### 1. Logical View
+A **logical view** of data *entities*, their *static attributes*, and their *relationships*. This is the heart of *object oriented design*.
+
+### 2. Process View 
+A **process view** that describes how the data is *processed*.
+This can take a variety of forms, including *sate models*, *activity diagram* and *sequence diagrams*. 
+
+### 3. Development View 
+A **development view** of code *components* to *built*.
+This *diagram* shows relationships among *software components*. This is used to show how *class* *definitions* are gathered into *modules* and *packages*.
+
+### 4. Physical View 
+A **physical view** of *application* to be *integrated* and *deployed*.
+In cases where an *application* follows a common *design pattern*, a *sophisticated diagram* isn't necessary. In other cases, diagram is essential to show how a *collection* of *components* are *integrated* and *deployed*.
+
+### 5. Context View 
+Provides a *unifying context* for the other four views.
+The **context view** will often describe the *actors* that use with the *system* to be build. This can be involve *human actors* as well as *automated interfaces*: both are *outside* the *system*, and the *system* must respond to these *external actors*.
+
