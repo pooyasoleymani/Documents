@@ -12,7 +12,7 @@ Core insight: Resolver speed ([[uv resolver performance advantage]]) enables bui
 
 Key connections:
 
-- [[uv resolver performance advantage]] → [[CI/CD pipeline speed]]
+- [[uv resolver performance advantage]] → [[CI-CD pipeline speed]]
 
 - [[scikit-build-core CMake-Python bridge]] → [[dependency isolation]]
 
