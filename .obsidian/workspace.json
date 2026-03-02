@@ -13,6 +13,21 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Permanet Note/Forward Iterator.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Forward Iterator"
+            }
+          },
+          {
+            "id": "432f60805cc89cac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Permanet Note/Concepts and Generic Programming.md",
                 "mode": "source",
                 "source": false,
@@ -21,8 +36,24 @@
               "icon": "lucide-file",
               "title": "Concepts and Generic Programming"
             }
+          },
+          {
+            "id": "39a2f4e8c4797d57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanet Note/Random Access Iterator.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Random Access Iterator"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -54,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "compile-time",
+                "query": "decltype",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,8 +106,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -219,10 +249,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7b7c1a71a61cc31d",
+  "active": "432f60805cc89cac",
   "lastOpenFiles": [
-    "Literature notes/C++/Effective Modern C++/References/Know how to view deduced types.md",
+    "Permanet Note/Forward Iterator.md",
+    "Permanet Note/Random Access Iterator.md",
+    "Literature notes/Fundamentals of Software Architecture/Refrences/Modularity.md",
     "Permanet Note/Concepts and Generic Programming.md",
+    "Literature notes/C++/Effective Modern C++/References/Know how to view deduced types.md",
+    "Permanet Note/stream.md",
+    "Permanet Note/linked list.md",
+    "Literature notes/C++/Effective Modern C++/References/Understand decltype.md",
     "Literature notes/IPP/Concepts/LLVM.md",
     "Literature notes/C++/Effective Modern C++/References/Use constexpr whenever possible.md",
     "Literature notes/C++/Effective Modern C++/References/Declare functions noexcept if they won’t emit exceptions.md",
@@ -242,12 +278,6 @@
     "Literature notes/C++/Effective Modern C++/References/Deducing Type.md",
     "Permanet Note/Constrained Template Arguments (C++20).md",
     "Permanet Note/function template.md",
-    "Permanet Note/Function Object.md",
-    "Literature notes/IPP/Concepts/compiler.md",
-    "Daily Notes/2026-02-26.md",
-    "Permanet Note/Socket.md",
-    "Literature notes/Python/Data Analysis/Numpy.md",
-    "Literature notes/Python/Data Analysis/Data.md",
     "Literature notes/Python/Data Analysis",
     "Literature notes/Python",
     "Literature notes/تندخوانی",
