@@ -209,3 +209,81 @@ To define good templates, we need some supporting language facilities:
 - In addition, *constexpr functions* and *static_asserts*  often take part in template design and use.
 These basic mechanisms are primarily tools for building general, foundational abstractions.
 
+
+#### Variable Template 
+We can define constant or variables of type **T** and other types depending on **T**.
+
+```cpp
+template<class T>
+	constexpr T viscosity = 0.4;
+
+template<class T> 
+	constexpr scpace_vector<T> exteranl_acceleration = {T{}, T{-9.8}, T{}};
+
+auto vis2 = 2 * viscosity<double>;
+
+template<typename T, typename T2>
+	constexpr Assignable = is_assignable<T&, T2>::value;
+
+template<typename T> 
+	void test()
+	{
+		static_assert(Assignable<T&, double>, "can't assign a double");
+		static_assert(Assignble<T&, string>, "can't assign a string");
+	}
+
+```
+
+#### Alias Template
+Modern use of *typedef* in C++11 and later.
+With type alias we can write portable codes.
+*Example*: **value_type** in STD 
+
+```cpp
+template<typename T>
+	using Value_type = typename T::value_type;
+	
+template<typename Container>
+void algo(Container& c)
+{
+	Vector<Value_type<Container>> vec;
+}
+```
+
+#### Compile-Time **if**
+
+```cpp
+template<typename T>
+void Update(T& target)
+{
+	// ...
+	if constexpr(is_pod<T>::value)
+		simple_and_fast(target);
+	else
+		slow_and_safe(target);
+	// ...
+}
+```
+
+
+
+>[!IMPORTANT]
+>Importantly, an **if constexpr** is not a **text-manipulation** mechanism and *cannot* be used to break the usual rules of grammar, type, and scope.
+>```cpp
+>template<typename T>
+>void bad(T arg)
+>{
+> 	// ...
+> 	if constexpr(Something<T>::value)
+> 		try {
+> 		// ...	
+> 		}
+> 		catch(...) {/* ... */}
+> } // syntax error
+> ```
+
+
+
+
+
+
