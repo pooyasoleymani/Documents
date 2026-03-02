@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CI/CI-CD pipeline speed.md",
+                "file": "Permanet Note/Concepts and Generic Programming.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "CI-CD pipeline speed"
+              "title": "Concepts and Generic Programming"
             }
           }
         ]
@@ -54,12 +54,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "compile-time",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTimeReverse"
               },
               "icon": "lucide-search",
               "title": "Search"
@@ -75,7 +75,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -157,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CI/CI-CD pipeline speed.md",
+                "file": "Permanet Note/Concepts and Generic Programming.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CI-CD pipeline speed"
+              "title": "Outline of Concepts and Generic Programming"
             }
           },
           {
@@ -203,7 +204,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,13 +221,25 @@
   },
   "active": "7b7c1a71a61cc31d",
   "lastOpenFiles": [
+    "Literature notes/C++/Effective Modern C++/References/Know how to view deduced types.md",
+    "Permanet Note/Concepts and Generic Programming.md",
+    "Literature notes/IPP/Concepts/LLVM.md",
+    "Literature notes/C++/Effective Modern C++/References/Use constexpr whenever possible.md",
+    "Literature notes/C++/Effective Modern C++/References/Declare functions noexcept if they won’t emit exceptions.md",
+    "Permanet Note/template.md",
+    "Permanet Note/compile-time.md",
+    "Literature notes/C++/Effective Modern C++/References/Distinguish between () and {} when creating objects.md",
+    "Literature notes/C++/Effective Modern C++/References/Make const member functions thread safe.md",
+    "Literature notes/C++/Effective Modern C++/References/Prefer alias declarations to typedefs.md",
+    "Literature notes/C++/Effective Modern C++/References/Prefer auto to explicit type declarations.md",
+    "Literature notes/C++/Effective Modern C++/Effective Modern C++17.md",
+    "Literature notes/IPP/IPP Study Guide.md",
+    "Literature notes/IPP/Concepts/SIMD.md",
     "CI/CI-CD pipeline speed.md",
     "CI",
-    "Permanet Note/template.md",
     "Permanet Note/Function Template Restrices.md",
     "Literature notes/C++/Effective Modern C++/References/Understand template type deduction.md",
     "Literature notes/C++/Effective Modern C++/References/Deducing Type.md",
-    "Permanet Note/Untitled.md",
     "Permanet Note/Constrained Template Arguments (C++20).md",
     "Permanet Note/function template.md",
     "Permanet Note/Function Object.md",
@@ -234,20 +248,8 @@
     "Permanet Note/Socket.md",
     "Literature notes/Python/Data Analysis/Numpy.md",
     "Literature notes/Python/Data Analysis/Data.md",
-    "Literature notes/C++/Effective Modern C++/References/auto.md",
     "Literature notes/Python/Data Analysis",
-    "Literature notes/C++/Effective Modern C++/Effective Modern C++17.md",
-    "Literature notes/C++/Effective Modern C++/References/Understand move and forward.md",
-    "Literature notes/C++/Effective Modern C++/References/Use weak_ptr for shared_ptr like pointers that can dangle.md",
-    "Literature notes/C++/Effective Modern C++/References/Prefer make_unique and make_shared to direct use of new.md",
-    "Literature notes/C++/Effective Modern C++/References/When using the Pimpl Idiom, define special member functions in the implementation file.md",
-    "Literature notes/C++/Effective Modern C++/References/Rvalue References, Move Semantics, and Perfect Forwarding.md",
-    "Daily Notes/2026-02-24.md",
-    "Daily Notes/2026-02-23.md",
     "Literature notes/Python",
-    "Literature notes/C++/Effective Modern C++/References/const_cast.md",
-    "Literature notes/C++/Effective Modern C++/References/Prefer deleted functions to private undefinedones.md",
-    "Literature notes/C++/Effective Modern C++/References/Prefer scoped enums to unscoped enums.md",
     "Literature notes/تندخوانی",
     "Refrences Note/Home.base",
     "Refrences Note/C++",

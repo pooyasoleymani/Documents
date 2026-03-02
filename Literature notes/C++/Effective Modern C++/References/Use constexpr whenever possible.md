@@ -28,8 +28,8 @@ std::array<int, arraySize> data: // error! arraySize's value not known at compil
 
 ### Usage Scenarios:
 
-1. **constexpr** functions can be use in context that demand *compile-time* constant. if any of arguments not known during compilation your code will be rejected.
-2. When **constexpr** function called with one or more values that are not known during *compile-time* function act like normal function.
+1. **constexpr** functions can be use in context that demand *[[compile-time]]* constant. if any of arguments not known during compilation your code will be rejected.
+2. When **constexpr** function called with one or more values that are not known during *[[compile-time]]* function act like normal function.
 
 
 
@@ -117,7 +117,7 @@ constexpr auto reflectedMid = reflection(mid);
 >[!IMPORTANT] **Things to Remember**
 >• **constexpr** objects are *const* and are initialized with values known during
 *compilation*.
-• **constexpr** functions can produce *compile-time* results when called with
+• **constexpr** functions can produce *[[compile-time]]* results when called with
 arguments whose values are known during *compilation*.
 • **constexpr** objects and functions may be used in a wider range of contexts
 than **non-constexpr** objects and functions.
