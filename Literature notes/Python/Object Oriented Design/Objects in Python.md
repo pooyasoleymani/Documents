@@ -128,12 +128,71 @@ python -m doctest main.py
 ---
 
 ## Modules and Packages
-*Modules* are Python files.
-for *import*  modules use import and name of the module without *suffix(.py)*
+1. *Modules* are Python files.
+2. *Package* is collection of *modules* in folders.
+
+>for *import*  modules use import and name of the module without *suffix(.py)*
 
 - When we use `*`  for import every things we use `__all__` list in module. 
 ```python
 from module import *
 ```
 
+---
+### Organizing Modules
+For tell *python* that a folder is a *package* we need to create a `__init__.py` into the each folder if this file not exist we can't *import* that package.
+
+#### Absolute import
+If use *full path* of package to *import* that *package* 
+
+```python 
+from ecommerce.products import Product
+```
+
+---
+#### Relative import 
+If we want to work in *same package* we can use relative import 
+```python 
+from .database import Database
+from ..contact.email import send_email
+```
+
+---
+#### `__ini__.py`  is entry of contact to that module .
+---
+#### Package as Whole
+When we want to access to a *variable* or *function* from one *module* in other place we can put that in `__init__.py` file then every one can *import* that
+
+```python
+# in ecommerce/__init__.py
+from .database import db
+#########################################
+from ecommerce import db # instead of from ecommerce.database import db
+```
+
+---
+#### Organizing our code in modules
+*Module-level* code *executed* immediately at the time it is *imported*.
+if we have share variable for use in other modules we can create function initialize to create that object or *singleton* 
+
+```python
+db: Optional[Database] = None
+
+def initialize_database(connection: Optional[str] = None) -> None:
+	global db
+	db = Database(connection)
+
+
+def get_database(connection: Optional[str] = None) -> Database:
+	global db
+	if not db:
+		db = Database(connection)
+	return db
+```
+
+
+---
+
+### Access to Data 
+In python interpreter has no rule to prevent to access of variable of class we can use `_` before variable to show that variable is private and we can use `__` name mangling for private attributes that need extra work for access ( `_<class name>__X`).
 

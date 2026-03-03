@@ -152,7 +152,7 @@ class Teacher {
 Driven class inherit Base class behavior , methods or properties.
 if use Abstract class driven class must be *override* abstract method.
 
-*Pron:* It make to repeatability and we don't need to rewrite code
+*Pron:* It make to repeatability and we don't need to rewrite code, and code duplication.
 *Cron:* tightly coupling in interface and driven class  
 
 

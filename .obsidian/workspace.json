@@ -38,7 +38,7 @@
             }
           },
           {
-            "id": "531e595783b03638",
+            "id": "37b288d7c633abec",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,21 +50,6 @@
               },
               "icon": "lucide-file",
               "title": "Objects in Python"
-            }
-          },
-          {
-            "id": "37b288d7c633abec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanet Note/Compile-Time State Machine.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Compile-Time State Machine"
             }
           }
         ],
@@ -263,11 +248,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "531e595783b03638",
+  "active": "12d83b769816be49",
   "lastOpenFiles": [
-    "Literature notes/Python/Object Oriented Design/Object Oriented Design.md",
-    "Literature notes/Python/Object Oriented Design/Objects in Python.md",
     "Permanet Note/Compile-Time State Machine.md",
+    "Permanet Note/Strings and Regular Expressions.md",
+    "Literature notes/Python/Object Oriented Design/Objects in Python.md",
+    "Literature notes/Python/Object Oriented Design/Object Oriented Design.md",
     "CI/CI-CD pipeline speed.md",
     "Permanet Note/scikit-build-core Bridge CMake and Python.md",
     "Permanet Note/scikit-build-core CMake-Python bridge.md",
@@ -280,7 +266,6 @@
     "Daily Notes/2026-02-27.md",
     "Daily Notes/2026-02-23.md",
     "Permanet Note/Variadic Recursive Instantiation Engine.md",
-    "Permanet Note/Strings and Regular Expressions.md",
     "Literature notes/Python/Object Oriented Design",
     "Permanet Note/Stream Buffer.md",
     "Permanet Note/streambuf.md",
