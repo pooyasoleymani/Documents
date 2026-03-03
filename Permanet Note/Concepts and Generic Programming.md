@@ -54,6 +54,45 @@ Number sum(Sequence s, Number n);
 >In C++ concepts, `std::ranges::forward_range` requires iterators that meet the Forward Iterator requirements, while `std::ranges::random_access_range` requires iterators that meet the Random Access Iterator requirements. The concept `std::sortable` specifically requires Random Access Iterators because sorting algorithms often need to perform random access.
 
 
-### Version:0.9 StartHTML:0000000105 EndHTML:0000000320 StartFragment:0000000141 EndFragment:0000000280
+### Concept-based Overloading
 
-Concept-based Overloading
+we can *overload based* on their properties, much as we do for functions. Consider a slightly simplified *standard-library* function **advance()** that advances an *iterator*:
+
+```cpp
+template<Forward_Iterator Iter>
+void advance(Iter it, int n)
+{
+	while(n--)
+		++p; // forward iterator has ++, but not += or +
+} 
+
+template<Random_Access_Iterator Iter>
+void advance(Iter it, int n)
+{
+	p += n;
+}
+
+void user(vector<int>::iterator vip, list<string>::iterator lsp)
+{
+	advance(vip, 10);
+	advance(lsp, 10);
+}
+
+```
+
+>[!IMPORTANT]
+> Like other overloading , this is [[compile-time]] mechanism implying no [[run-time]] cost and where the compiler does not  find best choice it gives an **ambiguity error**.
+
+
+
+#### Consider first a *single argument* for several *alternative functions*:
+
+• If the *argument* doesn’t match the **concept**, that alternative cannot be chosen.
+• If the *argument* matches the **concept** for just one alternative, that alternative is chosen.
+• If *arguments* from two alternatives are equally good matches for a **concept**, we have an ambiguity.
+• If *arguments* from two alternatives match a **concept** and one is stricter than the other (match all the *requirements* of the other and more), that alternative is chosen.
+
+#### For an alternative to be chosen it has to be
+• a match for all of its arguments, and
+• at least an equally good match for all arguments as other alternatives, and
+• a better match for at least one argument.
