@@ -30,4 +30,4 @@ A **Forward Iterator** is the most basic type of iterator that allows traversal 
 - Reading elements from a [[stream]].
 
 ---
-Ref: [[Concepts and Generic Programming]]
+Ref: [[Concepts and Generic Programming]], [[Iterator vs Pointer]]

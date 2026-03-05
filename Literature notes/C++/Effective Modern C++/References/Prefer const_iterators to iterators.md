@@ -77,3 +77,7 @@ auto cbegin(const C& container) -> decltype(std::begin(container))
 >• Prefer *const_iterators* to *iterators*.
 • In maximally generic code, prefer non-member versions of *begin*, end, *rbegin*, etc., over their member function counterparts.
 
+
+
+---
+Reff: [[Iterator vs Pointer]], [[Random Access Iterator]], [[Forward Iterator]],[[Concepts and Generic Programming]]

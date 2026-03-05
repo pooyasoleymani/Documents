@@ -37,4 +37,4 @@ A **Random Access Iterator** is the most powerful category of iterators. It supp
 
 
 ---
-Ref: Ref: [[Concepts and Generic Programming]]
+Ref: [[Concepts and Generic Programming]], [[Iterator vs Pointer]]

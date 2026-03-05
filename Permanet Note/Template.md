@@ -66,7 +66,7 @@ struct Buffer {
 
 
 ### Template Argument Deduction
-[[Understand template type deduction]]
+
 
 ```cpp
 auto p = make_pair(1.2, 5); // p is pair<double, int> 
@@ -284,6 +284,29 @@ void Update(T& target)
 
 
 
+### Variadic Templates
+A template can be defined to accept an arbitrary number of arguments of arbitrary types. Such a template is called a **variadic** template.
+
+
+example:
+```cpp
+
+void print()
+{
+// when no argument pass 
+}
+
+template<typename T, typename... Tail>
+void print(T head, Tail... tail)
+{
+	std::cout << head << ' ';
+	print(tail...);
+}
+```
+
+#### A parameter declare with  *...* called *parameter pack*. 
 
 
 
+---
+Reff: [[Understand template type deduction]]

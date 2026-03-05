@@ -13,47 +13,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanet Note/Forward Iterator.md",
+                "file": "Permanet Note/Template.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Forward Iterator"
-            }
-          },
-          {
-            "id": "432f60805cc89cac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanet Note/Concepts and Generic Programming.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Concepts and Generic Programming"
-            }
-          },
-          {
-            "id": "39a2f4e8c4797d57",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanet Note/Random Access Iterator.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Random Access Iterator"
+              "title": "Template"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "decltype",
+                "query": "templa",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 421.5
   },
   "right": {
     "id": "7965c69a42e62fbd",
@@ -188,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanet Note/Concepts and Generic Programming.md",
+                "file": "Permanet Note/Template.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Concepts and Generic Programming"
+              "title": "Outline of Template"
             }
           },
           {
@@ -234,8 +203,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -249,35 +217,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "432f60805cc89cac",
+  "active": "7b7c1a71a61cc31d",
   "lastOpenFiles": [
+    "Permanet Note/stream.md",
+    "Permanet Note/Socket.md",
+    "Permanet Note/linked list.md",
+    "Permanet Note/Iterator vs Pointer.md",
+    "Permanet Note/Function Template Restrices.md",
     "Permanet Note/Forward Iterator.md",
+    "Permanet Note/dependency hell.md",
+    "Permanet Note/Concepts and Generic Programming.md",
+    "Permanet Note/Constrained Template Arguments (C++20).md",
+    "Permanet Note/compile-time.md",
+    "Permanet Note/build toolchain performance chain.md",
+    "Literature notes/C++/Effective Modern C++/References/Prefer const_iterators to iterators.md",
     "Permanet Note/Random Access Iterator.md",
     "Literature notes/Fundamentals of Software Architecture/Refrences/Modularity.md",
-    "Permanet Note/Concepts and Generic Programming.md",
     "Literature notes/C++/Effective Modern C++/References/Know how to view deduced types.md",
-    "Permanet Note/stream.md",
-    "Permanet Note/linked list.md",
     "Literature notes/C++/Effective Modern C++/References/Understand decltype.md",
     "Literature notes/IPP/Concepts/LLVM.md",
     "Literature notes/C++/Effective Modern C++/References/Use constexpr whenever possible.md",
     "Literature notes/C++/Effective Modern C++/References/Declare functions noexcept if they won’t emit exceptions.md",
-    "Permanet Note/template.md",
-    "Permanet Note/compile-time.md",
+    "Permanet Note/Template.md",
     "Literature notes/C++/Effective Modern C++/References/Distinguish between () and {} when creating objects.md",
     "Literature notes/C++/Effective Modern C++/References/Make const member functions thread safe.md",
     "Literature notes/C++/Effective Modern C++/References/Prefer alias declarations to typedefs.md",
     "Literature notes/C++/Effective Modern C++/References/Prefer auto to explicit type declarations.md",
     "Literature notes/C++/Effective Modern C++/Effective Modern C++17.md",
     "Literature notes/IPP/IPP Study Guide.md",
-    "Literature notes/IPP/Concepts/SIMD.md",
-    "CI/CI-CD pipeline speed.md",
     "CI",
-    "Permanet Note/Function Template Restrices.md",
-    "Literature notes/C++/Effective Modern C++/References/Understand template type deduction.md",
-    "Literature notes/C++/Effective Modern C++/References/Deducing Type.md",
-    "Permanet Note/Constrained Template Arguments (C++20).md",
-    "Permanet Note/function template.md",
     "Literature notes/Python/Data Analysis",
     "Literature notes/Python",
     "Literature notes/تندخوانی",
