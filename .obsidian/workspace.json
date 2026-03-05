@@ -203,7 +203,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,6 +220,8 @@
   },
   "active": "7b7c1a71a61cc31d",
   "lastOpenFiles": [
+    "Permanet Note/X11 implement in C++.md",
+    "Permanet Note/Template.md",
     "Permanet Note/stream.md",
     "Permanet Note/Socket.md",
     "Permanet Note/linked list.md",
@@ -238,13 +241,11 @@
     "Literature notes/IPP/Concepts/LLVM.md",
     "Literature notes/C++/Effective Modern C++/References/Use constexpr whenever possible.md",
     "Literature notes/C++/Effective Modern C++/References/Declare functions noexcept if they won’t emit exceptions.md",
-    "Permanet Note/Template.md",
     "Literature notes/C++/Effective Modern C++/References/Distinguish between () and {} when creating objects.md",
     "Literature notes/C++/Effective Modern C++/References/Make const member functions thread safe.md",
     "Literature notes/C++/Effective Modern C++/References/Prefer alias declarations to typedefs.md",
     "Literature notes/C++/Effective Modern C++/References/Prefer auto to explicit type declarations.md",
     "Literature notes/C++/Effective Modern C++/Effective Modern C++17.md",
-    "Literature notes/IPP/IPP Study Guide.md",
     "CI",
     "Literature notes/Python/Data Analysis",
     "Literature notes/Python",
