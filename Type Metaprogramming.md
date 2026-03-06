@@ -27,3 +27,5 @@ static_assert(AllIntegral<int, long, short>::value, "همه عدد صحیحند"
 static_assert(!AllIntegral<int, double>::value, "double عدد صحیح نیست");
 
 ```
+
+اینجا [[recursion]] در سطح type انجام می‌دهد و [[compile-time]] تصمیم می‌گیرد.
