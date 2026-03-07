@@ -88,17 +88,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanet Note/TypeList‑based Meta‑Recursion.md",
+                "file": "Permanet Note/Template.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "TypeList‑based Meta‑Recursion"
+              "title": "Template"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "compile-time",
+                "query": "templ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -233,13 +233,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanet Note/declval().md",
+                "file": "Permanet Note/Template.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of declval()"
+              "title": "Outline of Template"
             }
           },
           {
@@ -279,7 +279,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -293,20 +294,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ac1a449ff5123fc5",
+  "active": "2c35c1840fb7ee61",
   "lastOpenFiles": [
-    "Permanet Note/SFINAE.md",
-    "Permanet Note/declval().md",
-    "Permanet Note/Tag Dispatching.md",
-    "Permanet Note/Compile-Time State Machine.md",
-    "Permanet Note/Generic Type Filtering.md",
-    "Permanet Note/Metafunction.md",
+    "Permanet Note/Concepts and Generic Programming.md",
+    "Permanet Note/Random Access Iterator.md",
+    "Permanet Note/Iterator vs Pointer.md",
+    "Literature notes/C++/Effective Modern C++/References/Prefer const_iterators to iterators.md",
     "Permanet Note/TypeList‑based Meta‑Recursion.md",
+    "Permanet Note/Generic Type Filtering.md",
+    "Permanet Note/Compile-Time State Machine.md",
+    "Permanet Note/declval().md",
+    "Permanet Note/Variadic Recursive Instantiation Engine.md",
+    "Permanet Note/Tag Dispatching.md",
+    "Permanet Note/SFINAE.md",
+    "Permanet Note/Metafunction.md",
     "Permanet Note/Metafunction Composition.md",
     "Type Metaprogramming.md",
     "recursion.md",
-    "Permanet Note/Variadic Recursive Instantiation Engine.md",
-    "Permanet Note/Concepts and Generic Programming.md",
     "Permanet Note/Template.md",
     "Literature notes/C++/Effective Modern C++/References/Declare functions noexcept if they won’t emit exceptions.md",
     "Literature notes/C++/Effective Modern C++/References/Understand template type deduction.md",
@@ -316,11 +320,8 @@
     "Permanet Note/stream.md",
     "Permanet Note/Socket.md",
     "Permanet Note/linked list.md",
-    "Permanet Note/Iterator vs Pointer.md",
     "Permanet Note/Function Template Restrices.md",
     "Permanet Note/Forward Iterator.md",
-    "Permanet Note/dependency hell.md",
-    "Permanet Note/Constrained Template Arguments (C++20).md",
     "CI",
     "Literature notes/Python/Data Analysis",
     "Literature notes/Python",

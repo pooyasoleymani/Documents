@@ -302,9 +302,43 @@ void print(T head, Tail... tail)
 	std::cout << head << ' ';
 	print(tail...);
 }
+
+
+// we want to don't allow zero argument case
+template<typename T, typename... Tail>
+void print(T head, Tail... tail)
+{
+	std::cout << head << ' ';
+	if constexpr(sizeof...(tail) > 0)
+		print(tail..);
+}
 ```
 
 #### A parameter declare with  *...* called *parameter pack*. 
+
+
+### Fold Expressions
+
+To simplify the implementation of simple variadic templates, C++17 offers a limited form of iteration over elements of a parameter pack. For example:
+
+```cpp
+template<Number... N>
+int sum(N... n)
+{
+	return (n + ... + 0);
+}
+
+template<typename... T>
+void print(T&&... arg)
+{
+	std::cout << ... << arg << '\n';
+}
+```
+
+
+
+### Template Compilation Model
+
 
 
 
