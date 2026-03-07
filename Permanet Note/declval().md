@@ -78,3 +78,10 @@ auto process(T t) -> std::enable_if_t<has_foo<T>::value> {
 1. **Enables Expression SFINAE:** Allows checking the validity of arbitrary expressions (member access, function calls, operator usage, etc.) without needing actual objects.
 2. **Type Safety:** Guarantees that no actual object construction or side effects occur. The “object” is purely conceptual.
 3. **Metaprogramming Power:** It’s a cornerstone for writing type traits and policies that inspect and react to type capabilities.
+
+# When _Not_ to Use `std::declval`
+
+- **When you have an actual object:** If you already have a variable or object of type `T`, you can just use that object directly. `std::declval` is for when you _don’t_ have one and need to test a type’s properties in isolation.
+- **For simple type checks:** For basic checks like “is it an integer?”, `std::is_integral_v<T>` is sufficient and doesn’t require `decltype` or `declval`.
+
+In essence, `std::declval` is a clever tool that helps C++ metaprogramming query the capabilities of types in a safe and non-intrusive way, particularly when combined with `decltype` and SFINAE.
