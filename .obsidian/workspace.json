@@ -8,37 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0e8a8985a4b2fc23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/2026-02-16.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-02-16"
-            }
-          },
-          {
             "id": "f199b148a608b09c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Literature notes/Python/Object Oriented Design/Object Oriented Design.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Object Oriented Design"
-            }
-          },
-          {
-            "id": "37b288d7c633abec",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -52,8 +22,7 @@
               "title": "Objects in Python"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -248,12 +217,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "12d83b769816be49",
+  "active": "f199b148a608b09c",
   "lastOpenFiles": [
+    "Literature notes/Python/Object Oriented Design/Object Oriented Design.md",
+    "Literature notes/Python/Object Oriented Design/Objects in Python.md",
+    "Daily Notes/2026-03-05.md",
     "Permanet Note/Compile-Time State Machine.md",
     "Permanet Note/Strings and Regular Expressions.md",
-    "Literature notes/Python/Object Oriented Design/Objects in Python.md",
-    "Literature notes/Python/Object Oriented Design/Object Oriented Design.md",
     "CI/CI-CD pipeline speed.md",
     "Permanet Note/scikit-build-core Bridge CMake and Python.md",
     "Permanet Note/scikit-build-core CMake-Python bridge.md",
@@ -276,7 +246,6 @@
     "Permanet Note/Build Toolchain Performance Chain.md",
     "Permanet Note/compile-time.md",
     "Permanet Note/Function Template.md",
-    "Permanet Note/Socket.md",
     "CI",
     "Literature notes/Python/Data Analysis",
     "Literature notes/Python",
