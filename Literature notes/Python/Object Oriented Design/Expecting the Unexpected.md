@@ -1,0 +1,60 @@
+---
+Created Date: 2026-05-04
+tags:
+  - python
+  - architecture
+  - programming
+---
+---
+## What We Learn?
+- How to cause an *exception* to occur
+- How to recover when an *exception* has occurred
+- How to handle different *exception* types in different *type* 
+- Cleaning up when an *exception* has occcurred
+- Creating new type of *exception*
+- Using the *exception* syntax for *flow control*
+
+---
+
+>[!NOTE]
+>There is two approaches to dealing with the unforeseen.
+>1. Return a recognizable *error-signaling* value from a function, a *value* , like *None*.
+>2. The other approach is to *interrupt* the normal, *sequential exception* of statements and diver to statements that handle *exception*.
+
+
+
+---
+## Raising Exception
+In python normal behavior is to execute statements in the order.
+**Exception** is an object that inherit from *BaseException*  and when it *raised* break normal flow of *execution* and *bubbled up*  to *call stack* and gave up and printed the *traceback* object.
+
+*Example:*
+```python
+print "hello, world" 
+# Syntax Error: missing oarentheses in call to 'print', do you mean print("hello, world")
+```
+
+- We can build custom class for specific type 
+```python
+class EvenOnly(List[int]):
+	def append(self, value: int) -> None:
+		if not isinstance(value, int):
+			raise TypeError("Only integer can be added")
+		if value % 2 != 0:
+			raise ValueError("Only even number can be added")
+		super().append(value)
+#######################################################################		
+# we need to override eternd(), insert(), __setitem__() and __init__()
+#######################################################################
+```
+
+- For time we know that we never reach to *return* in order to don't give error in *mypy* use **NoReturn** in *typing* library
+```python
+from typing import NoReturn
+
+def no_return() -> Noreturn:
+	raise Exception("this always raised")
+	return "never returned"
+```
+
+

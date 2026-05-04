@@ -196,3 +196,14 @@ def get_database(connection: Optional[str] = None) -> Database:
 ### Access to Data 
 In python interpreter has no rule to prevent to access of variable of class we can use `_` before variable to show that variable is private and we can use `__` name mangling for private attributes that need extra work for access ( `_<class name>__X`).
 
+
+
+---
+>[!IMPORTANT] **A Question We must always ask about class definitions**
+> - Is there any change in *behavior* that goes with the change in *state*?
+> - What *class* has *responsibility* for making this *state change*?
+
+
+---
+#### Forward Reference
+When a *class* is defined *later* in the *file*, any reference to the yet-to-be-defined class is **forward reference**.
