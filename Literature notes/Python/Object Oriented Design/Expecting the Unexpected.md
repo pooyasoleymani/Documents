@@ -10,7 +10,7 @@ tags:
 - How to cause an *exception* to occur
 - How to recover when an *exception* has occurred
 - How to handle different *exception* types in different *type* 
-- Cleaning up when an *exception* has occcurred
+- Cleaning up when an *exception* has occurred
 - Creating new type of *exception*
 - Using the *exception* syntax for *flow control*
 
@@ -20,8 +20,6 @@ tags:
 >There is two approaches to dealing with the unforeseen.
 >1. Return a recognizable *error-signaling* value from a function, a *value* , like *None*.
 >2. The other approach is to *interrupt* the normal, *sequential exception* of statements and diver to statements that handle *exception*.
-
-
 
 ---
 ## Raising Exception
@@ -57,4 +55,33 @@ def no_return() -> Noreturn:
 	return "never returned"
 ```
 
+
+---
+- There is two exception that direct inherit from *BaseException*:
+	- **SystemExit** this exception call *sys.exit()* and clean up code before the program ultimately exit. this exception send signal to *OS* for exit (in Linux `kill -2 <pid>`)
+	- **KeyboardIntrrupt** this exception common in command-line when we give *Ctrl + C* it can handle any cleanup task inside the *finally* block .
+
+---
+## Define our own exception
+When we want an *exception*  and we find none of the build-in *exception* is suitable we introduce a new *exception* with inherit from **Exception** , and we can *raise* our *exception*.
+- `Exception.__init__()` accept any argument.
+```python
+from decimal import Decimal
+
+class InvalidWidrawal(ValueError):
+	def __init__(self, balance: Decimal, amount: Decimal) -> None:
+		super().__init__()
+		self.balance = balance
+		self.amount = amount
+		
+		def overage(self) -> Decimal:
+			return self.amount - self.balance
+			
+	
+	try:
+		balance = Decimal('25.00')
+		raise InvalidWidrawal(balance, Decimal('50.00'))
+	except InvalidWidrawal as ex:
+		print(ex.overage())
+```
 
