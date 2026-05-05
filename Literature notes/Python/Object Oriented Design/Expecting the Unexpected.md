@@ -100,6 +100,17 @@ def divide_with_if(dividend: int, divisor: int) -> None:
 		print(f"{dividend/divisor=}")	
 ```
 
+- *Easier to Ask Forgiveness than Permission (EAFP)* styles
+```python
+def divide_with_exception(dividend: int, divisor: int) -> None:
+	try:
+		print(f"{dividend/divisor=}")
+	except DivisionByZero:
+		print("you can't divide by zero)
+```
+
+
+
 -  We can with *raise* an *exception* and use *try-except* have direct *control flow*
 - We *Discovering* **Exceptional Data(raise)** and *Responding* **Exceptional Data(try/except)** 
 ```python
@@ -135,3 +146,40 @@ class Inventory:
 
 
 
+---
+
+### @classmethod use case
+when use *classmethod* *decorator* this *method* for  class object and every *subclass* inherit from this *class* tailored for that *subclass*
+
+```python
+
+class KnowSample(Sample):
+	@classmethod
+	def from_dict(cls, row: Dict[str, str]) -> "KnowSample":
+		if row["species"] not in {
+			"Iris-setosa", "Iris-versicolour", "Iris-virginica"}:
+			raise InvalidSampleError(f"invalid species in {row!r}")
+		try:
+			return cls(
+				species=row["species"],
+				sepal_length=float(row["sepal_length"]),
+				sepal_width=float(row["sepal_width"]),
+				petal_length=float(row["petal_length"]),
+				petal_width=float(row["petal_width"]),
+			)
+		except ValueError as ex:
+			raise InvalidSampleError(f"invalid {row!r}")
+
+class TrainingKnowSample(KnowSample):
+	pass
+```
+
+- It is not clear for*mypy* that work we can explicit type mapping:
+```python
+from typing import cast
+
+class TarainingSample(KnowSample):
+	@classmethod
+	def from_dict(cls, row: Dict[str, str]) -> "TarainingSample":
+		return cast(TarainingSample, super().from_dict(row))
+```
