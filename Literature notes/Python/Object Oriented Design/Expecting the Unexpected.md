@@ -99,3 +99,39 @@ def divide_with_if(dividend: int, divisor: int) -> None:
 	else:
 		print(f"{dividend/divisor=}")	
 ```
+
+-  We can with *raise* an *exception* and use *try-except* have direct *control flow*
+- We *Discovering* **Exceptional Data(raise)** and *Responding* **Exceptional Data(try/except)** 
+```python
+
+class OutOfStock(Exception):
+	pass
+	
+class InvalidItem(Exception):
+	pass
+	
+class Inventory:
+	def __init__(self, stock: List[ItemType]) -> None:
+		pass
+	def lock(self, item_type: Item_type) -> None:
+		"""Context Entry.
+			Lock the item type so nobody slse can manipulate the inventory
+			while we're workin.
+		"""
+		pass
+	def unlock(self, item_type: ItemType) -> None:
+		"""Context Exit.
+		Unlock the item type."""
+		pass
+	
+	def purchase(self, item_type: ItemType) -> int:
+		if item.type == "Widget":
+			raise OutOfStock(item_type)
+		elif item_type == "Gadget":
+			return 42
+		else:
+			raise InvalidItemType(item_type)		
+```
+
+
+
