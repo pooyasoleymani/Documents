@@ -85,3 +85,17 @@ class InvalidWidrawal(ValueError):
 		print(ex.overage())
 ```
 
+
+---
+## Exceptions aren't exceptional
+
+- Like `if` statement *exception* can be used for *decision making*, *branching*, and *message passing* and effect on *flow control*.   
+-  There is situation that it shouldn't necessary to burn *CPU* cycles (*LBYL* "*Look Before You Leap*" ) 
+
+```python 
+def divide_with_if(dividend: int, divisor: int) -> None:
+	if divisor == 0:
+		print("you can't divide by zero)
+	else:
+		print(f"{dividend/divisor=}")	
+```
