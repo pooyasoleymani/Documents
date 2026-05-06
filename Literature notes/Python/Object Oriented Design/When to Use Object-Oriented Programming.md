@@ -107,3 +107,6 @@ class WebPage:
 		return self._content
 ```
 
+---
+## Manager Object
+Object that manage other objects these called **Facade**
