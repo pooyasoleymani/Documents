@@ -110,3 +110,69 @@ class WebPage:
 ---
 ## Manager Object
 Object that manage other objects these called **Facade**
+
+##### We wan create object that ensure tree step occur:
+	1. Unzipping the compressed file to examine each member
+	2. Performing the find-and-replace action on text members
+	3. Zipping up the new files with the untouched as well as changed members 
+
+```python
+class ZipReplacing:  
+    def __init__(self, path: Path, pattern: str, find: str, replace: str) -> None:  
+        self.path = path  
+        self.pattern = pattern  
+        self.find = find  
+        self.replace = replace  
+  
+    def find_and_replace(self) -> None:  
+        input_path, output_path = self.make_backup()  
+  
+        with zipfile.ZipFile(output_path, "w") as output_zip:  
+            with zipfile.ZipFile(input_path, "r") as input_zip:  
+                self.copy_and_transfer(input_zip, output_zip)  
+  
+    def make_backup(self) -> Tuple[Path, Path]:  
+        input_path = self.path.with_suffix(f"{self.path.suffix}.old")  
+        output_path = self.path  
+        self.path.rename(input_path)  
+        return input_path, output_path  
+  
+    def copy_and_transfer(  
+            self,  
+            input_zip: zipfile.ZipFile,  
+            output_zip: zipfile.ZipFile  
+    ) -> None:  
+        for item in input_zip.infolist():  
+            extracted = Path(input_zip.extract(item))  
+            if (  
+                    not item.is_dir() and  
+                    fnmatch.fnmatch(item.filename, self.pattern)  
+            ):  
+                print(f"Transform {item}")  
+                input_text = extracted.read_text()  
+                output_text = re.sub(self.find, self.replace, input_text)  
+                extracted.write_text(output_text)  
+            else:  
+                print(f"Ignore {item}")  
+            output_zip.write(extracted, item.filename)  
+            extracted.unlink()  
+            for parent in extracted.parents:  
+                if parent == Path.cwd():  
+                    break  
+                parent.mkdir()
+```
+
+##### There are several advantages to separating the steps:
+
+- **Readability:** The code for each step is in a *self-contained* *unit* that is easy to read and understand. The method name describes what the method does, and less additional *documentation* is required to understand what is going on.
+
+-  **Extensibility:** If a *subclass* wanted to use *compressed TAR* files instead of *ZIP* files, it could *override* the *copy_and_transform()* method, reusing all the supporting methods because they apply to any file irrespective of the kind of archive.
+
+- **Partitioning:** An *external class* could create an *instance* of this *class* and use *make_backup()* or the *copy_and_transform()* methods directly, *bypassing* the *find_and_replace()* manager.
+
+---
+## Removing Duplicate Code
+When we're trying to read two *similar* pieces of *code*, we have to understand why they're *different*, as well as how they're *different*. This *wastes* the reader's time; *code* should always be *written* to be *readable* first.
+this behavior call *copy-pasta* programming.
+
+- One of *solution* is move to *function* that accepts *parameters* to account for whatever parts are *different* *(function extraction).*
