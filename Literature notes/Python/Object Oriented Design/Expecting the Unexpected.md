@@ -183,3 +183,97 @@ class TarainingSample(KnowSample):
 	def from_dict(cls, row: Dict[str, str]) -> "TarainingSample":
 		return cast(TarainingSample, super().from_dict(row))
 ```
+
+
+---
+##### Both *float()* and *int()* raise *ValueError* if string that's not a valid number.
+
+
+---
+## Validating **enumerated** values
+Using an explicit *enum* class with the list of valid values is a way to convert this to purely *EAFP* processing.
+
+```python 
+from enu, import Enum
+
+class Species(Enum):
+	Setosa = "Iris-setosa"
+	Versicolour = "Iris-versicolour"
+	Viginica = "Iris-virginica"
+	
+	
+Species("Iris-setosa")  
+# <Species.Species: 'Iris-setosa'>
+
+Species("Iris-pinniped") 
+# Traceback (most recet call list): 
+# ...
+# ValueError: 'Iris-panniped' is not a valid Species
+
+```
+
+
+Instead of an *Enum class*, we might continue to use string objects. We can define each unique *domain* of *string* values as an extension to a`Set[str]`class:
+
+```python
+from typing import Set
+
+class Domain(Set[str]):
+	def validate(self, value: str) -> str:
+		if value in self:
+			return value
+		raise ValueError(f"invalid {value!r}")
+
+
+species = Domain({"Iris-setosa", "Iris-versicolour", "Iris-virginica"})
+
+species.validate("odobenidae")
+"""
+Traceback (most recent call last):
+...
+ValueError: invalid 'odobenidae'
+"""
+```
+
+---
+
+## Reading CSV files
+We can use *csv* library and *DictReader* to convert data to `dict[str, str]` and use `from_dict()` method to create training and test data
+
+```python
+class TrainingData:  
+    def __init__(self, name: str) -> None:  
+        self.name = name  
+        self.uploaded: datetime | None = None  
+        self.tested: datetime | None = None  
+        self.training_data: List[TrainingKnownSample] = []  
+        self.testing_data: List[TestingKnowSample] = []  
+        self.tuning: List[Hyperparameter] = []  
+  
+    def load(self, raw_data_file: Iterable[Dict[str, str]]) -> None:  
+        """Load and partition the raw data"""  
+        bad_count = 0  
+        for n, row in enumerate(raw_data_file):  
+            try:  
+                if n % 5 == 0:  
+                    self.testing_data.append(TestingKnowSample.from_dict(row))  
+                else:  
+                    self.training_data.append(TrainingKnownSample.from_dict(row))  
+            except InvalidSampleError as ex:  
+                print(f"Invalid Row {n+1} ==> {ex!r}")  
+                bad_count += 1  
+                return  
+        if bad_count != 0:  
+            print(f"Found {bad_count} rows")  
+        self.uploaded = datetime.now(tz=timezone.utc)
+```
+
+
+---
+## Don't Repeat Yourself (DRY)
+
+When a subclass introduces new fields, we have two choices:
+
+- Abandon simple-looking *EAFP validation*. In this case, we would need to separate *validation* from object *construction*. This will lead to the *cost of doing float()* conversions twice: once to validate the data and again to create the target object. *Multiple float()* conversions means we haven't really followed the *Don't Repeat Yourself (DRY) principle.*
+
+- Build an intermediate *representation* that can be used by *subclasses*. This means the two `KnownSample` subclass of `Sample` would involve three steps. First, build a Sample object, validating the four measurements. Then, validate the species. Finally, build the `KnownSample` using the valid fields from the Sample object and the valid species value. This creates a *temporary object*, but avoids repeating any code.
