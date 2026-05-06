@@ -68,6 +68,42 @@ class Polygon:
 ## Adding behaviors to class data with properties
 
 - One of the most important things in *object-oriented design* is separation between *data*, and **behavior**.
+- For add *getter* and *setter* to class we can use *property* function , this function have act like *proxies*.
+```python
+class Color:
+	def __init__(self, rgb: int, name: str) -> None:
+		if not name:
+			raise ValueError("name can't be empty")
+		self._name = name
+		self._rgb = rgb
+	
+	def _set_name(self, name: str) -> None:
+		if not name:
+			raise ValueError("name can't be empty")
+		self._name = name
+	
+	def _get_name(self) -> str:
+		return self._name
+		
+	name = property(_get_name, _set_name)
+```
 
 
+- we can set *delete* and *document* function in *property*   
+- **Decorators** one of way that we can use *property*
+- We can use *properties* for *lazy attributes*, where we want to defer the computation because it's *costly* and *rarely* needed
+```python
+class WebPage:
+	def __init__(self, url: str) -> None:
+		self.url = url
+		self._content: Optional[bytes] = None
+		
+	@property
+	def content(self):
+		if self._content is None:
+			print("retriving new page")
+			with urlopen(self.url) as response:
+				self._content = response.read()
+		return self._content
+```
 
