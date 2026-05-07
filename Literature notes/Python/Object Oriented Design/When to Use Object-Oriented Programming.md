@@ -176,3 +176,66 @@ When we're trying to read two *similar* pieces of *code*, we have to understand 
 this behavior call *copy-pasta* programming.
 
 - One of *solution* is move to *function* that accepts *parameters* to account for whatever parts are *different* *(function extraction).*
+- If we want use `ZipReplacing` class for *image* in *zipfiles* our solution is use *inheritance* and we can use abstract class for this 
+```python
+from abc import ABC, abstractmethod
+
+class ZipProcessor(ABC):
+	def __init__(self, archive: Path) -> None:
+		self.archive_path = archive
+		self.pattern: str
+	def process_file(self, pattern: str) -> None:
+		self.pattern = pattern
+	    input_path, output_path = self.make_backup()  
+	  
+	    with zipfile.ZipFile(output_path, "w") as output_zip:  
+	        with zipfile.ZipFile(input_path, "r") as input_zip:  
+	            self.copy_and_transfer(input_zip, output_zip)  
+	  
+	  
+	def make_backup(self) -> Tuple[Path, Path]:  
+	    input_path = self.path.with_suffix(f"{self.path.suffix}.old")  
+	    output_path = self.path  
+	    self.path.rename(input_path)  
+	    return input_path, output_path  
+	  
+	def copy_and_transfer(  
+	        self,  
+	        input_zip: zipfile.ZipFile,  
+	        output_zip: zipfile.ZipFile  
+	) -> None:  
+	    for item in input_zip.infolist():  
+	        extracted = Path(input_zip.extract(item))  
+	        if self.matches(item):  
+	            print(f"Transform {item}")  
+	            input_text = extracted.read_text()  
+	            output_text = re.sub(self.find, self.replace, input_text)  
+	            extracted.write_text(output_text)  
+	        else:  
+	            print(f"Ignore {item}")  
+	        output_zip.write(extracted, item.filename)  
+	        self.remove_under_cwd(extracted)  
+	  
+	@staticmethod  
+	def remove_under_cwd(extracted: Path) -> None:  
+	    extracted.unlink()  
+	    for parent in extracted.parents:  
+	        if parent == Path.cwd():  
+	            break  
+	        parent.mkdir()  
+	  
+	def matches(self, item: zipfile.ZipInfo) ->bool:  
+	    return not item.is_dir() and fnmatch.fnmatch(item.filename, self.pattern)
+			
+	@abstractmethod
+	def transform(self, extraced: Path) -> None:
+		...
+
+
+class ImgTweaker(ZipProcessor):
+	def transform(self, extraced: Path) -> None:
+		image = Image.open(extraced)
+		scaled = image.resize(size=(640, 960))
+		scaled.save(extraced)
+
+```

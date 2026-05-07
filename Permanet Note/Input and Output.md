@@ -14,7 +14,7 @@ These **streams** can be used for *binary I/O*, be used for a variety of *charac
 
 The streams can be used for input into and output from *std::strings* , for formatting into *string buffers* , and for file *I/O* .
 
-The *I/O stream* classes all have *destructors* that f*ree all resources* owned (such as buffers and  file handles). That is, they are examples of *"Resource Acquisition Is Initialization"*
+The *I/O stream* classes all have *destructors* that *free all resources* owned (such as buffers and  file handles). That is, they are examples of *"Resource Acquisition Is Initialization"*
 
 
 ### I/O State
