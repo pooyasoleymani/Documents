@@ -152,3 +152,49 @@ class LookUp(BaseMapping):
 
 -  These two *definitions* have distinct *type hints*. To make it clear to *mypy*, we need to provide *overloaded* method definitions. This is done with a special *decoration* from the typing module, **@overload**
 
+- We can implement *Comparable class*
+```python
+class Comparable(Protocol):  
+    def __eq__(self, other: Any) -> bool: ...  
+    def __ne__(self, other: Any) -> bool: ...  
+    def __gt__(self, other: Any) -> bool: ...  
+    def __ge__(self, other: Any) -> bool: ...  
+    def __le__(self, other: Any) -> bool: ...  
+    def __lt__(self, other: Any) -> bool: ...
+```
+
+
+---
+
+
+>[!IMPORTANT]
+> *Abstract* gives us a *runtime* assurance that the *concrete subclass* really does implement all the required methods.
+
+
+---
+### Create your own abstract base class
+We have two general paths to creating *classes* that are *similar*: 
+1. we can leverage *duck typing* 
+2. we can define *common abstractions*.
+
+When we leverage *duck typing*, we can formalize the related types by creating a *type hint* using a *protocol* definition to *enumerate* the common *methods*, or a `Union[] `to enumerate the common types. There are an almost unlimited number of influencing factors that suggest one or the other approach. While *duck typing* offers the most *flexibility*, we may sacrifice the ability to use *mypy*. An *abstract* *base* *class* definition can be wordy and potentially *confusing*.
+
+```python
+class Die(abc.ABC):
+	def __init__(self) -> None:
+		self.face: int
+		self.roll()
+		
+	@abstractmethod
+	def roll(self) -> None:
+		...
+		
+	def __repr__(self) -> str:
+		return f"{self.face}"
+		
+
+class D6(Die):
+	def roll(self) -> None:
+		self.face = random.randint(1, 6)
+
+```
