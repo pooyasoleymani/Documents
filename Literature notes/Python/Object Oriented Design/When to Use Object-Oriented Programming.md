@@ -247,4 +247,5 @@ class ImgTweaker(ZipProcessor):
 In this chapter, we focused on *identifying* objects, especially objects that are not *immediately* apparent; objects that manage and control. Objects should have both data and behaviors, but properties can be used to blur the distinction between the two. The *DRY principle* is an important indicator of code quality, and *inheritance* and *composition* can be applied to reduce *code duplication*.
 
 - When we have both *data* and *behavior* we start with class 
-- 
+- When an *attribute* is *reference* to another object we give *direct access* to that object an we don't write *getter* and *setter*. 
+- We have two choices for attributes: *eagerly* or *lazy* , **property** is lazy *computation* and `__init__` is eagerly
