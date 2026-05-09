@@ -94,3 +94,61 @@ This module provide the *abstract base* class definitions for pythons *built-in 
 	1. build our *data structure*  
 	2. use for *type hints* for specific *data structure*
 
+
+- Create *look-up dictionary* a *concrete Mapping* implementation need below implements:
+
+	- The *Sized abstraction* requires an implementation for the` __len__()` method. This lets an instance of our *class* respond to the `len() `function with a useful answer.
+
+	- The *Iterable abstraction* requires an *implementation* for the` __iter__()` method. This lets an *object* work with the for statement and the `iter()` function.
+
+	- The *Container* *abstraction* requires an *implementation* for the `__contains__()` method. This permits the in and not in operators to work.
+
+	-  The *Collection abstraction* combines *Sized*, *Iterable*, and *Container* without introducing additional *abstract methods*.
+
+	-  The *Mapping abstraction*, based on *Collection*, requires, among other things, `__getitem__()`,` __iter__(),` and `__len__()`. It has a default definition for `__contains__()`, based on whatever `__iter__()` method we provide. The *Mapping* definition will provide a few other methods, also.
+
+
+- Implement *Immutable  Mapping* :
+```python
+import bisect
+
+BaseMapping = Mapping[Comparable, Sample]  
+class LookUp(BaseMapping):  
+    @overload  
+    def __init__(self, source: BaseMapping) -> None:  
+        ...  
+    @overload  
+    def __init__(self, source: Iterable[tuple[Comparable, Any]]) -> None:  
+        ...  
+    def __init__(  
+            self,  
+            source: Union[Iterable[tuple[Comparable, Any]], BaseMapping, None] = None,  
+    ) -> None:  
+        sorted_pairs: Sequence[Tuple[Comparable, Any]]  
+        if isinstance(source, Sequence):  
+            sorted_pairs = sorted(source)  
+        elif isinstance(source, Mapping):  
+            sorted_pairs = sorted(source.items())  
+        else:  
+            sorted_pairs = []  
+        self.keys_list = [p[0] for p in sorted_pairs]  
+        self.value_list = [p[1] for p in sorted_pairs]  
+  
+    def __len__(self) -> int:  
+        return len(self.keys_list)  
+    def __iter__(self) -> Iterator[Comparable]:  
+        return iter(self.keys_list)  
+    def __contains__(self, key: object) -> bool:  
+        index = bisect.bisect_left(self.keys_list, key)  
+        return key == self.keys_list[index]  
+    def __getitem__(self, key: object) -> Any:  
+        index = bisect.bisect_left(self.keys_list, key)  
+        if key == self.keys_list[index]:  
+            return self.value_list[index]  
+        raise KeyError(key)
+
+```
+
+
+-  These two *definitions* have distinct *type hints*. To make it clear to *mypy*, we need to provide *overloaded* method definitions. This is done with a special *decoration* from the typing module, **@overload**
+
