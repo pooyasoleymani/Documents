@@ -219,7 +219,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -236,9 +237,9 @@
   "active": "461057f6abe9fd1b",
   "lastOpenFiles": [
     "Literature notes/Python/Object Oriented Design/When to Use Object-Oriented Programming.md",
-    "Literature notes/Python/Object Oriented Design/Abstract Base Class and Operator Overloading.md",
     "Literature notes/Python/Object Oriented Design/When Object Are Alike.md",
     "Literature notes/Python/Object Oriented Design/Objects in Python.md",
+    "Literature notes/Python/Object Oriented Design/Abstract Base Class and Operator Overloading.md",
     "Permanet Note/Template.md",
     "Literature notes/C++/Effective Modern C++/References/Understand template type deduction.md",
     "Literature notes/C++/Effective Modern C++/References/Distinguish universal references from rvalue references.md",
