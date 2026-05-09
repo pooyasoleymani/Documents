@@ -208,19 +208,18 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Literature notes/C++/Effective Modern C++/Effective Modern C++17.md"
+                "file": "Literature notes/Python/Object Oriented Design/Abstract Base Class and Operator Overloading.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Effective Modern C++17"
+              "title": "File properties for Abstract Base Class and Operator Overloading"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -234,7 +233,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "461057f6abe9fd1b",
+  "active": "12d83b769816be49",
   "lastOpenFiles": [
     "Daily Notes/2026-05-09.md",
     "Literature notes/Python/Object Oriented Design/Abstract Base Class and Operator Overloading.md",
