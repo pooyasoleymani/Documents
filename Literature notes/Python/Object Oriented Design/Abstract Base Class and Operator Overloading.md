@@ -67,7 +67,7 @@ odd = OddIntegers()
 ```
 
 
-Python *duck typing* is part of `isinstance()` and `issubclass()` with `__instancecheck__()` and `__subclasscheck__()` magic method and *ABC* class can provide a `__subclasshook__()` method which used by `__subclasscheck__()` method to *assert* that a give class is proper subclass of abstract base class.
+- Python *duck typing* is part of `isinstance()` and `issubclass()` with `__instancecheck__()` and `__subclasscheck__()` magic method and *ABC* class can provide a `__subclasshook__()` method which used by `__subclasscheck__()` method to *assert* that a give class is proper subclass of abstract base class.
 
 ---
 ## Abstract base class ant type hints
@@ -88,3 +88,9 @@ overlap, but are distinct:
 ---
 
 ### The coloctions.ABC modules
+This module provide the *abstract base* class definitions for pythons *built-in collections*.
+
+- We can use this class to: 
+	1. build our *data structure*  
+	2. use for *type hints* for specific *data structure*
+
