@@ -363,4 +363,83 @@ We want to create dictionary that reject duplicate values:
 from typing import Dict, cast, Any, Mapping, Iterable, Tuple, Union
 from collection import Hashable
 
+class NoDupDict(Dict[Hashable, Any]):  
+    def __setitem__(self, key: Hashable, value: Any):  
+        if key in self:  
+            raise ValueError(f"duplicate {key!r}")  
+  
+    def __init__(self, init: DictInt = None, **kwargs: Any) -> None:  
+        if isinstance(init, Mapping):  
+            super().__init__(init, **kwargs)  
+        elif isinstance(init, Iterable):  
+            for k, v in cast(Iterable[Tuple[Hashable, Any]], init):  
+                self[k] = v  
+        elif init is None:  
+            super().__init__(**kwargs)  
+        else:  
+            super().__init__(init, **kwargs)
+```
+
+
+- We still have to implement `update()`, `setdefault()`, `__or__()`, and `__ior__()` to *extend* all the methods that can *mutate* a dictionary.
+
+---
+## Metaclasses
+Every empty class object in python create by *type class* and we can extend *type class* to create custom *metaclass* .
+
+*Example*: we want to logging  `roll()`  function in every *Die* *subclasses* we can do this with metaclass.
+1. Extending *ABCMeta* metaclass . we need to support *abc.abstractmethod* decoration.
+2. Inject *logger* attribute into each class, *logger* is part of any *instances* of *class*.
+3. Wrap the *concrete* `roll()` method into function that log message.
+
+```python
+import abc  
+import logging  
+import random  
+from functools import wraps  
+from typing import Type, List, Any, Iterable, cast, Mapping, Union, Tuple, Dict, TypeAlias, Hashable
+
+class DieMeta(abc.ABCMeta):  
+    def __new__(  
+            cls: Type[type],  
+            name: str,  
+            base: tuple[type, ...],  
+            namespace: dict[str, Any],  
+            **kwargs: Any  
+    ) -> "DieMeta":  
+        if "roll" in namespace and  not getattr(namespace["roll"], "__isabstractmethod__", False):  
+            namespace.setdefault("logger", logging.getLogger(name))  
+            original_roll = namespace["roll"]  
+  
+            @wraps(original_roll)  
+            def logging_roll(self: "DieLog") -> None:  
+                original_roll(self)  
+                self.logger.error(f"rolled {self.face}")  
+  
+            namespace["roll"] = logging_roll  
+        new_object = cast("DieMeta", abc.ABCMeta.__new__(cls ,name, base, namespace, **kwargs))  
+        return new_object
+        
+
+# use metaclass
+
+class DieLog(metaclass=DieMeta):
+	logger: logging.Logger
+
+	def __init__(self) -> None:
+		self.face: int
+		self.roll()
+		
+	@abc.abstractmethod
+	def roll(self) -> None:
+		...
+		
+	def __repr__(self) -> str:
+		return f"{self.face}"
+
+
+class D6L(DieLog):
+	def roll(self) -> None:
+	"""Some documentation on D6L"""
+		self.face = random.randrange(1, 7)
 ```
