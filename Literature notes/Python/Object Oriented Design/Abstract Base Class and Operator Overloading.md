@@ -279,4 +279,63 @@ class DieM(metaclass=abc.ABCMeta):
 ---
 ## Operator overloading
 Every operators in python `+ - / *` are implemented by *special methods* on *classes*. 
+For example `+` operator is `__add__` and `__radd__` (reverse add) .
+for check that operator we can use `A.__op__(B)` if value is `NotImlemented` we override that operator.
+```python
+class DDice:  
+    def __init__(self, *die_class: Type[Die]) -> None:  
+        self.dices: List[Die] = [dc() for dc in die_class]  
+        self.adjust: int = 0  
+  
+    def plus(self, adjust: int) -> 'DDice':  
+        self.adjust = adjust  
+        return self  
+  
+    def roll(self) -> None:  
+        for d in self.dices:  
+            d.roll()  
+  
+    @property  
+    def total(self) -> int:  
+        return sum(d.face for d in self.dices) + self.adjust  
+  
+    def __add__(self, die_class: Any) -> 'DDice':  
+        if isinstance(die_class, type) and issubclass(die_class, Die):  
+            new_classes = [type(d) for d in self.dices] + [die_class]  
+            new = DDice(*new_classes)  
+            return new  
+        elif isinstance(die_class, int):  
+            new_classes = [type(d) for d in self.dices]  
+            new = DDice(*new_classes).plus(die_class)  
+            return new  
+  
+        return NotImplemented  
+    def __radd__(self, die_class: Any) -> 'DDice':  
+        if isinstance(die_class, type) and issubclass(die_class, Die):  
+            new_classes = [die_class] + [type(d) for d in self.dices]  
+            new = DDice(*new_classes)  
+            return new  
+        elif isinstance(die_class, int):  
+            new_classes = [type(d) for d in self.dices]  
+            new = DDice(*new_classes).plus(die_class)  
+            return new  
+  
+        return NotImplemented
 
+	def __mul__(self, n: Any) -> "DDice": # for * operation
+		if isinstance(n, int):
+			new_classes = [type(d) for d in self.dice for _ in range(n)]
+			return DDice(*new_classes).plus(self.adjust)
+		else:
+			return NotImplemented
+	def __rmul__(self, n: Any) -> "DDice":
+		if isinstance(n, int):
+			new_classes = [type(d) for d in self.dice for _ in range(n)]
+			return DDice(*new_classes).plus(self.adjust)
+		else:	
+			return NotImplemented
+```
+
+1. **Mutable** object implements `__iadd__` , etc and *return* `self`.
+2. **Immutable** object don't implements `__iop__` and return *new* object.
+3. 
