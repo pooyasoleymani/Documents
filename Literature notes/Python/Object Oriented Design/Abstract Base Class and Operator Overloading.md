@@ -105,7 +105,7 @@ This module provide the *abstract base* class definitions for pythons *built-in 
 
 	-  The *Collection abstraction* combines *Sized*, *Iterable*, and *Container* without introducing additional *abstract methods*.
 
-	-  The *Mapping abstraction*, based on *Collection*, requires, among other things, `__getitem__()`,` __iter__(),` and `__len__()`. It has a default definition for `__contains__()`, based on whatever `__iter__()` method we provide. The *Mapping* definition will provide a few other methods, also.
+	-  The *Mapping abstraction*, based on *Collection*, requires, among other things, `__getitem__()` for `[]`  operator ,` __iter__(),` and `__len__()`. It has a default definition for `__contains__()`, based on whatever `__iter__()` method we provide. The *Mapping* definition will provide a few other methods, also.
 
 
 - Implement *Immutable  Mapping* :
@@ -185,7 +185,7 @@ class Die(abc.ABC):
 		self.face: int
 		self.roll()
 		
-	@abstractmethod
+	@abc.abstractmethod
 	def roll(self) -> None:
 		...
 		
@@ -197,4 +197,49 @@ class D6(Die):
 	def roll(self) -> None:
 		self.face = random.randint(1, 6)
 
+
+class Dice(abc.ABC):
+	def __init__(self, n: int, die_class: Type[Die]) -> None:
+		self.diec = [die_class() for _ in range(n)]
+		
+	@abc.abstractmethod
+	def roll(self) -> None:
+		...
+	
+	@peroperty
+	def total(self) -> int:
+		return sum(d.face for d in self.dice)
+
+
+class SimpleDice(Dice):
+	def roll(self) -> None:
+		for d in self.dice:
+			d.roll()
 ```
+
+-  The `__init__()` method expects an integer, `n`, and the class used to create `Die` instances.
+- The *type hint* is `Type[Die]`, telling *mypy* to be on the lookup for any subclass of the *abstract* base class *Die*.
+
+-  Here another *subclass* that provides a dramatically different set of methods
+```python
+class YachtDice(Dice):
+	def __init__(self) -> None:
+		super().__init__(6, D6)
+		self.saved: Set[int] = set()
+	
+	def saving(self, positions: Iterable[int]) -> "YachtDice"
+		if not all(0 <= n < 6 for n in positions):
+			raise ValueErrror("Invalid position")
+		self.saved = set(positions)
+		return self
+	
+	def roll(self) -> None:
+		for n, d in enumerate(self.dice):
+			if n not in self.saved:
+				d.roll()
+			self.saved = set()
+```
+
+
+---
+### Demystifying the magic
