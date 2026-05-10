@@ -310,6 +310,7 @@ class DDice:
             return new  
   
         return NotImplemented  
+        
     def __radd__(self, die_class: Any) -> 'DDice':  
         if isinstance(die_class, type) and issubclass(die_class, Die):  
             new_classes = [die_class] + [type(d) for d in self.dices]  
@@ -334,8 +335,22 @@ class DDice:
 			return DDice(*new_classes).plus(self.adjust)
 		else:	
 			return NotImplemented
+	
+#####################################################################
+# Mutable object
+	def __iadd__(self, die_class: Any) -> 'DDice':  
+        if isinstance(die_class, type) and issubclass(die_class, Die):  
+            self.dice += [die_class]   
+            return self
+        elif isinstance(die_class, int):  
+            self.adjust += die_class 
+            return self
+  
+        return NotImplemented
 ```
 
 1. **Mutable** object implements `__iadd__` , etc and *return* `self`.
 2. **Immutable** object don't implements `__iop__` and return *new* object.
-3. 
+
+---
+## Extending built-ins
