@@ -243,3 +243,40 @@ class YachtDice(Dice):
 
 ---
 ### Demystifying the magic
+Every Python class that *inherit* from *abstract* base class  *inherit* `__abstractmethods__` *froze set* and when implement every methods names are removed from set.
+
+```python
+Die.__abstractmethods__ # frozenset({'roll'})
+```
+---
+#### What is Class?
+1. A class is another with two limited *jobs*:
+	1. It is *special methods* to *create* and *manage* instances of the *class*.
+	2. It also a *container* for *method* definitions for *objects* of the *class*.
+2. The **type** *class* is internal object that build our application *classes* . **type** *class* create our *class* and *class* build our *objects*.
+
+---
+#### What is **type** class?
+The **type** class is a [[metaclass]] that responsible to create *classes* .
+Every *object* is instance of the **type** .
+Because **type** is a *class*  it can be *extended* .
+A class **abc.ABCMeta** is *extended* **type** class to check for methods decorated with *@abstractmethod* and when we *extended* **abc.ABC** we creating new class that uses the **ABCMeta** *metaclass*.
+We can see this wit `__mro__` 
+
+```python 
+class DieM(metaclass=abc.ABCMeta):
+	def __init__(self) -> None:
+		self.face: int
+		self.roll()
+		
+	@abc.abstractmethod
+	def roll(self) -> None:
+		...
+```
+
+- When we used **metaclass** as keyword parameter when defining the *components* that make up a class this means *extensions* to **type** will be used to create the final class *objects*.
+
+---
+## Operator overloading
+Every operators in python `+ - / *` are implemented by *special methods* on *classes*. 
+
