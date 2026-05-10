@@ -354,3 +354,13 @@ class DDice:
 
 ---
 ## Extending built-ins
+Python have two group of collections that we want to extended:
+1. **Immutable objects:** object that after construct we can't change them like: *string*, *bytes*, *tuples* 
+2. **Mutable objects:** object that we can change them like: *lists*, *dictionary* and *sets*
+
+We want to create dictionary that reject duplicate values:
+```python
+from typing import Dict, cast, Any, Mapping, Iterable, Tuple, Union
+from collection import Hashable
+
+```
