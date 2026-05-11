@@ -637,6 +637,4 @@ func main() {
 	- **interfaces** = behavior contracts
 	- **errors** = explicit returned values
 
-
-
 This mental model is extremely important for designing applications in Go.

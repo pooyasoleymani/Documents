@@ -21,8 +21,39 @@
               "icon": "lucide-file",
               "title": "Go Syntax and bsic Types"
             }
+          },
+          {
+            "id": "fc8e9f14ded45238",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Literature notes/Golang/Structs, interfaces, and Go’s approach to OOP.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Structs, interfaces, and Go’s approach to OOP"
+            }
+          },
+          {
+            "id": "834c6958d4c981ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Literature notes/Golang/Go Memory Model.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Go Memory Model"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -157,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Golang/Go Syntax and bsic Types.md",
+                "file": "Literature notes/Golang/Go Memory Model.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Go Syntax and bsic Types"
+              "title": "Outline of Go Memory Model"
             }
           },
           {
@@ -199,7 +230,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -217,10 +248,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "12d83b769816be49",
+  "active": "834c6958d4c981ca",
   "lastOpenFiles": [
-    "Literature notes/Python/Object Oriented Design/Object Oriented Design.md",
+    "Literature notes/Golang/Structs, interfaces, and Go’s approach to OOP.md",
+    "Literature notes/Golang/Go Memory Model.md",
     "Literature notes/Golang/Go Syntax and bsic Types.md",
+    "Literature notes/Python/Object Oriented Design/Object Oriented Design.md",
     "Literature notes/Golang",
     "Literature notes/Python/Object Oriented Design/Objects in Python.md",
     "Literature notes/Python/Object Oriented Design/When Object Are Alike.md",
@@ -244,8 +277,6 @@
     "Permanet Note/Strings and Regular Expressions.md",
     "Permanet Note/streambuf.md",
     "Permanet Note/Stream Buffer.md",
-    "Permanet Note/Socket.md",
-    "Permanet Note/SFINAE.md",
     "Literature notes/Python/Object Oriented Design",
     "CI",
     "Literature notes/Python/Data Analysis",
