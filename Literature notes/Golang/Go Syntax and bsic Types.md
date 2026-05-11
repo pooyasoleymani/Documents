@@ -69,4 +69,263 @@ func main() {
 ## Control Flow in Go
 You’ll find similarities to C++ but with some Go-specific nuances, particularly how `for` loops work.
 
-1. **Conditional Statements (if, else if, else)**:
+### 1. **Conditional Statements (if, else if, else)**
+Go’s `if` statements are quite standard. A key difference from *C++* and *Java* is that the *parentheses* `()` around the *condition* are *optional*, and the opening *curly brace* `{` **must** be on the same line as the `if` statement. You can also *declare* a *variable* within the `if` condition (similar to *C++*'s *initialization* in condition)
+
+```go 
+package main
+
+import "fmt"
+
+func main() {
+	score := 85
+	
+	if score >= 90 {
+		fmt.Println("Exelent!")
+	} else if score >= 75 {
+		fmt.Println("Good")
+	} else {
+		fmt.Println("Fail")
+	}
+	
+	if num:=1-; num%2 == 0 {
+		fmt.Println(num, "is Even")
+	} else {
+		fmt.Println(num, "is odd")
+	}
+	// num dosen't declare in this scope
+}
+```
+
+
+---
+### 2. **Switch Statements**
+Go’s `switch` statement is powerful and flexible. It doesn’t require `break` statements (each case automatically *“breaks”* by default), and you *can* switch on any *type*, not just constants or *integers*.
+```go 
+package main
+
+import (
+	"fmt"
+	"time"
+)
+
+func main() {
+	day := "Monday"
+	
+	switch day {
+		case "Monday":
+			fmt.Println("start of the week")
+		case "Friday":
+			fmt.Println("end of week")
+		default: // default case 
+			fmt.Println("mid-week")
+	}
+	
+	// Switching on type 
+	whatAmI := time.Now() 
+	switch whatAmI.(type) { // Using a type switch 
+	case bool: 
+		fmt.Println("I'm a boolean") 
+	case int: 
+		fmt.Println("I'm an integer") 
+	case float64: 
+		fmt.Println("I'm a float64") 
+	case string: 
+		fmt.Println("I'm a string") 
+	case time.Time: // Specific to our variable 
+		fmt.Println("I'm a time object") 
+	default: 
+		fmt.Println("I'm something else.") }
+}
+```
+
+**Key Points for `switch`:**
+
+- **No `break` needed:** Cases execute and then exit the `switch` block automatically. If you _want_ a case to fall through to the next one, you use the `fallthrough` keyword.
+- **No need for `case` or `default` constants:** You can use any expression in `case`.
+- **Type Switch:** A special form allows you to determine the dynamic type of an interface value.
+- **Initialization Statement:** Similar to `if`, you can have an initialization statement before the `switch` expression.
+
+---
+### 3. `For` Loop
+Go **only has the `for` loop**. It can be used in several ways to mimic `while` loops, C-style `for` loops, and more.
+
+- The classic *C-style*  `for` loop:
+```go
+package main 
+
+import "fmt"
+
+func main() {
+	
+	for i:=0; i<=10;i++ {
+		fmt.Println("Count", i)
+	} 
+}
+```
+
+- The `while` loop equivalent:
+```go
+package main
+
+import "fmt"
+
+func main() {
+    sum := 1
+    // Condition only: loop while condition is true
+    for sum < 10 {
+        sum += sum
+        fmt.Println("Current sum:", sum)
+    }
+}
+
+```
+
+- *Infinite* loop:
+```go
+package main
+
+import "fmt"
+
+func main() {
+    i := 0
+    for { // Infinite loop
+        fmt.Println("Looping...")
+        i++
+        if i >= 3 {
+            break // Essential to break out of infinite loops
+        }
+    }
+}
+
+```
+
+---
+### `for range` loop (for iterating over collections):
+This is used for iterating over arrays, slices, strings, maps, and channels. It’s very similar to Python’s `for`
+
+```go 
+package main
+
+import "fmt"
+
+func main() {
+	nums := []int{1, 2, 3, 4}
+	
+	for index, value := range nums {
+		fmt.Printf("Index: %d, Value: %d", index, value)
+	}
+	
+	for _, value := range nums {
+	 fmt.Println("Value:", value) 
+	 }
+	
+	myMaps := map[string]int{"apple": 2, "banana": 3}
+	
+	for key, value := range myMap {
+		fmt.Printf("Key: %s, Value: %d\n", key, val)
+	}
+	
+	// Iterating over a string (gives rune index and rune value) 
+	for index, runeValue := range "Go" {
+	 fmt.Printf("Rune index: %d, Rune value: %c\n", index, runeValue) 
+	 }
+}
+```
+
+**Key Points for `for`:**
+
+- **Single Loop Construct:** Go achieves all loop behaviors using `for`.
+- **No Parentheses:** Like `if`, conditions in `for` do not require parentheses.
+- **`for range`:** Extremely useful and idiomatic for collections. It returns two values: the index and the element (for slices/arrays/strings) or the key and value (for maps). You can ignore values using `_`.
+---
+
+## Functions and Methods
+- Function are simple and explicit
+- methods are just function with a receiver
+- Go doesn't have class *OPP* like C++ *inheritance* 
+- Go often returns *multiple values*, especially *(value, error)*
+
+### 1. Basic function syntax
+
+```go
+func functionName(parameterName type, parameterName type) returnType {
+    // body
+}
+```
+
+```go
+package main
+
+import "fmt"
+
+func add(x int, y int) intt {
+	return x + y
+}
+
+func main() {
+	result := add(2, 3)
+	fmt.Println(result)
+}
+```
+
+### 2. Shorter parameter typing
+If consecutive parameters have the *same type*, you write the type once.
+```go
+func add(x, y int) int {
+	return x + y
+}
+```
+
+
+### 3. Multiple return values
+Go prefers **explicit error handling** instead of *exceptions*.
+
+- common style in Go:
+```go
+value, err := someFunction()
+if err != nil {
+    // handle error
+}
+```
+
+```go 
+func divide(a, b float64) (float64, error) {
+    if b == 0 {
+        return 0, fmt.Errorf("division by zero")
+    }
+    return a / b, nil
+}
+//
+// Usage 
+//
+result, err := divide(10, 2)
+if err != nil {
+    fmt.Println("error:", err)
+    return
+}
+fmt.Println("result:", result)
+```
+
+#### Why this matter
+In *Python*, you may *raise* *exceptions*.
+In *C++*, you may:
+- throw *exceptions*
+- return *status codes*
+- use `std::optional` or similar patterns
+
+
+### 4. Returning multiple normal values
+```go
+func swap(a, b string) (string, string) {
+	return b, a
+}
+
+// Usage
+x, y := swap("hello", "world")
+fmt.Println(x, y)
+```
+
+
+### 5. Named return values
+Go allows *naming* return values.
