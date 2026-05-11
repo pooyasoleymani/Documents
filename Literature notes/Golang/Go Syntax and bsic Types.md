@@ -397,5 +397,243 @@ func main() {
 	greet := func(name string) {
 		fmt.Println("Hello.", name)
 	}
+	greet("Ali")
 }
 ```
+
+- We can invoke function immediately:
+```go
+func() {
+	fmt.Println("run immediatly")
+}()
+```
+
+
+
+### 10. Closures
+A **closure** is *function* that captures *variables* from its surrounding *scope* , this is similar to *Python* **closures** and *C++* *lambdas capturing* variables.
+```go 
+func counter() func() int {
+	count := 0
+	return func() int {
+		count++
+		return count
+	}
+}
+
+// usage
+c := counter()
+fmt.Println(c()) // 1
+fmt.Println(c()) // 2
+```
+
+
+
+### 11. Methods in Go
+A **method** is just a function with a *receiver*.
+```go
+type Rectangle struct {
+	Width float64
+	Height float64
+}
+
+func (r Rectangle) Area() float64 {
+	return r.Width * r.Height
+}
+
+// Usage 
+rect := Rectangle{Width: 10, Height: 5}
+fmt.Println(rect.Area())
+```
+
+
+### 12. Value receiver vs pointer receiver
+This is very important.
+
+- **Value receiver:** This *modifies* only a *copy*.
+```go
+func (r Rectangle) Scale(factor float64) {
+	r.Width *= factor
+	r.Height *= factor
+}
+```
+
+- **Pointer receiver:** This *modifies* the original *object*.
+```go
+func (r *Rectangle) Scale(factor float64) {
+	r.Width *= factor
+	r.Heigth *= factor
+}
+// Usage
+rect := Rectangle{Width: 10, Height: 5}
+rect.Scale(2)
+fmt.Println(rect.Width, rect.Height) // 20 10
+
+```
+
+
+>[!NOTE]
+>*Go* automatically handles some *pointer* syntax for *method* calls, which makes usage feel *cleaner* than *C++ pointers*.
+
+
+
+### 13. When to use pointer receivers
+- Use a pointer receiver when:
+	- you want to *modify* the *receiver*
+	- *copying* the *struct* is *expensive*
+	- you want *consistency* across *methods* on the same type
+
+```go
+type User struct {
+    Name string
+    Age  int
+}
+
+func (u *User) Birthday() {
+    u.Age++
+}
+```
+
+
+### 14. Structs + methods feel like lightweight classes
+- Go doesn’t have *classes*, but this *combination*:
+	- `struct`
+	- *methods*
+	- *interfaces*
+
+
+> **gives you most of what you need for application design.**
+
+```go
+package main
+
+import "fmt"
+
+type BankAccount struct {
+    Owner   string
+    Balance float64
+}
+
+func (b *BankAccount) Deposit(amount float64) {
+    b.Balance += amount
+}
+
+func (b *BankAccount) Withdraw(amount float64) error {
+    if amount > b.Balance {
+        return fmt.Errorf("insufficient balance")
+    }
+    b.Balance -= amount
+    return nil
+}
+
+func (b BankAccount) Display() {
+    fmt.Printf("Owner: %s, Balance: %.2f\n", b.Owner, b.Balance)
+}
+
+func main() {
+    account := BankAccount{Owner: "Sara", Balance: 1000}
+
+    account.Deposit(500)
+
+    err := account.Withdraw(300)
+    if err != nil {
+        fmt.Println("error:", err)
+        return
+    }
+
+    account.Display()
+}
+```
+
+
+
+
+### 15. Key differences from Python and C++
+##### Compared to Python
+- no *default arguments*
+- no *keyword arguments*
+- no *exceptions* as normal *error handling*
+- *methods* are *attached* to types, but no *class* system like Python
+- *explicit* types everywhere
+
+##### Compared to C++
+- much simpler *syntax*
+- no *default arguments*
+- no *function overloading*
+- no *constructors* in the *C++* sense
+- no *inheritance*
+- no *templates* in the old *C++* sense, though modern Go has *generics*
+- *methods* with *receivers* instead of *member functions* inside *classes*
+
+
+
+### 16. Important limitation: no function **overloading**
+
+This is normal in *C++* but not in *Go*,  you cannot define multiple *functions* with the same *name* in the same *package*.
+```cpp
+int add(int a, int b);
+double add(double a, double b);
+```
+
+- So you use:
+	- *different* names
+	- *interfaces*
+	- *generics*
+	- different *parameter* types through *design*
+
+
+
+### 17. Idiomatic Go error pattern
+
+```go
+value, err := doSomething()
+if err != nil {
+    return err
+}
+```
+
+As a *Python developer*, this may feel *repetitive* at first.
+As a *C++ developer*, it may feel more *explicit* than *exceptions*.
+But in *Go*, this is one of the core *design philosophies*:
+- *simple*
+- *explicit*
+- *predictable*
+
+
+
+### 18. Mini example combining functions and methods
+
+```go
+package main
+
+import "fmt"
+
+type Circle struct {
+    Radius float64
+}
+
+func (c Circle) Area() float64 {
+    return 3.14 * c.Radius * c.Radius
+}
+
+func describeCircle(c Circle) string {
+    return fmt.Sprintf("Circle with radius %.2f has area %.2f", c.Radius, c.Area())
+}
+
+func main() {
+    circle := Circle{Radius: 5}
+    fmt.Println(describeCircle(circle))
+}
+```
+
+
+
+### 19. Mental model you should keep
+- Think of Go like this:
+	- **functions** = standalone behavior
+	- **methods** = behavior attached to a type
+	- **structs** = data containers
+	- **interfaces** = behavior contracts
+	- **errors** = explicit returned values
+
+This mental model is extremely important for designing applications in Go.
