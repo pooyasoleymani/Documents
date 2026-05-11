@@ -329,3 +329,73 @@ fmt.Println(x, y)
 
 ### 5. Named return values
 Go allows *naming* return values.
+```go
+package main
+
+func rectangle(width, height int) (area int, perimeter int) {
+	area = width * height 
+	perimeter = 2 * (width + height) 
+	return
+}
+```
+
+### 6. function with no return value 
+```go
+func greet(name string) {
+    fmt.Println("Hello,", name)
+}
+```
+
+
+### 7. Variadic functions
+Like Python’s `*args` and C++ *variadic template*
+```go
+func sum(nums ...int) int {
+	total := 0
+	for _, value := range nums {
+		total += value
+	}
+	return total
+}
+
+// usage
+fmt.Println(sum(1, 2, 3)) 
+fmt.Println(sum(10, 20, 30, 40))
+```
+
+- If we have *slice* the `...` can expands the *slice*:
+```go 
+numbers := []int{1, 2, 3, 4 ,5, 6}
+fmt.Println(sum(numbers...)) 
+```
+
+
+
+### 8. Functions are first-class values
+Like *Python* and modern *C++* *lambdas/function objects*, *functions* in Go can be assigned to variables and passed around.
+```go
+func mitliply(a, b int) int {
+	return a * b
+}
+
+func main() {
+	op := multiply
+	fmt.Prinln(op(3, 5))
+}
+```
+
+
+
+
+### 9. Anonymous functions
+```go 
+package main
+
+import "fmt"
+
+func main() {
+	greet := func(name string) {
+		fmt.Println("Hello.", name)
+	}
+}
+```
