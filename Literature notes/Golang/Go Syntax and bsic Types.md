@@ -629,11 +629,14 @@ func main() {
 
 
 ### 19. Mental model you should keep
+
 - Think of Go like this:
 	- **functions** = standalone behavior
 	- **methods** = behavior attached to a type
 	- **structs** = data containers
 	- **interfaces** = behavior contracts
 	- **errors** = explicit returned values
+
+
 
 This mental model is extremely important for designing applications in Go.

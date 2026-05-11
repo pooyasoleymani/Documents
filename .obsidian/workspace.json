@@ -199,12 +199,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -218,7 +217,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f199b148a608b09c",
+  "active": "12d83b769816be49",
   "lastOpenFiles": [
     "Literature notes/Python/Object Oriented Design/Object Oriented Design.md",
     "Literature notes/Golang/Go Syntax and bsic Types.md",
