@@ -18,7 +18,7 @@ tags:
 
 ---
 
-**Concrete Class:** A class with complete  definition of attribute and methods.
+**Concrete Class:** A class with complete definition of attribute and methods.
 
 ---
 
@@ -31,7 +31,6 @@ tags:
 **Abstract Class:** Abstract class can't use directly and *instantiate* but can use to *inheritance* to create *concrete class*.
 
 ---
-
 ## Creating an abstract base class
 One of the most use case of *ABC* base class is *documentation*.
 *abc.ABC* class introduce [[metaclass]]  a class to use create *concrete* class this *metaclass* by default is **type** in python.
@@ -67,11 +66,11 @@ odd = OddIntegers()
 ```
 
 
-- Python *duck typing* is part of `isinstance()` and `issubclass()` with `__instancecheck__()` and `__subclasscheck__()` magic method and *ABC* class can provide a `__subclasshook__()` method which used by `__subclasscheck__()` method to *assert* that a give class is proper subclass of abstract base class.
+- Python *duck typing* is part of `isinstance()` and `issubclass()` with `__instancecheck__()` and `__subclasscheck__()` magic method and *ABC* class can provide a `__subclasshook__()` method which used by `__subclasscheck__()` method to *assert* that a give class is proper subclass of *abstract base* class.
 
 ---
-## Abstract base class ant type hints
-**Generic classes** and **abstract base classes** are not the same thing. The two concepts
+## Abstract base class and type hints
+**Generic classes** and **Abstract Base Classes** are not the same thing. The two concepts
 overlap, but are distinct:
 
 - *Generic classes* have an *implicit* relationship with *Any*. This often needs to be narrowed using type parameters, like`list[int]`. The list class is concrete, and when we want to extend it, we'll need to plug in a class name to replace the *Any* type. The Python *interpreter* does not use *generic class* hints in any way; they are only checked by *static analysis* tools such as *mypy*.

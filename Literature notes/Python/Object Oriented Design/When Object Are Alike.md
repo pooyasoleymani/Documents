@@ -67,7 +67,7 @@ class Contact:
 ```
 
 
-- Generic collections: set, list, dict. These use type hints like `set[something]`, `list[something],` and `dict[key, value]` to narrow the hint from purely generic to something more specific that the application will actually use. To use the generic types as annotations, a from __future__ import annotations is required as the first line of code.
+- *Generic collections:* set, list, dict. These use type hints like `set[something]`, `list[something],` and `dict[key, value]` to narrow the hint from purely generic to something more specific that the application will actually use. To use the generic types as annotations, a from __future__ import annotations is required as the first line of code.
 
 - The *typing.NamedTuple* definition lets us define new kinds of immutable tuples and provide useful names for the members. 
 

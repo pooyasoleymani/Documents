@@ -25,11 +25,11 @@ tags:
 
 ---
 - **Object-Oriented-Analysis:** 
-The process of looking at a *problem*, *system* or *task* and identifying the *object* and interaction between them(*what* we need).
+The process of looking at a *problem*, *system* or *task* and identifying the *object* and interaction between them (*what* we need).
 Output of the *analysis stage* often in the form of **[[requirements]]**.  
 
 - **Object-Oriented-Design:**
-The process of converting such **requirements** into an implementation specification such as name *objects* and *behaviors*(transform *what* to *how* it should be done)
+The process of converting such **requirements** into an *implementation specification* such as name *objects* and *behaviors*(transform *what* to *how* it should be done)
 
 - **Object-Oriented-Programming:**
 The process of converting a *design* into a working program that does what the product owner originally requested.
@@ -149,11 +149,11 @@ class Teacher {
 
 ---
 ## Inheritance
-Driven class inherit Base class behavior , methods or properties.
-if use Abstract class driven class must be *override* abstract method.
+*Driven* class inherit *Base* class behavior , methods or properties.
+if use *Abstract class* driven class must be *override* abstract method.
 
-*Pron:* It make to repeatability and we don't need to rewrite code, and code duplication.
-*Cron:* tightly coupling in interface and driven class  
+*Pron:* It make to repeatability and we don't need to rewrite code, and *code duplication*.
+*Cron:* tightly *coupling* in interface and driven class  
 
 
 - **Interface(Python):** Class with pure abstract method.
