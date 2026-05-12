@@ -4,6 +4,7 @@ tags:
   - python
   - architecture
   - programming
+Next: "[[When Object Are Alike]]"
 ---
 ---
 ## What We learn

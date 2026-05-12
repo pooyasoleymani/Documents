@@ -4,6 +4,7 @@ tags:
   - python
   - architecture
   - programming
+Next: "[[Objects in Python]]"
 ---
 ---
 ## What We Learn

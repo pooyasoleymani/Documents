@@ -4,6 +4,7 @@ tags:
   - python
   - architecture
   - programming
+Next: "[[Expecting the Unexpected]]"
 ---
 ---
 ## What We learn
@@ -79,7 +80,7 @@ class Contact:
 
 
 ### super()
-This method allow us to use parent method directly and diamond problem.
+This method allow us to use parent method directly and *diamond problem*.
 
 ---
 ## Polymorphism

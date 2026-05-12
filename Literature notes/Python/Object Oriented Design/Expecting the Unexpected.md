@@ -4,6 +4,7 @@ tags:
   - python
   - architecture
   - programming
+Next: "[[When to Use Object-Oriented Programming]]"
 ---
 ---
 ## What We Learn?

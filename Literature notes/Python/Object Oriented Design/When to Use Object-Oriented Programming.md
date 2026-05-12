@@ -4,6 +4,7 @@ tags:
   - python
   - architecture
   - programming
+Next: "[[Abstract Base Class and Operator Overloading]]"
 ---
 ---
 ## What We Learn

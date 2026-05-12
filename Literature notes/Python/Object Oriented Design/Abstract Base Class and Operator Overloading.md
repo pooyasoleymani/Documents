@@ -4,6 +4,7 @@ tags:
   - python
   - architecture
   - programming
+Next: "[[Python Data Structure]]"
 ---
 ---
 ## What We Learn?
