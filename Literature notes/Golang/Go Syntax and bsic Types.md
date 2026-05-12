@@ -202,7 +202,7 @@ func main() {
 
 ---
 ### `for range` loop (for iterating over collections):
-This is used for iterating over arrays, slices, strings, maps, and channels. It’s very similar to Python’s `for`
+This is used for iterating over *arrays*, *slices*, *strings*, *maps*, and *channels*. It’s very similar to Python’s `for`
 
 ```go 
 package main
@@ -242,7 +242,7 @@ func main() {
 
 ## Functions and Methods
 - Function are simple and explicit
-- methods are just function with a receiver
+- methods are just function with a *receiver*
 - Go doesn't have class *OPP* like C++ *inheritance* 
 - Go often returns *multiple values*, especially *(value, error)*
 
@@ -385,8 +385,6 @@ func main() {
 ```
 
 
-
-
 ### 9. Anonymous functions
 ```go 
 package main
@@ -426,7 +424,6 @@ c := counter()
 fmt.Println(c()) // 1
 fmt.Println(c()) // 2
 ```
-
 
 
 ### 11. Methods in Go

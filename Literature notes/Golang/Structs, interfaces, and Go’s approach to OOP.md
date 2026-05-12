@@ -6,7 +6,7 @@ tags:
 ---
 ---
 ### 1. Struct in Go
-`struct` in Go is a container of data
+`struct` in Go is a container of *data*
 - C++ `struct` or `class` **without** inheritance
 - Python class **without** methods (methods are added separately)
 ```go
@@ -92,9 +92,8 @@ d.Speak() // promoted method
 ```
 
 
-
 ### 5. Interface
-*Interfaces* in Go are extremely different from *C++* and *Python*:
+*Interfaces* in Go are *extremely* different from *C++* and *Python*:
 - **implicit**
 - **behavior-only**
 - **no need to declare “implements”**
@@ -127,8 +126,6 @@ x = 10
 x = "hello"
 x = Person{"Alex", 20}
 ```
-
-
 
 
 ### 7. Type Assertions
