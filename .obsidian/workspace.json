@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c7934101b6cb43d0",
+        "id": "7ec414961f14b1a2",
         "type": "tabs",
         "children": [
           {
-            "id": "5be616655663de49",
+            "id": "9e2995cc545c96df",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Literature notes/Python/Object Oriented Design/Python Data Structure.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Python Data Structure"
+              "title": "New tab"
             }
           }
         ]
@@ -157,13 +152,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Python/Object Oriented Design/Python Data Structure.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Python Data Structure"
+              "title": "Outline"
             }
           },
           {
@@ -218,10 +212,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5be616655663de49",
+  "active": "9e2995cc545c96df",
   "lastOpenFiles": [
-    "Literature notes/Python/Object Oriented Design/Abstract Base Class and Operator Overloading.md",
+    "Daily Notes/2026-05-13.md",
     "Literature notes/Python/Object Oriented Design/Python Data Structure.md",
+    "Literature notes/Python/Object Oriented Design/Abstract Base Class and Operator Overloading.md",
     "Literature notes/Python/Object Oriented Design/When to Use Object-Oriented Programming.md",
     "Literature notes/Python/Object Oriented Design/When Object Are Alike.md",
     "Literature notes/Python/Object Oriented Design/Expecting the Unexpected.md",
@@ -246,7 +241,6 @@
     "Permanet Note/uv resolver performance advantage.md",
     "Permanet Note/TypeList‑based Meta‑Recursion.md",
     "Permanet Note/Tag Dispatching.md",
-    "Permanet Note/Strings and Regular Expressions.md",
     "Literature notes/Python/Object Oriented Design",
     "CI",
     "Literature notes/Python/Data Analysis",
