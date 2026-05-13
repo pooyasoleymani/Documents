@@ -443,3 +443,85 @@ class D6L(DieLog):
 	"""Some documentation on D6L"""
 		self.face = random.randrange(1, 7)
 ```
+
+
+## Extending the list class with two subclass 
+Python built-in class have two constructor:
+1. `list()` to create empty list .
+2. `list(x)` to create list from *iterable* source data.
+
+We need to `@overload` decorator to clear for *mypy*:
+
+```python
+class SamplePartition(list[SampleDict], abc.ABC):  
+    @overload  
+    def __init__(self, *, training_subset: float = 0.8) -> None:  
+        ...  
+  
+    @overload  
+    def __init__(  
+            self,  
+            iterable: Optional[Iterable[SampleDict]] = None,  
+            *,  
+            training_subset: float = 0.8  
+    ) -> None:  
+        ...  
+  
+    def __init__(  
+            self,  
+            iterable: Optional[Iterable[SampleDict]] = None,  
+            *,  
+            training_subset: float = 0.8  
+    ) -> None:  
+        self.training_subset = training_subset  
+        if iterable:  
+            super().__init__(iterable)  
+        else:  
+            super().__init__()  
+  
+    @abc.abstractproperty  
+    @property    def training(self) -> List[TrainingKnownSample]:  
+        ...  
+  
+    @abc.abstractproperty  
+    @property    def testing(self) -> List[TestingKnowSample]:  
+        ...
+```
+
+
+- with an *iterable* source of `SampleDict` objects as the only *positional parameter*.
+-  This tells *mypy* that we're working with a *dictionary* that has only the *five* supplied *keys* and no *others*.
+```python
+class SampleDict(TypedDict):  
+    sepal_length: float  
+    sepal_width: float  
+    petal_length: float  
+    petal_width: float  
+    species: str
+```
+
+
+## A shuffling strategy for partitioning
+We can use `random.shuffle()` to handle to randomize shuffling.
+
+```python
+class ShufflingSamplePartitioning(SamplePartition):  
+    def __init__(self, iterable: Optional[SampleDict],*, training_subset: float = 0.8) -> None:  
+        super().__init__(iterable, training_subset=training_subset)  
+        self.split: Optional[int] = None  
+  
+    def shuffle(self):  
+        if not self.split:  
+            random.shuffle(self)  
+            self.split = int(len(self) * self.training_subset)  
+  
+    @property  
+    def training(self) -> List[TrainingKnownSample]:  
+        self.shuffle()  
+        return [TrainingKnownSample(*sd) for sd in self[: self.split]]  
+  
+    @property  
+    def testing(self) -> List[TestingKnowSample]:  
+        self.shuffle()  
+        return [TestingKnowSample(**sd) for sd in self[self.split :]]
+```
