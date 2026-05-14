@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7ec414961f14b1a2",
+        "id": "4f06a195da4226e7",
         "type": "tabs",
         "children": [
           {
-            "id": "9e2995cc545c96df",
+            "id": "63de73622296a157",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Literature notes/Python/Object Oriented Design/Abstract Base Class and Operator Overloading.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Abstract Base Class and Operator Overloading"
+              "title": "New tab"
             }
           }
         ]
@@ -157,13 +152,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Python/Object Oriented Design/Abstract Base Class and Operator Overloading.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Abstract Base Class and Operator Overloading"
+              "title": "Outline"
             }
           },
           {
@@ -218,11 +212,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9e2995cc545c96df",
+  "active": "63de73622296a157",
   "lastOpenFiles": [
+    "Daily Notes/2026-05-14.md",
+    "Literature notes/Python/Object Oriented Design/Abstract Base Class and Operator Overloading.md",
     "Daily Notes/2026-05-13.md",
     "Literature notes/Python/Object Oriented Design/Python Data Structure.md",
-    "Literature notes/Python/Object Oriented Design/Abstract Base Class and Operator Overloading.md",
     "Literature notes/Python/Object Oriented Design/When to Use Object-Oriented Programming.md",
     "Literature notes/Python/Object Oriented Design/When Object Are Alike.md",
     "Literature notes/Python/Object Oriented Design/Expecting the Unexpected.md",
@@ -246,7 +241,6 @@
     "Permanet Note/Variadic Recursive Instantiation Engine.md",
     "Permanet Note/uv resolver performance advantage.md",
     "Permanet Note/TypeList‑based Meta‑Recursion.md",
-    "Permanet Note/Tag Dispatching.md",
     "Literature notes/Python/Object Oriented Design",
     "CI",
     "Literature notes/Python/Data Analysis",
