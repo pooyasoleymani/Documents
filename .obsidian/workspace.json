@@ -11,10 +11,24 @@
             "id": "63de73622296a157",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Literature notes/Python/Object Oriented Design/Python Data Structure.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Python Data Structure"
             }
           }
         ]
@@ -152,12 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Literature notes/Python/Object Oriented Design/Python Data Structure.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Python Data Structure"
             }
           },
           {
@@ -214,11 +229,11 @@
   },
   "active": "63de73622296a157",
   "lastOpenFiles": [
-    "Daily Notes/2026-05-14.md",
     "Literature notes/Python/Object Oriented Design/Abstract Base Class and Operator Overloading.md",
+    "Literature notes/Python/Object Oriented Design/When to Use Object-Oriented Programming.md",
+    "Daily Notes/2026-05-14.md",
     "Daily Notes/2026-05-13.md",
     "Literature notes/Python/Object Oriented Design/Python Data Structure.md",
-    "Literature notes/Python/Object Oriented Design/When to Use Object-Oriented Programming.md",
     "Literature notes/Python/Object Oriented Design/When Object Are Alike.md",
     "Literature notes/Python/Object Oriented Design/Expecting the Unexpected.md",
     "Literature notes/Python/Object Oriented Design/Objects in Python.md",

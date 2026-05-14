@@ -524,4 +524,79 @@ class ShufflingSamplePartitioning(SamplePartition):
     def testing(self) -> List[TestingKnowSample]:  
         self.shuffle()  
         return [TestingKnowSample(**sd) for sd in self[self.split :]]
+
+
+data = [
+{
+
+	"sepal_length": i + 0.1,
+	"sepal_width": i + 0.2,
+	"petal_length": i + 0.3,
+	"petal_width": i + 0.4,
+	"species": f"sample {i}",
+	} for i in range(10)
+]
+
+
+ssp = ShufflingSamplePartitioning(training_subset=0.67)
+for d in data:
+	ssp.append(data)
+
+```
+
+
+## An Incremental Strategy for partitioning
+Let's define a subclass of `SamplePartition` that makes a *random* choice between testing and training on each `SampleDict` object that is presented via initialization, or the `append()` or `extend()` methods.
+
+```python
+class DelingPartition(abc.ABC):  
+    @abc.abstractmethod  
+    def __init__(self, items: Optional[Iterable[SampleDict]], *, training_subset: Tuple[int, int] = (8, 10)) -> None:  
+        ...  
+  
+    @abc.abstractmethod  
+    def extend(self, items: Iterable[SampleDict]) -> None:  
+        ...  
+  
+    @abc.abstractmethod  
+    def append(self, item: SampleDict) -> None:  
+        ...  
+  
+    @property  
+    @abc.abstractmethod    def testing(self) -> List[TestingKnowSample]:  
+        ...  
+  
+    @property  
+    @abc.abstractmethod    def training(self) -> List[TrainingKnownSample]:  
+        ...  
+  
+  
+class CountingDealingPartitioning(DelingPartition):  
+    def __init__(self, items: Iterable[SampleDict], *, training_subset: Tuple[int, int] = (8, 10)) -> None:  
+        self.training_subset = training_subset  
+        self.counter = 0  
+        self._training: List[TrainingKnownSample] = []  
+        self._testing: List[TestingKnowSample] = []  
+        if items is not None:  
+            self.extend(items)  
+  
+    def extend(self, items: Iterable[SampleDict]) -> None:  
+        for sample in items:  
+            self.append(sample)  
+  
+    def append(self, item: SampleDict) -> None:  
+        n, d = self.training_subset  
+        if self.counter % d < n:  
+            self._training.append(TrainingKnownSample(**item))  
+        else:  
+            self._testing.append(TestingKnowSample(**item))  
+        self.counter += 1  
+  
+    @property  
+    def training(self) -> List[TrainingKnownSample]:  
+        return self._training  
+  
+    @property  
+    def testing(self) -> List[TestingKnowSample]:  
+        return self._testing
 ```
