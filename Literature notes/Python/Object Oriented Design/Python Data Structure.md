@@ -95,4 +95,22 @@ class Stock:
 	low: float
 ```
 
-- By default *dataclass* 
+- By default *dataclass* implement `__eq__` and `__rper__`
+- We can set default value for *attributes*
+-  If we want to compare `__qt__` , ... we can set `@dataclass(order=Trure)`
+-  For set dataclass *Immutable* like *NamedTuple* we do `@dataclass(frozen=True, order=True)`
+- we have  `__post_init__()` for after `__init__` call for some use case.
+
+
+---
+## Dictionaries
+- Useful containers that allow us to *map* objects directly to other objects.
+- Dictionary use *hash* of *key* to locate the *values* , *keys* must be *immutable* .
+- If *key* not in *dictionary* it *raise* **KeyError** to handle that.
+- `setdefault()` method if *key* exist return *value* of key if not exist set *key* with *value* and return *value*
+
+>[!IMPORTANT]
+>We can, however, *create* our own *class* of *objects* that are both *mutable* and provide a *hash value*; this is *unsafe* because a change to the *object's state* can make it *difficult* to find the *key* in the **dictionary**.
+
+
+ 
