@@ -102,6 +102,24 @@ class Stock:
 - we have  `__post_init__()` for after `__init__` call for some use case.
 - If we want to implement the `__gt__`, `__ne__`, `__ge__`, `__le__`, `__eq__` best practice is implement just `__lt__` and `__eq__` and use `@total_ordering` *decorator* in top of *dataclass*.
 
+```python
+from functools import total_ordering
+from dataclass import dataclass
+from typing import Optional, cast
+import datetime
+
+@total_ordering
+@dataclass(frozen=True)
+class MultiItem:
+	data_source: str
+	timestamp: Optional[float]
+	creation_date: Optional[float]
+	name: str
+	owner_etc: str
+	
+	def __lt__()
+	
+```
 
 ---
 ## Dictionaries
