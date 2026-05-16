@@ -301,20 +301,26 @@ Lists are *extremely* versatile tools that suit many *container* object applicat
 - *sets* can hold *hashable objects* .
 
 Some Useful methods:
-- The issubset method returns True if all of the items in the calling set are also
+- The `issubset` method returns True if all of the items in the calling set are also in the set passed as an argument. We can use the` <= `operator for this, also.
 
-in the set passed as an argument. We can use the <= operator for this, also.
+- The `issuperset` method returns True if all of the items in the argument are also in the calling set. Thus, `s.issubset(t)`, `s <= t`, `t.issuperset(s)`, and `t >= s` are all identical.
 
-• The issuperset method returns True if all of the items in the argument are
+- They will both return True if t contains all the elements in s. (The < and > operators are for proper subsets and proper` supersets`; there are no named methods for these operations.)
 
-also in the calling set. Thus, s.issubset(t), s <= t, t.issuperset(s), and
+- The `intersection` *method* accepts a second set and returns a new set that *contains* only those elements that are in both sets. It is like a *logical* and *operation*, and can also be referenced using the `&` operator.
 
-t >= s are all identical.
+- `union` It takes a second set as a parameter and returns a new set that contains all elements that are in either of the two sets; if an element is in both original sets, it will only show up once in the new set. Union is like a logical or operation. Indeed, the `|`*operator* can be used on two sets to perform the union operation, if you don't like calling methods.
 
-[ 288 ]Chapter 7
 
-• They will both return True if t contains all the elements in s. (The < and >
+---
+## Tree types of queues
+**Queue** is a special kind of *buffer*, summarized as *First in First Out (FIFO)* .
+- *Example:* database might have a *queue* of data to be *written* to disk.
 
-operators are for proper subsets and proper supersets; there are no named
+We have several ways to implement a queue in Python:
 
-methods for these operations.)
+1. List using the `pop() `and` append() `methods of a list.
+
+2. The `collections.deque` structure, which supports `popleft()` and `append()` methods. A *"deque"* is a *Double-Ended Queue*. This is an elegant *queue* implementation that's *faster* than a simple list for the specific operations of appending and popping.
+
+3. The `queue` module provides a queue often used for` multithreading`, but it can also be used for our single thread to examine a directory tree. This uses `get()` and `put()` methods. Since this *structure* is designed for *concurrency*, it locks the data structure to assure that each change is atomic and can't be interrupted by other *threads*. For a *non-concurrent* application, the locking *overhead* is a *performance* penalty we can avoid.

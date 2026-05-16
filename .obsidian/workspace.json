@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4f06a195da4226e7",
+        "id": "5560c4a243bad156",
         "type": "tabs",
         "children": [
           {
-            "id": "63de73622296a157",
+            "id": "a77c13a63e2d8b0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -227,13 +227,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "63de73622296a157",
+  "active": "a77c13a63e2d8b0a",
   "lastOpenFiles": [
+    "Daily Notes/2026-05-16.md",
+    "Literature notes/Python/Object Oriented Design/Python Data Structure.md",
     "Literature notes/Python/Object Oriented Design/Abstract Base Class and Operator Overloading.md",
     "Literature notes/Python/Object Oriented Design/When to Use Object-Oriented Programming.md",
     "Daily Notes/2026-05-14.md",
     "Daily Notes/2026-05-13.md",
-    "Literature notes/Python/Object Oriented Design/Python Data Structure.md",
     "Literature notes/Python/Object Oriented Design/When Object Are Alike.md",
     "Literature notes/Python/Object Oriented Design/Expecting the Unexpected.md",
     "Literature notes/Python/Object Oriented Design/Objects in Python.md",
@@ -255,7 +256,6 @@
     "Permanet Note/X11 implement in C++.md",
     "Permanet Note/Variadic Recursive Instantiation Engine.md",
     "Permanet Note/uv resolver performance advantage.md",
-    "Permanet Note/TypeList‑based Meta‑Recursion.md",
     "Literature notes/Python/Object Oriented Design",
     "CI",
     "Literature notes/Python/Data Analysis",
