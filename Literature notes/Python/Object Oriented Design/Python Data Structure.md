@@ -319,8 +319,51 @@ Some Useful methods:
 
 We have several ways to implement a queue in Python:
 
-1. List using the `pop() `and` append() `methods of a list.
+1. *List* using the `pop() `and` append() `methods of a list.
 
 2. The `collections.deque` structure, which supports `popleft()` and `append()` methods. A *"deque"* is a *Double-Ended Queue*. This is an elegant *queue* implementation that's *faster* than a simple list for the specific operations of appending and popping.
 
-3. The `queue` module provides a queue often used for` multithreading`, but it can also be used for our single thread to examine a directory tree. This uses `get()` and `put()` methods. Since this *structure* is designed for *concurrency*, it locks the data structure to assure that each change is atomic and can't be interrupted by other *threads*. For a *non-concurrent* application, the locking *overhead* is a *performance* penalty we can avoid.
+3. The `queue` module provides a queue often used for` multithreading`, but it can also be used for our single thread to examine a directory tree. This uses `get()` and `put()` methods. Since this *structure* is designed for *concurrency*, it locks the *data structure* to assure that each change is atomic and can't be interrupted by other *threads*. For a *non-concurrent* application, the locking *overhead* is a *performance* penalty we can avoid.
+
+- wrapper classes around them to provide a *uniform interface*:
+```python
+class ListQueue(List[Path]):
+	def put(self, item: Path) -> None:
+		self.append(item)
+	def get(self) -> Path:
+		return self.pop(0)
+	def empty(self) -> bool:
+		return len(self) == 0
+```
+
+```python
+from typing import Deque
+
+class DeQueue(Deque[Path]):
+	def put(self, item: Path) -> None:
+		sefl.append(item)
+	def get(self) -> Path:
+		return self.popleft()
+	def empty(self) -> bool:
+		return len(self) == 0
+```
+
+- This *queue* module's implementation uses *lock* to prevent the structure from being damaged by concurrent access across multiple *threads*:
+```python
+import queue
+from typing import TYPE_CHECK
+
+	if TYPE_CHECK:
+		BaseQueue: queue.Queue[Path] # for mypy
+	else:
+		BaseQueue: queue.Queue # used at runtime
+
+class ThreadQueue(BaseQueue):
+	pass
+
+PathQueue = Union[ListQueue, DeQueue, ThreadQueue]
+```
+
+
+- For *single-threaded* applications, the `collections.deque` is ideal; it's designed for this purpose.
+- For *multi-threaded* applications, the `queue.Queue` is required to provide a *data structure* that can be read and written by multiple concurrent *threads*.
