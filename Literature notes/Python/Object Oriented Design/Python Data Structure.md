@@ -117,8 +117,40 @@ class MultiItem:
 	name: str
 	owner_etc: str
 	
-	def __lt__()
+	def __lt__(self, other: Any) -> bool:
+		if self.data_source == "Local":
+			self_datetime = datetime.datetime.fromtimestamp(
+				cast(float, self.timedtamp)
+			)
+		else:
+			self_datetime = datetime.datetime.fromisoformat(
+				cast(str, self.creation_date)
+			)
+		if other.data_source == "Local":
+			other_datetime = datetime.datetime.fromtimestamp(
+				cast(float, other.timestamp)
+			)
+		else: 
+			other_datetime = datetime.datetime.fromisoformat(
+				cast(str, other.creation_date)
+			)
+		return self_datetime < other_datetime
 	
+	def __eq__(self, other: Any) -> bool:
+		return self.datetime == cast(MultiItem, other).datetime
+		
+	
+	@propety
+	def datetime(self) -> datetime.datetime:
+		if self.date_source == "Local":
+			return datetime.datetime.fromtimestamp(
+				cast(float, self.timestamp)
+			)
+		else:
+			return datetime.datetime.fromisoformat(
+				cast(str, self.creation_date)
+			)	
+
 ```
 
 ---
@@ -184,3 +216,105 @@ In Python, lists should normally be used when we want to store several *instance
 >*Don't* use *lists* for *collecting* **different attributes** of individual items. *Tuples*, *named tuples*, *dictionaries*, and *objects* would all be more *suitable* for *collecting* different kinds of *attribute values*.
 
 
+---
+## Sorting Lists
+- We can use `sort()` method without any parameters for example if we have `list[str]` *sort* method will place the items in alphabetical *order*.
+- We can place *objects* in to the *list* and make them *sortable* for that we must *implement* `__lt__()` method. 
+
+```python
+from typing import Any, Optional, cast
+from dataclasses import dataclass
+import datetime
+
+@dataclass(frozen=True)
+class MultiItem:
+	data_source: str
+	timestamp: Optional[float]
+	creation_sate: Optional[float]
+	name: str
+	owneer_etc: str
+	
+	def __lt__(self, other: Any) -> bool:
+		if self.data_source == "Local":
+			self_datetime = datetime.datetime.fromtimestamp(
+				cast(float, self.timedtamp)
+			)
+		else:
+			self_datetime = datetime.datetime.fromisoformat(
+				cast(str, self.creation_date)
+			)
+		if other.data_source == "Local":
+			other_datetime = datetime.datetime.fromtimestamp(
+				cast(float, other.timestamp)
+			)
+		else: 
+			other_datetime = datetime.datetime.fromisoformat(
+				cast(str, other.creation_date)
+			)
+		return self_datetime < other_datetime
+		
+```
+
+- Second *design* strategy is localize the comparison as part of evaluation the `sort()` method
+```python
+@dataclass(frozen=True)
+class SimpleMultiItem:
+	data_source: str
+	timestamp: Optional[float]
+	creation_date: Optionnal[float]
+	name: str
+	owner_etc: str
+
+def by_timstamp(item: SimpleMultiItem) -> datetime.datetime:
+	if item.data_source == "Local":
+		return datetime.datetime.fromtimstamp(
+			cast(folat, item.timestamp)
+		)
+	
+	elif item.data_source == "Remote":
+		return datetime.datetime.fromisoformat(
+			cast(str, self.creation_date)
+		)
+	else:
+		raise ValueError(f"Unknown data_source in {item!r}")
+
+# we have list of SimpleMultiItem
+file_list.sort(key=by_timestamp)
+```
+
+- We can use *lambda function* for that
+```python
+file_list.sort(key=lambda item: item.name) # sort with name
+```
+
+- We can use `operator` *module* to create function object
+```python
+import operator
+
+file_list.sort(key=operator.attrgetter("name"))
+```
+
+
+---
+## Sets
+Lists are *extremely* versatile tools that suit many *container* object applications. But they are not useful when we want to ensure that objects in a *list* are *unique*.
+- *sets* can hold *hashable objects* .
+
+Some Useful methods:
+- The issubset method returns True if all of the items in the calling set are also
+
+in the set passed as an argument. We can use the <= operator for this, also.
+
+• The issuperset method returns True if all of the items in the argument are
+
+also in the calling set. Thus, s.issubset(t), s <= t, t.issuperset(s), and
+
+t >= s are all identical.
+
+[ 288 ]Chapter 7
+
+• They will both return True if t contains all the elements in s. (The < and >
+
+operators are for proper subsets and proper supersets; there are no named
+
+methods for these operations.)
