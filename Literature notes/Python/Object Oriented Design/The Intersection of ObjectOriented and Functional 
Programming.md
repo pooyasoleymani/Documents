@@ -159,14 +159,76 @@ import sys
 from typing import TextIO
 from pathlib import Path
 
-def doctest_everything(
-	output: TextIO,
-	*directories: Path,
-	verbose: False,
-	**stems: str
-) -> None:
-	def log(*args, **kwargs) -> None:
-		print(*args, **kwargs)
-	
-	with contextlib.redirect_stdout(output):
+def doctest_everything(  
+        output: TextIO,  
+        *directories: Path,  
+        verbose: False,  
+        **stems: str  
+) -> None:  
+    def log(*args, **kwargs) -> None:  
+        if verbose:  
+            print(*args, **kwargs)  
+    with contextlib.redirect_stdout(output):  
+        for directory in directories:  
+            log(f"Searching in {directory}")  
+            for path in directory.glob("**/*.md"):  
+                if any(  
+                    parent.stem == ".tox"  
+                    for parent in path.parents  
+                ): continue  
+                log(  
+                    f"File {path.relative_to(directory)}, "  
+                    f"{path.stem}"  
+                )  
+                if stems.get(path.stem, "").upper() == "SKIP":  
+                    log("Skipped")  
+                    continue  
+                options = []  
+                if stems.get(path.stem, "").upper() == "ELLIPSIS":  
+                    options.append("ELLIPSIS")  
+                search_path = directory / "src"  
+                print(  
+                    f"cd {Path.cwd()!r}; "  
+                    f"PYTHONPATH= {search_path!r}, doctest '{path}' -v"  
+                )  
+                option_args = (  
+                    ["-o", ",".join(options) if options else []]  
+                )  
+                subprocess.run(  
+                    ["python3", "-m", "doctest", "-v"] + option_args + [str(path)],  
+                    cwd=directory,  
+                    env={"PYTHONPATH": str(search_path)},  
+                )
+
+
+doctest_log = Path("doctest.log")
+with doctest_log.open('w') as log:
+	doctest_everything(
+		log,
+		Path.cwd() / "ch_04",
+		Path.cwd() / "ch_05",	
+		verbose=True
+	)
+
+
+doctest_everything(
+	sys.stdout,
+	Path.cwd() / "ch_02",
+	Path.cwd() / "ch_03",
+	examples="ELLIPSIS",
+	examples_38="SKIP",
+	case_study_2="SKIP",
+	case_study_3="SKIP",
+)
 ```
+
+
+---
+## Unpacking arguments
+we can use the `*` *operator* inside a *function call* to *unpack* it into the *arguments*.
+
+
+
+---
+## Functions are objects, too
+we'd like an *object* that is a **callable** *function*. This is most frequently done in **event-driven programming**, such as *graphical* *tool kits* or *asynchronous* *servers*.
