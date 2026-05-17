@@ -480,11 +480,13 @@ class SamplePartition(list[SampleDict], abc.ABC):
             super().__init__()  
   
     @abc.abstractproperty  
-    @property    def training(self) -> List[TrainingKnownSample]:  
+    @property    
+    def training(self) -> List[TrainingKnownSample]:  
         ...  
   
     @abc.abstractproperty  
-    @property    def testing(self) -> List[TestingKnowSample]:  
+    @property    
+    def testing(self) -> List[TestingKnowSample]:  
         ...
 ```
 
@@ -563,11 +565,13 @@ class DelingPartition(abc.ABC):
         ...  
   
     @property  
-    @abc.abstractmethod    def testing(self) -> List[TestingKnowSample]:  
+    @abc.abstractmethod    
+    def testing(self) -> List[TestingKnowSample]:  
         ...  
   
     @property  
-    @abc.abstractmethod    def training(self) -> List[TrainingKnownSample]:  
+    @abc.abstractmethod    
+    def training(self) -> List[TrainingKnownSample]:  
         ...  
   
   
