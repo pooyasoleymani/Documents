@@ -148,3 +148,25 @@ class Options(Dict[str, Any]):
 		super().__init__(self.default_options)
 		self.update(kwargs)
 ```
+
+- The following example is somewhat contrived, but demonstrates the *four types* of *parameters* in action:
+```python
+from __future__ import annotations
+import contextlib
+import os
+import subprocess
+import sys
+from typing import TextIO
+from pathlib import Path
+
+def doctest_everything(
+	output: TextIO,
+	*directories: Path,
+	verbose: False,
+	**stems: str
+) -> None:
+	def log(*args, **kwargs) -> None:
+		print(*args, **kwargs)
+	
+	with contextlib.redirect_stdout(output):
+```
