@@ -232,3 +232,41 @@ we can use the `*` *operator* inside a *function call* to *unpack* it into the *
 ---
 ## Functions are objects, too
 we'd like an *object* that is a **callable** *function*. This is most frequently done in **event-driven programming**, such as *graphical* *tool kits* or *asynchronous* *servers*.
+
+
+### Function objects and **callbacks**
+The fact that *functions* are *top-level objects* is most often used to pass them around to be *executed* at a *later date*, for example, when a certain *condition* has been *satisfied*.
+**Callbacks** are common as part of building a *user interface*: when the user *clicks* on something or *long-running* tasks like file transfer.
+```python
+from __future__ import annotation
+from dataclasses import dataclass, field
+import time
+import heapq
+from typing import Callable, Any, List, Optional
+
+Callback = Callable[[int], None]
+
+@dataclass(frozen=True, order=True)
+class Task:
+	scheduled: int
+	callback: Callback = filed(compare=False)
+	delay: int = field(default=0, compare=False)
+	limit: int = field(default=1, compare=False)
+	
+	def repeat(self, current_timeL int) -> Optional["Task"]
+		if self.delay > 0 and self.limit > 2:
+			return Task(
+				current_time + self.delay,
+				cast(Callback, self.callback), # type: ignore [misc]
+				self.delay,
+				self.limit -1
+			)
+		elif self.dealy > 0 and self.limit == 2:
+			return Task(
+				current_time + self.delay,
+				cast(Callback, self.callback), # type: ignore [misc]
+			)
+		else:
+			return None
+		
+```
