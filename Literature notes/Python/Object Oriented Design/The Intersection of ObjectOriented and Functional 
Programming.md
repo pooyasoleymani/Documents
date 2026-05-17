@@ -270,3 +270,68 @@ class Task:
 			return None
 		
 ```
+
+
+- Here's the overall *Scheduler* *class* that uses these *Task* objects and their *associated* **callback functions**:
+```python
+class Schedule:  
+    def __init__(self) -> None:  
+        self.tasks: List[Task] = []  
+  
+    def enter(  
+            self,  
+            after: int,  
+            task: Callback,  
+            delay: int = 0,  
+            limit: int = 1,  
+    ) -> None:  
+        new_task = Task(after, task, delay, limit)  
+        heapq.heappush(self.tasks, new_task)  
+  
+    def run(self) -> None:  
+        current_time: int = 0  
+        while self.tasks:  
+            next_task: Task = heapq.heappop(self.tasks)  
+            if (delay := next_task.scheduled - current_time) > 0:  
+                time.sleep(delay)  
+            current_time = next_task.scheduled  
+            next_task.callback(current_time)  
+            if again := next_task.repeat(current_time):  
+                heapq.heappush(self.tasks, again)
+```
+
+- More importantly, the *after*, *delay*, and *limit* parameters should have some *validation* checks. For example, a *negative* value of *after* or *delay* should *raise* a *ValueError exception*. There's a special method name, `__post_init__()`, that a *dataclass* can use for **validation**.
+
+- set of callback functions that test *scheduler class*:
+```python
+import datetime
+
+def format_time(message: str) -> None:
+	now = datetime.datetime.now()
+	print(f"{now:%I:%M:%S}: {message}")
+	
+def one(timer: float) -> None:
+	format_time("Called One")
+	
+def two(timer: float) -> None:
+	format_time("Called two")
+
+def three(timer: float) -> None:
+	format_time("Called three")
+
+class Repeater:
+	def __init__(self) -> None:
+		self.counter = 0
+	
+	def four(self, timer: float) -> None:
+		self.counter += 1
+		format_time(f"Called Four: {self.counter}")
+```
+
+
+- If *order* matters to your *application*, you'll need an *additional attribute* to *distinguish* among items *scheduled* at the *same time*; a *priority number* is often used for this.
+
+
+
+--- 
+## Using Functions to patch a class
