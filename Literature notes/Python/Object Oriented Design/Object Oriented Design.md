@@ -96,7 +96,7 @@ Data represents the individual characteristics of a certain object its current s
 
 ---
 - **Aggregation**
-It is like *Composition*, the difference is that aggregate objects can exist independently.
+It is like *Composition*, the difference is that aggregate objects can exist *independently*.
 
 Another way to differentiate between aggregation and composition is to think about the lifespan of the object:
 1. If the *composite (outside)* object *controls* when the *related (inside)* objects are *created* and *destroyed*, **composition** is most suitable.
@@ -150,7 +150,7 @@ class Teacher {
 
 ---
 ## Inheritance
-*Driven* class inherit *Base* class behavior , methods or properties.
+*Driven* class inherit *Base* class behavior , *methods* or *properties*.
 if use *Abstract class* driven class must be *override* abstract method.
 
 *Pron:* It make to repeatability and we don't need to rewrite code, and *code duplication*.

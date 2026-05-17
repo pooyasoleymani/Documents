@@ -367,3 +367,13 @@ PathQueue = Union[ListQueue, DeQueue, ThreadQueue]
 
 - For *single-threaded* applications, the `collections.deque` is ideal; it's designed for this purpose.
 - For *multi-threaded* applications, the `queue.Queue` is required to provide a *data structure* that can be read and written by multiple concurrent *threads*.
+
+---
+>[!IMPORTANT]
+> When *class* has a lot of *attributes* and a few *methods* dataclass is big help
+
+>[!IMPORTANT]
+>We can use `typing.NamedTuple` similar `@dataclass(frozen=True)` but *NamedTuple* don't support *inheritance* we can use **composition** in class *hierarchy*.
+
+
+

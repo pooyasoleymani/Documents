@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Python/Object Oriented Design/Python Data Structure.md",
+                "file": "Literature notes/Python/Object Oriented Design/The Intersection of Object\u0002Oriented and Functional \r\nProgramming.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Python Data Structure"
+              "title": "The Intersection of Object\u0002Oriented and Functional \r\nProgramming"
             }
           }
         ]
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Python/Object Oriented Design/Python Data Structure.md",
+                "file": "Literature notes/Python/Object Oriented Design/The Intersection of Object\u0002Oriented and Functional \r\nProgramming.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Python Data Structure"
+              "title": "Outline of The Intersection of Object\u0002Oriented and Functional \r\nProgramming"
             }
           },
           {
@@ -229,16 +229,17 @@
   },
   "active": "a77c13a63e2d8b0a",
   "lastOpenFiles": [
-    "Daily Notes/2026-05-16.md",
     "Literature notes/Python/Object Oriented Design/Python Data Structure.md",
-    "Literature notes/Python/Object Oriented Design/Abstract Base Class and Operator Overloading.md",
+    "Literature notes/Python/Object Oriented Design/The Intersection of Object\u0002Oriented and Functional \r\nProgramming.md",
     "Literature notes/Python/Object Oriented Design/When to Use Object-Oriented Programming.md",
+    "Literature notes/Python/Object Oriented Design/Object Oriented Design.md",
+    "Daily Notes/2026-05-16.md",
+    "Literature notes/Python/Object Oriented Design/Abstract Base Class and Operator Overloading.md",
     "Daily Notes/2026-05-14.md",
     "Daily Notes/2026-05-13.md",
     "Literature notes/Python/Object Oriented Design/When Object Are Alike.md",
     "Literature notes/Python/Object Oriented Design/Expecting the Unexpected.md",
     "Literature notes/Python/Object Oriented Design/Objects in Python.md",
-    "Literature notes/Python/Object Oriented Design/Object Oriented Design.md",
     "Literature notes/Golang/Go Syntax and bsic Types.md",
     "Literature notes/Golang/Structs, interfaces, and Go’s approach to OOP.md",
     "Literature notes/Golang/Go Memory Model.md",
@@ -255,7 +256,6 @@
     "Permanet Note/Type Metaprogramming.md",
     "Permanet Note/X11 implement in C++.md",
     "Permanet Note/Variadic Recursive Instantiation Engine.md",
-    "Permanet Note/uv resolver performance advantage.md",
     "Literature notes/Python/Object Oriented Design",
     "CI",
     "Literature notes/Python/Data Analysis",
