@@ -97,3 +97,54 @@ We'll often have to use a typing.Union hint to show that a parameter can have va
 We have to distinguish between two varieties of overloading here:
 - *Overloading* parameters to allow alternative types using `Union[...]` *hints*
 - *Overloading* the *method* by using more *complex* patterns of parameters
+
+
+--- 
+## Default value for parameters
+**Keyword only:** After the `*` , the argument must have a keyword supplied.
+
+- If default value of the function parameter is a *mutable* object we to create this in body of the function
+```python
+def bad_default(tag: str, hidtory: List[str] = []) -> List[str]:
+	history.append(tag)
+	return history
+
+def good_default(tag: str, history: Optional[List[str]] = None) -> List[str]:
+	history = [] if history is None else history
+	history.append(tag)
+	return history
+```
+
+
+---
+## Variable argument lists
+1. One thing that makes Python really slick is the ability to write *methods* that accept an *arbitrary* number of *positional* or *keyword* arguments without *explicitly* naming them. We can also pass *arbitrary* *lists* and *dictionaries* into such *functions*. In other languages, these are sometimes called **variadic arguments**, `varargs`.
+
+```python
+from urllib.parse import urlparse
+from pathlib import Path
+
+def get_pages(*links: str) -> None:
+	for link in links:
+		url = urlparse(linnk)
+		name = "index.html" if url.path in ("", "/") else url.path
+		target = Path(ulr.netloc.replace(".", "_")) / name
+		print(f"Create {target} from {link!r}")
+```
+
+2.  We can also accept *arbitrary* *keyword* *arguments*. These arrive in the function as a *dictionary*. They are specified with *two asterisks* (as in`**kwargs`) in the *function* *declaration*. This tool is commonly used in *configuration* *setups*.
+
+```python
+class Options(Dict[str, Any]):
+	default+options: dict[str, Any] = {
+		"port": 21,
+		"host": "localhost",
+		"username": None,
+		"password": None,
+		"debug": False	
+	}
+	
+	def __init__(self, **kwargs: Any) -> None:
+		super().__init__(self.default_options)
+		self.update(kwargs)
+```
