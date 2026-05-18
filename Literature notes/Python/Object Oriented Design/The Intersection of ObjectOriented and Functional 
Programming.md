@@ -444,3 +444,73 @@ def joiner(*args: Any) -> Iterator[StringJoiner2]:
 	finally:
 		string_list.result = "".join(string_list)
 ```
+
+---
+
+### Functional Programming
+For *functional design*, we're interested in *functions* to *transform* objects. A *functional design* can follow *mathematical* practices closely.
+
+- We want to *splitting data* in case study with functional idea:
+	- A **function based** on the *"Provide Training Data"* use case would transform source data into two *collections* of *samples*, a *training set* and a *testing set*. We'd like to avoid placing items in the *testing set* that are exact matches for items in the *training set*, creating some *constraints* on this *process*. We can think of this as a *mapping* from a `KnownSample` to a `TestingKnownSample` or a `TrainingKnownSample`.
+
+	- A **function based** on the *"Set Parameters and Test Classifier"* use case would *transform* a `Hyperparameter` (the *k* value and the *distance* *algorithm*) and the *testing set* of *samples* into a *quality score*. We can think of this as a *mapping* from `TestingKnownSample` to a correct or incorrect *classification*, and a *reduction* to a single value showing the number correct out of the number of *tests*.
+
+	-  A **function based** on the *"Make Classification Request"* use case would *transform* a `Hyperparameter` (the *k* value and the *distance algorithm*) and a *single* sample into a *classification* result.
+
+
+-  The `TestingKnownSample` and the `TrainingKnownSample` classes have very minor differences. They don't introduce new attributes or methods. Here are the differences:
+
+	- `TrainingKnownSample` *instances* are never used for *classification*.
+
+	- `TestingKnownSample` and `UnknownSample` *instances* are used for *classification* and *testing*. We'll create a `ClassifiedKnownSample` object from a `TestingKnownSample` object by *repackaging* the `KnownSample` *instance* into a new *container*. This creates a more consistent set of *definitions*.
+
+```python
+def training_80(s: Sample, i: int) -> bool:
+	returning i % 5 != 0
+
+def training_75(s: Sample, i: int) -> bool:
+	returning i % 4 != 0
+	
+def training_63(s: Sample, i: int) -> bool:
+	returning i % 3 != 0
+	
+
+TraningList = List[TraningKnownSample]
+TestingList = List[TestingKnownSample]
+
+def partition(
+	samples: Iterable[KnownSample],
+	rule: Callable[[KnownSample, int], bool]
+) -> Tuple[TraningList, TestingList]:
+
+	training_samples = [
+		TrainingKnownSample(s)
+		for i, s in enumarate(samples) if rule(s, i)
+	]
+	testing_samples = [
+		TestingKnownSample(s)
+		for i, s in enumarate(samples) if not rule(s, i)
+	]
+	
+	return training_samples, testing_samples
+```
+
+- This example don't *check* for duplicates between *testing samples* and *training samples*
+```python
+from collections import defaultdict, Counter
+
+def partition_1p(
+	samples: Itreable[KnownSample],
+	rule: Callable[[KnownSample, int], bool],
+) -> Tuple[TraninigList, TestingList]:
+	pools: defaultdict[bool, list[KnownSample]] = defaultdict(list)
+	partition = ((rule(s, i), s) for i, s in enumerate(samples))
+	
+	for usage_pool, sample in partition:
+		pools[usage_pool].append(sample)
+	
+	traning = [TrainingKnownSample(s) for s in pools[True]]
+	testing = [TestinggKnownSample(s) for s in pools[False]]
+	
+	return training, testing
+```
