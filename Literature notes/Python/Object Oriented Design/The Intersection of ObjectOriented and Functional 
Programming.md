@@ -92,7 +92,7 @@ some of the more interesting ones include the following:
 
 ---
 ## An Alternative to method overloading
-We'll often have to use a typing.Union hint to show that a parameter can have values from `Union[int, str]`. This definition clarifies the alternatives so *mypy* can confirm that we're using the overloaded function *properly*.
+We'll often have to use a `typing.Union` hint to show that a parameter can have values from `Union[int, str]`. This definition clarifies the alternatives so *mypy* can confirm that we're using the overloaded function *properly*.
 
 We have to distinguish between two varieties of overloading here:
 - *Overloading* parameters to allow alternative types using `Union[...]` *hints*
@@ -334,7 +334,7 @@ class Repeater:
 
 
 --- 
-## Using Functions to patch a class
+### Using Functions to patch a class
 - We can *patch* method of the objects
 ```python
 class A:
@@ -353,3 +353,37 @@ a.show_something() # Class is not A
 
 - If we create new object from *class A* object doesn't have *patched* method.
 - If we want to *patched* method invoke in every objects of class must *patch* **class**.
+
+
+>[!IMPORTANT] **Monkey Patching**
+> Often, replacing or adding *methods* at *runtime* (called *monkey patching*) is used in *automated* *testing*. If *testing* a *client server* application, we may not want to actually connect to the *server* while *testing* the *client*; this may result in *accidental* transfers of funds or embarrassing *test* emails being sent to real people.
+
+
+
+---
+### Callable objects
+Any object can be made *callable* by giving it a `__call__()` method that accepts the *required* *arguments*.
+
+```python
+class Repater2:
+	def __init__(self):
+		self.counter = 0
+	
+	def __call__(self, timer: float) -> None:
+		self.counter += 1
+		format_time(f"Called four: {self.counter}")
+```
+
+
+- Different kind of callable objects:
+	-  Python *functions*, build with the `def` statement. and ordinary *functions* are *stateless*.
+	- **Callable objects** is instances of a class with `__call__()` method. *callable* objects can be *stateful*.
+
+
+---
+## File I/O
+*OS* represent *file* as *sequence* of *bytes* , not text.
+Python `open()` function is used to open *OS* file  and return a python *file* object.
+
+> All programming languages have to talk to *OS*  using the same *system calls*. 
+
