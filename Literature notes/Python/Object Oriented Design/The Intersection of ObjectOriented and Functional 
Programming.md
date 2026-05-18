@@ -335,3 +335,21 @@ class Repeater:
 
 --- 
 ## Using Functions to patch a class
+- We can *patch* method of the objects
+```python
+class A:
+	def show_something(self) -> None:
+		print("Class A")
+
+a_object = A()
+a.show_something() # Class A
+
+def patched_show_something() -> None:
+	print("Class is not A")
+
+a.show_something = patched_show_something
+a.show_something() # Class is not A
+```
+
+- If we create new object from *class A* object doesn't have *patched* method.
+- If we want to *patched* method invoke in every objects of class must *patch* **class**.
