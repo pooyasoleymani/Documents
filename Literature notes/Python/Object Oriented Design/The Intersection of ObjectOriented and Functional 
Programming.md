@@ -387,3 +387,60 @@ Python `open()` function is used to open *OS* file  and return a python *file* o
 
 > All programming languages have to talk to *OS*  using the same *system calls*. 
 
+- `read()` method buffer all content of file  in memory.
+- `readline()` method return single line from file.
+- `readlines()` method return list of *lines* like read method this is not safe
+- In *binary* file don't have new line character `\n` we give number of the *bytes* to read 
+
+
+### Placing it in context
+We need close file after finished work with files for that we can use `try/except/finaly` or *context manager* in files.
+
+```python
+source_path = Path("requirements.txt")
+with source_path.open() as source_file:
+	for line in source_file:
+		print(line, end='')
+
+```
+
+- For implement *context manager* in *class* must define `__enter__()` and `__exit__()` .
+```python 
+from typing import List, Optional, Type, Literal
+from import TracebackType
+
+class StringJoiner(List[str]):
+
+	def __enter__(self) -> "StringJoiner":
+		return self
+		
+	def __exit__(
+		  self,
+		  exc_type: Optinal[Type[BaseException]],
+		  exc_val: Optional[BaseException],
+		   exc_tb: Optional[TracebackType]
+		   ) -> Literal[False]:
+		self.result = "".join(self)
+		return exc_type == StopIteration
+```
+
+
+- `@contextmanager` *decorator* is used to add some features around this function to make it work like a *context manager* class definition and doesn't have *overhead* of the *class* that define `__enter__` and `__exit__`
+
+```python
+from contextlib import contextmanager
+from typing import List, Any, Iterator
+
+class StringJoiner2(List[str]):
+	def __init__(self, *args: str) -> None:
+		super().__init__(*args)
+		self.result = "".join(self)
+
+@contextmanager
+def joiner(*args: Any) -> Iterator[StringJoiner2]:
+	string_list = StringJoiner2(*args)
+	try:
+		yield string_list
+	finally:
+		string_list.result = "".join(string_list)
+```
