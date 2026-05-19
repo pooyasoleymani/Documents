@@ -110,3 +110,40 @@ The *exception* in the last case is not always the desired behavior; there may b
 	- **xmlcharrefreplace:** Create an **XML** entity representing the *Unicode* character.
 
 - We can get default *encoding* with `sys.getdefaultencoding()`.
+
+
+---
+### Mutable byte strings
+`bytearraye` built-in behaves something like a *list* . 
+*constructor*  for the class can accept a *bytes object*  to initialize.
+
+- `ord()` function convert *character* to *integer*.
+
+
+---
+## Regular Expressions
+In the real world, *string-parsing* in most programming languages is handled by **regular expressions**
+
+Some common problem that *regex* can solve them:
+- Is this string a *valid* URL?
+- What is the date and time of all warning messages in a log file?
+- Which users in `/etc/passwd` are in a given group?
+- What username and document were requested by the URL a visitor typed?
+
+---
+### Matching Pattern
+```python
+import re
+from typing import Pattern, Match
+
+def matchy(pattern: Pattern[str], text: str) -> None:
+	if match := re.match(pattern, text):
+		print(f"{pattern=!r} matches at {match=!r}")
+	else:
+		print(f"{pattern=!r} not found in {text=!r}")
+```
+
+
+---
+## Filesystem paths
+
