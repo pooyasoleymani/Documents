@@ -322,3 +322,11 @@ def decode_contact(json_object: Any) -> Any:
 	else:
 		return json_object
 ```
+
+
+---
+
+
+>[!IMPORTANT]
+> `yield from x` that is effectively the same as the longer `for item in x: yield item`
+
