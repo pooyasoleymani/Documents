@@ -254,3 +254,35 @@ class URLPolling:
 		self.timer.setDaemon(True)
 		self.timer.start()
 ```
+
+```sh
+>>>import pickle
+>>>poll = URLPooling("http://dusty.phillips.codes")
+>>>pickle.dupms(poll)
+Trackback 
+...
+TypeError: cannot pickle "_thread.lock" object
+```
+
+When pickle tries to serialize an object, it simply tries to store the state, the value of the object's `__dict__` attribute; `__dict__` is a dictionary mapping all the attribute names on the object to their values. Luckily, before checking `__dict__`, pickle checks to see whether a `__getstate__()` method exists.
+
+```python
+def __getstate__(self) -> dict[str, Any]:
+	pickleable_state = self.__dict__.copy()
+	if "timer" in pickleable_state:
+		del pickleable_state["time"]
+	return pickleable_state
+
+# for loads() method we must define __setstate__()
+
+def __setstate(self, pickleable_state: dict[str, Any]) -> None:
+	self.__dict__ = pickleable_state
+	self.schedule()
+```
+
+
+This is a *common pattern* for working with *pickled* *objects* that have **dynamic state** that must be *recovered*.
+
+
+---
+### Serializing objects using JSON
