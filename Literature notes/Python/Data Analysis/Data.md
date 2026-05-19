@@ -5,7 +5,7 @@ tags:
 ---
 ---
 ## What is Data ?
-Set of store able Objects or Entities.
+*Set* of **storeable** *Objects* or *Entities*.
 
 ### Unstructured Data
 Data that haven't predefined format.

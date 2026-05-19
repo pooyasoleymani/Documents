@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5560c4a243bad156",
+        "id": "1e5625162f54e55f",
         "type": "tabs",
         "children": [
           {
-            "id": "a77c13a63e2d8b0a",
+            "id": "5523eb3f53687a0b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 432.5,
+    "collapsed": true
   },
   "right": {
     "id": "7965c69a42e62fbd",
@@ -227,35 +228,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a77c13a63e2d8b0a",
+  "active": "5523eb3f53687a0b",
   "lastOpenFiles": [
-    "Literature notes/Python/Object Oriented Design/String, Serialization, and File Paths.md",
+    "Daily Notes/2026-02-16.md",
+    "non-atomic operations.md",
+    "Literature notes/Golang/Structs, interfaces, and Go’s approach to OOP.md",
+    "Familiarize yourself with alternatives to overloading on universal references.md",
+    "Daily Notes/2026-03-05.md",
+    "Daily Notes/2026-05-05.md",
+    "Daily Notes/2026-05-07.md",
+    "Daily Notes/2026-05-09.md",
+    "Daily Notes/2026-05-13.md",
+    "Daily Notes/2026-05-14.md",
+    "Daily Notes/2026-05-16.md",
+    "Daily Notes/2026-05-18.md",
+    "Permanet Note/Scope and Lifetime (C++).md",
+    "Literature notes/Python/Data Analysis/Data.md",
     "Literature notes/Python/Object Oriented Design/Iterator Pattern.md",
+    "Literature notes/Python/Object Oriented Design/String, Serialization, and File Paths.md",
     "Literature notes/Python/Object Oriented Design/The Intersection of Object\u0002Oriented and Functional \r\nProgramming.md",
     "Literature notes/Python/Object Oriented Design/Python Data Structure.md",
-    "Daily Notes/2026-05-18.md",
     "Literature notes/Python/Object Oriented Design/Untitled.md",
     "Literature notes/Python/Object Oriented Design/Abstract Base Class and Operator Overloading.md",
     "Literature notes/Python/Object Oriented Design/When to Use Object-Oriented Programming.md",
     "Literature notes/Python/Object Oriented Design/Object Oriented Design.md",
-    "Daily Notes/2026-05-16.md",
-    "Daily Notes/2026-05-14.md",
-    "Daily Notes/2026-05-13.md",
     "Literature notes/Python/Object Oriented Design/When Object Are Alike.md",
     "Literature notes/Python/Object Oriented Design/Expecting the Unexpected.md",
     "Literature notes/Python/Object Oriented Design/Objects in Python.md",
     "Literature notes/Golang/Go Syntax and bsic Types.md",
-    "Literature notes/Golang/Structs, interfaces, and Go’s approach to OOP.md",
-    "Literature notes/Golang/Go Memory Model.md",
-    "Literature notes/Golang/Go Concurrency (Goroutines + Channels).md",
     "Literature notes/Golang",
-    "Permanet Note/Build Toolchain Performance Chain.md",
-    "Permanet Note/Byte vs Bytearraye.md",
-    "Daily Notes/2026-05-10.md",
-    "Daily Notes/2026-05-09.md",
-    "Permanet Note/Template.md",
-    "Literature notes/C++/Effective Modern C++/References/Understand template type deduction.md",
-    "Literature notes/C++/Effective Modern C++/References/Distinguish universal references from rvalue references.md",
     "Literature notes/Python/Object Oriented Design",
     "CI",
     "Literature notes/Python/Data Analysis",

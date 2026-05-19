@@ -4,6 +4,7 @@ tags:
   - python
   - architecture
   - programming
+Next: "[[Common Design Patterns]]"
 ---
 ---
 ## What we Learn
@@ -19,3 +20,11 @@ tags:
 
 ---
 ## Iterators
+In typical *design pattern* parlance, an *iterator* is an object with a `next()` method and a `done()` *method*; the latter returns *True* if there are no items left in the *sequence*.
+
+```python
+while ont iterator.done():
+	item = iterator.next()
+	# somthing do with the item
+```
+
