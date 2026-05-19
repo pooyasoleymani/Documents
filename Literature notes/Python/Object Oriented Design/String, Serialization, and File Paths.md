@@ -286,3 +286,39 @@ This is a *common pattern* for working with *pickled* *objects* that have **dyna
 
 ---
 ### Serializing objects using JSON
+*JavaScript Object Notation (JSON)* is a human-readable format for exchanging data.
+
+The `load() `and `loads()` methods also accept such a `cls` argument that can be a *subclass* of the inverse *class*, `JSONDecoder`. However, it is normally sufficient to pass a function into these methods using the *object_hook* keyword argument.
+The `dump()` and `dumps()` functions accept a poorly named `cls` keyword argument. (It's short for "class", which we have to spell funny because class is a reserved keyword.) If this argument value is provided to the function, it should be a *subclass* of the `JSONEncoder` class, with the *default()* method *overridden*. This overridden *default()* method accepts an arbitrary Python object and converts it to a dictionary that `json` can serialize.
+
+```python
+import json
+
+class Contact:
+	def __init__(self, first_name: str, last_name: str) -> None:
+		self.first_name = first_name
+		self.last_name = last_name
+	
+	@property
+	def full_name(self) -> str:
+		return "{} {}".format(self.first_name, self.last_name)
+	
+
+class ContactEncoder(json.JSONEncode):
+	def default(self, obj: Any) -> Any:
+		if isinstance(obj, Contact):
+			return {
+				"__class__": "Contact",
+				"first": obj.first_name,
+				"last": obj.last_name,
+				"full_name": obj.full_name
+			}
+		return super().default(obj)
+
+
+def decode_contact(json_object: Any) -> Any:
+	if json_object.get("__class__") == "Contact":
+		return Contact(json_object["first"], json_object["last"])
+	else:
+		return json_object
+```
