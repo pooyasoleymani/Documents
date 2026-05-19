@@ -83,3 +83,30 @@ print(list(map(bin, b'abd'))) # ['0b1100001', '0b1100010', '0b1100011']
 
 
 
+---
+### Decoding bytes to text
+If we have an *array* of *bytes* from somewhere we can convert it to *Unicode* using the `decode()` on *bytes class*.
+common ones include `ASCII`, `UTF-8`, `latin-1`, and `cp-1252`. Of these, `UTF-8` is one of the most commonly used.
+The `\x` *character* **escapes** within the *byte string*, and each says the next two characters represent a *byte* using *hexadecimal digits*.
+
+```python
+characters = b'\x63\x6c\x69\x63\x68\xc3\xa9' #  --> b'clich\xc3\xa9'
+characters.decode('utf-8') # In UTF-8 --> 'cliché'
+characters.decode('iso8859-5') #  --> 'clichУЉ'
+characters.decode('utf-8') # In UTF-8 --> 'Ä%ÑÄÇCz'
+```
+
+
+---
+### Encoding text to bytes
+The flip side of converting *bytes* to *Unicode* is situations where we convert outgoing *Unicode* into *byte* *sequences*. This is done with the `encode()` method on the *str class*, which, like the `decode()` method, requires an *encoding* *name*.
+
+The *exception* in the last case is not always the desired behavior; there may be cases where we want the unknown *characters* to be *handled* in a different way.
+
+- The *encode* method takes an *optional string* argument named *error* that can define how such characters should be handled.
+	- **strict:** When a *byte* sequence is encountered that does not have a *valid* representation in the requested *encoding* an *exception raised*.
+	- **replace:** *Character* is replaced with a different *character*.
+	- **ignore:** Discards any *bytes* it doesn't understand.
+	- **xmlcharrefreplace:** Create an **XML** entity representing the *Unicode* character.
+
+- We can get default *encoding* with `sys.getdefaultencoding()`.
