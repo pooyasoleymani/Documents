@@ -72,10 +72,5 @@ class CapitalIterator(Iterator[str]):
 - **Iterable:** iterable is an *object* with *elements* that can be *iterated* over , and these *elements* can looped over *multiple* even at a same time
 - **Iterator:** specific location in that *iterable* *object*  every time call `next()` on iterator update internal *state*
 ---
-- Comprehensions are simple, but powerful, syntaxes that allow us to transform or
-
-filter an iterable object in as little as one line of code. The resultant object can be a
-
-perfectly normal list, set, or dictionary, or it can be a generator expression that can be
-
-efficiently consumed while keeping just one element in memory at a time.
+- **Comprehensions** are simple, but *powerful*, *syntaxes* that allow us to *transform* or *filter* an *iterable object* in as *little* as one *line of code*. The resultant object can be a perfectly normal *list*, *set*, or *dictionary*, or it can be a *generator* expression that can be *efficiently* consumed while keeping just one *element* in *memory* at a *time*.
+---
