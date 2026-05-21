@@ -74,3 +74,6 @@ class CapitalIterator(Iterator[str]):
 ---
 - **Comprehensions** are simple, but *powerful*, *syntaxes* that allow us to *transform* or *filter* an *iterable object* in as *little* as one *line of code*. The resultant object can be a perfectly normal *list*, *set*, or *dictionary*, or it can be a *generator* expression that can be *efficiently* consumed while keeping just one *element* in *memory* at a *time*.
 ---
+### Generator Expression
+
+### Generator Functions
