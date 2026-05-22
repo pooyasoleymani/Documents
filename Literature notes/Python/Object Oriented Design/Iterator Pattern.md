@@ -75,5 +75,34 @@ class CapitalIterator(Iterator[str]):
 - **Comprehensions** are simple, but *powerful*, *syntaxes* that allow us to *transform* or *filter* an *iterable object* in as *little* as one *line of code*. The resultant object can be a perfectly normal *list*, *set*, or *dictionary*, or it can be a *generator* expression that can be *efficiently* consumed while keeping just one *element* in *memory* at a *time*.
 ---
 ### Generator Expression
+When processing one *item* at a time, we only need the current *object* available in *memory* at any one *moment*.
+If we want to *process* each *line* in the *log*, we can't use a *list comprehension*; it would create a *list* containing every *line* in the *file*. This probably wouldn't fit in *RAM* and could bring the *computer* to its knees, depending on the operating system.
+
+```python
+with full_log_path.open("r") as source:
+	warning_lines = (line for line in source if "WARN" in line)
+	with warning_log_path.open("w") as target:
+		for line in warning_lines:
+			target.write(line)
+```
 
 ### Generator Functions
+
+```python
+import csv
+import re
+from pathlib import Path
+from typing import Match, cast
+
+def extract_and_pard_1(full_log_path: Path, warning_log_path: Path) -> None:
+	with warning_log_path.open("w") as target:
+		csv.write(target, delimiter="\t")
+		pattern = re.compile(
+			r"(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2},\d{3}) \[(\w+)] (.+)"
+		)
+		with full_log_path.open("r") as source:
+			for line in source:
+				if "WARN" in line:
+					line_groups = cast(Match[str], pattern.match(line).groups())
+					writer.writerow(line_groups)
+```
