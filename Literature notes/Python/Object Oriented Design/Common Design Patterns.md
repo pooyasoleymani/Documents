@@ -291,3 +291,106 @@ class CenterdStrategy(FillAlgorithm): ...
 ```
 
 Because we have a choice between an *abstract class* and a *type hint*, the **Strategy design pattern** seems *superfluous*. This leads to an odd conversation, starting with **"Because Python has first-class functions, the Strategy pattern is unnecessary."**
+
+---
+## The Command pattern
+When we think about *class responsibilities*, we can sometimes distinguish *"passive" classes* that hold *objects* and *maintain* an *internal state*, but don't *initiate* very much, and *"active" classes* that reach out into other *objects* to take *action* and *do things*.
+
+The **Command pattern** generally involves a *hierarchy* of *classes* that each do *something*. A **Core class** can create a *command* (or a *sequence* of *commands*) to carry out *actions*.
+
+```python
+from __future__ import annotations  
+import abc  
+import random  
+import re  
+from typing import cast, Type
+  
+class Adjustment(abc.ABC):  
+    def __init__(self, amount: int) -> None:  
+        self.amount = amount  
+  
+    @abc.abstractmethod  
+    def apply(self, dice: "Dice"):  
+        pass  
+  
+class Roll(Adjustment):  
+    def __init__(self, n: int, d: int) -> None:  
+        self.n = n  
+        self.d = d  
+    def apply(self, dice: "Dice") -> None:  
+        dice.dice = sorted(  
+            random.randint(1, self.d) for _ in range(self.n)  
+        )  
+        dice.modifier = 0  
+  
+  
+class Drop(Adjustment):  
+    def apply(self, dice: "Dice") -> None:  
+        dice.dice = dice.dice[self.amount:]  
+  
+class Keep(Adjustment):  
+    def apply(self, dice: "Dice") -> None:  
+        dice.dice = dice.dice[:self.amount]  
+  
+class Plus(Adjustment):  
+    def apply(self, dice: "Dice") -> None:  
+        dice.modifier += self.amount  
+  
+class Minus(Adjustment):  
+    def apply(self, dice: "Dice") -> None:  
+        dice.modifier += self.amount  
+  
+  
+  
+class Dice:  
+    def __init__(self, n: int, d: int, *adj: Adjustment) -> None:  
+        self.adjustment = [cast(Adjustment, Roll(n, d))] + list(adj)  
+        self.dice: list[int]  
+        self.modifier: int  
+  
+    def roll(self) -> int:  
+        for a in self.adjustment:  
+            a.apply(self)  
+        return sum(self.dice) + self.modifier  
+  
+    @classmethod  
+    def from_text(cls, dice_text: str) -> "Dice":  
+        dice_pattern = re.compile(r"(?P<n>\d*)d(?P<d>\d+)(?P<a>[dk+-]\d+)*")  
+        adjustment_patter = re.compile(r"([dk+-])(\d+)")  
+        adj_class: dict[str, Type[Adjustment]] = {  
+            "d": Drop,  
+            "k": Keep,  
+            "+": Plus,  
+            "-": Minus,  
+        }  
+        if (dice_match := dice_pattern.match(dice_text)) is None:  
+            raise ValueError(f"Dice '{dice_text}' does not match pattern")  
+        n = int(dice_match.group("n")) if dice_match.group("n") else 1  
+        d = int(dice_match.group("d"))  
+        adjustment_matches = adjustment_patter.finditer(dice_match.group("a") or "")  
+        adjustments = [  
+            adj_class[a.group(1)](int(a.group(2)))  
+            for a in adjustment_matches  
+        ]  
+        return cls(n, d, *adjustments)
+```
+
+- This design allow us to manually create an instance:
+```python
+dice.Dice(4, dice.D6, dice.Keep(3))
+# or
+dice.Dice.from_text("4d6k3")
+```
+
+
+---
+## The State pattern
+The **State pattern** is structurally similar to the *Strategy pattern*, but its intent and purpose are very different. 
+The goal of the **State pattern** is to represent *state transition* *systems*: *systems* where an *object's* *behavior* is constrained by the *state* it's in, and there are narrowly defined *transitions* to other *states*.
+
+To make this work, we need a *manager* or *context class* that provides an *interface* for *switching* *states*. Internally, this *class* contains a *pointer* to the *current state*. Each *state* knows what other *states* it is allowed to be in and will *transition* to those *states* depending on the actions invoked upon it.
+
+
+>[!IMPORTANT]
+>The **State pattern** *decomposes* the *problem* into two types of *classes*: the *Core class* and multiple *State classes*. The *Core class* maintains the **current state**, and *forwards* actions to a *current state object*. The *State objects* are typically **hidden** from any other *objects* that are calling the *Core object*; it acts like a *black box* that happens to perform *state management internally*.
+
