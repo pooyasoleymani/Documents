@@ -108,4 +108,10 @@ class LogProcessor:
 
 ---
 ## The Facade pattern
+The **Facade pattern** is provide a simple *interface* to *complex system* of *components*.
+It is allow us to *define* a new *class* that *encapsulates* a typical usage of the *system*.
+
+> **Facade** tries to abstract a *simpler* *interface* out of a *complex* one.
+> **Adapter**only tries to *map* one *existing interface* to *another*.
+
 

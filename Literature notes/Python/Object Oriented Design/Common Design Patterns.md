@@ -85,7 +85,7 @@ class LogSocket:
 		self.socket.close()
 ```
 
-- *decorate*with `__call__()` method:
+- *decorate* with `__call__()` method:
 ```python
 import gzip
 import io
@@ -132,7 +132,9 @@ def dice_response(client: socket.socket) -> None:
 
 
 ### Decorator in python
-**Decorator** in python have additional options .for example *monkey-patching* changing *class definition* at *runtime* to get similar effect.
+**Decorator** in python have additional options .
+for example *monkey-patching* changing *class definition* at *runtime* to get similar effect.
+
 ```python
 from fonctools import wraps
 
@@ -172,7 +174,7 @@ class NamedLogger:
 The **Observer pattern** is useful for *state monitoring* and *event handling* situations. This pattern allows a given *object* to be *monitored* by an *unknown* and *dynamic group* of *observer objects*. The core *object* being *observed* needs to implement an *interface* that makes it *observable*.
 
 This allows tremendous *flexibility* by *decoupling* the *response* to a **state change** from the *change itself*.
-In python can notify objects with `__call__()` .
+In python can *notify* objects with `__call__()` .
 **Examples**: GUI applications , cloud-base application 
 
 ```python
@@ -216,6 +218,8 @@ class ZonkHandHistory(Observable):
          self.rolls.append(self.dice_set.dice)  
          self._notify_observers() # State change  
          return self.dice_set.dice  
+         
+         
 class SaveZonkHand(Observer):  
      def __init__(self, hand: ZonkHandHistory) -> None:  
          self.hand = hand  
@@ -251,6 +255,7 @@ class FillAlgorithm(abc.ABC):
     @abc.abstractmethod  
     def make_background(self, image_file: Path, desktop_size: Size) -> Image:  
         pass  
+        
 class TiledStrategy(FillAlgorithm):  
      def make_background(  
          self,  
@@ -388,11 +393,13 @@ dice.Dice.from_text("4d6k3")
 The **State pattern** is structurally similar to the *Strategy pattern*, but its intent and purpose are very different. 
 The goal of the **State pattern** is to represent *state transition* *systems*: *systems* where an *object's* *behavior* is constrained by the *state* it's in, and there are narrowly defined *transitions* to other *states*.
 
-To make this work, we need a *manager* or *context class* that provides an *interface* for *switching* *states*. Internally, this *class* contains a *pointer* to the *current state*. Each *state* knows what other *states* it is allowed to be in and will *transition* to those *states* depending on the actions invoked upon it.
+To make this work, we need a *manager* or *context class* that provides an *interface* for *switching* *states*.
+Internally, this *class* contains a *pointer* to the *current state*. Each *state* knows what other *states* it is allowed to be in and will *transition* to those *states* depending on the actions invoked upon it.
 
 
 >[!IMPORTANT]
 >The **State pattern** *decomposes* the *problem* into two types of *classes*: the *Core class* and multiple *State classes*. The *Core class* maintains the **current state**, and *forwards* actions to a *current state object*. The *State objects* are typically **hidden** from any other *objects* that are calling the *Core object*; it acts like a *black box* that happens to perform *state management internally*.
+
 
 ```python
   
