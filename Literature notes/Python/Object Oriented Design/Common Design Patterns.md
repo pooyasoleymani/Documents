@@ -172,3 +172,122 @@ class NamedLogger:
 The **Observer pattern** is useful for *state monitoring* and *event handling* situations. This pattern allows a given *object* to be *monitored* by an *unknown* and *dynamic group* of *observer objects*. The core *object* being *observed* needs to implement an *interface* that makes it *observable*.
 
 This allows tremendous *flexibility* by *decoupling* the *response* to a **state change** from the *change itself*.
+In python can notify objects with `__call__()` .
+**Examples**: GUI applications , cloud-base application 
+
+```python
+from typing import Protocol, List  
+  
+  
+class Observer(Protocol):  
+    def __call__(self, *args, **kwargs) -> None:  
+        ...  
+  
+class Observable:  
+    def __init__(self):  
+        self._observers: List[Observer] = []  
+  
+    def attach(self, observer: Observer) -> None:  
+        self._observers.append(observer)  
+  
+    def detach(self, observer: Observer) -> None:  
+        self._observers.remove(observer)  
+    def _notify_observers(self, *args, **kwargs) -> None:  
+        for observer in self._observers:  
+            observer(*args, **kwargs)  
+  
+  
+Hand = List[int]  
+class ZonkHandHistory(Observable):  
+    def __init__(self, player: str, dice_set: Dice) -> None:  
+        super().__init__()  
+        self.player = player  
+        self.dice_set = dice_set  
+        self.rolls: list[Hand]  
+  
+     def start(self) -> Hand:  
+         self.dice_set.roll()  
+         self.rolls = [self.dice_set.dice]  
+         self._notify_observers() # State change  
+         return self.dice_set.dice  
+  
+     def roll(self) -> Hand:  
+         self.dice_set.roll()  
+         self.rolls.append(self.dice_set.dice)  
+         self._notify_observers() # State change  
+         return self.dice_set.dice  
+class SaveZonkHand(Observer):  
+     def __init__(self, hand: ZonkHandHistory) -> None:  
+         self.hand = hand  
+         self.count = 0  
+  
+     def __call__(self) -> None:  
+         self.count += 1  
+  
+         message = {  
+             "player": self.hand.player,  
+             "sequence": self.count,  
+             "hands": json.dumps(self.hand.rolls),  
+             "time": time.time(),  
+         }  
+         print(f"SaveZonkHand {message}")
+```
+
+
+
+---
+## The Strategy pattern
+The **Strategy pattern** is a common demonstration of *abstraction* in *object-oriented programming*. The pattern implements *different solutions* to a *single problem*, each in a different *object*. The *core class* can then choose the most appropriate implementation *dynamically* at *runtime*.
+```python
+import abc  
+from pathlib import Path  
+from typing import Tuple  
+  
+from PIL import Image  
+  
+Size = Tuple[int, int]  
+  
+class FillAlgorithm(abc.ABC):  
+    @abc.abstractmethod  
+    def make_background(self, image_file: Path, desktop_size: Size) -> Image:  
+        pass  
+class TiledStrategy(FillAlgorithm):  
+     def make_background(  
+         self,  
+         img_file: Path,  
+         desktop_size: Size  
+         ) -> Image:  
+         in_img = Image.open(img_file)  
+         out_img = Image.new("RGB", desktop_size)  
+         num_tiles = [o // i + 1 for o, i in zip(out_img.size, in_img.size)]  
+         for x in range(num_tiles[0]):  
+            for y in range(num_tiles[1]):  
+                 out_img.paste(  
+                 in_img,  
+                 (  
+                 in_img.size[0] * x,  
+                 in_img.size[1] * y,  
+                 in_img.size[0] * (x + 1),  
+                 in_img.size[1] * (y + 1),  
+                 ),  
+             )  
+         return out_img  
+  
+class Resizer:  
+     def __init__(self, algorithm: FillAlgorithm) -> None:  
+         self.algorithm = algorithm  
+     def resize(self, image_file: Path, size: Size) -> Image:  
+         result = self.algorithm.make_background(image_file, size)  
+         return result
+```
+
+### Strategy in Python
+These **strategy classes** each define *objects* that do nothing but provide a *single method*. We could just as easily *call* that function `__call__ `and make the *object callable* directly. Since there is no other data associated with the *object*, we need do no more than create a set of *top-level functions* and pass them around as our *strategies instead*.
+
+```python
+FillAlgorithm = Callable[[Image, Size], Image]
+
+class CenterdStrategy(FillAlgorithm): ...
+```
+
+Because we have a choice between an *abstract class* and a *type hint*, the **Strategy design pattern** seems *superfluous*. This leads to an odd conversation, starting with **"Because Python has first-class functions, the Strategy pattern is unnecessary."**
