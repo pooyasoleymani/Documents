@@ -115,3 +115,13 @@ It is allow us to *define* a new *class* that *encapsulates* a typical usage of 
 > **Adapter**only tries to *map* one *existing interface* to *another*.
 
 
+```uml
+@startuml
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: Another authentication Response
+@enduml
+```
+
