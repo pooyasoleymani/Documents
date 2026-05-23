@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2026-05-23.md",
+                "file": "Literature notes/Python/Object Oriented Design/Common Design Patterns.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-05-23"
+              "title": "Common Design Patterns"
             }
           }
         ]
@@ -167,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2026-05-23.md",
+                "file": "Literature notes/Python/Object Oriented Design/Common Design Patterns.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2026-05-23"
+              "title": "Outline of Common Design Patterns"
             }
           },
           {
@@ -230,8 +230,8 @@
   },
   "active": "5523eb3f53687a0b",
   "lastOpenFiles": [
-    "Literature notes/Python/Object Oriented Design/Common Design Patterns.md",
     "Daily Notes/2026-05-23.md",
+    "Literature notes/Python/Object Oriented Design/Common Design Patterns.md",
     "Literature notes/Python/Object Oriented Design/Iterator Pattern.md",
     "Literature notes/Python/Object Oriented Design/Untitled.md",
     "CI/CI-CD pipeline speed.md",
