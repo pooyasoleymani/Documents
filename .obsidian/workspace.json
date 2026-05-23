@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Python/Object Oriented Design/Common Design Patterns.md",
+                "file": "Daily Notes/2026-05-23.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Common Design Patterns"
+              "title": "2026-05-23"
             }
           }
         ]
@@ -167,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Python/Object Oriented Design/Common Design Patterns.md",
+                "file": "Daily Notes/2026-05-23.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Common Design Patterns"
+              "title": "Outline of 2026-05-23"
             }
           },
           {
@@ -230,8 +230,9 @@
   },
   "active": "5523eb3f53687a0b",
   "lastOpenFiles": [
-    "Literature notes/Python/Object Oriented Design/Iterator Pattern.md",
     "Literature notes/Python/Object Oriented Design/Common Design Patterns.md",
+    "Daily Notes/2026-05-23.md",
+    "Literature notes/Python/Object Oriented Design/Iterator Pattern.md",
     "Literature notes/Python/Object Oriented Design/Untitled.md",
     "CI/CI-CD pipeline speed.md",
     "Daily Notes/2026-05-20.md",
@@ -255,7 +256,6 @@
     "Literature notes/Python/Object Oriented Design/Abstract Base Class and Operator Overloading.md",
     "Literature notes/Python/Object Oriented Design/When to Use Object-Oriented Programming.md",
     "Literature notes/Python/Object Oriented Design/Object Oriented Design.md",
-    "Literature notes/Python/Object Oriented Design/When Object Are Alike.md",
     "Literature notes/Golang",
     "Literature notes/Python/Object Oriented Design",
     "CI",
