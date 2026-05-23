@@ -396,6 +396,9 @@ To make this work, we need a *manager* or *context class* that provides an *inte
 
 ```python
   
+from typing import Iterable, Iterator, cast  
+  
+  
 class NMEAState:  
     def __init__(self, message: "Message") -> None:  
         self.message = message  
@@ -410,6 +413,58 @@ class NMEAState:
         return f"{self.__class__.__name__}({self.message})"  
   
   
+class Waiting(NMEAState):  
+    def feed_bytes(self, input_: int) -> "NMEAState":  
+        if input_ == ord(b"$"):  
+            return Header(self.message)  
+        return self  
+  
+class Header(NMEAState):  
+    def __init__(self, message: "Message") -> None:  
+        super().__init__(message)  
+        self.message.reset()  
+  
+    def feed_bytes(self, input_: int) -> "NMEAState":  
+        if input_ == ord(b"$"):  
+            return Header(self.message)  
+        size = self.message.body_append(input_)  
+        if size == 5:  
+            return Body(self.message)  
+        return self  
+  
+class Body(NMEAState):  
+    def feed_bytes(self, input_: int) -> "NMEAState":  
+        if input_ == ord(b"$"):  
+            return Header(self.message)  
+        if input_ == ord(b"*"):  
+            return CheckSum(self.message)  
+        self.message.body_append(input_)  
+        return self  
+  
+class CheckSum(NMEAState):  
+    def feed_bytes(self, input_: int) -> "NMEAState":  
+        if input_ == ord(b"$"):  
+            return Header(self.message)  
+        if input_ in {ord(b"\n"), ord(b"\t")}:  
+            # incomplete checksum ... will be invalid  
+            return End(self.message)  
+        size = self.message.body_append(input_)  
+        if size == 2:  
+            return End(self.message)  
+        return self  
+  
+class End(NMEAState):  
+    def feed_bytes(self, input_: int) -> "NMEAState":  
+        if input_ == ord(b"$"):  
+            return Header(self.message)  
+        elif input_ in {ord(b"\n"), ord(b"\t")}:  
+            return Waiting(self.message)  
+        return self  
+  
+    def valid(self) -> bool:  
+        return self.message.valid  
+  
+######################################################################################
 class Message:  
     def __init__(self) -> None:  
         self.body = bytearray(80)  
@@ -438,10 +493,41 @@ class Message:
     def valid(self) -> bool:  
         return (  
                 self.checksum_len == 2 and int(self.checksum_source, 16) == self.checksum_computed  
-        )
+        )  
+######################################################################################
+  
+class Reader:  
+    def __init__(self) -> None:  
+        self.buffer = Message()  
+        self.state: NMEAState = Waiting(self.buffer)  
+  
+    def read(self, source: Iterable[bytes]) -> Iterator[Message]:  
+        for byte in source:  
+            self.state = self.state.feed_bytes(cast(int, byte))  
+            if self.buffer.valid:  
+                yield self.buffer  
+                self.buffer = Message()  
+                self.state = Waiting(self.buffer)
 ```
 
 
 >[!NOTE]
 > `^` *exclusive OR* mean one or the other but not both
 
+
+### State VS Strategy
+These two patterns are similar because they both *delegate* work to *other objects*. This *decomposes* a *complex* *problem* into several closely related but *simpler problems*. The **Strategy pattern** is used to choose an *algorithm* at *runtime*; generally, only one of those *algorithms* is going to be chosen for a particular *use case*. The idea here is to provide an implementation choice at *runtime*, as late in the design process as possible. *Strategy class* definitions are *rarely* *aware* of *other implementations*; each *Strategy* generally *stands alone*.
+The **State pattern**, on the other hand, is designed to allow *switching* between different *states dynamically*, as some *process* evolves.
+
+
+---
+## The Singleton pattern
+**Singleton pattern** is to allow exactly *one instance* of a certain *object* to exist.
+```sh
+>>> class OneOnly:
+	... _singleton = None
+	... def __new__(cls, *args, **kwargs):
+		... if not cls._singleton:
+			... cls._singleton = super().__new__(cls, *args, **kwargs)
+	... return cls._singleton
+```
