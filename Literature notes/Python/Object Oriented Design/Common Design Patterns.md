@@ -394,3 +394,54 @@ To make this work, we need a *manager* or *context class* that provides an *inte
 >[!IMPORTANT]
 >The **State pattern** *decomposes* the *problem* into two types of *classes*: the *Core class* and multiple *State classes*. The *Core class* maintains the **current state**, and *forwards* actions to a *current state object*. The *State objects* are typically **hidden** from any other *objects* that are calling the *Core object*; it acts like a *black box* that happens to perform *state management internally*.
 
+```python
+  
+class NMEAState:  
+    def __init__(self, message: "Message") -> None:  
+        self.message = message  
+  
+    def feed_bytes(self, input_: int) -> "NMEAState":  
+        return self  
+  
+    def valid(self) -> bool:  
+        return False  
+  
+    def __repr__(self) -> str:  
+        return f"{self.__class__.__name__}({self.message})"  
+  
+  
+class Message:  
+    def __init__(self) -> None:  
+        self.body = bytearray(80)  
+        self.checksum_source = bytearray(2)  
+        self.body_len = 0  
+        self.checksum_len = 0  
+        self.checksum_computed = 0  
+  
+    def reset(self) -> None:  
+        self.body_len = 0  
+        self.checksum_len = 0  
+        self.checksum_computed = 0  
+  
+    def body_append(self, input_: int) -> int:  
+        self.body[self.body_len] = input_  
+        self.body_len += 1  
+        self.checksum_computed ^= input_  
+        return self.body_len  
+  
+    def checksum_append(self, input_: int) -> int:  
+        self.checksum_source[self.checksum_len] = input_  
+        self.checksum_len += 1  
+        return self.checksum_len  
+  
+    @property  
+    def valid(self) -> bool:  
+        return (  
+                self.checksum_len == 2 and int(self.checksum_source, 16) == self.checksum_computed  
+        )
+```
+
+
+>[!NOTE]
+> `^` *exclusive OR* mean one or the other but not both
+
