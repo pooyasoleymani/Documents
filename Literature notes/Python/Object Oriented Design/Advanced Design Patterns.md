@@ -112,7 +112,7 @@ The **Facade pattern** is provide a simple *interface* to *complex system* of *c
 It is allow us to *define* a new *class* that *encapsulates* a typical usage of the *system*.
 
 > **Facade** tries to abstract a *simpler* *interface* out of a *complex* one.
-> **Adapter**only tries to *map* one *existing interface* to *another*.
+> **Adapter** only tries to *map* one *existing interface* to *another*.
 
 
 
@@ -239,6 +239,13 @@ class Buffer(Sequence[int]):
         return self.content[index]
 ```
 
+
+- Application may have code like this and only *one reference exist*:
+```python
+while True:
+	buffer = Buffer(gps_device.read(1024))
+	# process ... 
+```
 
 
 - Here's the *abstract* *Message* *class* with some common *methods* to help *parse* these *GPS messages*:
@@ -603,3 +610,66 @@ These seem like quite different tasks, but they have some common features. In bo
 4. Format the results into a comma-delimited string
 5. Output the data to a file or email
 
+```python
+import contextlib  
+import csv  
+import datetime  
+import sqlite3  
+import sys  
+from pathlib import Path  
+from typing import TextIO, ContextManager, cast  
+  
+  
+class QueryTemplate:  
+     def __init__(self, db_name: str = "sales.db") -> None:  
+         self.db_name = db_name  
+         self.conn: sqlite3.Connection  
+         self.results: list[tuple[str, ...]]  
+         self.query: str  
+         self.header: list[str]  
+     def connect(self) -> None:  
+        self.conn = sqlite3.connect(self.db_name)  
+  
+     def construct_query(self) -> None:  
+        raise NotImplementedError("construct_query not implemented")  
+  
+     def do_query(self) -> None:  
+        results = self.conn.execute(self.query)  
+        self.results = results.fetchall()  
+  
+     def output_context(self) -> ContextManager[TextIO]:  
+        self.target_file = sys.stdout  
+        return cast(ContextManager[TextIO], contextlib.nullcontext())  
+  
+     def output_results(self) -> None:  
+         writer = csv.writer(self.target_file)  
+         writer.writerow(self.header)  
+         writer.writerows(self.results)  
+  
+     def process_format(self) -> None:  
+         self.connect()  
+         self.construct_query()  
+         self.do_query()  
+         with self.output_context():  
+            self.output_results()  
+  
+  
+class NewVehiclesQuery(QueryTemplate):  
+     def construct_query(self) -> None:  
+         self.query = "select * from Sales where new='true'"  
+         self.header = ["salesperson", "amt", "year", "model", "new"]  
+  
+  
+class SalesGrossQuery(QueryTemplate):  
+     def construct_query(self) -> None:  
+         self.query = (  
+         "select salesperson, sum(amt) "  
+         " from Sales group by salesperson"         )  
+         self.header = ["salesperson", "total sales"]  
+  
+     def output_context(self) -> ContextManager[TextIO]:  
+         today = datetime.date.today()  
+         filepath = Path(f"gross_sales_{today:%Y%m%d}.csv")  
+         self.target_file = filepath.open("w")  
+         return self.target_file
+```
