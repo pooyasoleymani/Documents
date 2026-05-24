@@ -520,3 +520,86 @@ class CardGameFactoryProtocol(Protocol):
 
 ---
 ## The Composite pattern
+The **Composite pattern** allows *complex tree structures* to be built from *simple components*, often called **nodes**.
+
+A *composite object* is – generally – *a container object*, where the content may be another *composite object*.
+Each **node** in a *composite object* must be either a **leaf node** (that cannot contain other *objects*) or a **composite node**.
+
+**Example:**  *Markup languages*, like *HTML*, *XML*, *RST*, and *Markdown*, tend to reflect some common *composite* concepts like *lists* of *lists*, and *headers* with *sub-headings*.
+
+```python
+from __future__ import annotations  
+import abc  
+from typing import Optional  
+  
+class Node(abc.ABC):  
+    def __init__(self, name: str) -> None:  
+        self.name = name  
+        self.parent: Optional["Folder"] = None  
+  
+    def move(self, new_place: "Folder") -> None:  
+        previous = self.parent  
+        new_place.add_child(self)  
+        if previous is not None:  
+            del previous.children[self.name]  
+  
+    @abc.abstractmethod  
+    def copy(self, new_place: "Folder") -> None:  
+        ...  
+  
+    @abc.abstractmethod  
+    def remove(self) -> None:  
+        ...  
+  
+class Folder(Node):  
+    def __init__(self, name, children: Optional[dict[str, "Node"]] = None):  
+        super().__init__(name)  
+        self.children = children or {}  
+  
+    def __repr__(self) -> str:  
+        return f"Folder({self.name!r}, {self.children!r})"  
+  
+    def add_child(self, node: "Node") -> "Node":  
+        node.parent = self  
+        return self.children.setdefault(node.name, node)  
+  
+    def copy(self, new_folder: "Folder") -> None:  
+        target = new_folder.add_child(Folder(self.name))  
+        for c in self.children.keys():  
+            self.children[c].copy(target)  
+  
+    def remove(self) -> None:  
+        names = list(self.children)  
+        for name in names:  
+            self.children[name].remove()  
+        if self.parent:  
+            del self.parent.children[self.name]  
+  
+class File(Node):  
+    def __init__(self, name: str) -> None:  
+        super().__init__(name)  
+  
+    def __repr__(self) -> str:  
+        return f"File({self.name!r})"  
+  
+    def copy(self, new_path: "Folder") -> None:  
+        new_path.add_child(File(self.name))  
+  
+    def remove(self):  
+        if self.parent:  
+            del self.parent.children[self.name]
+```
+
+
+---
+## The Template pattern
+The **Template pattern (Template method)** is useful for *removing* *duplicate code*; it's intended to support the **Don't Repeat Yourself principle**. It is designed for situations where we have several *different tasks* to accomplish that have some, *but not all*, steps in *common*. The *common* steps are implemented in a *base class*, and the *distinct* steps are *overridden* in *subclasses* to provide custom *behavior*.
+
+
+These seem like quite different tasks, but they have some common features. In both cases, we need to perform the following steps:
+1. Connect to the database
+2. Construct a query for new vehicles or gross sales
+3. Issue the query
+4. Format the results into a comma-delimited string
+5. Output the data to a file or email
+
