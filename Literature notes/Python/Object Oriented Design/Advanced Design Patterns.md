@@ -115,13 +115,98 @@ It is allow us to *define* a new *class* that *encapsulates* a typical usage of 
 > **Adapter**only tries to *map* one *existing interface* to *another*.
 
 
-```uml
-@startuml
-Alice -> Bob: Authentication Request
-Bob --> Alice: Authentication Response
 
-Alice -> Bob: Another authentication Request
-Alice <-- Bob: Another authentication Response
-@enduml
+```python
+import re  
+from pathlib import Path  
+from typing import Iterator, Tuple  
+  
+  
+class FindUML:  
+    def __init__(self, base: Path) -> None:  
+        self.base = base  
+        self.start_pattern = re.compile(r"@startuml *(.*)")  
+  
+    def uml_file_iter(self) -> Iterator[Tuple[Path, Path]]:  
+        for source in self.base.glob("**/*.uml"):  
+            if any(n.startswith(".") for n in source.parts):  
+                continue  
+            body = source.read_text(encoding="utf-8")  
+            for output_name in self.start_pattern.findall(body):  
+                if output_name:  
+                    target = source.parent / output_name  
+                else:  
+                    target = source.with_suffix(".png")  
+                yield (
+                surce.relative_to(self.base),
+                 target.relative_to(self.base)
+                 )
+
 ```
+
+- We use `subprocess` to create `virtualenv` and create image
+```python
+import subprocess
+
+class PlanUML:  
+    conda_env_name = "CaseStudy"  
+    base_env = Path.home() / "miniconda3" / "envs" / conda_env_name  
+    def __init__(  
+            self,  
+            graphviz: Path = Path("bin") / "dot",  
+            plantjar: Path = Path("share") / "plantuml.jar",  
+    ) -> None:  
+        self.graphviz = self.base_env / graphviz  
+        self.plantjar = self.base_env / plantjar  
+  
+    def process(self, source: Path) -> None:  
+        env = {  
+            "GRAPHVIZ_DOT": str(self.graphviz),  
+        }  
+  
+        command = [  
+            "java", "-jar",  
+            str(self.plantjar), "-progress",  
+            str(source)  
+        ]  
+        subprocess.run(command, env=env, check=True)  
+        print()
+```
+
+- We use **Facade pattern** to create useful command-line application:
+```python
+class GeneratorImages:  
+    def __init__(self, base: Path) -> None:  
+        self.finder = FindUML(base)  
+        self.painter = PlanUML()  
+  
+    def make_all_images(self) -> None:  
+        for source, target in self.finder.uml_file_iter():  
+            if (  
+                not target.exists()  
+                or source.stat().st_mtime > target.stat().st_mtime  
+            ):  
+                print(f"Processing {source} -> {target}")  
+                self.painter.process(source)  
+            else:  
+                print(f"Skipping {source} -> {target}")
+```
+
+
+
+>[!IMPORTANT]
+>The `stat().st_mtime` is pretty obscure; it turns out the `stat()` *method* of a *Path* provides a lot of file *status information*, and the *modification time* is only one of many things we can find about a *file*.
+
+
+
+---
+## The Flyweight pattern
+This pattern use for *memory optimization*.
+The **Flyweight pattern** ensures that *objects* that *share a state* can use the same *memory* for their *shared state*.
+
+**Flyweight object** has no *specific state* just when we need to operate on `SpecificState` object we pass object on **Flyweight object** *argument*.
+
+Traditionally, the *factory* that returns an *instance* of a **Flyweight class** is a *separate object*; its purpose is to *return* individual **Flyweight objects**, perhaps organized by a *key* or *index* of some kind. It works like the *Singleton pattern* but we can create *multiple instance*.
+
+**Flyweight pattern** working with *reference* to data.
 
