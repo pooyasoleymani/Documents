@@ -210,3 +210,183 @@ Traditionally, the *factory* that returns an *instance* of a **Flyweight class**
 
 **Flyweight pattern** working with *reference* to data.
 
+>[!IMPORTANT] **Circular Reference**
+>We can use *weak reference* to don't increase *reference count*.
+
+- We need to create an **Adapter** for *underlying bytes* object to *transform* it into an *object* that can have *weak references*
+```python
+from typing import Sequence, Iterator, overload, Union  
+  
+  
+class Buffer(Sequence[int]):  
+    def __init__(self, content: bytes) -> None:  
+        self.content = content  
+  
+    def __len__(self) -> int:  
+        return len(self.content)  
+  
+    def __iter__(self) -> Iterator[int]:  
+        return iter(self.content)  
+  
+    @overload  
+    def __getitem__(self, index: int) -> int:  
+        ...  
+    @overload  
+    def __getitem__(self, index: slice) -> bytes:  
+        ...  
+  
+    def __getitem__(self,index: Union[int,slice]) -> Union[int,bytes]:  
+        return self.content[index]
+```
+
+
+
+- Here's the *abstract* *Message* *class* with some common *methods* to help *parse* these *GPS messages*:
+```python
+class Message(abc.ABC):  
+    def __init__(self) -> None:  
+        self.buffer: weakref.ReferenceType[Buffer]  
+        self.offset: int  
+        self.end: Optional[int]  
+        self.commas: list[int]  
+  
+    def from_buffer(self, buffer: Buffer, offset: int) -> "Message":  
+        self.buffer = weakref.ref(buffer)  
+        self.offset = offset  
+        self.commas = [offset]  
+        self.end = None  
+        for index in range(offset, offset + 82):  
+            if buffer[index] == ord(b','):  
+                self.commas.append(index)  
+            elif buffer[index] == ord('*'):  
+                self.commas.append(index)  
+                self.end = index + 3  
+                break  
+        if self.end is None:  
+            raise GPSError("Incomplete")  
+  
+        return self  
+  
+    def __getitem__(self, index: int) -> bytes:  
+        if (not hasattr(self, "buffer")  
+                or (buffer := self.buffer()) is None  
+        ):  
+            raise RuntimeError("broken reference")  
+        start, end = self.commas[index] + 1, self.commas[index + 1]  
+        return buffer[start:end]  
+  
+    def get_fix(self) -> Point:  
+         return Point.from_bytes(  
+         self.latitude(),  
+         self.lat_n_s(),  
+         self.longitude(),  
+         self.lon_e_w()  
+         )  
+  
+    @abc.abstractmethod  
+    def latitude(self) -> bytes:  
+        ...  
+    @abc.abstractmethod  
+    def lat_n_s(self) -> bytes:  
+        ...  
+    @abc.abstractmethod  
+    def longitude(self) -> bytes:  
+        ...  
+    @abc.abstractmethod  
+    def lon_e_w(self) -> bytes:  
+        ...  
+  
+class GPGLL(Message):  
+     def latitude(self) -> bytes:  
+        return self[1]  
+     def lat_n_s(self) -> bytes:  
+        return self[2]  
+     def longitude(self) -> bytes:  
+        return self[3]  
+     def lon_e_w(self) -> bytes:  
+        return self[4]
+```
+
+
+-  create *Flyweight factory* 
+```python
+@functools.lru_cache()
+def message_factory(header: bytes) -> Optional[Message]:
+	if header == b"GPGGA":
+		return GPGGA()
+	elif header == b"GPGLL":
+		return GPGLL()
+	elif header == b"GPRMC":
+		return GPRMC()
+	else:
+		return None
+```
+
+
+```sh
+>>> buffer = Buffer(
+... b"$GPGLL,3751.65,S,14507.36,E*77"
+... )
+>>> flyweight = message_factory(buffer[1 : 6])
+>>> flyweight.from_buffer(buffer, 0)
+<gps_messages.GPGLL object at 0x7fc357a2b6d0>
+
+>>> flyweight.get_fix()
+Point(latitude=-37.86083333333333, longitude=145.12266666666667)
+
+>>> print(flyweight.get_fix())
+(37°51.6500S, 145°07.3600E)
+```
+
+- Multiple message in a buffer
+```sh
+>>> buffer_2 = Buffer(
+... b"$GPGLL,3751.65,S,14507.36,E*77\\r\\n"
+... b"$GPGLL,3723.2475,N,12158.3416,W,161229.487,A,A*41\\r\\n"
+... )
+>>> start = 0
+>>> flyweight = message_factory(buffer_2[start+1 : start+6])
+>>> p_1 = flyweight.from_buffer(buffer_2, start).get_fix()
+>>> p_1
+Point(latitude=-37.86083333333333, longitude=145.12266666666667)
+>>> print(p_1)
+(37°51.6500S, 145°07.3600E)
+
+>>> flyweight.end
+30
+>>> next_start = buffer_2.index(ord(b"$"), flyweight.end)
+>>> next_start
+32
+>>>
+>>> flyweight = message_factory(buffer_2[next_start+1 : next_start+6])
+>>> p_2 = flyweight.from_buffer(buffer_2, next_start).get_fix()
+>>> p_2
+Point(latitude=37.387458333333335, longitude=-121.97236)
+>>> print(p_2)
+(37°23.2475N, 121°58.3416W)
+```
+
+
+---
+### Memory optimization via Python's `__slots__`
+Instead of a *Flyweight design*– where *storage* is *intentionally shared* – a **slots design** creates *objects* with their own *private data*, but avoids Python's *built-in dictionary*. Instead, there is *direct mapping* from *attribute name* to a *sequence* of values, avoiding the rather *large hash table* that is a part of every Python *dict object*.
+
+```python
+class Point:
+	__slots__ = ("latitude", "longitude")
+	
+	def __init__(self, latitude: float, longitude: float) -> None:
+		self.latitude = latitude
+		self.longitude = longitude
+		
+	def __repr__(self) -> str:
+		return (
+		f"Point(latitude={self.latitude}, "
+		f"longitude={self.longitude})"
+		)
+```
+
+
+
+---
+## Abstract Factory pattern
