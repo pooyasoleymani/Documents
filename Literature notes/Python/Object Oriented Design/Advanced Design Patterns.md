@@ -390,3 +390,133 @@ class Point:
 
 ---
 ## Abstract Factory pattern
+The **Abstract Factory** pattern is appropriate when we have *multiple* possible implementations of a *system* that depend on some *configuration* or *platform* detail. The calling *code requests* an *object* from the **Abstract Factory**, not knowing exactly what *class* of *object* will be returned. The underlying implementation returned may depend on a variety of factors, such as the *current locale*, *operating system*, or *local configuration*.
+
+**Example:**  operation-system-independent toolkit, database backends
+
+---
+There are *two* central features of an **Abstract Factory**:
+	-  We need to have *multiple implementation choices*. Each implementation has a *factory class* to *create objects*. A *single Abstract Factory* defines the *interface* to the implementation *factories*.
+	-  We have a number of *closely* *related* *objects*, and the relationships are *implemented* via *multiple methods* of each *factory*.
+
+---
+
+```python
+import abc  
+from enum import Enum, auto  
+from typing import NamedTuple, List  
+  
+  
+class Suit(str, Enum):  
+    Clubs = "\N{Black Club Suit}"  
+    Diamonds = "\N{Black Diamond Suit}"  
+    Hearts = "\N{Black Heart Suit}"  
+    Spades = "\N{Black Spade Suit}"  
+  
+####################################################################### 
+class Trick(str, Enum):  
+    pass  
+    
+####################################################################### 
+class Card(NamedTuple):  
+    rank: int  
+    suit: Suit  
+  
+    def __str__(self):  
+        return f"{self.rank}{self.suit}"  
+        
+####################################################################### 
+class Hand(List[Card]):  
+    def __init__(self, *cards: Card) -> None:  
+        super().__init__(cards)  
+  
+    def scoring(self) -> int:  
+        pass  
+        
+####################################################################### 
+class CardGameFactory(abc.ABC):  
+    @abc.abstractmethod  
+    def make_card(self, rank: int, suit_: Suit) -> "Card":  
+        ...  
+    @abc.abstractmethod  
+    def make_hand(self, *cards: Card) -> "Hand":  
+        ...  
+        
+        
+class PokerFactory(CardGameFactory):  
+     def make_card(self, rank: int, suit_: Suit) -> "Card":  
+        if rank == 1:  
+            # Aces above kings  
+            rank = 14  
+        return PokerCard(rank=rank, suit=suit_)  
+  
+     def make_hand(self, *cards: Card) -> "Hand":  
+        return PokerHand(*cards)
+        
+#######################################################################  
+class CribbageCard(Card):  
+     @property  
+     def points(self) -> int:  
+        return self.rank  
+  
+class CribbageAce(Card):  
+     @property  
+     def points(self) -> int:  
+        return 1  
+  
+class CribbageFace(Card):  
+     @property  
+     def points(self) -> int:  
+        return 10  
+  
+class CribbageHand(Hand):  
+    starter: Card  
+  
+    def upcard(self, starter: Card) -> Hand:  
+        self.starter = starter  
+        return self  
+  
+    def scoring(self) -> int:  
+        tricks = Trick.value  
+        return tricks  
+  
+#######################################################################  
+class PokerCard(Card):  
+     def __str__(self) -> str:  
+        if self.rank == 14:  
+            return f"A{self.suit}"  
+        return f"{self.rank}{self.suit}"  
+  
+class PokerHand(Hand):  
+     def scoring(self) -> list[Trick]:  
+         """Return a single 'Trick'"""  
+         #... details omitted ...  
+         rank = Trick.value  
+         return [rank]  
+```
+
+
+---
+### Abstract Factory in python
+In python we don't need *abstract base class* .
+This *class* have *separate modules* we can import factory method like that `from cribbage import CardGameFactory` 
+
+```python
+class CardGameFactoryProtocol(Protocol):
+	def make_card(self, rank: int, suit: Suit) -> "Card":
+		...
+		
+	def make_hand(self, *cards: Card) -> "Hand":
+		...
+```
+
+
+
+>[!NOTE]
+>Unlike the *abstract base class* definition, this is not a *runtime check*. A *protocol* definition is only used by *mypy* to *confirm* that the code is likely to pass its unit test suite.
+
+
+
+
+---
+## The Composite pattern
