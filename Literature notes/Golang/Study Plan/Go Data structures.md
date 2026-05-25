@@ -105,3 +105,65 @@ This means:
 - good for *large files*
 
 
+### 3. `strings.TrimSpace()`
+Remove:
+- spaces
+- tabs
+- newline
+
+
+## VERY Important Engineering Lesson
+Real-world *input* is *messy*.
+Good programs sanitize input:
+- *trim spaces*
+- *normalize case*
+- *validate format*
+
+#### Error handling in scanner
+```go
+if err := scanner.Err(); err != nil {  
+fmt.Fprintln(os.Stderr, err)  
+}
+```
+
+
+## Function Naming in Go
+In Go, *exported/public functions* start with *uppercase*.
+*internal/private functions* start with *lowercase*.
+
+
+#### Example:
+
+```go
+package main
+
+import (
+	"bufio"
+	"fmt"
+	"os"
+	"strings"
+)
+
+func main() {
+	counter := make(map[string]int)
+	scanner := bufio.NewScanner(os.Stdin)
+	
+	for scanner.Scan() {
+		line := strings.TrimSpace(scanner.Text())
+		if line == "" {
+			continue
+		}
+		counter[strings.ToLower(line)]++
+		}
+		if err := scanner.Err(); err != nil {
+			fmt.Fprint(os.Stderr, err)
+		}
+	PrintMap(counter)
+}
+
+func PrintMap(m map[string]int) {
+	for key, value := range m {
+		fmt.Println(key, "=>", value)
+}
+}
+```
