@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Python/Object Oriented Design/Testing Object-Oriented Programs.md",
+                "file": "Literature notes/Golang/Study Plan/The Go Fundamentals.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Testing Object-Oriented Programs"
+              "title": "The Go Fundamentals"
             }
           }
         ]
@@ -167,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Python/Object Oriented Design/Testing Object-Oriented Programs.md",
+                "file": "Literature notes/Golang/Study Plan/The Go Fundamentals.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Testing Object-Oriented Programs"
+              "title": "Outline of The Go Fundamentals"
             }
           },
           {
@@ -230,9 +230,16 @@
   },
   "active": "5523eb3f53687a0b",
   "lastOpenFiles": [
+    "Literature notes/Golang/Biginner/Go Syntax and bsic Types.md",
+    "Literature notes/Golang/Study Plan/The Go Fundamentals.md",
+    "Literature notes/Golang/Study Plan",
+    "Literature notes/Golang/Biginner",
+    "Literature notes/Golang/Biginner/Go Memory Model.md",
+    "Literature notes/Golang/Biginner/Structs, interfaces, and Go’s approach to OOP.md",
+    "Literature notes/Python/Object Oriented Design/Testing Object-Oriented Programs.md",
+    "Literature notes/Python/Object Oriented Design/Python Data Structure.md",
     "Literature notes/Python/Object Oriented Design/Advanced Design Patterns.md",
     "Literature notes/Python/Object Oriented Design/Common Design Patterns.md",
-    "Literature notes/Python/Object Oriented Design/Testing Object-Oriented Programs.md",
     "Literature notes/Python/Object Oriented Design/Concurrency.md",
     "Literature notes/Python/Object Oriented Design/Untitled 1.md",
     "Daily Notes/2026-05-23.md",
@@ -242,7 +249,6 @@
     "Daily Notes/2026-05-20.md",
     "Daily Notes/2026-02-16.md",
     "non-atomic operations.md",
-    "Literature notes/Golang/Structs, interfaces, and Go’s approach to OOP.md",
     "Familiarize yourself with alternatives to overloading on universal references.md",
     "Daily Notes/2026-03-05.md",
     "Daily Notes/2026-05-05.md",
@@ -252,10 +258,6 @@
     "Daily Notes/2026-05-14.md",
     "Daily Notes/2026-05-16.md",
     "Daily Notes/2026-05-18.md",
-    "Permanet Note/Scope and Lifetime (C++).md",
-    "Literature notes/Python/Data Analysis/Data.md",
-    "Literature notes/Python/Object Oriented Design/String, Serialization, and File Paths.md",
-    "Literature notes/Python/Object Oriented Design/The Intersection of Object\u0002Oriented and Functional \r\nProgramming.md",
     "Literature notes/Golang",
     "Literature notes/Python/Object Oriented Design",
     "CI",
@@ -264,8 +266,6 @@
     "Literature notes/تندخوانی",
     "Refrences Note/Home.base",
     "Refrences Note/C++",
-    "Literature notes/WarGame/Linux Command.canvas",
-    "Literature notes",
-    "Refrences Note"
+    "Literature notes/WarGame/Linux Command.canvas"
   ]
 }

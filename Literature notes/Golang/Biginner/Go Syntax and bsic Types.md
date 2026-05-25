@@ -3,6 +3,7 @@ Created Date: 2026-05-11
 tags:
   - golang
   - programming
+Next: "[[Structs, interfaces, and Go’s approach to OOP]]"
 ---
 ---
 ## Variables and Data Types
@@ -88,7 +89,7 @@ func main() {
 		fmt.Println("Fail")
 	}
 	
-	if num:=1-; num%2 == 0 {
+	if num:=1; num%2 == 0 {
 		fmt.Println(num, "is Even")
 	} else {
 		fmt.Println(num, "is odd")

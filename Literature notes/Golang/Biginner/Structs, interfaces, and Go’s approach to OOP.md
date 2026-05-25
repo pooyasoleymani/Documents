@@ -3,7 +3,7 @@ Created Date: 2026-05-11
 tags:
   - golang
   - programming
-Related:
+Next: "[[Go Memory Model]]"
 ---
 ---
 ### 1. Struct in Go

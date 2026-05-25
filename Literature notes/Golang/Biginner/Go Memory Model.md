@@ -3,6 +3,7 @@ Created Date: 2026-05-11
 tags:
   - golang
   - programming
+Next: "[[Go Concurrency (Goroutines + Channels)]]"
 ---
 ---
 Go design to simple but under the hood it still has:
