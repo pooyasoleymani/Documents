@@ -66,3 +66,44 @@ Go has strict formatting culture.
 ```bash
 go fmt
 ```
+
+
+## Third Task — Learn `Printf`
+Write:
+
+```go
+fmt.Printf("%d\n", 10)
+fmt.Printf("%f\n", 3.14)
+fmt.Printf("%s\n", "hello")
+fmt.Printf("%T\n", 10)
+```
+
+>[!NOTE]
+> We can reflect type of variable or value with `fmt.Printf("%T\n", variable)`
+
+
+## Join strings
+For join strings we can use **string** package and *Join* function
+
+```go
+func main() {
+ fmt.Println(strings.Join(os.Args[1:], " ")) 
+ }
+```
+---
+### Exercises
+
+```go
+package main
+
+import (
+	"fmt"
+	"runtime"
+)
+
+func main() {
+	fmt.Println("OS:", runtime.GOOS)
+	fmt.Println("ARCH:", runtime.GOARCH)
+	fmt.Println("Go Version:", runtime.Version())
+}
+```
