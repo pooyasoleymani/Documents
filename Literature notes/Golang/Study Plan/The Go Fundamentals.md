@@ -3,7 +3,6 @@ Created Date: 2026-05-25
 tags:
   - golang
   - programming
-Next: "[[Test-Driven Development (TDD)]]"
 ---
 ---
 ## Hello World

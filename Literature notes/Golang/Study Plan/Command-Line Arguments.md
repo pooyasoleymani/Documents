@@ -22,8 +22,19 @@ func main() {
 
 ## Slices
 This is one of the most important Go concepts.
+uninitialized *slice* equal `nil`
+we can append new values in slice with `append()` function
+
+
 ```go
 []string // slice of strings like os.Args
+s = make([]string, 3) // create slice with 3 elements
+len(s) // 3
+cap(s) // capacity of slice equal length 
+s = append(s, "a", "b")
+
+c := make([]string, len(s))
+copy(c, s)
 ```
 
 ```python
