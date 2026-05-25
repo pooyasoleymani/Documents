@@ -63,3 +63,45 @@ Because real programs often process:
 - terminal input
 - network streams
 **WITHOUT** loading everything into *memory*.
+
+
+## Understanding `os.Stdin`
+This is standard input stream 
+- keyboard input
+- piped file
+- terminal stream
+
+```go
+package main
+
+import (
+	"bufio"
+	"fmt"
+	"os"
+)
+
+func main() {
+	input := bufio.NewScanner(os.Stdin)
+	for input.Scan() {
+	fmt.Println("Input: ", input.Text())
+	}
+}
+```
+
+### 1. `scanner.Scan()`
+Read *next line*, `Scan()` *moves* the scanner *forward*, Like an **iterator**.
+- Return `true` if line exist 
+- Return `false` if input ends
+
+### 2. `scanner.Text()`
+Return current line as **string**
+-  **EOF** with (Linux -> *CTRL+D*, Windows -> *CTRL+Z* )
+
+## Important Design
+**Scanner** *processes* input **STREAMING**. 
+This means:
+- *memory efficient*
+- *scalable*
+- good for *large files*
+
+
