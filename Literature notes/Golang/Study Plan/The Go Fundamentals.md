@@ -57,4 +57,12 @@ func main() // this wrong
 ```
 
 ## No Semicolons
-Go inserts semicolons automatically.
+**Go** inserts *semicolons* automatically.
+
+
+## Formatting Philosophy
+Go has strict formatting culture.
+
+```bash
+go fmt
+```
