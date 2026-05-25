@@ -52,3 +52,16 @@ The book later explains why `strings.Join` is more *efficient*.
 - safer
 - cleaner
 - less bug-prone
+
+
+## Important Go Design
+**Slices** do NOT *copy* data by *default*.
+They *reference* underlying *arrays*.
+This becomes VERY important later for:
+- *performance*
+- *memory bugs*
+- *append behavior*
+
+
+## Important Go Design
+ `range` **Creates Copies** not *original* *elements*.
