@@ -54,9 +54,33 @@
               "icon": "lucide-file",
               "title": "Command-Line Arguments"
             }
+          },
+          {
+            "id": "c2e6ade89f8bc939",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Literature notes/Golang/Study Plan/Reading Real Files.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Reading Real Files"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -149,12 +173,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Literature notes/C++/Effective Modern C++/References/Prefer make_unique and make_shared to direct use of new.md",
+                "file": "dependency hell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Prefer make_unique and make_shared to direct use of new"
+              "title": "Outgoing links from dependency hell"
             }
           },
           {
@@ -192,13 +216,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Command-Line Arguments.md",
+                "file": "Literature notes/Golang/Study Plan/Reading Real Files.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Command-Line Arguments"
+              "title": "Outline of Reading Real Files"
             }
           },
           {
@@ -253,12 +277,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5c43a986cfaa2522",
+  "active": "c2e6ade89f8bc939",
   "lastOpenFiles": [
+    "Literature notes/Golang/Study Plan/Command-Line Arguments.md",
+    "Literature notes/Golang/Study Plan/Reading Real Files.md",
+    "Literature notes/C++/Effective Modern C++/References/lvalue references vs. rvalue references.md",
     "Daily Notes/2026-05-27.md",
     "Literature notes/Golang/Study Plan/Go Data structures.md",
     "Literature notes/Golang/Study Plan/The Go Fundamentals.md",
-    "Literature notes/Golang/Study Plan/Command-Line Arguments.md",
     "Literature notes/Golang/Biginner/Go Syntax and bsic Types.md",
     "Literature notes/Golang/Study Plan",
     "Literature notes/Golang/Biginner",
@@ -281,8 +307,6 @@
     "Daily Notes/2026-03-05.md",
     "Daily Notes/2026-05-05.md",
     "Daily Notes/2026-05-07.md",
-    "Daily Notes/2026-05-09.md",
-    "Daily Notes/2026-05-13.md",
     "Literature notes/Golang",
     "Literature notes/Python/Object Oriented Design",
     "CI",
