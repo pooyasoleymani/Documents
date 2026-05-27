@@ -149,12 +149,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dependency hell.md",
+                "file": "Literature notes/C++/Effective Modern C++/References/Prefer make_unique and make_shared to direct use of new.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from dependency hell"
+              "title": "Outgoing links from Prefer make_unique and make_shared to direct use of new"
             }
           },
           {
