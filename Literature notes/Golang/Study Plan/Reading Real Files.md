@@ -101,8 +101,6 @@ import (
 	"bufio"
 )
 
-  
-
 func main() {
 	file, err := os.Open("text.txt")
 		if err != nil {
