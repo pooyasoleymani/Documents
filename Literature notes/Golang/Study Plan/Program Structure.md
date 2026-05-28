@@ -168,3 +168,58 @@ Go initializes in this order:
 2. **package-level variables**
 3. `init()`
 4. `main()`
+
+
+---
+## String
+1. *Immutable*
+2. *UTF-8 encoded*
+3. *byte sequences*
+
+### `len()` in string
+Return *bytes* not *characters*
+
+```go
+s := "é"
+fmt.Println(len(s)) // ---> 2
+```
+
+### Unicode and Runes
+> `rune = int32 alias`
+
+Represents a *Unicode* code point. 
+```go
+r := 'A'
+fmt.Printf("%T\n", r) // int32
+```
+
+
+### String iteration
+
+```go
+for i, r := range "héllo" {
+	fmt.Printf("%d %c\n", i, r)
+}
+```
+
+- i = byte index
+- r = rune(charter)
+
+
+### strings are immutable
+```go
+s := "hello"
+s[0] = 'H' // ❌ error
+```
+
+- Correct way
+```go
+b := []byte("hello")
+b[0] = 'H'
+s := string(b)
+```
+
+### Split
+```go
+strings.Split("a,b,c", ",")
+```
