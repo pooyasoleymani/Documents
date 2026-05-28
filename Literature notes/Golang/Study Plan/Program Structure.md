@@ -223,3 +223,146 @@ s := string(b)
 ```go
 strings.Split("a,b,c", ",")
 ```
+
+
+---
+## Arrays
+An array in Go has:
+- **fixed size**
+- **contiguous memory**
+- **same-type element**
+```go 
+var numbers [4]int
+```
+
+- Arrays can't assign to each other
+```go
+var a [4]int
+var b [5]int
+
+b = a // Error
+```
+
+### Arrays initialization
+```go
+numbers := [5]intP{1, 2 ,3 , 4, 5}
+
+var x [5]int // all elements are 0
+```
+
+- arrays can be *assignable* 
+```go
+
+numbers[4] = 100 
+fmt.Println(numbers[4])
+```
+
+- arrays *length*
+```go
+len(numbers)
+```
+
+### Compare With C++
+In C++ arrays *decay* into *pointers often*.
+In Go:
+- arrays are *real values*
+Safer and more predictable.
+
+### Arrays Are Value Types
+```go
+a := [5]int
+b := a
+b[4] = 100
+```
+
+- **full array copied**
+
+### Why Arrays Are Rare in Go
+Because:
+- *fixed size* inconvenient
+- *copying expensive*
+Most *Go* code uses:
+### slices
+
+
+---
+## Slices (CRITICAL)
+### What Is Slice?
+A slice is:
+- *lightweight view* into array
+- *dynamic-sized*
+- *reference-like* *structure*
+
+```go
+numbers := []int{1, 2, 3}
+```
+
+### VERY Important Mental Model
+
+```go
+pointer + length + capacity
+```
+
+### Slice Shares Underlying Data
+Because slices *reference* same *underlying array*.
+```go
+a := []int{1, 2, 3}
+b := a
+b[1] = 100
+fmt.Println(a[1]) // 100
+```
+
+#### This Is Critical
+Slices behave somewhat like:
+- **shared views**
+- **descriptors**
+NOT *full copies*.
+
+
+### Creating Slice with `make`
+```go
+numbers := make([]int, 5)
+```
+
+
+### Length and Capacity
+```go
+len(numbers)
+cap(numbers)
+```
+
+#### Important Difference
+**Length**:
+- *accessible elements*
+**Capacity**:
+- *underlying storage size*
+
+
+### Appending
+The append *built-in function* appends *elements* to the end of a *slice*. If  it has *sufficient* *capacity*, the destination is *resliced* to accommodate the  new *elements*. If it *does not*, a new *underlying* array will be *allocated*. Append returns the *updated slice*.
+`append()` may:
+- **reuse array**  
+    OR
+- **allocate new array**
+
+
+### Slice Expressions
+
+```go
+s[low: high]
+```
+
+
+### Copying Slices Properly
+The copy *built-in function* *copies* elements from a *source* *slice* into a *destination* *slice*. (As a special case, it also will copy *bytes* from a  *string* to a *slice of bytes*.) The *source* and *destination* may *overlap*. *Copy* returns the *number* of elements *copied*, which will be the *minimum* of  `len(src)`and`len(dst)`.
+
+```go
+src := []int{1,2,3}
+dst := make([]int, len(src))
+
+copy(dst, src)
+```
+
+> Now:
+> - **independent slices**
+
