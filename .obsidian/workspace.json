@@ -78,9 +78,33 @@
               "icon": "lucide-file",
               "title": "Reading Real Files"
             }
+          },
+          {
+            "id": "cb10c9c86a8efb33",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Literature notes/Golang/Study Plan/Program Structure.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Program Structure"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -216,13 +240,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Reading Real Files.md",
+                "file": "Literature notes/Golang/Study Plan/Program Structure.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Reading Real Files"
+              "title": "Outline of Program Structure"
             }
           },
           {
@@ -277,10 +301,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c2e6ade89f8bc939",
+  "active": "cb10c9c86a8efb33",
   "lastOpenFiles": [
-    "Literature notes/Golang/Study Plan/Command-Line Arguments.md",
     "Literature notes/Golang/Study Plan/Reading Real Files.md",
+    "Literature notes/Golang/Study Plan/Program Structure.md",
+    "Literature notes/Golang/Study Plan/Command-Line Arguments.md",
     "Literature notes/C++/Effective Modern C++/References/lvalue references vs. rvalue references.md",
     "Daily Notes/2026-05-27.md",
     "Literature notes/Golang/Study Plan/Go Data structures.md",
@@ -306,7 +331,6 @@
     "Familiarize yourself with alternatives to overloading on universal references.md",
     "Daily Notes/2026-03-05.md",
     "Daily Notes/2026-05-05.md",
-    "Daily Notes/2026-05-07.md",
     "Literature notes/Golang",
     "Literature notes/Python/Object Oriented Design",
     "CI",
