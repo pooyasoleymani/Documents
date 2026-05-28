@@ -366,3 +366,121 @@ copy(dst, src)
 > Now:
 > - **independent slices**
 
+
+
+---
+## Maps
+Maps in Go are:
+- hash tables
+- key → value storage
+- reference-like types
+- extremely common in backend systems
+
+- *nil* map
+```go 
+var m map[string]int
+m["a"] = 1 // ❌ panic
+```
+
+- Create *map* with `make()`
+```go
+m := make(map[string]int)
+m["a"] = 1
+```
+
+### Missing keys
+If keys does not exist it return *zero-value* of the type, *no exception*
+```go
+fmt.Println(m["x"]) // 0
+```
+
+### Safe Lookup pattern
+```go
+value, ok := m["x"]
+fmt.Println(value)  // 0
+fmt.Println(ok)    // false
+```
+
+This pattern used every where in *Go*:
+```go
+if value, ok := m[key]; ok {
+	// use value
+}
+```
+
+
+### Deleting from map
+Whit built-in function `delete()`
+```go
+delete(m, "a")
+```
+
+
+### Iterating in map
+Go does NOT guarantee order.
+because:
+- **maps** are *hash-based*.
+
+```go
+for key, value := range m {
+	fmt.Println(key, value)
+}
+```
+
+### Sort maps
+1. store keys
+2. sort keys with *slice* package
+3. Iterate 
+
+```go
+keys := make([]string, len(m))
+for k := rage m {
+	keys = append(keys, k)
+}
+
+slice.Sort(keys)
+
+for _, key := range keys {
+	fmt.Println(k, m[key])
+} 
+```
+
+
+### Map with struct values
+This is very common in *Go*
+
+```go
+type User struct {
+	Name string
+}
+
+users := make(map[string]User)
+
+// Or Pointer values for share updates
+users := make(map[string]*User)
+```
+
+### Maps are reference types
+If one *map* assign to other both *share* same *underling data* (like *slice*)
+
+```go
+m := make(map[string]int)
+
+m["a"] = 1
+
+m2 := m
+m2["a"] = 100
+
+fmt.Println(m["a"])
+```
+
+
+# VERY IMPORTANT ENGINEERING INSIGHT
+Maps are used for:
+- caching
+- indexing
+- counting
+- configuration
+- deduplication
+- state tracking
+
