@@ -1,0 +1,89 @@
+---
+Created Date: 2026-05-29
+tags:
+  - golang
+  - programming
+---
+---
+# 🧠 Why `context` exists
+Imagine:
+- client disconnects
+- request times out
+- user cancels operation
+- server shutting down
+
+How do all goroutines know they should stop?
+Before `context`:
+- messy custom channels
+- hard *coordination*
+- *goroutine* leaks
+*Go* solved this with:
+> **context.Context**
+
+
+
+# 🧠 Core Idea
+A **context** carries:
+- *cancellation signal*
+- *timeout/deadline*
+- *request-scoped values*
+across **goroutines** and *APIs*.
+
+
+## Important rule
+**Context** is  *immutable*
+Every modification creates:
+- derived *child context*
+
+
+## Basic Usage
+
+```go
+cnx := context.Background()
+```
+
+This is root **context**.
+Usually used in:
+- **main**
+- **tests**
+- **server startup**
+
+
+## 🔥 Cancellation Example
+
+```go
+package main
+
+import (
+	"fmt"
+	"context"
+	"time"
+)
+
+func worker(cnx context.Context) {
+	for {
+		select {
+			case <-ctn.Done():
+				fmt.Println("worker done")
+				return
+				
+			default:
+				fmt.Println("Working ...")
+				time.Sleep(time.Second)
+		}
+	}
+}
+
+
+func main() {
+	cnt, cancel := context.WithCancel(context.Background())
+	
+	go worker(cnt)
+	
+	time.Sleep(2 * time.Second)
+	
+	cancel()
+	
+	time.Sleep(time.Second)
+}
+```
