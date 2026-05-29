@@ -198,9 +198,33 @@
               "icon": "lucide-file",
               "title": "Channels (Go’s main communication system)"
             }
+          },
+          {
+            "id": "e9a8276768681913",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Literature notes/Golang/Study Plan/Select.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Select"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -336,13 +360,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Channels (Go’s main communication system).md",
+                "file": "Literature notes/Golang/Study Plan/Select.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Channels (Go’s main communication system)"
+              "title": "Outline of Select"
             }
           },
           {
@@ -397,22 +421,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a2eb21d20478a3b6",
+  "active": "e9a8276768681913",
   "lastOpenFiles": [
-    "Literature notes/Golang/Study Plan/Goroutines(Concurrency).md",
     "Literature notes/Golang/Study Plan/Channels (Go’s main communication system).md",
+    "Literature notes/Golang/Study Plan/Goroutines(Concurrency).md",
     "Literature notes/Golang/Study Plan/Error Handling.md",
+    "Literature notes/Golang/Study Plan/Interfaces.md",
+    "Literature notes/Golang/Study Plan/Program Structure.md",
+    "Literature notes/Golang/Study Plan/Reading Real Files.md",
+    "Literature notes/Golang/Study Plan/Command-Line Arguments.md",
+    "Literature notes/Golang/Study Plan/The Go Fundamentals.md",
+    "Literature notes/Golang/Study Plan/Select.md",
     "Literature notes/Golang/Biginner/Structs, interfaces, and Go’s approach to OOP.md",
     "Literature notes/Golang/Biginner/Go Syntax and bsic Types.md",
     "Literature notes/Golang/Biginner/Go Memory Model.md",
     "Literature notes/Golang/Biginner/Go Concurrency (Goroutines + Channels).md",
-    "Literature notes/Golang/Study Plan/Interfaces.md",
     "Literature notes/Golang/Study Plan/Go Data structures.md",
-    "Literature notes/Golang/Study Plan/Command-Line Arguments.md",
     "Literature notes/Golang/Study Plan/Method.md",
-    "Literature notes/Golang/Study Plan/Program Structure.md",
-    "Literature notes/Golang/Study Plan/Reading Real Files.md",
-    "Literature notes/Golang/Study Plan/The Go Fundamentals.md",
     "Daily Notes/2026-05-29.md",
     "Literature notes/C++/Effective Modern C++/References/lvalue references vs. rvalue references.md",
     "Daily Notes/2026-05-27.md",
@@ -426,7 +451,6 @@
     "Literature notes/Python/Object Oriented Design/Untitled 1.md",
     "Daily Notes/2026-05-23.md",
     "Literature notes/Python/Object Oriented Design/Iterator Pattern.md",
-    "Literature notes/Python/Object Oriented Design/Untitled.md",
     "Literature notes/Golang",
     "Literature notes/Python/Object Oriented Design",
     "CI",

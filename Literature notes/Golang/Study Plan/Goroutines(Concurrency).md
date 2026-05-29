@@ -129,7 +129,6 @@ func main() {
 
 
 # 🧠 Mental Model
-
 Think:
 
 |Tool|Purpose|

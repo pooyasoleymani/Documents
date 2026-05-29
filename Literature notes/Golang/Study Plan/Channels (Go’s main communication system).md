@@ -205,3 +205,18 @@ goroutine = execution
 channel = coordination
 ```
 
+
+## 🔥 Timeline view
+Imagine time:
+
+```
+T1: goroutine A sends 1
+T2: goroutine B receives 1
+T3: goroutine A sends 2
+T4: goroutine B receives 2
+...
+T10: goroutine A closes channel
+T11: goroutine B finishes loop
+```
+
+**They overlap continuously.**
