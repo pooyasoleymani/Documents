@@ -135,3 +135,41 @@ In Go:
 > accept *interfaces*, return *structs*
 
 
+---
+# Empty Interface (`interface{}`) and `any`
+This is the bridge between:
+- **static typing** (Go’s strength)
+- **dynamic data** (JSON, logs, generic input)
+
+## What is `interface{}`?
+Every `interface{}` value stores:  `(type, value)`
+
+```go
+var x interface {}
+
+// Modern Go
+var x any
+```
+
+## ⚠️ Important Warning
+You lose *type safety*.
+So Go forces you to **check types manually**.
+
+
+## Type Assertion
+If wrong type → **program crashes**.
+```go
+var x any = "hello"
+s := x.(string)
+fmt.Println(s)
+```
+
+- Safe version
+```go
+s, ok := x.(string)
+if ok {
+	fmt.Println(x)
+} else {
+	fmt.Println("not a string")
+}
+```

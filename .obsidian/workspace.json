@@ -126,33 +126,9 @@
               "icon": "lucide-file",
               "title": "Method"
             }
-          },
-          {
-            "id": "e4508d83f6b18d3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Literature notes/Golang/Study Plan/Interfaces.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Interfaces"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -288,13 +264,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Interfaces.md",
+                "file": "Literature notes/Golang/Study Plan/Program Structure.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Interfaces"
+              "title": "Outline of Program Structure"
             }
           },
           {
@@ -349,9 +325,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e4508d83f6b18d3f",
+  "active": "cb10c9c86a8efb33",
   "lastOpenFiles": [
     "Literature notes/Golang/Study Plan/Method.md",
+    "Daily Notes/2026-05-29.md",
     "Literature notes/Golang/Study Plan/Interfaces.md",
     "Literature notes/Golang/Study Plan/Program Structure.md",
     "Literature notes/Golang/Study Plan/Reading Real Files.md",
@@ -378,7 +355,6 @@
     "Daily Notes/2026-05-20.md",
     "Daily Notes/2026-02-16.md",
     "non-atomic operations.md",
-    "Familiarize yourself with alternatives to overloading on universal references.md",
     "Literature notes/Golang",
     "Literature notes/Python/Object Oriented Design",
     "CI",
