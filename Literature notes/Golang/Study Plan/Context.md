@@ -87,3 +87,59 @@ func main() {
 	time.Sleep(time.Second)
 }
 ```
+
+
+Main calls:
+```go
+cancel()
+```
+All **listeners** *stop*.
+
+
+
+
+# VERY Important Insight
+`Done()` returns:
+
+```go
+<-chan struct{}
+```
+
+Meaning:
+- **context** *cancellation* is **channel-based**
+This connects directly to everything you learned earlier.
+
+
+# 🔥 Timeout Context
+VERY common in real systems.
+
+---
+# Example
+
+```go
+package main
+import (
+	"context"
+	"fmt"
+	"time"
+	)
+func main() {
+	ctx, cancel := context.WithTimeout(context.Background(), 2*time.Second)
+	
+	defer cancel()
+	
+	select {
+		case <-time.After(5 * time.Second):
+			fmt.Println("finished")
+		case <-ctx.Done():
+			fmt.Println("timeout:", ctx.Err())	
+		}
+	}
+```
+
+---
+# Output
+
+```
+timeout: context deadline exceeded
+```
