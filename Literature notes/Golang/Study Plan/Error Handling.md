@@ -298,3 +298,80 @@ func main() {
 	fmt.Println(test())
 }
 ```
+
+
+## Why?
+Because:
+- *named return* variable exists before *return*
+- **defer** runs before *final return*
+This is subtle and advanced.
+
+
+## Timing with `defer`
+
+```go
+package main
+
+import (
+	"fmt"
+	"time"
+)
+
+func timing(name string) func() {
+	start := time.Now()
+
+	return func() {
+		fmt.Println(name, time.Since(start))
+	}
+}
+
+func main() {
+	defer timing("main")()
+
+	time.Sleep(2 * time.Second)
+
+	fmt.Println("working...")
+}
+```
+
+
+- Bench marking
+```go
+package main
+
+import (
+	"fmt"
+	"time"
+)
+
+func timing(name string) func() {
+	start := time.Now()
+
+	return func() {
+		fmt.Printf("%s took %v\n",
+			name,
+			time.Since(start),
+		)
+	}
+}
+
+func benchmark(name string, f func()) {
+	defer timing(name)()
+
+	f()
+}
+
+func heavyFunction() {
+	result := 0
+
+	for i := 0; i < 100000000; i++ {
+		result += i
+	}
+
+	fmt.Println("Result:", result)
+}
+
+func main() {
+	benchmark("heavyFunction", heavyFunction)
+}
+```

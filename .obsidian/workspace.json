@@ -150,9 +150,57 @@
               "icon": "lucide-file",
               "title": "Error Handling"
             }
+          },
+          {
+            "id": "2edd2f0802ef10e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Literature notes/Golang/Study Plan/Goroutines(Concurrency).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Goroutines(Concurrency)"
+            }
+          },
+          {
+            "id": "a2eb21d20478a3b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Literature notes/Golang/Study Plan/Channels (Go’s main communication system).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Channels (Go’s main communication system)"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -288,13 +336,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Error Handling.md",
+                "file": "Literature notes/Golang/Study Plan/Channels (Go’s main communication system).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Error Handling"
+              "title": "Outline of Channels (Go’s main communication system)"
             }
           },
           {
@@ -349,10 +397,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "08fa9513d9de26d0",
+  "active": "a2eb21d20478a3b6",
   "lastOpenFiles": [
-    "Literature notes/Golang/Study Plan/Interfaces.md",
+    "Literature notes/Golang/Study Plan/Goroutines(Concurrency).md",
+    "Literature notes/Golang/Study Plan/Channels (Go’s main communication system).md",
     "Literature notes/Golang/Study Plan/Error Handling.md",
+    "Literature notes/Golang/Biginner/Structs, interfaces, and Go’s approach to OOP.md",
+    "Literature notes/Golang/Biginner/Go Syntax and bsic Types.md",
+    "Literature notes/Golang/Biginner/Go Memory Model.md",
+    "Literature notes/Golang/Biginner/Go Concurrency (Goroutines + Channels).md",
+    "Literature notes/Golang/Study Plan/Interfaces.md",
     "Literature notes/Golang/Study Plan/Go Data structures.md",
     "Literature notes/Golang/Study Plan/Command-Line Arguments.md",
     "Literature notes/Golang/Study Plan/Method.md",
@@ -362,11 +416,8 @@
     "Daily Notes/2026-05-29.md",
     "Literature notes/C++/Effective Modern C++/References/lvalue references vs. rvalue references.md",
     "Daily Notes/2026-05-27.md",
-    "Literature notes/Golang/Biginner/Go Syntax and bsic Types.md",
     "Literature notes/Golang/Study Plan",
     "Literature notes/Golang/Biginner",
-    "Literature notes/Golang/Biginner/Go Memory Model.md",
-    "Literature notes/Golang/Biginner/Structs, interfaces, and Go’s approach to OOP.md",
     "Literature notes/Python/Object Oriented Design/Testing Object-Oriented Programs.md",
     "Literature notes/Python/Object Oriented Design/Python Data Structure.md",
     "Literature notes/Python/Object Oriented Design/Advanced Design Patterns.md",
@@ -376,9 +427,6 @@
     "Daily Notes/2026-05-23.md",
     "Literature notes/Python/Object Oriented Design/Iterator Pattern.md",
     "Literature notes/Python/Object Oriented Design/Untitled.md",
-    "CI/CI-CD pipeline speed.md",
-    "Daily Notes/2026-05-20.md",
-    "Daily Notes/2026-02-16.md",
     "Literature notes/Golang",
     "Literature notes/Python/Object Oriented Design",
     "CI",
