@@ -194,5 +194,72 @@ inside **context**.
 This is how real servers work.
 
 ```go
+func handler(w http.ResponseWriter, r *http.Request) {
+	ctx := r.Context()
+
+	select {
+	case <-time.After(5 * time.Second):
+		fmt.Println("finished")
+
+	case <-ctx.Done():
+		fmt.Println("client disconnected")
+	}
+}
+```
+
+
+## 🚨 Common Beginner Mistakes
+### ❌ storing context in struct
+Bad:
+
+```go
+type App struct {
+	ctx context.Context
+}
+```
+
+Why?
+	- Because **context** represents of specific *operation/request*  NOT *lifetime* of object.
+
+
+### The Official Recommendation
+The Go team recommends:
+
+```go
+func DoSomething(ctx context.Context, ...)
+```
+
+**Example:** Each request gets its own *context*
+
+```go
+func handler(w http.ResponseWriter, r *http.Request) {  
+ctx := r.Context()  
+  
+service.Process(ctx)  
+}
+```
+
+
+
+# Contexts Are Short-Lived
+
+A **context** often lives for:
 
 ```
+HTTP request
+Database query
+Background task
+CLI command
+```
+
+Maybe:
+- *milliseconds*
+- *seconds*
+- *minutes*
+
+A *struct* may live for:
+- hours
+- days
+- entire program lifetime
+
+These lifetimes don't match.

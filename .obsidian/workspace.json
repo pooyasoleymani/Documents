@@ -246,9 +246,33 @@
               "icon": "lucide-file",
               "title": "Context"
             }
+          },
+          {
+            "id": "896aa1b6957b7072",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Literature notes/Golang/Study Plan/HTTP Server.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "HTTP Server"
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -384,13 +408,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Context.md",
+                "file": "Literature notes/Golang/Study Plan/HTTP Server.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Context"
+              "title": "Outline of HTTP Server"
             }
           },
           {
@@ -445,12 +469,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3afe92e298ec777b",
+  "active": "896aa1b6957b7072",
   "lastOpenFiles": [
+    "Literature notes/Golang/Study Plan/Context.md",
+    "Literature notes/Golang/Study Plan/HTTP Server.md",
     "Literature notes/Golang/Study Plan/Error Handling.md",
     "Literature notes/Golang/Study Plan/Goroutines(Concurrency).md",
     "Literature notes/Golang/Study Plan/Channels (Go’s main communication system).md",
-    "Literature notes/Golang/Study Plan/Context.md",
     "Literature notes/Golang/Study Plan/Select.md",
     "Literature notes/Golang/Study Plan/Interfaces.md",
     "Literature notes/Golang/Study Plan/Program Structure.md",
@@ -474,7 +499,6 @@
     "Literature notes/Python/Object Oriented Design/Common Design Patterns.md",
     "Literature notes/Python/Object Oriented Design/Concurrency.md",
     "Literature notes/Python/Object Oriented Design/Untitled 1.md",
-    "Daily Notes/2026-05-23.md",
     "Literature notes/Golang",
     "Literature notes/Python/Object Oriented Design",
     "CI",
