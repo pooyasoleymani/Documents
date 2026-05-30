@@ -294,9 +294,33 @@
               "icon": "lucide-file",
               "title": "Middleware"
             }
+          },
+          {
+            "id": "821fd440e90820e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Literature notes/Golang/Study Plan/Testing in Go.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Testing in Go"
+            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -432,13 +456,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Middleware.md",
+                "file": "Literature notes/Golang/Study Plan/Testing in Go.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Middleware"
+              "title": "Outline of Testing in Go"
             }
           },
           {
@@ -493,10 +517,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9b2c14a430efc43c",
+  "active": "821fd440e90820e6",
   "lastOpenFiles": [
-    "Literature notes/Golang/Study Plan/HTTP Server.md",
     "Literature notes/Golang/Study Plan/Middleware.md",
+    "Literature notes/Golang/Study Plan/Testing in Go.md",
+    "Literature notes/Golang/Study Plan/HTTP Server.md",
     "Literature notes/Golang/Study Plan/Context.md",
     "Literature notes/Golang/Study Plan/Error Handling.md",
     "Literature notes/Golang/Study Plan/Goroutines(Concurrency).md",
@@ -522,7 +547,6 @@
     "Literature notes/Python/Object Oriented Design/Python Data Structure.md",
     "Literature notes/Python/Object Oriented Design/Advanced Design Patterns.md",
     "Literature notes/Python/Object Oriented Design/Common Design Patterns.md",
-    "Literature notes/Python/Object Oriented Design/Concurrency.md",
     "Literature notes/Golang",
     "Literature notes/Python/Object Oriented Design",
     "CI",
