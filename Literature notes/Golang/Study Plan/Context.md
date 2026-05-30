@@ -143,3 +143,56 @@ func main() {
 ```
 timeout: context deadline exceeded
 ```
+
+
+## 🧠 What happened?
+**Timeout automatically triggered:**
+- *cancellation*
+- *shutdown signal*
+
+
+
+
+
+# 🔥 Deadline Context
+Instead of *duration*:
+
+```go
+context.WithDeadline(...)
+```
+Uses **exact time**.
+
+
+# 🔥 Context Values
+You can store *request-scoped data*.
+
+```go 
+ctx := context.WithValue(context.Background(), "userID", 42)
+
+id := ctx.Value("userID")
+```
+
+## ⚠️ IMPORTANT WARNING
+
+Use values ONLY for:
+- *request metadata*
+- *tracing IDs*
+- *auth info*
+**NOT** general *parameter* *passing*.
+
+
+
+## 🚨 Common Go Rule
+Never store:
+- *database connections*
+- *config structs*
+- *huge objects*
+inside **context**.
+
+
+## 🔥 Real HTTP Example
+This is how real servers work.
+
+```go
+
+```
