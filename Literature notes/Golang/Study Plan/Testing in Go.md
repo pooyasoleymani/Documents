@@ -186,3 +186,146 @@ func TestDivideByZero(t *testing.T) {
 	}
 }
 ```
+
+Test HTTP Server:
+```go
+package main
+
+import (
+	"net/http"
+	"net/http/httptest"
+	"testing"
+)
+  
+func TestRootHandler(t *testing.T) {
+	req := httptest.NewRequest(
+		http.MethodGet,
+		"/",
+		nil,
+	)
+
+	rec := httptest.NewRecorder()
+	
+	rootHandler(rec, req)
+
+	resp := rec.Result()
+
+	if resp.StatusCode != http.StatusOK {
+		t.Errorf(
+			"got %d want %d",
+			resp.StatusCode,
+			http.StatusOK,
+		)
+	}
+}
+
+  
+
+func TestGreetHandlerWithAuth_Success(t *testing.T) {
+	req := httptest.NewRequest(
+		http.MethodGet,
+		"/greet?name=Pooya",
+		nil,
+	)
+
+	req.Header.Set("X-API-Key", "secret")
+
+	rec := httptest.NewRecorder()
+	handler := auth(http.HandlerFunc(greetHandler))
+	handler.ServeHTTP(rec, req)
+	resp := rec.Result()
+
+	if resp.StatusCode != http.StatusOK {
+		t.Fatalf("got %d want %d", resp.StatusCode, http.StatusOK)
+	}
+
+	body := rec.Body.String()
+	expected := "Welcom Pooya\n"
+	if body != expected {
+		t.Errorf("body = %q; want %q", body, expected)
+	}
+}
+
+  
+
+func TestGreetHandlerWithAuth_Unauthorized(t *testing.T) {
+	req := httptest.NewRequest(
+		http.MethodGet,
+		"/greet?name=Pooya",
+		nil,
+	)
+
+	// no API key set
+	rec := httptest.NewRecorder()
+	handler := auth(http.HandlerFunc(greetHandler))
+	handler.ServeHTTP(rec, req)
+	resp := rec.Result()
+	
+	if resp.StatusCode != http.StatusUnauthorized {
+		t.Fatalf("got %d want %d", resp.StatusCode, http.StatusUnauthorized)
+	}
+}
+```
+
+# Benchmarking
+You already wrote timing *functions* manually.
+Go has built-in benchmarks.
+
+---
+
+Example:
+```go
+func BenchmarkAdd(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+			Add(1, 2)	
+		}
+	}
+```
+
+Run:
+```BASH
+go test -bench=.
+```
+
+Output:
+```
+BenchmarkAdd-8    1000000000    0.3 ns/op
+```
+
+
+
+# Coverage
+Go can show test coverage.
+
+Run:
+```sh
+go test -cover
+```
+
+Example:
+```
+coverage: 87.5% of statements
+```
+
+---
+
+# Common Testing Conventions
+Test files:
+```
+xxx_test.go
+```
+
+Test functions:
+```
+func TestXxx(...)
+```
+
+Benchmarks:
+```
+func BenchmarkXxx(...)
+```
+
+Examples:
+```
+func ExampleXxx(...)
+```
