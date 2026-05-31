@@ -318,9 +318,57 @@
               "icon": "lucide-file",
               "title": "Package and Modules"
             }
+          },
+          {
+            "id": "514d298bce29c15c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Literature notes/Golang/Study Plan/Interface in real Architecture (dependency injection).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Interface in real Architecture (dependency injection)"
+            }
+          },
+          {
+            "id": "7df7027c85edb33e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Literature notes/Golang/Study Plan/context in Go (real-world usage).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "context in Go (real-world usage)"
+            }
           }
         ],
-        "currentTab": 12
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -456,13 +504,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Package and Modules.md",
+                "file": "Literature notes/Golang/Study Plan/context in Go (real-world usage).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Package and Modules"
+              "title": "Outline of context in Go (real-world usage)"
             }
           },
           {
@@ -517,10 +565,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "821fd440e90820e6",
+  "active": "7df7027c85edb33e",
   "lastOpenFiles": [
+    "Literature notes/Golang/Study Plan/Interface in real Architecture (dependency injection).md",
+    "Literature notes/Golang/Study Plan/context in Go (real-world usage).md",
+    "Literature notes/Golang/Study Plan/Package and Modules.md",
     "Literature notes/Golang/Study Plan/Testing in Go.md",
-    "Literature notes/Golang/Study Plan/Untitled.md",
     "Literature notes/Golang/Study Plan/Middleware.md",
     "Permanet Note/declval().md",
     "Permanet Note/linked list.md",
@@ -531,7 +581,6 @@
     "Literature notes/C++/Effective Modern C++/References/Use unique_ptr for exclusive-ownership resource management.md",
     "Literature notes/C++/Effective Modern C++/References/Distinguish universal references from rvalue references.md",
     "Daily Notes/2026-05-31.md",
-    "Literature notes/Golang/Study Plan/Package and Modules.md",
     "Literature notes/Golang/Study Plan/HTTP Server.md",
     "Literature notes/Golang/Study Plan/Context.md",
     "Literature notes/Golang/Study Plan/Error Handling.md",
@@ -544,7 +593,6 @@
     "Literature notes/Golang/Study Plan/Command-Line Arguments.md",
     "Literature notes/Golang/Study Plan/The Go Fundamentals.md",
     "Literature notes/Golang/Biginner/Structs, interfaces, and Go’s approach to OOP.md",
-    "Literature notes/Golang/Biginner/Go Syntax and bsic Types.md",
     "Literature notes/Golang/Study Plan",
     "Literature notes/Golang/Biginner",
     "Literature notes/Golang",

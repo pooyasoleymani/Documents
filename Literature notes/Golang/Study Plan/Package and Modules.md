@@ -467,3 +467,6 @@ bank/internal/account
 ```
 
 But from **OUTSIDE** project → **not accessible.**
+
+
+
