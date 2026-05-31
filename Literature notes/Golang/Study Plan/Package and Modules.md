@@ -362,3 +362,108 @@ bank/
     └── handler.go
 ```
 
+
+
+# 📦 Standard Go Layout
+Most production projects look like this:
+
+```
+bank/
+├── go.mod
+├── cmd/
+│   └── bank/│       
+		└── main.go
+├── internal/
+├── pkg/
+├── account/
+└── storage/
+```
+
+
+# 1. `cmd/` → Entry points
+This is where your applications start.
+
+Example:
+```go
+cmd/bank/main.go
+```
+
+Why?
+- Because *big projects* can have *multiple apps*:
+
+```
+cmd/ 
+├── bank/ 
+├── admin/ 
+├── worker/
+```
+
+Each has its own `main()`.
+
+
+# 2. `internal/` → Private code
+This is VERY important in Go.
+
+```
+internal/
+```
+
+means:
+> “*This code cannot be imported outside this module*”
+
+
+## Example
+
+```
+bank/
+├── internal/
+│   └── account/
+```
+
+If someone tries:
+
+```go
+import "bank/internal/account"
+```
+
+outside the *module* → ❌ *error*
+
+## Why it exists?
+
+To protect:
+- *business logic*
+- *core rules*
+- *sensitive code*
+
+# 3. `pkg/` → Public reusable code
+
+```
+pkg/
+```
+
+means:
+> *code that can be used by other projects*
+
+Example:
+```go
+pkg/logger
+pkg/validator
+```
+
+---
+# 🧠 Rule of thumb
+
+|Folder|Meaning|
+|---|---|
+|internal|private to project|
+|pkg|reusable by others|
+
+# 🧠 Key Insight
+
+Notice import:
+
+```go
+bank/internal/account
+```
+
+But from **OUTSIDE** project → **not accessible.**
