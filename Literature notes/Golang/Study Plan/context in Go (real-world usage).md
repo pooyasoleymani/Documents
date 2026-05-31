@@ -37,7 +37,6 @@ ctx := context.Background()
 This is the *root context*.
 
 ---
-
 # ⏱ Context with timeout
 
 ```go
@@ -63,7 +62,6 @@ func slowTask(ctx context.Context) {
 ```
 
 ---
-
 # 🚀 Usage
 
 ```go
@@ -84,7 +82,6 @@ cancelled: context deadline exceeded
 ```
 
 ---
-
 # 🧠 How context works internally
 
 ```go

@@ -219,7 +219,7 @@ type App struct {
 ```
 
 Why?
-	- Because **context** represents of specific *operation/request*  NOT *lifetime* of object.
+	-  Because **context** represents of specific *operation/request*  NOT *lifetime* of object.
 
 
 ### The Official Recommendation
