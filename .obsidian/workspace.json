@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Testing in Go.md",
+                "file": "Literature notes/Golang/Study Plan/Package and Modules.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Testing in Go"
+              "title": "Package and Modules"
             }
           }
         ],
@@ -456,13 +456,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Testing in Go.md",
+                "file": "Literature notes/Golang/Study Plan/Package and Modules.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Testing in Go"
+              "title": "Outline of Package and Modules"
             }
           },
           {
@@ -502,7 +502,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -516,12 +517,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "12d83b769816be49",
+  "active": "821fd440e90820e6",
   "lastOpenFiles": [
+    "Literature notes/Golang/Study Plan/Testing in Go.md",
+    "Literature notes/Golang/Study Plan/Untitled.md",
+    "Literature notes/Golang/Study Plan/Middleware.md",
+    "Permanet Note/declval().md",
+    "Permanet Note/linked list.md",
+    "Permanet Note/Metafunction.md",
+    "Permanet Note/Random Access Iterator.md",
+    "Literature notes/C++/Effective Modern C++/Effective Modern C++17.md",
+    "Literature notes/C++/Effective Modern C++/References/Understand move and forward.md",
+    "Literature notes/C++/Effective Modern C++/References/Use unique_ptr for exclusive-ownership resource management.md",
+    "Literature notes/C++/Effective Modern C++/References/Distinguish universal references from rvalue references.md",
     "Daily Notes/2026-05-31.md",
     "Literature notes/Golang/Study Plan/Package and Modules.md",
-    "Literature notes/Golang/Study Plan/Testing in Go.md",
-    "Literature notes/Golang/Study Plan/Middleware.md",
     "Literature notes/Golang/Study Plan/HTTP Server.md",
     "Literature notes/Golang/Study Plan/Context.md",
     "Literature notes/Golang/Study Plan/Error Handling.md",
@@ -535,17 +545,8 @@
     "Literature notes/Golang/Study Plan/The Go Fundamentals.md",
     "Literature notes/Golang/Biginner/Structs, interfaces, and Go’s approach to OOP.md",
     "Literature notes/Golang/Biginner/Go Syntax and bsic Types.md",
-    "Literature notes/Golang/Biginner/Go Memory Model.md",
-    "Literature notes/Golang/Biginner/Go Concurrency (Goroutines + Channels).md",
-    "Literature notes/Golang/Study Plan/Go Data structures.md",
-    "Literature notes/Golang/Study Plan/Method.md",
-    "Daily Notes/2026-05-29.md",
-    "Literature notes/C++/Effective Modern C++/References/lvalue references vs. rvalue references.md",
-    "Daily Notes/2026-05-27.md",
     "Literature notes/Golang/Study Plan",
     "Literature notes/Golang/Biginner",
-    "Literature notes/Python/Object Oriented Design/Testing Object-Oriented Programs.md",
-    "Literature notes/Python/Object Oriented Design/Python Data Structure.md",
     "Literature notes/Golang",
     "Literature notes/Python/Object Oriented Design",
     "CI",
