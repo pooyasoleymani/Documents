@@ -498,12 +498,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -517,7 +516,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "821fd440e90820e6",
+  "active": "12d83b769816be49",
   "lastOpenFiles": [
     "Daily Notes/2026-05-31.md",
     "Literature notes/Golang/Study Plan/Package and Modules.md",
