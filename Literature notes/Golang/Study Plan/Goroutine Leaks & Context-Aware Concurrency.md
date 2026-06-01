@@ -358,3 +358,47 @@ defer cancel()
 
 *unless ownership is transferred*.
 
+
+# Production Rule
+
+Whenever you see:
+
+```
+go ...
+```
+
+ask:
+
+> How does this goroutine stop?
+
+If you can't answer immediately, there is a good chance of a leak.
+
+---
+
+# Concurrency Checklist
+Before merging code, ask:
+
+### Goroutines
+
+```
+How do they exit?
+```
+
+### Channels
+
+```
+Who closes them?
+```
+
+### Contexts
+
+```
+Who cancels them?
+```
+
+### WaitGroups
+
+```
+Can Wait() block forever?
+```
+
