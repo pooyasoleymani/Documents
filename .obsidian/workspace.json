@@ -438,9 +438,33 @@
               "icon": "lucide-file",
               "title": "Graceful Shutdown (real backend pattern)"
             }
+          },
+          {
+            "id": "23ad27a5817a2a4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Advanced HTTP & REST APIs"
+            }
           }
         ],
-        "currentTab": 17
+        "currentTab": 18
       }
     ],
     "direction": "vertical"
@@ -576,13 +600,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Graceful Shutdown (real backend pattern).md",
+                "file": "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Graceful Shutdown (real backend pattern)"
+              "title": "Outline of Advanced HTTP & REST APIs"
             }
           },
           {
@@ -637,10 +661,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f83c24d9dff2f262",
+  "active": "23ad27a5817a2a4a",
   "lastOpenFiles": [
-    "Literature notes/Golang/Study Plan/Goroutine Leaks & Context-Aware Concurrency.md",
     "Literature notes/Golang/Study Plan/Graceful Shutdown (real backend pattern).md",
+    "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
+    "Literature notes/Golang/Study Plan/Goroutine Leaks & Context-Aware Concurrency.md",
     "Literature notes/Golang/Study Plan/Package and Modules.md",
     "Literature notes/Golang/Study Plan/Interface in real Architecture (dependency injection).md",
     "Literature notes/Golang/Study Plan/context in Go (real-world usage).md",
@@ -664,7 +689,6 @@
     "Literature notes/Golang/Study Plan/HTTP Server.md",
     "Literature notes/Golang/Study Plan/Error Handling.md",
     "Literature notes/Golang/Study Plan/Select.md",
-    "Literature notes/Golang/Study Plan/Interfaces.md",
     "Literature notes/Golang/Study Plan",
     "Literature notes/Golang/Biginner",
     "Literature notes/Golang",

@@ -184,3 +184,19 @@ This pattern is used in:
 - Redis workers
 - Kubernetes pods
 - background schedulers
+
+
+# 🧠 Mental model (very important)
+
+Think:
+
+```
+          SIGNAL (CTRL+C)
+                 ↓
+          context cancel
+                 ↓
+   ┌─────────────┼─────────────┐
+producer       workers       cleanup
+   ↓              ↓              ↓
+stop send     finish job        exit
+```
