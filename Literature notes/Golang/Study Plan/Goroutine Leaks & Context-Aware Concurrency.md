@@ -337,7 +337,6 @@ go func() {
 
 
 # Another Common Mistake
-
 Creating contexts and never cancelling:
 
 ```go
