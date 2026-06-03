@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1e5625162f54e55f",
+        "id": "20734ecb0ccc1176",
         "type": "tabs",
         "children": [
           {
-            "id": "5523eb3f53687a0b",
+            "id": "3c254153e55c8bf1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/The Go Fundamentals.md",
+                "file": "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,419 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "The Go Fundamentals"
-            }
-          },
-          {
-            "id": "5c43a986cfaa2522",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Literature notes/Golang/Study Plan/Command-Line Arguments.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Command-Line Arguments"
-            }
-          },
-          {
-            "id": "c2e6ade89f8bc939",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Literature notes/Golang/Study Plan/Reading Real Files.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Reading Real Files"
-            }
-          },
-          {
-            "id": "cb10c9c86a8efb33",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Literature notes/Golang/Study Plan/Program Structure.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Program Structure"
-            }
-          },
-          {
-            "id": "57a5dd385f8994de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Literature notes/Golang/Study Plan/Interfaces.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Interfaces"
-            }
-          },
-          {
-            "id": "08fa9513d9de26d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Literature notes/Golang/Study Plan/Error Handling.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Error Handling"
-            }
-          },
-          {
-            "id": "a2eb21d20478a3b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Literature notes/Golang/Study Plan/Channels (Go’s main communication system).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Channels (Go’s main communication system)"
-            }
-          },
-          {
-            "id": "e9a8276768681913",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Literature notes/Golang/Study Plan/Select.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Select"
-            }
-          },
-          {
-            "id": "3afe92e298ec777b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Literature notes/Golang/Study Plan/Context.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Context"
-            }
-          },
-          {
-            "id": "7db789657368e93e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Literature notes/Golang/Study Plan/Go Leaks.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Go Leaks"
-            }
-          },
-          {
-            "id": "896aa1b6957b7072",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Literature notes/Golang/Study Plan/HTTP Server.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "HTTP Server"
-            }
-          },
-          {
-            "id": "9b2c14a430efc43c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Literature notes/Golang/Study Plan/Middleware.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Middleware"
-            }
-          },
-          {
-            "id": "821fd440e90820e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Literature notes/Golang/Study Plan/Package and Modules.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Package and Modules"
-            }
-          },
-          {
-            "id": "514d298bce29c15c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Literature notes/Golang/Study Plan/Interface in real Architecture (dependency injection).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Interface in real Architecture (dependency injection)"
-            }
-          },
-          {
-            "id": "7df7027c85edb33e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Literature notes/Golang/Study Plan/context in Go (real-world usage).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "context in Go (real-world usage)"
-            }
-          },
-          {
-            "id": "bb1724eeba70baee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Literature notes/Golang/Study Plan/Worker Pool Pattern (Production Style Concurrency).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Worker Pool Pattern (Production Style Concurrency)"
-            }
-          },
-          {
-            "id": "fc0192d71169f73a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Literature notes/Golang/Study Plan/Goroutine Leaks & Context-Aware Concurrency.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Goroutine Leaks & Context-Aware Concurrency"
-            }
-          },
-          {
-            "id": "f83c24d9dff2f262",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/2026-06-03.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-06-03"
+              "title": "Advanced HTTP & REST APIs"
             }
           }
-        ],
-        "currentTab": 17
+        ]
       }
     ],
     "direction": "vertical"
@@ -497,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 432.5
+    "width": 432.5,
+    "collapsed": true
   },
   "right": {
     "id": "7965c69a42e62fbd",
@@ -575,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2026-06-03.md",
+                "file": "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2026-06-03"
+              "title": "Outline of Advanced HTTP & REST APIs"
             }
           },
           {
@@ -636,35 +228,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f83c24d9dff2f262",
+  "active": "3c254153e55c8bf1",
   "lastOpenFiles": [
-    "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming/Setting Up Your Go Environment.md",
+    "Literature notes/Golang/Study Plan/Receiving JSON (POST Requests).md",
+    "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
+    "Literature notes/Golang/Study Plan/Select.md",
+    "Literature notes/Golang/Study Plan/Worker Pool Pattern (Production Style Concurrency).md",
+    "Literature notes/Golang/Study Plan/Goroutine Leaks & Context-Aware Concurrency.md",
+    "Literature notes/Golang/Study Plan/context in Go (real-world usage).md",
+    "Literature notes/Golang/Study Plan/Interface in real Architecture (dependency injection).md",
+    "Literature notes/Golang/Study Plan/Package and Modules.md",
+    "Literature notes/Golang/Study Plan/Middleware.md",
+    "Literature notes/Golang/Study Plan/HTTP Server.md",
+    "Literature notes/Golang/Study Plan/Go Leaks.md",
+    "Literature notes/Golang/Study Plan/Context.md",
+    "Literature notes/Golang/Study Plan/Channels (Go’s main communication system).md",
+    "Literature notes/Golang/Study Plan/Error Handling.md",
+    "Literature notes/Golang/Study Plan/Interfaces.md",
+    "Literature notes/Golang/Study Plan/Program Structure.md",
+    "Literature notes/Golang/Study Plan/Reading Real Files.md",
+    "Literature notes/Golang/Study Plan/Command-Line Arguments.md",
+    "Literature notes/Golang/Study Plan/The Go Fundamentals.md",
     "Daily Notes/2026-06-03.md",
+    "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming/Setting Up Your Go Environment.md",
     "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming/Learning Go.md",
     "Literature notes/Golang/Study Plan/Graceful Shutdown (real backend pattern).md",
     "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming",
     "Daily Notes/2026-06-02.md",
-    "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
-    "Literature notes/Golang/Study Plan/Goroutine Leaks & Context-Aware Concurrency.md",
-    "Literature notes/Golang/Study Plan/Package and Modules.md",
-    "Literature notes/Golang/Study Plan/Interface in real Architecture (dependency injection).md",
-    "Literature notes/Golang/Study Plan/context in Go (real-world usage).md",
-    "Literature notes/Golang/Study Plan/Worker Pool Pattern (Production Style Concurrency).md",
-    "Literature notes/Golang/Study Plan/Channels (Go’s main communication system).md",
     "Daily Notes/2026-06-01.md",
     "Literature notes/Golang/Study Plan/Goroutines(Concurrency).md",
-    "Literature notes/Golang/Study Plan/Go Leaks.md",
-    "Literature notes/Golang/Study Plan/Context.md",
-    "Literature notes/Golang/Study Plan/Testing in Go.md",
-    "Literature notes/Golang/Study Plan/Middleware.md",
-    "Permanet Note/declval().md",
-    "Permanet Note/linked list.md",
-    "Permanet Note/Metafunction.md",
-    "Permanet Note/Random Access Iterator.md",
-    "Literature notes/C++/Effective Modern C++/Effective Modern C++17.md",
-    "Literature notes/C++/Effective Modern C++/References/Understand move and forward.md",
-    "Literature notes/C++/Effective Modern C++/References/Use unique_ptr for exclusive-ownership resource management.md",
-    "Literature notes/C++/Effective Modern C++/References/Distinguish universal references from rvalue references.md",
     "Literature notes/Golang/Study Plan",
     "Literature notes/Golang/Biginner",
     "Literature notes/Golang",
