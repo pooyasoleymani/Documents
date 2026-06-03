@@ -476,3 +476,274 @@ We'll eventually fix it with:
 `sync.Mutex`
 
 ---
+# Lesson 4: Handler Structs & Dependency Injection
+Instead of:
+```go 
+var book []book
+var nexID int
+```
+
+Create store:
+```go
+type Store struct {
+	books []Book
+	nextId int
+}
+
+// Initialize it
+store := &BookStore{
+	nexID: 1,
+}
+```
+
+# Why?
+Because *handlers* need data.
+
+Instead of:
+
+```go
+func createBook(w http.ResponseWriter, r *http.Request)
+```
+
+we can do:
+
+```go
+func (s *BookStore) createBook(	w http.ResponseWriter,	r *http.Request,)
+```
+
+Now the handler has access to:
+
+```go
+s.books
+s.nextID
+```
+
+*without globals*.
+
+
+## Create book
+```go
+func (s *BookStore) createBook(
+	w http.ResponseWriter,
+	r *http.Request,
+) {
+	if r.Method != http.MethodPost {
+		http.Error(
+			w,
+			"method not allowed",
+			http.StatusMethodNotAllowed,
+		)
+		return
+	}
+
+	var book Book
+
+	if err := json.NewDecoder(r.Body).Decode(&book); err != nil {
+		http.Error(
+			w,
+			"invalid json",
+			http.StatusBadRequest,
+		)
+		return
+	}
+
+	book.ID = s.nextID
+	s.nextID++
+
+	s.books = append(s.books, book)
+
+	w.WriteHeader(http.StatusCreated)
+
+	json.NewEncoder(w).Encode(book)
+}
+```
+
+## List books
+```go
+func (s *BookStore) listBooks(
+	w http.ResponseWriter,
+	r *http.Request,
+) {
+	json.NewEncoder(w).Encode(s.books)
+}
+```
+
+## Main 
+```go
+func main() {
+	store := &BookStore{
+		nextID: 1,
+	}
+
+	http.HandleFunc(
+		"/books",
+		store.listBooks,
+	)
+
+	http.HandleFunc(
+		"/books/create",
+		store.createBook,
+	)
+
+	http.ListenAndServe(":8080", nil)
+}
+```
+
+
+# What is Dependency Injection?
+
+You may hear this term often.
+
+Dependency:
+
+```go
+BookStore
+```
+
+Injection:
+
+```go
+store := &BookStore{}
+```
+
+passed into *handlers*.
+
+Instead of *handlers* creating their own *store*.
+
+
+# Why is this better?
+Bad:
+
+```go
+func createBook(...) {	
+	db := connectDatabase()
+}
+```
+
+Every handler creates its own *dependencies*.
+
+
+Good:
+
+```go
+type Server struct {
+	store *BookStore
+}
+```
+
+Created once:
+
+```go
+server := &Server{	store: store,}
+```
+
+Then *reused*.
+
+
+
+# Real Production Version
+
+Eventually you'll see:
+
+```go
+type Server struct {	
+	db     *sql.DB	
+	logger *log.Logger	
+	config Config
+}
+```
+
+Handlers become:
+
+```go
+func (s *Server) createBook(...)
+```
+
+This is extremely common in Go services.
+
+
+
+# Next Problem: Concurrency
+Imagine:
+
+```
+Request ARequest BRequest C
+```
+
+all hit:
+
+```go
+s.books = append(...)
+```
+
+simultaneously.
+That is *unsafe*.
+
+Multiple *goroutines* can access the slice at the same time.
+
+
+
+# Solution: Mutex
+
+Add:
+
+```go
+type BookStore struct {
+	mu     sync.Mutex	
+	books  []Book	
+	nextID int
+}
+```
+
+When modifying:
+
+```go
+s.mu.Lock()
+defer s.mu.Unlock()
+s.books = append(...)
+```
+
+Now only one request can modify the slice at a time.
+
+# Exercise
+Refactor the API so:
+
+```go
+type BookStore struct {	
+	mu     sync.Mutex
+	books  []Book
+	nextID int
+}
+```
+
+Requirements:
+
+1. Convert handlers to methods.
+2. Remove all global variables.
+3. Protect writes with `Mutex`.
+4. Protect reads too:
+
+```go
+s.mu.Lock()
+defer s.mu.Unlock()
+```
+
+5. Keep:
+    - POST `/books`
+    - GET `/books`
+
+---
+
+Once you've done that, we'll move to:
+
+### Project Structure for Real APIs
+
+```
+cmd/
+internal/
+handlers/
+storage/
+models/
+```
+
+which connects directly to the project structure questions you were asking earlier.
