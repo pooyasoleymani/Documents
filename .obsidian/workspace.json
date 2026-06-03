@@ -421,7 +421,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming/Setting Up Your Go Environment.md",
+                "file": "Daily Notes/2026-06-03.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -436,7 +436,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Setting Up Your Go Environment"
+              "title": "2026-06-03"
             }
           }
         ],
@@ -575,13 +575,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming/Setting Up Your Go Environment.md",
+                "file": "Daily Notes/2026-06-03.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Setting Up Your Go Environment"
+              "title": "Outline of 2026-06-03"
             }
           },
           {
@@ -638,8 +638,9 @@
   },
   "active": "f83c24d9dff2f262",
   "lastOpenFiles": [
-    "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming/Learning Go.md",
     "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming/Setting Up Your Go Environment.md",
+    "Daily Notes/2026-06-03.md",
+    "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming/Learning Go.md",
     "Literature notes/Golang/Study Plan/Graceful Shutdown (real backend pattern).md",
     "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming",
     "Daily Notes/2026-06-02.md",
@@ -664,7 +665,6 @@
     "Literature notes/C++/Effective Modern C++/References/Understand move and forward.md",
     "Literature notes/C++/Effective Modern C++/References/Use unique_ptr for exclusive-ownership resource management.md",
     "Literature notes/C++/Effective Modern C++/References/Distinguish universal references from rvalue references.md",
-    "Daily Notes/2026-05-31.md",
     "Literature notes/Golang/Study Plan",
     "Literature notes/Golang/Biginner",
     "Literature notes/Golang",
