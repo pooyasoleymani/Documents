@@ -213,8 +213,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,7 +227,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3c254153e55c8bf1",
+  "active": "12d83b769816be49",
   "lastOpenFiles": [
     "Literature notes/Golang/Study Plan/Receiving JSON (POST Requests).md",
     "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
