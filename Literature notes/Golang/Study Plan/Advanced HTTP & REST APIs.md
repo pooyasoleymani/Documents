@@ -591,7 +591,6 @@ func main() {
 
 
 # What is Dependency Injection?
-
 You may hear this term often.
 
 Dependency:
