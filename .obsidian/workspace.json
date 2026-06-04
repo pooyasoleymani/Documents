@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
+                "file": "Daily Notes/2026-06-04.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Advanced HTTP & REST APIs"
+              "title": "2026-06-04"
             }
           }
         ]
@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 432.5,
-    "collapsed": true
+    "width": 432.5
   },
   "right": {
     "id": "7965c69a42e62fbd",
@@ -167,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
+                "file": "Daily Notes/2026-06-04.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Advanced HTTP & REST APIs"
+              "title": "Outline of 2026-06-04"
             }
           },
           {
@@ -227,10 +226,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "12d83b769816be49",
+  "active": "3c254153e55c8bf1",
   "lastOpenFiles": [
-    "Literature notes/Golang/Study Plan/Receiving JSON (POST Requests).md",
     "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
+    "Daily Notes/2026-06-04.md",
+    "Literature notes/Golang/Study Plan/Receiving JSON (POST Requests).md",
     "Literature notes/Golang/Study Plan/Select.md",
     "Literature notes/Golang/Study Plan/Worker Pool Pattern (Production Style Concurrency).md",
     "Literature notes/Golang/Study Plan/Goroutine Leaks & Context-Aware Concurrency.md",
@@ -255,7 +255,6 @@
     "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming",
     "Daily Notes/2026-06-02.md",
     "Daily Notes/2026-06-01.md",
-    "Literature notes/Golang/Study Plan/Goroutines(Concurrency).md",
     "Literature notes/Golang/Study Plan",
     "Literature notes/Golang/Biginner",
     "Literature notes/Golang",
