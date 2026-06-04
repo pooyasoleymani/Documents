@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2026-06-03.md",
+                "file": "Daily Notes/2026-01-10.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-06-03"
+              "title": "2026-01-10"
             }
           }
         ]
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 432.5
+    "width": 200
   },
   "right": {
     "id": "7965c69a42e62fbd",
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2026-06-03.md",
+                "file": "Daily Notes/2026-01-10.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2026-06-03"
+              "title": "Outline of 2026-01-10"
             }
           },
           {
@@ -226,9 +226,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "77b5d930ccb82103",
+  "active": "3c254153e55c8bf1",
   "lastOpenFiles": [
+    "Daily Notes/2026-01-31.md",
+    "Daily Notes/2026-02-16.md",
     "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
+    "Daily Notes/2026-05-23.md",
+    "Daily Notes/2026-05-27.md",
+    "Daily Notes/2026-05-29.md",
+    "Daily Notes/2026-05-31.md",
+    "Daily Notes/2026-06-01.md",
+    "Daily Notes/2026-06-02.md",
+    "Daily Notes/2026-06-03.md",
     "Daily Notes/2026-06-04.md",
     "Literature notes/Golang/Study Plan/Receiving JSON (POST Requests).md",
     "Literature notes/Golang/Study Plan/Select.md",
@@ -245,16 +254,7 @@
     "Literature notes/Golang/Study Plan/Error Handling.md",
     "Literature notes/Golang/Study Plan/Interfaces.md",
     "Literature notes/Golang/Study Plan/Program Structure.md",
-    "Literature notes/Golang/Study Plan/Reading Real Files.md",
-    "Literature notes/Golang/Study Plan/Command-Line Arguments.md",
-    "Literature notes/Golang/Study Plan/The Go Fundamentals.md",
-    "Daily Notes/2026-06-03.md",
-    "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming/Setting Up Your Go Environment.md",
-    "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming/Learning Go.md",
-    "Literature notes/Golang/Study Plan/Graceful Shutdown (real backend pattern).md",
     "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming",
-    "Daily Notes/2026-06-02.md",
-    "Daily Notes/2026-06-01.md",
     "Literature notes/Golang/Study Plan",
     "Literature notes/Golang/Biginner",
     "Literature notes/Golang",
