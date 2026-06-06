@@ -54,9 +54,33 @@
               "icon": "lucide-file",
               "title": "Middleware (Real Production Pattern)"
             }
+          },
+          {
+            "id": "1807fab5c21aade1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Literature notes/Golang/Study Plan/Router (chi).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Router (chi)"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -191,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Middleware (Real Production Pattern).md",
+                "file": "Literature notes/Golang/Study Plan/Router (chi).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Middleware (Real Production Pattern)"
+              "title": "Outline of Router (chi)"
             }
           },
           {
@@ -226,10 +250,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Middleware (Real Production Pattern).md"
+                "file": "Literature notes/Golang/Study Plan/Router (chi).md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Middleware (Real Production Pattern)"
+              "title": "File properties for Router (chi)"
             }
           },
           {
@@ -243,12 +267,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -263,10 +286,11 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "e665b6dab5512425",
+  "active": "12d83b769816be49",
   "lastOpenFiles": [
-    "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
     "Literature notes/Golang/Study Plan/Middleware (Real Production Pattern).md",
+    "Literature notes/Golang/Study Plan/Router (chi).md",
+    "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
     "Literature notes/Golang/Study Plan/Middleware.md",
     "Literature notes/Golang/Study Plan/Configuration Management.md",
     "Literature notes/Golang/Study Plan/Context + Database Queries.md",
@@ -293,7 +317,6 @@
     "copilot",
     "Literature notes/Golang/Study Plan/Full Go Project Wiring (Real Architecture).md",
     "Literature notes/Golang/Study Plan/Service Layer.md",
-    "Literature notes/Golang/Study Plan/Worker Pool Pattern (Production Style Concurrency).md",
     "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming",
     "Literature notes/Golang/Study Plan",
     "Literature notes/Golang/Biginner",
