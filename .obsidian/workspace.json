@@ -54,9 +54,33 @@
               "icon": "lucide-file",
               "title": "sync.RWMutex"
             }
+          },
+          {
+            "id": "ae41a23d6d03b34e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Literature notes/Golang/Study Plan/Databases (MySQL).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Databases (MySQL)"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -191,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/sync.RWMutex.md",
+                "file": "Literature notes/Golang/Study Plan/Databases (MySQL).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of sync.RWMutex"
+              "title": "Outline of Databases (MySQL)"
             }
           },
           {
@@ -252,10 +276,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c874f410c8547eb7",
+  "active": "ae41a23d6d03b34e",
   "lastOpenFiles": [
-    "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
     "Literature notes/Golang/Study Plan/sync.RWMutex.md",
+    "Literature notes/Golang/Study Plan/Databases (MySQL).md",
+    "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
     "Literature notes/Golang/Study Plan/Worker Pool Pattern (Production Style Concurrency).md",
     "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming/Setting Up Your Go Environment.md",
     "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming/Learning Go.md",
@@ -279,7 +304,6 @@
     "Literature notes/Golang/Study Plan/Middleware.md",
     "Literature notes/Golang/Study Plan/HTTP Server.md",
     "Literature notes/Golang/Study Plan/Go Leaks.md",
-    "Literature notes/Golang/Study Plan/Context.md",
     "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming",
     "Literature notes/Golang/Study Plan",
     "Literature notes/Golang/Biginner",
