@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Full Go Project Wiring (Real Architecture).md",
+                "file": "Literature notes/Golang/Study Plan/Middleware.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,11 +148,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Full Go Project Wiring (Real Architecture)"
+              "title": "Middleware"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -287,13 +286,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Full Go Project Wiring (Real Architecture).md",
+                "file": "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Full Go Project Wiring (Real Architecture)"
+              "title": "Outline of Advanced HTTP & REST APIs"
             }
           },
           {
@@ -333,8 +332,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -345,13 +343,32 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "44f1f4f82bd381a8",
+  "active": "3c254153e55c8bf1",
   "lastOpenFiles": [
-    "Literature notes/Golang/Study Plan/Configuration Management.md",
+    "Literature notes/Golang/Study Plan/Middleware.md",
+    "copilot/copilot-custom-prompts/Clip Web Page.md",
+    "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot/copilot-custom-prompts/Remove URLs.md",
+    "copilot/copilot-custom-prompts/Generate glossary.md",
+    "copilot/copilot-custom-prompts/Generate table of contents.md",
+    "copilot/copilot-custom-prompts/Make longer.md",
+    "copilot/copilot-custom-prompts/Make shorter.md",
+    "copilot/copilot-custom-prompts/Emojify.md",
+    "copilot/copilot-custom-prompts/Explain like I am 5.md",
+    "copilot/copilot-custom-prompts/Simplify.md",
+    "copilot/copilot-custom-prompts/Summarize.md",
+    "copilot/copilot-custom-prompts/Translate to Chinese.md",
+    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
+    "copilot/copilot-custom-prompts",
+    "copilot",
     "Literature notes/Golang/Study Plan/Full Go Project Wiring (Real Architecture).md",
+    "Literature notes/Golang/Study Plan/Configuration Management.md",
     "Literature notes/Golang/Study Plan/Context + Database Queries.md",
     "Literature notes/Golang/Study Plan/Databases (MySQL).md",
     "Literature notes/Golang/Study Plan/Service Layer.md",
@@ -360,22 +377,6 @@
     "Literature notes/Golang/Study Plan/Worker Pool Pattern (Production Style Concurrency).md",
     "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming/Setting Up Your Go Environment.md",
     "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming/Learning Go.md",
-    "Daily Notes/2026-01-10.md",
-    "Daily Notes/2026-01-31.md",
-    "Daily Notes/2026-02-16.md",
-    "Daily Notes/2026-05-23.md",
-    "Daily Notes/2026-05-27.md",
-    "Daily Notes/2026-05-29.md",
-    "Daily Notes/2026-05-31.md",
-    "Daily Notes/2026-06-01.md",
-    "Daily Notes/2026-06-02.md",
-    "Daily Notes/2026-06-03.md",
-    "Daily Notes/2026-06-04.md",
-    "Literature notes/Golang/Study Plan/Receiving JSON (POST Requests).md",
-    "Literature notes/Golang/Study Plan/Select.md",
-    "Literature notes/Golang/Study Plan/Goroutine Leaks & Context-Aware Concurrency.md",
-    "Literature notes/Golang/Study Plan/context in Go (real-world usage).md",
-    "Literature notes/Golang/Study Plan/Interface in real Architecture (dependency injection).md",
     "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming",
     "Literature notes/Golang/Study Plan",
     "Literature notes/Golang/Biginner",
@@ -384,8 +385,6 @@
     "CI",
     "Literature notes/Python/Data Analysis",
     "Literature notes/Python",
-    "Literature notes/تندخوانی",
-    "Refrences Note/Home.base",
     "Literature notes/WarGame/Linux Command.canvas"
   ]
 }
