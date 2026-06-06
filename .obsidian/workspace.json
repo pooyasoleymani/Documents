@@ -271,7 +271,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -286,7 +287,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "12d83b769816be49",
+  "active": "1807fab5c21aade1",
   "lastOpenFiles": [
     "Literature notes/Golang/Study Plan/Middleware (Real Production Pattern).md",
     "Literature notes/Golang/Study Plan/Router (chi).md",
