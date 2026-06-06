@@ -102,9 +102,57 @@
               "icon": "lucide-file",
               "title": "Context + Database Queries"
             }
+          },
+          {
+            "id": "094a8622b59fb70c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Literature notes/Golang/Study Plan/Configuration Management.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Configuration Management"
+            }
+          },
+          {
+            "id": "44f1f4f82bd381a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Literature notes/Golang/Study Plan/Full Go Project Wiring (Real Architecture).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Full Go Project Wiring (Real Architecture)"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -239,13 +287,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Context + Database Queries.md",
+                "file": "Literature notes/Golang/Study Plan/Full Go Project Wiring (Real Architecture).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Context + Database Queries"
+              "title": "Outline of Full Go Project Wiring (Real Architecture)"
             }
           },
           {
@@ -300,10 +348,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "08dfeb747f0699fa",
+  "active": "44f1f4f82bd381a8",
   "lastOpenFiles": [
-    "Literature notes/Golang/Study Plan/Databases (MySQL).md",
+    "Literature notes/Golang/Study Plan/Configuration Management.md",
+    "Literature notes/Golang/Study Plan/Full Go Project Wiring (Real Architecture).md",
     "Literature notes/Golang/Study Plan/Context + Database Queries.md",
+    "Literature notes/Golang/Study Plan/Databases (MySQL).md",
     "Literature notes/Golang/Study Plan/Service Layer.md",
     "Literature notes/Golang/Study Plan/sync.RWMutex.md",
     "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
@@ -326,8 +376,6 @@
     "Literature notes/Golang/Study Plan/Goroutine Leaks & Context-Aware Concurrency.md",
     "Literature notes/Golang/Study Plan/context in Go (real-world usage).md",
     "Literature notes/Golang/Study Plan/Interface in real Architecture (dependency injection).md",
-    "Literature notes/Golang/Study Plan/Package and Modules.md",
-    "Literature notes/Golang/Study Plan/Middleware.md",
     "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming",
     "Literature notes/Golang/Study Plan",
     "Literature notes/Golang/Biginner",
