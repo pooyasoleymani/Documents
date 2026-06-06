@@ -250,7 +250,7 @@ Run:
 ```bash
 docker run -d \
 --name mysql-dev \
--e MY_ROOT_PASWORD=password \
+-e MYSQL_ROOT_PASWORD=password \
 -e MYSQL_DATABASE=booksdb \
 - p 3306:3306
   mysql:8
@@ -393,3 +393,437 @@ Expected:
 ```
 Connected!
 ```
+
+### Correct `GetAll()`
+
+```go
+func (r *BookRepository) GetAll() ([]model.Book, error) {
+
+	var books []model.Book
+
+	rows, err := r.db.Query(
+		"SELECT id, title, author, pages FROM books",
+	)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	for rows.Next() {
+
+		var book model.Book
+
+		err := rows.Scan(
+			&book.ID,
+			&book.Title,
+			&book.Author,
+			&book.Pages,
+		)
+		if err != nil {
+			return nil, err
+		}
+
+		books = append(books, book)
+	}
+
+	if err := rows.Err(); err != nil {
+		return nil, err
+	}
+
+	return books, nil
+}
+```
+
+# Important SQL Methods
+You'll use these constantly:
+
+|Method|Purpose|
+|---|---|
+|`Exec()`|INSERT, UPDATE, DELETE|
+|`Query()`|Multiple rows|
+|`QueryRow()`|Single row|
+|`Scan()`|Read columns into variables|
+
+
+# Next Repository Method: `GetByID`
+Very common pattern.
+
+```go
+
+func (r *BookRepository) GetByID(
+	id int,
+) (*model.Book, error)
+
+// Implement
+
+func (r *BookRepository) GetByID(
+	id int,
+) (*model.Book, error) {
+
+	var book model.Book
+
+	err := r.db.QueryRow(
+		`SELECT id, title, author, pages
+		 FROM books
+		 WHERE id = ?`,
+		id,
+	).Scan(
+		&book.ID,
+		&book.Title,
+		&book.Author,
+		&book.Pages,
+	)
+
+	if err != nil {
+		if err == sql.ErrNoRows {
+			return nil, err
+		}
+		return nil, err
+	}
+
+	return &book, nil
+}
+```
+
+
+# Mini Exercise
+
+Implement:
+
+```go
+func (r *BookRepository) Delete(id int) error
+```
+
+SQL:
+
+```sql
+DELETE FROM booksWHERE id = ?
+```
+
+Hint:
+
+```go
+result, err := r.db.Exec(...)
+```
+
+Then inspect:
+
+```go
+rowsAffected, err := result.RowsAffected()
+```
+
+If:
+
+```
+rowsAffected == 0
+```
+
+return an error like:
+
+```go
+fmt.Errorf("book not found")
+```
+
+This teaches a very common repository pattern.
+
+
+
+# Update Method
+
+Signature:
+
+```go
+func (r *BookRepository) Update(book model.Book) error
+```
+
+---
+
+## SQL
+
+```sql
+UPDATE books
+SET title = ?, author = ?, pages = ?
+WHERE id = ?
+```
+
+---
+
+## Implementation
+
+```go
+func (r *BookRepository) Update(book model.Book) error {
+
+	result, err := r.db.Exec(
+		`UPDATE books
+		 SET title = ?, author = ?, pages = ?
+		 WHERE id = ?`,
+		book.Title,
+		book.Author,
+		book.Pages,
+		book.ID,
+	)
+	if err != nil {
+		return err
+	}
+
+	rowsAffected, err := result.RowsAffected()
+	if err != nil {
+		return err
+	}
+
+	if rowsAffected == 0 {
+		return errors.New("book not found")
+	}
+
+	return nil
+}
+```
+
+---
+
+# CRUD Complete
+
+Your repository now contains:
+
+```go
+Create(book)
+GetAll()
+GetByID(id)
+Update(book)
+DeleteByID(id)
+```
+
+This is the standard CRUD repository you'll build hundreds of times in backend work.
+
+---
+
+# Next Step: Service Layer
+
+Right now:
+
+```text
+HTTP Handler
+    ↓
+Repository
+    ↓
+Database
+```
+
+Works, but business logic ends up in handlers.
+
+Instead:
+
+```text
+HTTP Handler
+    ↓
+Service
+    ↓
+Repository
+    ↓
+Database
+```
+
+---
+
+## Why?
+
+Imagine a rule:
+
+```text
+Pages must be > 0
+Title cannot be empty
+```
+
+Where should this **live**?
+
+Not in the repository.
+
+Repository should only know **SQL**.
+
+Instead:
+
+```go
+type BookService struct {
+	repo *repository.BookRepository
+}
+```
+
+---
+
+## Constructor
+
+```go
+func NewBookService(
+	repo *repository.BookRepository,
+) *BookService {
+	return &BookService{
+		repo: repo,
+	}
+}
+```
+
+---
+
+## Create Book
+
+```go
+func (s *BookService) CreateBook(
+	book model.Book,
+) error {
+
+	if book.Title == "" {
+		return errors.New("title required")
+	}
+
+	if book.Author == "" {
+		return errors.New("author required")
+	}
+
+	if book.Pages <= 0 {
+		return errors.New("pages must be positive")
+	}
+
+	return s.repo.Create(book)
+}
+```
+
+Notice:
+
+- validation in service
+    
+- SQL in repository
+    
+
+Clean separation.
+
+---
+
+# Handler Becomes Tiny
+
+Instead of:
+
+```go
+func createBookHandler(...) {
+	// validate
+	// database
+	// business rules
+	// response
+}
+```
+
+You get:
+
+```go
+func (h *Handler) CreateBook(
+	w http.ResponseWriter,
+	r *http.Request,
+) {
+	var book model.Book
+
+	if err := json.NewDecoder(r.Body).Decode(&book); err != nil {
+		http.Error(w, err.Error(), http.StatusBadRequest)
+		return
+	}
+
+	if err := h.service.CreateBook(book); err != nil {
+		http.Error(w, err.Error(), http.StatusBadRequest)
+		return
+	}
+
+	w.WriteHeader(http.StatusCreated)
+}
+```
+
+Much cleaner.
+
+---
+
+# Real Project Layout
+
+A common Go backend structure:
+
+```text
+book-api/
+├── cmd/
+│   └── api/
+│       └── main.go
+│
+├── internal/
+│   ├── model/
+│   │   └── book.go
+│   │
+│   ├── repository/
+│   │   └── book.go
+│   │
+│   ├── service/
+│   │   └── book.go
+│   │
+│   └── handler/
+│       └── book.go
+│
+└── go.mod
+```
+
+Responsibilities:
+
+```text
+model      -> structs
+repository -> SQL
+service    -> business rules
+handler    -> HTTP
+main       -> wiring
+```
+
+---
+
+# Dependency Injection
+
+In `main.go`:
+
+```go
+repo := repository.NewBookRepository(db)
+
+service := service.NewBookService(repo)
+
+handler := handler.NewBookHandler(service)
+```
+
+Then:
+
+```go
+http.HandleFunc("/books", handler.CreateBook)
+```
+
+This is how many Go APIs are assembled.
+
+---
+
+# Your Next Exercise
+
+Create:
+
+```text
+internal/service/book.go
+```
+
+with:
+
+```go
+type BookService struct {
+	repo *repository.BookRepository
+}
+```
+
+and implement:
+
+```go
+CreateBook(book model.Book) error
+GetAllBooks() ([]model.Book, error)
+GetBookByID(id int) (*model.Book, error)
+DeleteBook(id int) error
+UpdateBook(book model.Book) error
+```
+
+For now, most methods can simply call the repository. Only `CreateBook` should perform validation.
+
+This introduces the service layer that sits between HTTP and the database, which is the architecture you'll use in most production Go services.
