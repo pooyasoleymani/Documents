@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2026-06-08.md",
+                "file": "Literature notes/Golang/Study Plan/Router (chi).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-06-08"
+              "title": "Router (chi)"
             }
           }
         ],
@@ -112,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "middle",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -137,7 +137,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334.5
+    "width": 334.5,
+    "collapsed": true
   },
   "right": {
     "id": "7965c69a42e62fbd",
@@ -215,13 +216,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2026-06-08.md",
+                "file": "Literature notes/Golang/Study Plan/Router (chi).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2026-06-08"
+              "title": "Outline of Router (chi)"
             }
           },
           {
@@ -289,11 +290,11 @@
   },
   "active": "1807fab5c21aade1",
   "lastOpenFiles": [
-    "Literature notes/Golang/Study Plan/Router (chi).md",
-    "Daily Notes/2026-06-08.md",
-    "Literature notes/Golang/Study Plan/Middleware (Real Production Pattern).md",
     "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
+    "Literature notes/Golang/Study Plan/Middleware (Real Production Pattern).md",
+    "Literature notes/Golang/Study Plan/Router (chi).md",
     "Literature notes/Golang/Study Plan/Middleware.md",
+    "Daily Notes/2026-06-08.md",
     "Literature notes/Golang/Study Plan/Configuration Management.md",
     "Literature notes/Golang/Study Plan/Context + Database Queries.md",
     "Literature notes/Golang/Study Plan/Databases (MySQL).md",
