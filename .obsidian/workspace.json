@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Router (chi).md",
+                "file": "Daily Notes/2026-06-08.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Router (chi)"
+              "title": "2026-06-08"
             }
           }
         ],
@@ -215,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Router (chi).md",
+                "file": "Daily Notes/2026-06-08.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Router (chi)"
+              "title": "Outline of 2026-06-08"
             }
           },
           {
@@ -289,8 +289,9 @@
   },
   "active": "1807fab5c21aade1",
   "lastOpenFiles": [
-    "Literature notes/Golang/Study Plan/Middleware (Real Production Pattern).md",
     "Literature notes/Golang/Study Plan/Router (chi).md",
+    "Daily Notes/2026-06-08.md",
+    "Literature notes/Golang/Study Plan/Middleware (Real Production Pattern).md",
     "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
     "Literature notes/Golang/Study Plan/Middleware.md",
     "Literature notes/Golang/Study Plan/Configuration Management.md",
@@ -317,7 +318,6 @@
     "copilot/copilot-custom-prompts",
     "copilot",
     "Literature notes/Golang/Study Plan/Full Go Project Wiring (Real Architecture).md",
-    "Literature notes/Golang/Study Plan/Service Layer.md",
     "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming",
     "Literature notes/Golang/Study Plan",
     "Literature notes/Golang/Biginner",
