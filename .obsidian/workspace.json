@@ -137,8 +137,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334.5,
-    "collapsed": true
+    "width": 334.5
   },
   "right": {
     "id": "7965c69a42e62fbd",
@@ -290,9 +289,10 @@
   },
   "active": "1807fab5c21aade1",
   "lastOpenFiles": [
+    "Daily Notes/2026-06-09.md",
+    "Literature notes/Golang/Study Plan/Router (chi).md",
     "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
     "Literature notes/Golang/Study Plan/Middleware (Real Production Pattern).md",
-    "Literature notes/Golang/Study Plan/Router (chi).md",
     "Literature notes/Golang/Study Plan/Middleware.md",
     "Daily Notes/2026-06-08.md",
     "Literature notes/Golang/Study Plan/Configuration Management.md",
@@ -318,7 +318,6 @@
     "copilot/copilot-custom-prompts/Generate glossary.md",
     "copilot/copilot-custom-prompts",
     "copilot",
-    "Literature notes/Golang/Study Plan/Full Go Project Wiring (Real Architecture).md",
     "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming",
     "Literature notes/Golang/Study Plan",
     "Literature notes/Golang/Biginner",
