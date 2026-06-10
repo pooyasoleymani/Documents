@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Router (chi).md",
+                "file": "Daily Notes/2026-06-08.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Router (chi)"
+              "title": "2026-06-08"
             }
           }
         ],
@@ -215,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Router (chi).md",
+                "file": "Daily Notes/2026-06-08.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Router (chi)"
+              "title": "Outline of 2026-06-08"
             }
           },
           {
@@ -290,11 +290,12 @@
   "active": "1807fab5c21aade1",
   "lastOpenFiles": [
     "Daily Notes/2026-06-09.md",
+    "Daily Notes/2026-06-10.md",
+    "Daily Notes/2026-06-08.md",
     "Literature notes/Golang/Study Plan/Router (chi).md",
     "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
     "Literature notes/Golang/Study Plan/Middleware (Real Production Pattern).md",
     "Literature notes/Golang/Study Plan/Middleware.md",
-    "Daily Notes/2026-06-08.md",
     "Literature notes/Golang/Study Plan/Configuration Management.md",
     "Literature notes/Golang/Study Plan/Context + Database Queries.md",
     "Literature notes/Golang/Study Plan/Databases (MySQL).md",
@@ -315,7 +316,6 @@
     "copilot/copilot-custom-prompts/Emojify.md",
     "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
     "copilot/copilot-custom-prompts/Clip Web Page.md",
-    "copilot/copilot-custom-prompts/Generate glossary.md",
     "copilot/copilot-custom-prompts",
     "copilot",
     "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming",
