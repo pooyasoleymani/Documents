@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Graceful Shutdown (real backend pattern).md",
+                "file": "Literature notes/Golang/Study Plan/Router (chi).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +52,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Graceful Shutdown (real backend pattern)"
+              "title": "Router (chi)"
+            }
+          },
+          {
+            "id": "90aab424fb834cf0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Literature notes/Golang/Study Plan/Go Data structures.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Go Data structures"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -88,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "middle",
+                "query": "Scanner",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -191,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Graceful Shutdown (real backend pattern).md",
+                "file": "Literature notes/Golang/Study Plan/Go Data structures.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Graceful Shutdown (real backend pattern)"
+              "title": "Outline of Go Data structures"
             }
           },
           {
@@ -263,8 +287,14 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "e665b6dab5512425",
+  "active": "77b5d930ccb82103",
   "lastOpenFiles": [
+    "Literature notes/Golang/Study Plan/Testing in Go.md",
+    "Literature notes/Golang/Study Plan/Testing Real Database.md",
+    "Literature notes/Golang/Study Plan/Router (chi).md",
+    "Literature notes/Golang/Study Plan/Worker Pool Pattern (Production Style Concurrency).md",
+    "Literature notes/Golang/Study Plan/sync.RWMutex.md",
+    "Literature notes/Golang/Study Plan/Graceful Shutdown (real backend pattern).md",
     "Literature notes/Golang/Study Plan/Goroutine Leaks & Context-Aware Concurrency.md",
     "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
     "Literature notes/Golang/Study Plan/Configuration Management.md",
@@ -278,9 +308,7 @@
     "Permanet Note/Change Application (Pycharm) Partition.md",
     "Daily Notes/2026-06-09.md",
     "Daily Notes/2026-06-10.md",
-    "Literature notes/Golang/Study Plan/Router (chi).md",
     "Literature notes/Golang/Study Plan/Middleware.md",
-    "Literature notes/Golang/Study Plan/sync.RWMutex.md",
     "copilot/copilot-custom-prompts/Translate to Chinese.md",
     "copilot/copilot-conversations/can_you_reorganize_my_content_and_structure@20260606_141111.md",
     "copilot/copilot-conversations",
@@ -288,10 +316,6 @@
     "copilot/copilot-custom-prompts/Simplify.md",
     "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
     "copilot/copilot-custom-prompts/Rewrite as tweet.md",
-    "copilot/copilot-custom-prompts/Remove URLs.md",
-    "copilot/copilot-custom-prompts/Make shorter.md",
-    "copilot/copilot-custom-prompts/Make longer.md",
-    "copilot/copilot-custom-prompts/Generate table of contents.md",
     "copilot/copilot-custom-prompts",
     "copilot",
     "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming",
