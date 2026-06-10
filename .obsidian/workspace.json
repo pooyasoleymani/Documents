@@ -78,9 +78,33 @@
               "icon": "lucide-file",
               "title": "Go Data structures"
             }
+          },
+          {
+            "id": "8bced961bd290c09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanet Note/Dockerize Applications.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Dockerize Applications"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -215,13 +239,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Go Data structures.md",
+                "file": "Permanet Note/Dockerize Applications.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Go Data structures"
+              "title": "Outline of Dockerize Applications"
             }
           },
           {
@@ -287,8 +311,11 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "77b5d930ccb82103",
+  "active": "8bced961bd290c09",
   "lastOpenFiles": [
+    "Literature notes/Golang/Study Plan/Interfaces + Dependency Injection + Mocking.md",
+    "Permanet Note/Dockerize Applications.md",
+    "Literature notes/Golang/Study Plan/Go Data structures.md",
     "Literature notes/Golang/Study Plan/Testing in Go.md",
     "Literature notes/Golang/Study Plan/Testing Real Database.md",
     "Literature notes/Golang/Study Plan/Router (chi).md",
@@ -313,9 +340,6 @@
     "copilot/copilot-conversations/can_you_reorganize_my_content_and_structure@20260606_141111.md",
     "copilot/copilot-conversations",
     "copilot/copilot-custom-prompts/Summarize.md",
-    "copilot/copilot-custom-prompts/Simplify.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
     "copilot/copilot-custom-prompts",
     "copilot",
     "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming",
