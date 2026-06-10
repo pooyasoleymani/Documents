@@ -145,7 +145,7 @@ _, err := r.db.ExecContext(
 
 ---
 
-# QueryContext
+# Query Context
 
 Instead of:
 

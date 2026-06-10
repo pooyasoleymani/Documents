@@ -1,9 +1,11 @@
 ---
 Created Date: 2026-06-08
+tags:
+  - linux
 ---
 ---
 # Change Application (Pycharm) Partition
-If by "change location of PyCharm" you mean moving PyCharm and its files from your SSD to another partition (`/dev/sda4`), there are several possibilities depending on what you want to move:
+If by "change location of PyCharm" you mean moving PyCharm and its files from your `SSD` to another partition (`/dev/sda4`), there are several possibilities depending on what you want to move:
 
 ### 1. Check where `/dev/sda4` is mounted
 
