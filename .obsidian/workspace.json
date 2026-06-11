@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanet Note/Dockerize Applications.md",
+                "file": "Daily Notes/2026-06-11.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,11 +100,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Dockerize Applications"
+              "title": "2026-06-11"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -239,13 +239,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanet Note/Dockerize Applications.md",
+                "file": "Literature notes/Golang/Study Plan/Router (chi).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Dockerize Applications"
+              "title": "Outline of Router (chi)"
             }
           },
           {
@@ -311,11 +311,12 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "8bced961bd290c09",
+  "active": "e665b6dab5512425",
   "lastOpenFiles": [
-    "Literature notes/Golang/Study Plan/Interfaces + Dependency Injection + Mocking.md",
-    "Permanet Note/Dockerize Applications.md",
     "Literature notes/Golang/Study Plan/Go Data structures.md",
+    "Daily Notes/2026-06-11.md",
+    "Permanet Note/Dockerize Applications.md",
+    "Literature notes/Golang/Study Plan/Interfaces + Dependency Injection + Mocking.md",
     "Literature notes/Golang/Study Plan/Testing in Go.md",
     "Literature notes/Golang/Study Plan/Testing Real Database.md",
     "Literature notes/Golang/Study Plan/Router (chi).md",
@@ -339,7 +340,6 @@
     "copilot/copilot-custom-prompts/Translate to Chinese.md",
     "copilot/copilot-conversations/can_you_reorganize_my_content_and_structure@20260606_141111.md",
     "copilot/copilot-conversations",
-    "copilot/copilot-custom-prompts/Summarize.md",
     "copilot/copilot-custom-prompts",
     "copilot",
     "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming",
