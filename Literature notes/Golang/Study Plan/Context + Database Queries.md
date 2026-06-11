@@ -66,7 +66,7 @@ func (r *BookRepository) GetByID(
 
 ---
 
-# QueryRowContext
+# `QueryRowContext`
 
 Instead of:
 

@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Go Data structures.md",
+                "file": "Literature notes/Golang/Study Plan/Configuration Management.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Go Data structures"
+              "title": "Configuration Management"
             }
           },
           {
@@ -104,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -239,13 +239,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Router (chi).md",
+                "file": "Literature notes/Golang/Study Plan/Configuration Management.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Router (chi)"
+              "title": "Outline of Configuration Management"
             }
           },
           {
@@ -311,15 +311,19 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "e665b6dab5512425",
+  "active": "90aab424fb834cf0",
   "lastOpenFiles": [
+    "Literature notes/Golang/Study Plan/Go Leaks.md",
+    "Literature notes/Golang/Study Plan/Context + Database Queries.md",
+    "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming/Learning Go.md",
     "Literature notes/Golang/Study Plan/Go Data structures.md",
+    "Literature notes/Golang/Study Plan/Router (chi).md",
+    "Permanet Note/Generic Type Filtering.md",
     "Daily Notes/2026-06-11.md",
     "Permanet Note/Dockerize Applications.md",
     "Literature notes/Golang/Study Plan/Interfaces + Dependency Injection + Mocking.md",
     "Literature notes/Golang/Study Plan/Testing in Go.md",
     "Literature notes/Golang/Study Plan/Testing Real Database.md",
-    "Literature notes/Golang/Study Plan/Router (chi).md",
     "Literature notes/Golang/Study Plan/Worker Pool Pattern (Production Style Concurrency).md",
     "Literature notes/Golang/Study Plan/sync.RWMutex.md",
     "Literature notes/Golang/Study Plan/Graceful Shutdown (real backend pattern).md",
@@ -328,7 +332,6 @@
     "Literature notes/Golang/Study Plan/Configuration Management.md",
     "Literature notes/Golang/Study Plan/Databases (MySQL).md",
     "Literature notes/Golang/Study Plan/context in Go (real-world usage).md",
-    "Literature notes/Golang/Study Plan/Context + Database Queries.md",
     "Literature notes/Golang/Study Plan/Context.md",
     "Literature notes/Golang/Study Plan/Middleware (Real Production Pattern).md",
     "Daily Notes/2026-01-31.md",
@@ -336,9 +339,6 @@
     "Permanet Note/Change Application (Pycharm) Partition.md",
     "Daily Notes/2026-06-09.md",
     "Daily Notes/2026-06-10.md",
-    "Literature notes/Golang/Study Plan/Middleware.md",
-    "copilot/copilot-custom-prompts/Translate to Chinese.md",
-    "copilot/copilot-conversations/can_you_reorganize_my_content_and_structure@20260606_141111.md",
     "copilot/copilot-conversations",
     "copilot/copilot-custom-prompts",
     "copilot",
