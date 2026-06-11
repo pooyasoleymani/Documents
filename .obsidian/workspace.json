@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Configuration Management.md",
+                "file": "Literature notes/Golang/Study Plan/Testing Real Database.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,31 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Configuration Management"
-            }
-          },
-          {
-            "id": "8bced961bd290c09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/2026-06-11.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-06-11"
+              "title": "Testing Real Database"
             }
           }
         ],
@@ -239,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Configuration Management.md",
+                "file": "Literature notes/Golang/Study Plan/Testing Real Database.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Configuration Management"
+              "title": "Outline of Testing Real Database"
             }
           },
           {
@@ -313,6 +289,8 @@
   },
   "active": "90aab424fb834cf0",
   "lastOpenFiles": [
+    "Literature notes/Golang/Study Plan/The Go Fundamentals.md",
+    "Literature notes/Golang/Study Plan/Configuration Management.md",
     "Literature notes/Golang/Study Plan/Go Leaks.md",
     "Literature notes/Golang/Study Plan/Context + Database Queries.md",
     "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming/Learning Go.md",
@@ -329,7 +307,6 @@
     "Literature notes/Golang/Study Plan/Graceful Shutdown (real backend pattern).md",
     "Literature notes/Golang/Study Plan/Goroutine Leaks & Context-Aware Concurrency.md",
     "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
-    "Literature notes/Golang/Study Plan/Configuration Management.md",
     "Literature notes/Golang/Study Plan/Databases (MySQL).md",
     "Literature notes/Golang/Study Plan/context in Go (real-world usage).md",
     "Literature notes/Golang/Study Plan/Context.md",
@@ -338,7 +315,6 @@
     "Daily Notes/2026-02-16.md",
     "Permanet Note/Change Application (Pycharm) Partition.md",
     "Daily Notes/2026-06-09.md",
-    "Daily Notes/2026-06-10.md",
     "copilot/copilot-conversations",
     "copilot/copilot-custom-prompts",
     "copilot",
