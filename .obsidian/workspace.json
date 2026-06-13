@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Testing Real Database.md",
+                "file": "Daily Notes/2026-06-13.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Testing Real Database"
+              "title": "2026-06-13"
             }
           }
         ],
@@ -215,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Testing Real Database.md",
+                "file": "Daily Notes/2026-06-13.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Testing Real Database"
+              "title": "Outline of 2026-06-13"
             }
           },
           {
@@ -289,6 +289,8 @@
   },
   "active": "90aab424fb834cf0",
   "lastOpenFiles": [
+    "Literature notes/Golang/Study Plan/Testing Real Database.md",
+    "Daily Notes/2026-06-13.md",
     "Literature notes/Golang/Study Plan/The Go Fundamentals.md",
     "Literature notes/Golang/Study Plan/Configuration Management.md",
     "Literature notes/Golang/Study Plan/Go Leaks.md",
@@ -301,7 +303,6 @@
     "Permanet Note/Dockerize Applications.md",
     "Literature notes/Golang/Study Plan/Interfaces + Dependency Injection + Mocking.md",
     "Literature notes/Golang/Study Plan/Testing in Go.md",
-    "Literature notes/Golang/Study Plan/Testing Real Database.md",
     "Literature notes/Golang/Study Plan/Worker Pool Pattern (Production Style Concurrency).md",
     "Literature notes/Golang/Study Plan/sync.RWMutex.md",
     "Literature notes/Golang/Study Plan/Graceful Shutdown (real backend pattern).md",
@@ -314,7 +315,6 @@
     "Daily Notes/2026-01-31.md",
     "Daily Notes/2026-02-16.md",
     "Permanet Note/Change Application (Pycharm) Partition.md",
-    "Daily Notes/2026-06-09.md",
     "copilot/copilot-conversations",
     "copilot/copilot-custom-prompts",
     "copilot",
