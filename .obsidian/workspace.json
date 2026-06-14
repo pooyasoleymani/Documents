@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Transactions.md",
+                "file": "Literature notes/Golang/Study Plan/Testing in Go.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Transactions"
+              "title": "Testing in Go"
             }
           }
         ],
@@ -113,8 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334.5,
-    "collapsed": true
+    "width": 334.5
   },
   "right": {
     "id": "7965c69a42e62fbd",
@@ -192,13 +191,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Transactions.md",
+                "file": "Literature notes/Golang/Study Plan/Testing in Go.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Transactions"
+              "title": "Outline of Testing in Go"
             }
           },
           {
@@ -266,8 +265,8 @@
   },
   "active": "4bdbb8b7ba8b3bec",
   "lastOpenFiles": [
-    "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
     "Literature notes/Golang/Study Plan/Transactions.md",
+    "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
     "Daily Notes/2026-01-10.md",
     "Daily Notes/2026-06-14.md",
     "Daily Notes/2026-01-31.md",
