@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Router (chi).md",
+                "file": "Daily Notes/2026-06-14.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,35 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Router (chi)"
-            }
-          },
-          {
-            "id": "90aab424fb834cf0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/2026-06-13.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-06-13"
+              "title": "2026-06-14"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Scanner",
+                "query": "Pycharm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -133,11 +109,13 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 334.5
+    "width": 334.5,
+    "collapsed": true
   },
   "right": {
     "id": "7965c69a42e62fbd",
@@ -215,13 +193,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2026-06-13.md",
+                "file": "Daily Notes/2026-06-14.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2026-06-13"
+              "title": "Outline of 2026-06-14"
             }
           },
           {
@@ -287,17 +265,19 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "90aab424fb834cf0",
+  "active": "e665b6dab5512425",
   "lastOpenFiles": [
-    "Literature notes/Golang/Study Plan/Testing Real Database.md",
+    "Permanet Note/Change Application (Pycharm) Partition.md",
+    "Daily Notes/2026-06-14.md",
+    "Literature notes/Golang/Study Plan/Router (chi).md",
     "Daily Notes/2026-06-13.md",
+    "Literature notes/Golang/Study Plan/Testing Real Database.md",
     "Literature notes/Golang/Study Plan/The Go Fundamentals.md",
     "Literature notes/Golang/Study Plan/Configuration Management.md",
     "Literature notes/Golang/Study Plan/Go Leaks.md",
     "Literature notes/Golang/Study Plan/Context + Database Queries.md",
     "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming/Learning Go.md",
     "Literature notes/Golang/Study Plan/Go Data structures.md",
-    "Literature notes/Golang/Study Plan/Router (chi).md",
     "Permanet Note/Generic Type Filtering.md",
     "Daily Notes/2026-06-11.md",
     "Permanet Note/Dockerize Applications.md",
@@ -313,8 +293,6 @@
     "Literature notes/Golang/Study Plan/Context.md",
     "Literature notes/Golang/Study Plan/Middleware (Real Production Pattern).md",
     "Daily Notes/2026-01-31.md",
-    "Daily Notes/2026-02-16.md",
-    "Permanet Note/Change Application (Pycharm) Partition.md",
     "copilot/copilot-conversations",
     "copilot/copilot-custom-prompts",
     "copilot",
