@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Testing in Go.md",
+                "file": "Daily Notes/2026-06-15.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Testing in Go"
+              "title": "2026-06-15"
             }
           }
         ],
@@ -191,13 +191,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Testing in Go.md",
+                "file": "Daily Notes/2026-06-15.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Testing in Go"
+              "title": "Outline of 2026-06-15"
             }
           },
           {
@@ -265,6 +265,8 @@
   },
   "active": "4bdbb8b7ba8b3bec",
   "lastOpenFiles": [
+    "Literature notes/Golang/Study Plan/Testing in Go.md",
+    "Daily Notes/2026-06-15.md",
     "Literature notes/Golang/Study Plan/Transactions.md",
     "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
     "Daily Notes/2026-01-10.md",
@@ -285,12 +287,10 @@
     "Permanet Note/Generic Type Filtering.md",
     "Permanet Note/Dockerize Applications.md",
     "Literature notes/Golang/Study Plan/Interfaces + Dependency Injection + Mocking.md",
-    "Literature notes/Golang/Study Plan/Testing in Go.md",
     "Literature notes/Golang/Study Plan/Worker Pool Pattern (Production Style Concurrency).md",
     "Literature notes/Golang/Study Plan/sync.RWMutex.md",
     "Literature notes/Golang/Study Plan/Graceful Shutdown (real backend pattern).md",
     "Literature notes/Golang/Study Plan/Goroutine Leaks & Context-Aware Concurrency.md",
-    "Literature notes/Golang/Study Plan/Databases (MySQL).md",
     "copilot/copilot-conversations",
     "copilot/copilot-custom-prompts",
     "copilot",
