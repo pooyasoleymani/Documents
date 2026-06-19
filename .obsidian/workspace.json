@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Python/Object Oriented Design/Abstract Base Class and Operator Overloading.md",
+                "file": "Literature notes/SCTP Protocol/What problem SCTP solves.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Abstract Base Class and Operator Overloading"
+              "title": "What problem SCTP solves"
             }
           }
         ],
@@ -215,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Python/Object Oriented Design/Abstract Base Class and Operator Overloading.md",
+                "file": "Literature notes/SCTP Protocol/What problem SCTP solves.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Abstract Base Class and Operator Overloading"
+              "title": "Outline of What problem SCTP solves"
             }
           },
           {
@@ -289,6 +289,10 @@
   },
   "active": "815b0d4437c73e87",
   "lastOpenFiles": [
+    "Literature notes/SCTP Protocol/Learning Roadmap.md",
+    "Literature notes/SCTP Protocol/What problem SCTP solves.md",
+    "Literature notes/Python/Object Oriented Design/Abstract Base Class and Operator Overloading.md",
+    "Literature notes/SCTP Protocol",
     "Daily Notes/2026-01-10.md",
     "Daily Notes/2026-01-31.md",
     "Daily Notes/2026-02-16.md",
@@ -313,9 +317,6 @@
     "Permanet Note/Change Application (Pycharm) Partition.md",
     "Literature notes/Golang/Study Plan/Router (chi).md",
     "Literature notes/Golang/Study Plan/Testing Real Database.md",
-    "Literature notes/Golang/Study Plan/The Go Fundamentals.md",
-    "Literature notes/Golang/Study Plan/Configuration Management.md",
-    "Literature notes/Golang/Study Plan/Go Leaks.md",
     "copilot/copilot-conversations",
     "copilot/copilot-custom-prompts",
     "copilot",
@@ -324,7 +325,6 @@
     "Literature notes/Golang/Biginner",
     "Literature notes/Golang",
     "Literature notes/Python/Object Oriented Design",
-    "CI",
     "Literature notes/WarGame/Linux Command.canvas"
   ]
 }
