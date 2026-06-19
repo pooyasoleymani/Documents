@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2026-06-19.md",
+                "file": "Literature notes/Python/Object Oriented Design/Abstract Base Class and Operator Overloading.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-06-19"
+              "title": "Abstract Base Class and Operator Overloading"
             }
           }
         ],
@@ -215,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2026-06-19.md",
+                "file": "Literature notes/Python/Object Oriented Design/Abstract Base Class and Operator Overloading.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2026-06-19"
+              "title": "Outline of Abstract Base Class and Operator Overloading"
             }
           },
           {
@@ -289,14 +289,15 @@
   },
   "active": "815b0d4437c73e87",
   "lastOpenFiles": [
+    "Daily Notes/2026-01-10.md",
+    "Daily Notes/2026-01-31.md",
+    "Daily Notes/2026-02-16.md",
     "Literature notes/Golang/Study Plan/Typical CI-CD Flow.md",
     "Daily Notes/2026-06-19.md",
     "Literature notes/Golang/Study Plan/Database Migrations.md",
     "Literature notes/Golang/Study Plan/Command-Line Arguments.md",
-    "Daily Notes/2026-02-16.md",
     "copilot/copilot-conversations/hello@20260617_174403.md",
     "copilot/copilot-conversations/HELLO@20260617_174403.md",
-    "Daily Notes/2026-01-31.md",
     "Daily Notes/2026-06-17.md",
     "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
     "Literature notes/Linux/See real-time network usage.md",
@@ -306,7 +307,6 @@
     "Daily Notes/2026-06-15.md",
     "Literature notes/Linux",
     "Literature notes/Golang/Study Plan/Testing in Go.md",
-    "Daily Notes/2026-01-10.md",
     "Daily Notes/2026-06-14.md",
     "Daily Notes/2026-06-11.md",
     "Daily Notes/2026-06-13.md",
