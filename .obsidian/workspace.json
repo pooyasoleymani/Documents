@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/SCTP Protocol/SIGTRAN Architecture.md",
+                "file": "Literature notes/SCTP Protocol/MAP roaming messages.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SIGTRAN Architecture"
+              "title": "MAP roaming messages"
             }
           }
         ],
@@ -215,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/SCTP Protocol/SIGTRAN Architecture.md",
+                "file": "Literature notes/SCTP Protocol/MAP roaming messages.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SIGTRAN Architecture"
+              "title": "Outline of MAP roaming messages"
             }
           },
           {
@@ -289,9 +289,11 @@
   },
   "active": "815b0d4437c73e87",
   "lastOpenFiles": [
-    "Literature notes/SCTP Protocol/How SCTP works internally.md",
-    "Literature notes/SCTP Protocol/SIGTRAN Architecture.md",
     "Literature notes/SCTP Protocol/Learning Roadmap.md",
+    "Literature notes/SCTP Protocol/MAP roaming messages.md",
+    "Literature notes/SCTP Protocol/SS7 over SCTP.md",
+    "Literature notes/SCTP Protocol/SIGTRAN Architecture.md",
+    "Literature notes/SCTP Protocol/How SCTP works internally.md",
     "Literature notes/SCTP Protocol/What problem SCTP solves.md",
     "Fleeting note/STP(Signal transfer point).md",
     "Literature notes/Golang/Study Plan/Command-Line Arguments.md",
@@ -315,8 +317,6 @@
     "Literature notes/Linux",
     "Literature notes/Golang/Study Plan/Testing in Go.md",
     "Daily Notes/2026-06-14.md",
-    "Daily Notes/2026-06-11.md",
-    "Daily Notes/2026-06-13.md",
     "copilot/copilot-conversations",
     "copilot/copilot-custom-prompts",
     "copilot",
