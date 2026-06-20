@@ -175,9 +175,7 @@ The SS7 destination is reachable again
 ```
 
 ---
-
 # 3. DAUD (Destination Audit)
-
 Used when system wants to check:
 
 ```text
@@ -185,9 +183,7 @@ Used when system wants to check:
 ```
 
 ---
-
 # 4. SCON (Signaling Congestion)
-
 This is VERY important in roaming systems.
 
 ```text
@@ -419,15 +415,3 @@ Why is ASPACTIVE important?
 ### Q4
 
 What is the real difference between SCTP state and M3UA state?
-
----
-
-Next lesson we go even deeper:
-
-# 👉 M3UA message formats (ASPUP, ASPDOWN, DATA, Heartbeats)
-
-and then:
-
-# 👉 how to implement a minimal M3UA simulator in Go
-
-That’s where you start building real telecom-grade systems.
