@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/SCTP Protocol/What problem SCTP solves.md",
+                "file": "Literature notes/SCTP Protocol/SIGTRAN Architecture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "What problem SCTP solves"
+              "title": "SIGTRAN Architecture"
             }
           }
         ],
@@ -215,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/SCTP Protocol/What problem SCTP solves.md",
+                "file": "Literature notes/SCTP Protocol/SIGTRAN Architecture.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of What problem SCTP solves"
+              "title": "Outline of SIGTRAN Architecture"
             }
           },
           {
@@ -289,10 +289,12 @@
   },
   "active": "815b0d4437c73e87",
   "lastOpenFiles": [
-    "Fleeting note/STP(Signal transfer point).md",
-    "Literature notes/SCTP Protocol/What problem SCTP solves.md",
-    "Literature notes/Golang/Study Plan/Command-Line Arguments.md",
+    "Literature notes/SCTP Protocol/How SCTP works internally.md",
+    "Literature notes/SCTP Protocol/SIGTRAN Architecture.md",
     "Literature notes/SCTP Protocol/Learning Roadmap.md",
+    "Literature notes/SCTP Protocol/What problem SCTP solves.md",
+    "Fleeting note/STP(Signal transfer point).md",
+    "Literature notes/Golang/Study Plan/Command-Line Arguments.md",
     "Literature notes/Python/Object Oriented Design/Abstract Base Class and Operator Overloading.md",
     "Literature notes/SCTP Protocol",
     "Daily Notes/2026-01-10.md",
@@ -315,8 +317,6 @@
     "Daily Notes/2026-06-14.md",
     "Daily Notes/2026-06-11.md",
     "Daily Notes/2026-06-13.md",
-    "Permanet Note/Change Application (Pycharm) Partition.md",
-    "Literature notes/Golang/Study Plan/Router (chi).md",
     "copilot/copilot-conversations",
     "copilot/copilot-custom-prompts",
     "copilot",

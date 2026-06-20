@@ -436,7 +436,7 @@ Your Go App
 Best practice:
 
 ```text
-Business Logic
+ Business Logic
       ↓
  Signaling Layer
       ↓
@@ -446,7 +446,7 @@ Business Logic
 Avoid:
 
 ```text
-Business Logic
+ Business Logic
       ↓
  Raw SCTP Calls Everywhere
 ```
@@ -489,11 +489,8 @@ Domain must not know SCTP details.
 This follows:
 
 - Clean Architecture
-    
 - Dependency Inversion Principle
-    
 - Separation of Concerns
-    
 
 ---
 
@@ -577,31 +574,19 @@ Operator B
 and identify:
 
 1. Where MAP is used.
-    
 2. Where M3UA is used.
-    
 3. Where SCTP is used.
-    
 4. Which network element receives `UpdateLocation`.
-    
 
 Try answering that, and in the next lesson we'll move to **SCTP internals**:
 
 - Associations
-    
 - INIT / INIT-ACK
-    
 - COOKIE-ECHO
-    
 - TSN
-    
 - SACK
-    
 - Heartbeats
-    
 - Failover algorithms
-    
 - Multi-homing implementation details
-    
 
 Those concepts are essential before writing any Go SCTP code.
