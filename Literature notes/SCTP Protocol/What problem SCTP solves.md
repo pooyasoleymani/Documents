@@ -46,7 +46,7 @@ But telecom networks have requirements that normal web applications don't.
 ---
 
 # Requirement 1: High Availability
-Suppose an `HLR` communicates with an `STP`.
+Suppose an [[HLR(Home location register)]] communicates with an [[STP(Signal transfer point)]].
 
 `TCP`:
 
