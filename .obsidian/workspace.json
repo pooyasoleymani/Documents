@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/SCTP Protocol/Go implementation.md",
+                "file": "Daily Notes/2026-06-22.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Go implementation"
+              "title": "2026-06-22"
             }
           }
         ],
@@ -215,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/SCTP Protocol/Go implementation.md",
+                "file": "Daily Notes/2026-06-22.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Go implementation"
+              "title": "Outline of 2026-06-22"
             }
           },
           {
@@ -289,8 +289,9 @@
   },
   "active": "815b0d4437c73e87",
   "lastOpenFiles": [
-    "Literature notes/SCTP Protocol/Diameter over SCTP.md",
     "Literature notes/SCTP Protocol/Go implementation.md",
+    "Daily Notes/2026-06-22.md",
+    "Literature notes/SCTP Protocol/Diameter over SCTP.md",
     "Literature notes/SCTP Protocol/Learning Roadmap.md",
     "Literature notes/SCTP Protocol/MAP roaming messages.md",
     "Literature notes/SCTP Protocol/SS7 over SCTP.md",
@@ -315,7 +316,6 @@
     "Literature notes/Golang/Study Plan/Transactions.md",
     "Literature notes/Golang/Study Plan/Context.md",
     "Literature notes/Linux/tar command.md",
-    "Daily Notes/2026-06-15.md",
     "Literature notes/Linux",
     "copilot/copilot-conversations",
     "copilot/copilot-custom-prompts",
