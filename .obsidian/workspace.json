@@ -54,33 +54,9 @@
               "icon": "lucide-file",
               "title": "Command-Line Arguments"
             }
-          },
-          {
-            "id": "815b0d4437c73e87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/2026-06-22.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-06-22"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -215,13 +191,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2026-06-22.md",
+                "file": "Literature notes/Golang/Study Plan/Command-Line Arguments.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2026-06-22"
+              "title": "Outline of Command-Line Arguments"
             }
           },
           {
@@ -271,7 +247,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 417.5
+    "width": 417.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -286,10 +263,11 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "815b0d4437c73e87",
+  "active": "bcd77a338ae888f5",
   "lastOpenFiles": [
-    "Literature notes/SCTP Protocol/Go implementation.md",
+    "Daily Notes/2026-06-24.md",
     "Daily Notes/2026-06-22.md",
+    "Literature notes/SCTP Protocol/Go implementation.md",
     "Literature notes/SCTP Protocol/Diameter over SCTP.md",
     "Literature notes/SCTP Protocol/Learning Roadmap.md",
     "Literature notes/SCTP Protocol/MAP roaming messages.md",
@@ -314,7 +292,6 @@
     "Literature notes/Linux/See real-time network usage.md",
     "Literature notes/Golang/Study Plan/Transactions.md",
     "Literature notes/Golang/Study Plan/Context.md",
-    "Literature notes/Linux/tar command.md",
     "Literature notes/Linux",
     "copilot/copilot-conversations",
     "copilot/copilot-custom-prompts",
