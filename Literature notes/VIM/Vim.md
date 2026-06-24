@@ -681,7 +681,6 @@ Session keeps running.
 ```bash
 tmux attach -t telecom
 ```
-
 ---
 
 # If I were mentoring you for the next 6 months
