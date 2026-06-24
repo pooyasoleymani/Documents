@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Command-Line Arguments.md",
+                "file": "Literature notes/VIM/Vim.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Command-Line Arguments"
+              "title": "Vim"
             }
           }
         ],
@@ -191,13 +191,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Command-Line Arguments.md",
+                "file": "Literature notes/VIM/Vim.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Command-Line Arguments"
+              "title": "Outline of Vim"
             }
           },
           {
@@ -265,33 +265,34 @@
   },
   "active": "bcd77a338ae888f5",
   "lastOpenFiles": [
+    "Literature notes/Golang/Study Plan/Worker Pool Pattern (Production Style Concurrency).md",
+    "Literature notes/VIM/Vim.md",
+    "Literature notes/VIM",
+    "Literature notes/Golang/Study Plan/The Go Fundamentals.md",
+    "Literature notes/Golang/Study Plan/Testing Real Database.md",
+    "Literature notes/Golang/Study Plan/Transactions.md",
+    "Literature notes/Golang/Study Plan/Typical CI-CD Flow.md",
+    "Literature notes/Golang/Study Plan/Router (chi).md",
+    "Literature notes/Golang/Study Plan/Reading Real Files.md",
+    "Literature notes/Golang/Study Plan/Program Structure.md",
+    "Literature notes/Golang/Study Plan/Package and Modules.md",
+    "Literature notes/Golang/Study Plan/Middleware (Real Production Pattern).md",
+    "Literature notes/Golang/Study Plan/Middleware.md",
+    "Literature notes/Golang/Study Plan/HTTP Server.md",
+    "Literature notes/Golang/Study Plan/Goroutine Leaks & Context-Aware Concurrency.md",
+    "Literature notes/Golang/Study Plan/context in Go (real-world usage).md",
+    "Literature notes/Golang/Study Plan/Context + Database Queries.md",
+    "Literature notes/Golang/Study Plan/Context.md",
+    "Literature notes/Golang/Study Plan/Configuration Management.md",
+    "Literature notes/Golang/Study Plan/Command-Line Arguments.md",
+    "Literature notes/Golang/Study Plan/Channels (Go’s main communication system).md",
+    "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
+    "Literature notes/CMake/CMake Study Plan.md",
+    "Literature notes/Linux/See real-time network usage.md",
     "Daily Notes/2026-06-24.md",
     "Daily Notes/2026-06-22.md",
     "Literature notes/SCTP Protocol/Go implementation.md",
-    "Literature notes/SCTP Protocol/Diameter over SCTP.md",
-    "Literature notes/SCTP Protocol/Learning Roadmap.md",
-    "Literature notes/SCTP Protocol/MAP roaming messages.md",
-    "Literature notes/SCTP Protocol/SS7 over SCTP.md",
-    "Literature notes/SCTP Protocol/SIGTRAN Architecture.md",
-    "Literature notes/SCTP Protocol/How SCTP works internally.md",
-    "Literature notes/SCTP Protocol/What problem SCTP solves.md",
-    "Fleeting note/STP(Signal transfer point).md",
-    "Literature notes/Golang/Study Plan/Command-Line Arguments.md",
-    "Literature notes/Python/Object Oriented Design/Abstract Base Class and Operator Overloading.md",
     "Literature notes/SCTP Protocol",
-    "Daily Notes/2026-01-10.md",
-    "Daily Notes/2026-01-31.md",
-    "Daily Notes/2026-02-16.md",
-    "Literature notes/Golang/Study Plan/Typical CI-CD Flow.md",
-    "Daily Notes/2026-06-19.md",
-    "Literature notes/Golang/Study Plan/Database Migrations.md",
-    "copilot/copilot-conversations/hello@20260617_174403.md",
-    "copilot/copilot-conversations/HELLO@20260617_174403.md",
-    "Daily Notes/2026-06-17.md",
-    "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
-    "Literature notes/Linux/See real-time network usage.md",
-    "Literature notes/Golang/Study Plan/Transactions.md",
-    "Literature notes/Golang/Study Plan/Context.md",
     "Literature notes/Linux",
     "copilot/copilot-conversations",
     "copilot/copilot-custom-prompts",
@@ -300,7 +301,6 @@
     "Literature notes/Golang/Study Plan",
     "Literature notes/Golang/Biginner",
     "Literature notes/Golang",
-    "Literature notes/Python/Object Oriented Design",
     "Literature notes/WarGame/Linux Command.canvas"
   ]
 }

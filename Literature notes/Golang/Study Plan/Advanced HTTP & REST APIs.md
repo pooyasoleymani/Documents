@@ -269,7 +269,8 @@ Server output:
 Bad:
 
 ```go
-body, _ := io.ReadAll(r.Body)json.Unmarshal(body, &book)
+body, _ := io.ReadAll(r.Body)
+json.Unmarshal(body, &book)
 ```
 
 Good:
