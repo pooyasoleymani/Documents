@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2026-06-26.md",
+                "file": "Daily Notes/Protocol Buffers.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-06-26"
+              "title": "Protocol Buffers"
             }
           }
         ]
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2026-06-26.md",
+                "file": "Daily Notes/Protocol Buffers.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2026-06-26"
+              "title": "Outline of Protocol Buffers"
             }
           },
           {
@@ -241,7 +241,7 @@
   "active": "44f1f4f82bd381a8",
   "lastOpenFiles": [
     "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
-    "Daily Notes/2026-06-26.md",
+    "Daily Notes/Protocol Buffers.md",
     "Literature notes/Linux/tar command.md",
     "Daily Notes/2026-06-25.md",
     "Literature notes/VIM/Vim.md",
