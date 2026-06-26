@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/Protocol Buffers.md",
+                "file": "Literature notes/Protocol Buffer/Protocol Buffers Roadmap.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Protocol Buffers"
+              "title": "Protocol Buffers Roadmap"
+            }
+          },
+          {
+            "id": "baae5b49e0b060e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Literature notes/Protocol Buffer/What is serialization ?.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "What is serialization ?"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,13 +191,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/Protocol Buffers.md",
+                "file": "Literature notes/Protocol Buffer/What is serialization ?.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Protocol Buffers"
+              "title": "Outline of What is serialization ?"
             }
           },
           {
@@ -218,7 +243,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -238,10 +263,12 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "44f1f4f82bd381a8",
+  "active": "baae5b49e0b060e3",
   "lastOpenFiles": [
+    "Literature notes/Protocol Buffer/Protocol Buffers Roadmap.md",
+    "Literature notes/Protocol Buffer/What is serialization ?.md",
     "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
-    "Daily Notes/Protocol Buffers.md",
+    "Literature notes/Protocol Buffer",
     "Literature notes/Linux/tar command.md",
     "Daily Notes/2026-06-25.md",
     "Literature notes/VIM/Vim.md",
@@ -266,7 +293,6 @@
     "Literature notes/Golang/Study Plan/Command-Line Arguments.md",
     "Literature notes/Golang/Study Plan/Channels (Go’s main communication system).md",
     "Literature notes/CMake/CMake Study Plan.md",
-    "Literature notes/Linux/See real-time network usage.md",
     "Literature notes/SCTP Protocol",
     "Literature notes/Linux",
     "copilot/copilot-conversations",
@@ -275,7 +301,6 @@
     "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming",
     "Literature notes/Golang/Study Plan",
     "Literature notes/Golang/Biginner",
-    "Literature notes/Golang",
     "Literature notes/WarGame/Linux Command.canvas"
   ]
 }
