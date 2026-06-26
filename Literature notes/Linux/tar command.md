@@ -27,20 +27,20 @@ tar -xf backup.tar
 
 # Most Common Options
 
-|Option|Meaning|
-|---|---|
-|`-c`|Create archive|
-|`-x`|Extract archive|
-|`-f`|Archive filename|
-|`-t`|List contents|
-|`-v`|Verbose output|
-|`-z`|Use gzip (`.tar.gz`)|
-|`-j`|Use bzip2 (`.tar.bz2`)|
-|`-J`|Use xz (`.tar.xz`)|
-|`--zstd`|Use zstd (`.tar.zst`)|
-|`-C`|Change directory before operation|
-|`--exclude`|Skip files/directories|
-|`--strip-components=N`|Remove leading path components when extracting|
+| Option                 | Meaning                                        |
+| ---------------------- | ---------------------------------------------- |
+| `-c`                   | Create archive                                 |
+| `-x`                   | Extract archive                                |
+| `-f`                   | Archive filename                               |
+| `-t`                   | List contents                                  |
+| `-v`                   | Verbose output                                 |
+| `-z`                   | Use gzip (`.tar.gz`)                           |
+| `-j`                   | Use bzip2 (`.tar.bz2`)                         |
+| `-J`                   | Use xz (`.tar.xz`)                             |
+| `--zstd`               | Use zstd (`.tar.zst`)                          |
+| `-C`                   | Change directory before operation              |
+| `--exclude`            | Skip files/directories                         |
+| `--strip-components=N` | Remove leading path components when extracting |
 
 ---
 
