@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c355f3d5286680b7",
+        "id": "a7851958c57a14f7",
         "type": "tabs",
         "children": [
           {
-            "id": "7630cd4fe8215e8d",
+            "id": "8cedaa88421e0b3e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/2026-02-16.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2026-02-16"
+              "title": "New tab"
             }
           }
         ]
@@ -166,13 +152,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2026-02-16.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2026-02-16"
+              "title": "Outline"
             }
           },
           {
@@ -222,8 +207,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 417.5,
-    "collapsed": true
+    "width": 417.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -238,8 +222,12 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "7630cd4fe8215e8d",
+  "active": "77b5d930ccb82103",
   "lastOpenFiles": [
+    "Daily Notes/2026-02-16.md",
+    "Daily Notes/2026-06-24.md",
+    "Daily Notes/2026-06-25.md",
+    "Daily Notes/2026-07-01.md",
     "copilot/copilot-custom-prompts/Translate to Chinese.md",
     "copilot/copilot-custom-prompts/Summarize.md",
     "copilot/copilot-custom-prompts/Simplify.md",
@@ -265,10 +253,6 @@
     "Literature notes/SCTP Protocol/SS7 over SCTP.md",
     "Literature notes/SCTP Protocol/SIGTRAN Architecture.md",
     "Literature notes/SCTP Protocol/MAP roaming messages.md",
-    "Literature notes/SCTP Protocol/Learning Roadmap.md",
-    "Literature notes/SCTP Protocol/How SCTP works internally.md",
-    "Literature notes/SCTP Protocol/Go implementation.md",
-    "Literature notes/SCTP Protocol/Diameter over SCTP.md",
     "Literature notes/SCTP Protocol",
     "Literature notes/Protocol Buffer",
     "Literature notes/Telecom/Event Driven Design",
