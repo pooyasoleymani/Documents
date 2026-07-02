@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2026-02-16.md",
+                "file": "Literature notes/Protocol Buffer/Install Protobuf.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-02-16"
+              "title": "Install Protobuf"
             }
           }
         ],
@@ -215,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2026-02-16.md",
+                "file": "Literature notes/Protocol Buffer/Install Protobuf.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2026-02-16"
+              "title": "Outline of Install Protobuf"
             }
           },
           {
@@ -271,7 +271,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 417.5
+    "width": 296.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -286,8 +287,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "12d83b769816be49",
+  "active": "77b5d930ccb82103",
   "lastOpenFiles": [
+    "Literature notes/Software Engineering",
+    "Daily Notes/2026-02-16.md",
     "Literature notes/Telecom/Event Driven Design/What is NATS ?.md",
     "Literature notes/Telecom/Event Driven Design/Installing NATS JetStream.md",
     "Literature notes/Telecom/Event Driven Design/Building the Broker Package.md",
@@ -318,8 +321,6 @@
     "Literature notes/VIM/Vim.md",
     "Literature notes/Golang/Study Plan/Worker Pool Pattern (Production Style Concurrency).md",
     "Literature notes/VIM",
-    "Literature notes/Golang/Study Plan/The Go Fundamentals.md",
-    "Literature notes/Golang/Study Plan/Testing Real Database.md",
     "Literature notes/SCTP Protocol",
     "Literature notes/Linux",
     "copilot/copilot-conversations",
