@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Protocol Buffer/Install Protobuf.md",
+                "file": "Daily Notes/2026-02-16.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Install Protobuf"
+              "title": "2026-02-16"
             }
           }
         ],
@@ -215,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Protocol Buffer/Install Protobuf.md",
+                "file": "Daily Notes/2026-02-16.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Install Protobuf"
+              "title": "Outline of 2026-02-16"
             }
           },
           {
@@ -267,12 +267,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 417.5,
-    "collapsed": true
+    "width": 417.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -287,10 +286,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "b5684bd8c090665e",
+  "active": "12d83b769816be49",
   "lastOpenFiles": [
-    "Daily Notes/2026-06-22.md",
     "Literature notes/Protocol Buffer/Install Protobuf.md",
+    "Daily Notes/2026-06-22.md",
     "Daily Notes/2026-06-24.md",
     "Daily Notes/2026-07-02.md",
     "Literature notes/Protocol Buffer/What is serialization ?.md",
