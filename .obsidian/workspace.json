@@ -240,11 +240,10 @@
   },
   "active": "8cedaa88421e0b3e",
   "lastOpenFiles": [
-    "Literature notes/Software Engineering/Algorithms/Complexity Analysis.md",
     "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization/Software Efficiency Matters.md",
     "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization",
     "Literature notes/Software Engineering/References",
-    "Literature notes/Fundamentals of Software Architecture/Refrences/Identifying Architecture Characteristics.md",
+    "Literature notes/Software Engineering/Algorithms/Complexity Analysis.md",
     "Literature notes/Software Engineering/Algorithms",
     "Literature notes/Software Engineering",
     "Literature notes/Protocol Buffer/Install Protobuf.md",
@@ -271,15 +270,12 @@
     "copilot/copilot-custom-prompts/Explain like I am 5.md",
     "copilot/copilot-custom-prompts/Emojify.md",
     "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
-    "copilot/copilot-custom-prompts/Clip Web Page.md",
     "copilot/copilot-custom-prompts",
     "copilot/copilot-conversations",
     "copilot",
     "Literature notes/SCTP Protocol",
     "Literature notes/Protocol Buffer",
     "Literature notes/Telecom/Event Driven Design",
-    "Literature notes/Telecom",
-    "Literature notes/VIM",
     "Literature notes/WarGame/Linux Command.canvas"
   ]
 }
