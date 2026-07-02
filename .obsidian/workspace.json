@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Software Engineering/Algorithms/Complexity Analysis.md",
+                "file": "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization/Software Efficiency Matters.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Complexity Analysis"
+              "title": "Software Efficiency Matters"
             }
           }
         ],
@@ -137,7 +137,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5
+    "width": 276.5
   },
   "right": {
     "id": "7965c69a42e62fbd",
@@ -215,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Software Engineering/Algorithms/Complexity Analysis.md",
+                "file": "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization/Software Efficiency Matters.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Complexity Analysis"
+              "title": "Outline of Software Efficiency Matters"
             }
           },
           {
@@ -289,8 +289,11 @@
   },
   "active": "b5684bd8c090665e",
   "lastOpenFiles": [
-    "Literature notes/Fundamentals of Software Architecture/Refrences/Identifying Architecture Characteristics.md",
     "Literature notes/Software Engineering/Algorithms/Complexity Analysis.md",
+    "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization/Software Efficiency Matters.md",
+    "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization",
+    "Literature notes/Software Engineering/References",
+    "Literature notes/Fundamentals of Software Architecture/Refrences/Identifying Architecture Characteristics.md",
     "Literature notes/Software Engineering/Algorithms",
     "Literature notes/Fundamentals of Software Architecture/Refrences/Architecture Characteristics Defined.md",
     "Literature notes/Fundamentals of Software Architecture/Refrences/Architectural Thinking.md",
@@ -321,10 +324,7 @@
     "Literature notes/Protocol Buffer/Protocol Buffers Roadmap.md",
     "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
     "Literature notes/Protocol Buffer",
-    "Literature notes/Linux/tar command.md",
     "Literature notes/VIM",
-    "Literature notes/SCTP Protocol",
-    "Literature notes/Linux",
     "Literature notes/WarGame/Linux Command.canvas"
   ]
 }
