@@ -54,9 +54,33 @@
               "icon": "lucide-file",
               "title": "What is serialization ?"
             }
+          },
+          {
+            "id": "b5684bd8c090665e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Literature notes/Protocol Buffer/Install Protobuf.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Install Protobuf"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -191,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Protocol Buffer/What is serialization ?.md",
+                "file": "Literature notes/Protocol Buffer/Install Protobuf.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of What is serialization ?"
+              "title": "Outline of Install Protobuf"
             }
           },
           {
@@ -263,10 +287,14 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "baae5b49e0b060e3",
+  "active": "b5684bd8c090665e",
   "lastOpenFiles": [
-    "Literature notes/Protocol Buffer/Protocol Buffers Roadmap.md",
+    "Daily Notes/2026-06-22.md",
+    "Literature notes/Protocol Buffer/Install Protobuf.md",
+    "Daily Notes/2026-06-24.md",
+    "Daily Notes/2026-07-02.md",
     "Literature notes/Protocol Buffer/What is serialization ?.md",
+    "Literature notes/Protocol Buffer/Protocol Buffers Roadmap.md",
     "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
     "Literature notes/Protocol Buffer",
     "Literature notes/Linux/tar command.md",
@@ -289,10 +317,6 @@
     "Literature notes/Golang/Study Plan/context in Go (real-world usage).md",
     "Literature notes/Golang/Study Plan/Context + Database Queries.md",
     "Literature notes/Golang/Study Plan/Context.md",
-    "Literature notes/Golang/Study Plan/Configuration Management.md",
-    "Literature notes/Golang/Study Plan/Command-Line Arguments.md",
-    "Literature notes/Golang/Study Plan/Channels (Go’s main communication system).md",
-    "Literature notes/CMake/CMake Study Plan.md",
     "Literature notes/SCTP Protocol",
     "Literature notes/Linux",
     "copilot/copilot-conversations",
