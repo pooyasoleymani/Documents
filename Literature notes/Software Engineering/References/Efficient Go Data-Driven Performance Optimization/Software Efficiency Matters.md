@@ -28,3 +28,12 @@ We did not calculate energy, CPU time, heat, and other efficiencies.
 # Calculate performance
 `performance = ( accuracy * efficiency * speed )`
 
+---
+# Common Efficiency Misconceptions
+In *code reviews* or *sprint plannings*, to *ignore* the *efficiency* of the software “for now” is staggering.
+
+## Efficient code NOT Readable
+One of the ultra fast optimization can be *low-level* implementations with a bunch of *byte shifts*, *magic byte* , *padding*, and *unrolled loops*. Or worse, *pure assembly code* linked to your application.
+Its make code *unreadable*.
+
+---
