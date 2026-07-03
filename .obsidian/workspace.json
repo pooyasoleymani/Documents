@@ -80,12 +80,12 @@
             }
           },
           {
-            "id": "83ccda8abaea117c",
+            "id": "661b12c6f8b9a3d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Interfaces + Dependency Injection + Mocking.md",
+                "file": "Literature notes/Software Engineering/Algorithms/Complexity Analysis.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Interfaces + Dependency Injection + Mocking"
+              "title": "Complexity Analysis"
             }
           }
         ],
@@ -136,11 +136,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Database Migrations",
+                "query": "tar -c",
                 "matchingCase": false,
-                "explainSearch": false,
+                "explainSearch": true,
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "byCreatedTimeReverse"
               },
               "icon": "lucide-search",
@@ -239,13 +239,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Interfaces + Dependency Injection + Mocking.md",
+                "file": "Literature notes/Software Engineering/Algorithms/Complexity Analysis.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Interfaces + Dependency Injection + Mocking"
+              "title": "Outline of Complexity Analysis"
             }
           },
           {
@@ -311,10 +311,12 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "83ccda8abaea117c",
+  "active": "661b12c6f8b9a3d1",
   "lastOpenFiles": [
-    "Literature notes/Golang/Study Plan/Testing in Go.md",
     "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization/Software Efficiency Matters.md",
+    "Literature notes/Linux/tar command.md",
+    "Literature notes/Golang/Study Plan/Interfaces + Dependency Injection + Mocking.md",
+    "Literature notes/Golang/Study Plan/Testing in Go.md",
     "Literature notes/Software Engineering/Algorithms/Complexity Analysis.md",
     "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization",
     "Literature notes/Software Engineering/References",
@@ -345,8 +347,6 @@
     "Daily Notes/2026-06-22.md",
     "Daily Notes/2026-06-24.md",
     "Daily Notes/2026-07-02.md",
-    "Literature notes/Protocol Buffer/What is serialization ?.md",
-    "Literature notes/Protocol Buffer/Protocol Buffers Roadmap.md",
     "Literature notes/Protocol Buffer",
     "Literature notes/VIM",
     "Literature notes/WarGame/Linux Command.canvas"

@@ -430,43 +430,28 @@ Don't worry about understanding every detail yet. We'll revisit these books thro
 Without searching online, answer these questions in your own words:
 
 1. Why is `O(log n)` generally better than `O(n)`?
-    
 2. Why doesn't Big O tell the whole performance story?
-    
 3. What is amortized analysis?
-    
 4. Why are arrays usually faster than linked lists in practice?
-    
 5. Give one example where using more memory improves performance.
-    
 
 ## Coding (Go)
 
 Implement the following without using helper libraries:
 
 1. Linear Search
-    
 2. Binary Search (iterative)
-    
 3. Binary Search (recursive)
-    
 4. Reverse an array in place
-    
 5. Rotate an array left by `k`
-    
 6. Rotate an array right by `k`
-    
 
 For each function:
 
 - Analyze time complexity.
-    
 - Analyze space complexity.
-    
 - Write unit tests.
-    
 - Add benchmarks using `go test -bench`.
-    
 
 ---
 
@@ -478,13 +463,422 @@ One question to think about before our next lesson:
 
 Don't just answer "because of cache." I want you to explain **how the CPU cache, memory hierarchy, and pointer chasing** influence execution time.
 
-When you're ready, send me:
+---
 
-1. Your answers to the theory questions.
+# Theory Review
+
+## 1. Why is O(log n) generally better than O(n)?
+
+Your answer:
+
+> because (log n) make 10 power x to liner x
+
+**Score: 6/10**
+
+The intuition is there, but the explanation isn't mathematically correct.
+
+A better explanation is:
+
+> An O(log n) algorithm reduces the search space by a constant factor on each step (typically half). As the input size grows, the number of operations increases very slowly. For example, searching one million sorted elements requires only about 20 comparisons with binary search, while linear search may require up to one million comparisons.
+
+Notice I didn't even mention powers of ten.
+
+---
+
+## 2. Why doesn't Big O tell the whole story?
+
+Your answer:
+
+> because it just about grows not efficiency and recourse like CPU cache ,memory, ...
+
+**Score: 8.5/10**
+
+Very good.
+
+I would expand it:
+
+Big O ignores:
+
+- constant factors
+- cache locality
+- branch prediction
+- compiler optimizations
+- SIMD/vectorization
+- memory allocation cost
+- system calls
+- I/O latency
+
+Two algorithms can both be **O(n)** while one is 10–100× faster.
+
+
+---
+
+## 3. What is amortized analysis?
+
+Your answer:
+
+> it about average cost per append
+
+**Score: 7/10**
+
+Correct idea, but incomplete.
+
+A better definition:
+
+> Amortized analysis studies the average cost of an operation over a sequence of operations. Some individual operations may be expensive (such as resizing a dynamic array), but when spread across many operations, the average cost remains low.
+
+---
+
+## 4. Why are arrays usually faster?
+
+Your answer:
+
+> because of locality ...
+
+**Score: 9/10**
+
+Excellent.
+
+You mentioned:
+
+- contiguous memory ✓
     
-2. Your Go implementation.
+- cache ✓
     
-3. Your benchmark results.
+- pointer overhead ✓
     
 
-I'll review them as if they were submitted in a professional code review. From there, we'll move to **Lesson 1.2: Arrays, Memory Layout, and Cache-Friendly Programming**, where we'll begin connecting algorithm analysis to real hardware.
+Exactly what I wanted.
+
+Later we'll discuss:
+
+- cache lines
+    
+- TLB
+    
+- hardware prefetchers
+    
+- NUMA
+    
+
+---
+
+# Mentor Challenge
+
+Your answer:
+
+> CPU just store first address...
+
+You're very close, but here's the key misconception.
+
+The CPU **does not store the entire array**.
+
+Instead:
+
+When you iterate over an array:
+
+```
+A0 A1 A2 A3 A4 A5 A6 A7
+```
+
+The CPU loads an entire **cache line**.
+
+Example:
+
+```
+64-byte cache line
+
+------------------------------------
+A0 A1 A2 A3 A4 A5 A6 A7
+------------------------------------
+```
+
+So reading `A0` often means `A1` through `A7` are already in the cache.
+
+---
+
+Now consider a linked list:
+
+```
+Node
+
+value
+next ---------> another memory page
+
+```
+
+The next node might be:
+
+```
+0x1000
+
+↓
+
+0xFF003000
+
+↓
+
+0xAA001120
+
+↓
+
+0x123451000
+```
+
+The CPU cannot predict these addresses.
+
+Each pointer dereference may require another memory fetch.
+
+That delay is called a **cache miss**.
+
+Modern CPUs can spend hundreds of cycles waiting for RAM.
+
+So the real comparison isn't:
+
+```
+O(n)
+
+vs
+
+O(n)
+```
+
+It's more like:
+
+```
+Array
+
+1 cache miss
+↓
+
+64 bytes loaded
+↓
+
+8 integers ready
+```
+
+versus
+
+```
+Linked List
+
+Read node
+
+↓
+
+Cache miss
+
+↓
+
+Read next pointer
+
+↓
+
+Cache miss
+
+↓
+
+Read next node
+
+↓
+
+Cache miss
+```
+
+The algorithmic complexity is identical.
+
+The hardware cost is not.
+
+This distinction is one of the biggest differences between interview knowledge and systems engineering.
+
+---
+
+# Code Review
+
+I extracted your project and reviewed the search implementations.
+
+## Good
+
+✓ Clear package separation.
+
+✓ Correct binary search midpoint calculation:
+
+```go
+mid := low + (high-low)/2
+```
+
+This avoids integer overflow in languages where it matters.
+
+✓ Complexity comments are present.
+
+These are good habits.
+
+---
+
+## Problems
+
+### 1. `creatArray` has a bug
+
+```go
+arr := make([]int, n)
+
+for i := range n {
+    arr = append(arr, i)
+}
+```
+
+This creates a slice with **length n**, then appends **another n** elements.
+
+For `n = 5`, you get:
+
+```
+[0 0 0 0 0 0 1 2 3 4]
+```
+
+What you wanted was either:
+
+```go
+arr := make([]int, n)
+
+for i := range arr {
+    arr[i] = i
+}
+```
+
+or
+
+```go
+arr := make([]int, 0, n)
+
+for i := 0; i < n; i++ {
+    arr = append(arr, i)
+}
+```
+
+---
+
+### 2. Typo
+
+```
+BinarySerch
+```
+
+should be
+
+```
+BinarySearch
+```
+
+Engineers care about naming.
+
+---
+
+### 3. Recursive implementation bug
+
+```go
+if high > low
+```
+
+This fails when:
+
+```
+low == high
+```
+
+which is still a valid search interval.
+
+It should be
+
+```go
+if low <= high
+```
+
+---
+
+### 4. Recursive test
+
+You're testing:
+
+```go
+BinarySerch(...)
+```
+
+instead of
+
+```go
+BinarySerchRecursive(...)
+```
+
+So the recursive implementation is never actually tested.
+
+---
+
+### 5. Benchmark
+
+Current benchmark:
+
+```go
+BinarySerch(999, array)
+```
+
+Only benchmarks a successful lookup.
+
+Also benchmark:
+
+- first element
+    
+- last element
+    
+- missing element
+    
+
+Different workloads expose different behavior.
+
+---
+
+### 6. Missing edge cases
+
+Your tests should include:
+
+```
+empty slice
+
+one element
+
+duplicate elements
+
+not found
+
+first element
+
+last element
+
+negative numbers
+```
+
+A senior engineer assumes code will be run with adversarial inputs.
+
+---
+
+# Overall Evaluation
+
+Theory: **7.8/10**
+
+Go code: **7.5/10**
+
+Engineering habits: **8.5/10**
+
+Overall: **8/10**
+
+For a first lesson, this is a solid result. You have the right mindset, but we need to tighten your precision in explanations and be more systematic with testing and edge cases.
+
+---
+
+# Extra Challenge (Not Required)
+
+Think about this before the next lesson:
+
+> Binary search is **O(log n)**, while a hash table lookup is often **O(1)**. Why do databases such as PostgreSQL, file systems, and search engines still rely heavily on B-trees (a form of balanced search tree) instead of replacing everything with hash tables?
+
+Don't answer immediately. We'll revisit this after you've learned more about memory layout, caches, disks, and storage engines. It's one of the classic engineering trade-off questions.
+
