@@ -396,13 +396,9 @@ You receive:
 Should you store them in:
 
 - Linked List?
-    
 - Array?
-    
 - Queue?
-    
 - Ring Buffer?
-    
 
 Big O alone cannot answer this. You need to consider cache behavior, allocation overhead, contention, and throughput.
 
@@ -542,24 +538,17 @@ Excellent.
 You mentioned:
 
 - contiguous memory ✓
-    
 - cache ✓
-    
 - pointer overhead ✓
-    
 
 Exactly what I wanted.
 
 Later we'll discuss:
 
 - cache lines
-    
 - TLB
-    
 - hardware prefetchers
-    
 - NUMA
-    
 
 ---
 
@@ -826,11 +815,8 @@ Only benchmarks a successful lookup.
 Also benchmark:
 
 - first element
-    
 - last element
-    
 - missing element
-    
 
 Different workloads expose different behavior.
 
@@ -882,3 +868,245 @@ Think about this before the next lesson:
 
 Don't answer immediately. We'll revisit this after you've learned more about memory layout, caches, disks, and storage engines. It's one of the classic engineering trade-off questions.
 
+
+---
+
+# What you got right
+
+You mentioned:
+- ✅ Sorted data
+- ✅ No hash computation
+- ✅ Less memory overhead
+- ✅ Better for queries
+All of these are valid points.
+
+But there are deeper reasons why databases don't simply replace B-trees with hash tables.
+
+---
+# Think like a database engineer
+
+Imagine you're implementing PostgreSQL.
+
+Users execute queries like:
+
+```sql
+SELECT * FROM users WHERE id = 100;
+```
+
+A hash table is excellent here.
+
+---
+
+Then they execute:
+
+```sql
+SELECT * FROM users
+WHERE id > 100;
+```
+
+Can a hash table help?
+
+No.
+
+Hash functions destroy ordering.
+
+Once you hash:
+
+```
+1 2 3 4 5 6 7
+```
+
+it becomes something like
+
+```
+82
+13
+991
+44
+201
+...
+```
+
+There is no relationship between neighboring keys anymore.
+
+A B-tree preserves order.
+
+---
+
+## Range Queries
+
+Databases constantly execute:
+
+```sql
+WHERE age BETWEEN 20 AND 30
+```
+
+```sql
+ORDER BY created_at
+```
+
+```sql
+LIMIT 100
+```
+
+```sql
+MIN()
+```
+
+```sql
+MAX()
+```
+
+A B-tree performs all of these efficiently.
+
+A hash table cannot.
+
+---
+
+## Sequential Reads
+
+Imagine reading one million sorted records.
+
+A B-tree stores keys in sorted pages.
+
+The storage engine can read large contiguous chunks from disk.
+
+Hash tables scatter data.
+
+That causes:
+
+- more random I/O
+- worse cache locality
+- more page faults
+
+---
+
+## Disk I/O
+
+This is the biggest reason.
+
+When a database reads from disk, it's not comparing CPU instructions anymore.
+
+It's waiting for storage.
+
+A traditional hard drive might take:
+
+```
+CPU instruction
+
+1 ns
+```
+
+```
+RAM
+
+100 ns
+```
+
+```
+SSD
+
+100,000 ns
+```
+
+```
+Hard Disk
+
+10,000,000 ns
+```
+
+- One disk seek can be millions of CPU cycles.
+- B-trees are specifically designed to minimize disk accesses.
+- Each node is approximately the size of a disk page (commonly 4 KB, 8 KB, or 16 KB).
+- Instead of traversing millions of nodes, a B-tree can locate data in just a few page reads.
+
+---
+
+## Balanced Height
+
+A B-tree has a very high branching factor.
+
+Imagine:
+
+```
+Binary Tree
+
+2 children
+```
+
+versus
+
+```
+B-tree
+
+300 children
+```
+
+If you have one billion records:
+
+Binary tree:
+
+```
+~30 levels
+```
+
+B-tree:
+
+```
+~3–4 levels
+```
+
+That's why databases use B-trees rather than simple binary search trees.
+
+---
+
+## Hash Tables Also Have Costs
+
+Hash tables are not "free."
+
+They introduce:
+
+- hash computation
+- collision handling
+- resizing
+- additional memory
+- degraded performance with poor hash functions
+
+So although the average lookup is O(1), the constant factors and memory overhead are not negligible.
+
+---
+
+# The Real Senior Engineer Answer
+
+If I asked this in an interview, an answer that would impress me would sound like this:
+
+> Hash tables provide excellent average-case O(1) equality lookups, but they do not preserve key ordering, making them unsuitable for range queries, sorting, and ordered iteration. B-trees maintain sorted keys, support efficient range scans, and are optimized for storage devices by storing many keys per node, reducing disk I/O and improving cache locality. Databases prioritize minimizing page reads and supporting diverse query patterns over achieving the lowest theoretical lookup complexity.
+
+Notice something important:
+
+**We didn't compare O(1) vs. O(log n).**
+
+Instead, we asked:
+
+- What kind of queries will the application run?
+- How is the data stored?
+- What is the bottleneck (CPU, RAM, or disk)?
+- Which trade-offs matter?
+That is the mindset of a systems engineer.
+
+---
+
+## An observation about your progress
+
+After just one lesson, I've noticed a pattern in how you think:
+
+You naturally focus on **implementation** ("hashing has overhead", "linked lists use pointers"). That's a strength.
+
+What we'll work on over the coming months is developing the **systems perspective**:
+
+1. Start with the workload ("What operations are common?")
+2. Identify the bottleneck (CPU, memory, network, or disk)
+3. Analyze the trade-offs
+4. Choose the data structure or algorithm
+
+This approach is what distinguishes engineers who can build reliable, high-performance systems from those who mainly implement algorithms.
