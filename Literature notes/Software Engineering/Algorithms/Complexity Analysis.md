@@ -2,6 +2,8 @@
 Created Date: 2026-07-02
 tags:
   - software_engineering
+Related: "[[Software Efficiency Matters]]"
+Next: "[[Memory Layout & Cache-Friendly Programming]]"
 ---
 ---
 A *senior* engineer doesn't ask:
