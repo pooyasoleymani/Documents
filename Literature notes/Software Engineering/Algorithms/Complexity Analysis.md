@@ -303,7 +303,7 @@ The **asymptotic** complexity is the same.
 
 Which is **faster**?
 
-In practice, arrays are often much faster because they are stored *contiguously* in *memory*, making better use of *CPU caches*. **Linked** lists require *pointer* chasing, which can cause many cache misses.
+In practice, arrays are often much faster because they are stored *contiguously* in *memory*, making better use of *CPU caches*. **Linked** lists require *pointer* *chasing*, which can cause many *cache misses*.
 
 Understanding *hardware* is essential to understanding performance.
 
@@ -345,7 +345,7 @@ Examples include:
 
 # 10. Locality of Reference
 
-Modern CPUs fetch data in cache lines (commonly 64 bytes).
+Modern CPUs fetch data in *cache lines* (commonly *64 bytes*).
 
 When data is contiguous:
 
@@ -366,13 +366,11 @@ each access may require another trip to main memory.
 This is one reason arrays outperform linked lists in many workloads despite identical Big O complexity.
 
 ---
-
 # 11. Engineering Trade-offs
 
 There is no universally best data structure.
 
 Ask:
-
 - How large is the dataset?
 - Are reads more common than writes?
 - Is memory constrained?
@@ -384,7 +382,6 @@ Ask:
 These questions distinguish engineering from simply implementing algorithms.
 
 ---
-
 # Real-World Example
 
 Suppose you are building an SMS gateway.
@@ -412,10 +409,8 @@ This is the level of reasoning we'll develop throughout the course.
 
 Read the first chapter of:
 
-- **Efficient Go: Data-Driven Performance Optimization** (focus on performance mindset and measurement).
-    
+- **Efficient Go: Data-Driven Performance Optimization** (focus on performance mindset and measurement).    [[Software Efficiency Matters]]
 - **Introducing Go** (review Go's basic execution model if needed).
-    
 
 Don't worry about understanding every detail yet. We'll revisit these books throughout the roadmap.
 
