@@ -613,7 +613,7 @@ The next node might be:
 
 The CPU cannot predict these addresses.
 
-Each pointer dereference may require another memory fetch.
+Each pointer *dereference* may require another *memory fetch*.
 
 That delay is called a **cache miss**.
 

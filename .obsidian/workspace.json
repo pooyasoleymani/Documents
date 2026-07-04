@@ -222,7 +222,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 417.5
+    "width": 417.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,10 +240,10 @@
   },
   "active": "8cedaa88421e0b3e",
   "lastOpenFiles": [
+    "Literature notes/Software Engineering/Algorithms/Memory Layout & Cache-Friendly Programming.md",
     "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization/Software Efficiency Matters.md",
     "Literature notes/Software Engineering/Algorithms/Complexity Analysis.md",
     "Literature notes/SCTP Protocol/What problem SCTP solves.md",
-    "Literature notes/Software Engineering/Algorithms/Memory Layout & Cache-Friendly Programming.md",
     "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization",
     "Literature notes/Software Engineering/References",
     "Literature notes/Software Engineering/Algorithms",
