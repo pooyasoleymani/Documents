@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/SCTP Protocol/What problem SCTP solves.md",
+                "file": "Literature notes/Software Engineering/Algorithms/Complexity Analysis.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "What problem SCTP solves"
+              "title": "Complexity Analysis"
             }
           }
         ]
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/SCTP Protocol/What problem SCTP solves.md",
+                "file": "Literature notes/Software Engineering/Algorithms/Complexity Analysis.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of What problem SCTP solves"
+              "title": "Outline of Complexity Analysis"
             }
           },
           {
@@ -239,6 +239,7 @@
   },
   "active": "8cedaa88421e0b3e",
   "lastOpenFiles": [
+    "Literature notes/SCTP Protocol/What problem SCTP solves.md",
     "Literature notes/Software Engineering/Algorithms/Memory Layout & Cache-Friendly Programming.md",
     "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization/Software Efficiency Matters.md",
     "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization",
@@ -268,7 +269,6 @@
     "copilot/copilot-custom-prompts/Generate glossary.md",
     "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
     "copilot/copilot-custom-prompts/Explain like I am 5.md",
-    "copilot/copilot-custom-prompts/Emojify.md",
     "copilot/copilot-custom-prompts",
     "copilot/copilot-conversations",
     "copilot",
