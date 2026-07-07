@@ -71,10 +71,10 @@ Reality is much more complex.
        RAM (~100 ns)
             │
             ▼
- SSD (~100 μs)
+	 SSD (~100 μs)
             │
             ▼
- HDD (~10 ms)
+	 HDD (~10 ms)
 ```
 
 Notice something.
@@ -157,7 +157,7 @@ This is called **spatial locality**.
 
 Imagine:
 
-```
+```go
 for _, x := range arr {
     sum += x
 }
@@ -305,11 +305,8 @@ func main() {
 Properties:
 
 - Very fast allocation.
-    
 - Very fast deallocation.
-    
 - Managed automatically by function calls.
-    
 
 ---
 
@@ -324,11 +321,8 @@ or in Go, values that escape the function.
 Properties:
 
 - Larger.
-    
 - Slower to allocate.
-    
 - Managed by the garbage collector.
-    
 
 Heap allocation is often more expensive than stack allocation.
 
@@ -382,15 +376,10 @@ The ring buffer.
 Not because of Big O, but because:
 
 - contiguous memory
-    
 - fewer allocations
-    
 - better cache locality
-    
 - fewer pointer dereferences
-    
 - better branch prediction
-    
 
 This is why high-performance systems like packet processors, trading systems, and message queues frequently use ring buffers.
 
@@ -401,9 +390,7 @@ This is why high-performance systems like packet processors, trading systems, an
 Continue with:
 
 - **Efficient Go**: Focus on chapters discussing benchmarking and performance mindset.
-    
 - **Introducing Go**: Review slices and arrays, paying attention to how they differ.
-    
 
 ---
 
@@ -414,19 +401,12 @@ Continue with:
 Answer these in your own words:
 
 1. Why is RAM much slower than CPU registers?
-    
 2. What is a cache line?
-    
 3. Why does sequential memory access improve performance?
-    
 4. What is pointer chasing?
-    
 5. Why can an array outperform a linked list even though both have O(n) traversal?
-    
 6. What are spatial and temporal locality?
-    
 7. What is the difference between stack and heap memory?
-    
 
 ---
 
@@ -441,23 +421,14 @@ algorithms/memory
 Implement:
 
 1. Reverse an array **in place**.
-    
 2. Reverse a slice by creating a **new** slice.
-    
 3. Rotate left.
-    
 4. Rotate right.
-    
 5. Copy a slice manually (without using `copy`).
-    
 6. Compare manual copy vs. built-in `copy` using benchmarks.
-    
 7. Benchmark iterating over:
-    
     - a slice (`[]int`)
-        
     - a linked list implementation (your own from a later lesson, or the standard library for an initial comparison)
-        
 
 Document the time complexity and expected memory behavior for each.
 
@@ -468,17 +439,11 @@ Document the time complexity and expected memory behavior for each.
 Implement a minimal `Vector` class supporting:
 
 - Dynamic growth
-    
 - `push_back`
-    
 - `pop_back`
-    
 - `reserve`
-    
 - `size`
-    
 - `capacity`
-    
 
 Do **not** use `std::vector` internally. This exercise will prepare you for understanding Go slices.
 
@@ -489,9 +454,7 @@ Do **not** use `std::vector` internally. This exercise will prepare you for unde
 Write a script that compares:
 
 - Iterating over a `list`
-    
 - Iterating over a `collections.deque`
-    
 
 Measure execution time using the `timeit` module and explain the observed differences.
 
@@ -504,9 +467,7 @@ Suppose you are designing a high-throughput TCP server expected to handle **5 mi
 You have two queue implementations:
 
 - A linked-list queue.
-    
 - A circular buffer (ring buffer) backed by an array.
-    
 
 **Without looking anything up**, explain which one you would choose and justify your decision using the concepts from Lessons 1.1 and 1.2—not just Big O, but memory layout, cache behavior, allocation patterns, and CPU efficiency.
 
