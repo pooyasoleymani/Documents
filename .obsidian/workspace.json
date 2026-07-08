@@ -222,7 +222,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 417.5
+    "width": 417.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,9 +241,10 @@
   "active": "8cedaa88421e0b3e",
   "lastOpenFiles": [
     "Literature notes/Software Engineering/Algorithms/Complexity Analysis.md",
+    "Literature notes/Software Engineering/Algorithms/Arrays.md",
+    "Literature notes/Software Engineering/Algorithms/Memory Layout & Cache-Friendly Programming.md",
     "Daily Notes/2026-07-07.md",
     "Daily Notes/2026-07-06.md",
-    "Literature notes/Software Engineering/Algorithms/Memory Layout & Cache-Friendly Programming.md",
     "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization/Software Efficiency Matters.md",
     "Literature notes/SCTP Protocol/What problem SCTP solves.md",
     "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization",
@@ -268,7 +270,6 @@
     "copilot/copilot-custom-prompts/Make shorter.md",
     "copilot/copilot-custom-prompts/Make longer.md",
     "copilot/copilot-custom-prompts/Generate table of contents.md",
-    "copilot/copilot-custom-prompts/Generate glossary.md",
     "copilot/copilot-custom-prompts",
     "copilot/copilot-conversations",
     "copilot",
