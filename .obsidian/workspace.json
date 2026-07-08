@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Software Engineering/Algorithms/Complexity Analysis.md",
+                "file": "Literature notes/Software Engineering/Algorithms/Memory Layout & Cache-Friendly Programming.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Complexity Analysis"
+              "title": "Memory Layout & Cache-Friendly Programming"
             }
           }
         ]
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Software Engineering/Algorithms/Complexity Analysis.md",
+                "file": "Literature notes/Software Engineering/Algorithms/Memory Layout & Cache-Friendly Programming.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Complexity Analysis"
+              "title": "Outline of Memory Layout & Cache-Friendly Programming"
             }
           },
           {
@@ -222,8 +222,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 417.5,
-    "collapsed": true
+    "width": 417.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,11 +239,11 @@
   },
   "active": "8cedaa88421e0b3e",
   "lastOpenFiles": [
+    "Literature notes/Software Engineering/Algorithms/Complexity Analysis.md",
     "Daily Notes/2026-07-07.md",
     "Daily Notes/2026-07-06.md",
     "Literature notes/Software Engineering/Algorithms/Memory Layout & Cache-Friendly Programming.md",
     "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization/Software Efficiency Matters.md",
-    "Literature notes/Software Engineering/Algorithms/Complexity Analysis.md",
     "Literature notes/SCTP Protocol/What problem SCTP solves.md",
     "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization",
     "Literature notes/Software Engineering/References",
