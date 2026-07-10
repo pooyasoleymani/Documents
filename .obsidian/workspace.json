@@ -104,12 +104,12 @@
             }
           },
           {
-            "id": "eb94050047998fba",
+            "id": "218ca3c687835162",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Testing in Go.md",
+                "file": "Literature notes/CMake/CMake Study Plan.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Testing in Go"
+              "title": "CMake Study Plan"
             }
           }
         ],
@@ -263,13 +263,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/Testing in Go.md",
+                "file": "Literature notes/CMake/CMake Study Plan.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Testing in Go"
+              "title": "Outline of CMake Study Plan"
             }
           },
           {
@@ -335,7 +335,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "eb94050047998fba",
+  "active": "218ca3c687835162",
   "lastOpenFiles": [
     "Literature notes/Software Engineering/Algorithms/Arrays.md",
     "Literature notes/Golang/Study Plan/Testing in Go.md",
