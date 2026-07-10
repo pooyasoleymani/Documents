@@ -452,7 +452,7 @@ For each function:
 
 One question to think about before our next lesson:
 
-> If a linked list and an array both have **O(n)** search complexity, why do production databases, operating systems, and high-performance networking software overwhelmingly prefer arrays and contiguous memory?
+> If a linked list and an array both have **O(n)** search complexity,why do production databases, operating systems, and high-performance networking software overwhelmingly prefer arrays and contiguous memory?
 
 Don't just answer "because of cache." I want you to explain **how the CPU cache, memory hierarchy, and pointer chasing** influence execution time.
 

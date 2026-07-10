@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "20734ecb0ccc1176",
+        "id": "a7851958c57a14f7",
         "type": "tabs",
         "children": [
           {
-            "id": "44f1f4f82bd381a8",
+            "id": "8cedaa88421e0b3e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Protocol Buffer/Protocol Buffers Roadmap.md",
+                "file": "Literature notes/Telecom/Event Driven Design/Building the Broker Package.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -103,8 +103,7 @@
               "title": "Arrays"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -136,11 +135,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "2025",
+                "query": "rune",
                 "matchingCase": false,
-                "explainSearch": true,
+                "explainSearch": false,
                 "collapseAll": false,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse"
               },
               "icon": "lucide-search",
@@ -254,8 +253,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -286,8 +285,8 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "icon": "lucide-ghost",
+              "title": "copilot-chat-view"
             }
           }
         ],
@@ -295,7 +294,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 417.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -320,17 +320,18 @@
     "Daily Notes/roya.md",
     "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization/Software Efficiency Matters.md",
     "Daily Notes/2026-07-06.md",
-    "Literature notes/Linux/tar command.md",
-    "Literature notes/Golang/Study Plan/Interfaces + Dependency Injection + Mocking.md",
-    "Literature notes/Golang/Study Plan/Testing in Go.md",
+    "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization/Software Efficiency Matters.md",
+    "Literature notes/SCTP Protocol/What problem SCTP solves.md",
     "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization",
     "Literature notes/Software Engineering/References",
-    "Literature notes/Fundamentals of Software Architecture/Refrences/Identifying Architecture Characteristics.md",
     "Literature notes/Software Engineering/Algorithms",
-    "Literature notes/Fundamentals of Software Architecture/Refrences/Architecture Characteristics Defined.md",
-    "Literature notes/Fundamentals of Software Architecture/Refrences/Architectural Thinking.md",
-    "Literature notes/Protocol Buffer/Install Protobuf.md",
     "Literature notes/Software Engineering",
+    "Literature notes/Protocol Buffer/Install Protobuf.md",
+    "Literature notes/SCTP Protocol/Learning Roadmap.md",
+    "Literature notes/SCTP Protocol/SS7 over SCTP.md",
+    "Literature notes/SCTP Protocol/Diameter over SCTP.md",
+    "Literature notes/Protocol Buffer/What is serialization ?.md",
+    "Literature notes/Protocol Buffer/Protocol Buffers Roadmap.md",
     "Daily Notes/2026-02-16.md",
     "Literature notes/Telecom/Event Driven Design/What is NATS ?.md",
     "Literature notes/Telecom/Event Driven Design/Installing NATS JetStream.md",
@@ -347,7 +348,7 @@
     "Literature notes/Telecom/Event Driven Design",
     "Literature notes/Telecom",
     "Literature notes/Protocol Buffer",
-    "Literature notes/VIM",
+    "Literature notes/Telecom/Event Driven Design",
     "Literature notes/WarGame/Linux Command.canvas"
   ]
 }

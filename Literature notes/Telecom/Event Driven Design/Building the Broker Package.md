@@ -139,9 +139,7 @@ JetStream
 because:
 
 - Conn manages the TCP connection.
-    
 - JetStream manages streams and consumers.
-    
 
 ---
 
@@ -467,15 +465,10 @@ Publish(
 Benefits:
 
 - cancellation
-    
 - deadlines
-    
 - tracing
-    
 - logging
-    
 - request propagation
-    
 
 In Go, `context.Context` is the standard way to carry request-scoped information.
 
