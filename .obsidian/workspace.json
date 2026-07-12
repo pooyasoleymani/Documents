@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Telecom/Event Driven Design/Building the Broker Package.md",
+                "file": "Literature notes/Telecom/Event Driven Design/Installing NATS JetStream.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Building the Broker Package"
+              "title": "Installing NATS JetStream"
             }
           }
         ]
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Telecom/Event Driven Design/Building the Broker Package.md",
+                "file": "Literature notes/Telecom/Event Driven Design/Installing NATS JetStream.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Building the Broker Package"
+              "title": "Outline of Installing NATS JetStream"
             }
           },
           {
@@ -239,8 +239,8 @@
   },
   "active": "8cedaa88421e0b3e",
   "lastOpenFiles": [
-    "Literature notes/Telecom/Event Driven Design/Installing NATS JetStream.md",
     "Literature notes/Telecom/Event Driven Design/Building the Broker Package.md",
+    "Literature notes/Telecom/Event Driven Design/Installing NATS JetStream.md",
     "Literature notes/Telecom/Event Driven Design/What is NATS ?.md",
     "Literature notes/Software Engineering/Algorithms/Memory Layout & Cache-Friendly Programming.md",
     "Literature notes/Software Engineering/Algorithms/Complexity Analysis.md",
