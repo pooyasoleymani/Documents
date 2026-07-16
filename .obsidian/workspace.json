@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/CMake/CMake Study Plan.md",
+                "file": "Daily Notes/2026-07-16.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CMake Study Plan"
+              "title": "2026-07-16"
             }
           }
         ],
@@ -263,13 +263,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/CMake/CMake Study Plan.md",
+                "file": "Daily Notes/2026-07-16.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CMake Study Plan"
+              "title": "Outline of 2026-07-16"
             }
           },
           {
@@ -337,6 +337,8 @@
   },
   "active": "218ca3c687835162",
   "lastOpenFiles": [
+    "Literature notes/CMake/CMake Study Plan.md",
+    "Daily Notes/2026-07-16.md",
     "Literature notes/Software Engineering/Algorithms/Arrays.md",
     "Literature notes/Golang/Study Plan/Testing in Go.md",
     "Literature notes/Software Engineering/Algorithms/Complexity Analysis.md",
@@ -365,8 +367,6 @@
     "Literature notes/Telecom/SCTP Protocol/What problem SCTP solves.md",
     "Literature notes/Telecom/SCTP Protocol/SS7 over SCTP.md",
     "Literature notes/Telecom/SCTP Protocol/SIGTRAN Architecture.md",
-    "Literature notes/Telecom/SCTP Protocol/MAP roaming messages.md",
-    "Literature notes/Telecom/SCTP Protocol/Learning Roadmap.md",
     "Literature notes/Telecom/SCTP Protocol",
     "Literature notes/Telecom/Protocol Buffer",
     "Literature notes/Telecom/Event Driven Design",
