@@ -61,30 +61,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization/Software Efficiency Matters.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Software Efficiency Matters"
-            }
-          },
-          {
-            "id": "16381216e90aef7f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Literature notes/Software Engineering/Algorithms/Arrays.md",
                 "mode": "source",
                 "source": false,
@@ -102,33 +78,9 @@
               "icon": "lucide-file",
               "title": "Arrays"
             }
-          },
-          {
-            "id": "218ca3c687835162",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/2026-07-16.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-07-16"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -263,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2026-07-16.md",
+                "file": "Literature notes/Software Engineering/Algorithms/Arrays.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2026-07-16"
+              "title": "Outline of Arrays"
             }
           },
           {
@@ -335,18 +287,18 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "218ca3c687835162",
+  "active": "b5684bd8c090665e",
   "lastOpenFiles": [
+    "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization/Software Efficiency Matters.md",
+    "Literature notes/Software Engineering/Algorithms/Arrays.md",
     "Literature notes/CMake/CMake Study Plan.md",
     "Daily Notes/2026-07-16.md",
-    "Literature notes/Software Engineering/Algorithms/Arrays.md",
     "Literature notes/Golang/Study Plan/Testing in Go.md",
     "Literature notes/Software Engineering/Algorithms/Complexity Analysis.md",
     "Literature notes/Software Engineering/Algorithms/Memory Layout & Cache-Friendly Programming.md",
     "Daily Notes/2026-07-07.md",
     "Literature notes/IPP/IPP Study Guide.md",
     "Daily Notes/roya.md",
-    "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization/Software Efficiency Matters.md",
     "Daily Notes/2026-07-06.md",
     "Literature notes/Linux/tar command.md",
     "Literature notes/Golang/Study Plan/Interfaces + Dependency Injection + Mocking.md",
