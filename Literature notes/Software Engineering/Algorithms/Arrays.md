@@ -2,7 +2,7 @@
 Created Date: 2026-07-07
 tags:
   - software_engineering
-Next:
+Next: "[[Dynamic Arrays & Amortized Growth]]"
 Related:
 ---
 ---
