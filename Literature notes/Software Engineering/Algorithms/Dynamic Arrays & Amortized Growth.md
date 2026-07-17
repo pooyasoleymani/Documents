@@ -175,7 +175,6 @@ O(n)
 
 # Chapter 3 — Then Why Is append() O(1)?
 
-Excellent question.
 
 Let's simulate.
 
@@ -505,12 +504,12 @@ Different compilers choose different strategies.
 
 Every runtime balances:
 
-|Goal|Trade-off|
-|---|---|
-|Fewer reallocations|More memory|
-|Less memory|More reallocations|
-|Better cache|Larger copies|
-|Better throughput|Higher memory usage|
+| Goal                | Trade-off           |
+| ------------------- | ------------------- |
+| Fewer reallocations | More memory         |
+| Less memory         | More reallocations  |
+| Better cache        | Larger copies       |
+| Better throughput   | Higher memory usage |
 
 There is no universally optimal growth factor.
 
@@ -664,21 +663,13 @@ This simple optimization can noticeably improve throughput in high-volume system
 Answer in your own words:
 
 1. Why isn't `append()` always O(1)?
-    
 2. Why is the average append cost still O(1)?
-    
 3. Why doesn't Go always double slice capacity?
-    
 4. Why does CPython use a smaller growth factor?
-    
 5. What is memory fragmentation?
-    
 6. Why should you preallocate when possible?
-    
 7. When is doubling the best strategy?
-    
 8. When is doubling a poor strategy?
-    
 
 ---
 
@@ -700,11 +691,8 @@ Back()
 Add benchmarks comparing:
 
 - Preallocated vs non-preallocated insertion
-    
 - Capacity doubling vs 1.5× growth
-    
 - Manual copy vs built-in `copy` (for comparison after your own implementation)
-    
 
 ---
 
@@ -713,13 +701,9 @@ Add benchmarks comparing:
 Improve your `DynamicArray` so it no longer relies on `list.append()`. Instead:
 
 - Maintain your own logical `size` and `capacity`.
-    
 - Allocate a backing list of fixed capacity.
-    
 - Grow it manually when full.
-    
 - Shift elements manually for insertions.
-    
 
 This mirrors what CPython's list implementation does internally.
 
@@ -730,13 +714,9 @@ This mirrors what CPython's list implementation does internally.
 Add to your `Vector<T>`:
 
 - `reserve()`
-    
 - `resize()`
-    
 - `clear()`
-    
 - `shrink_to_fit()`
-    
 
 Then compare your behavior with `std::vector`.
 
@@ -757,13 +737,9 @@ src/runtime/slice.go
 Focus on:
 
 - `growslice`
-    
 - Capacity calculation
-    
 - Allocation
-    
 - Copy behavior
-    
 
 Don't worry if you don't understand everything yet. The goal is to become comfortable reading runtime code.
 
