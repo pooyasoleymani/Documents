@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "20734ecb0ccc1176",
+        "id": "a7851958c57a14f7",
         "type": "tabs",
         "children": [
           {
-            "id": "44f1f4f82bd381a8",
+            "id": "8cedaa88421e0b3e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Protocol Buffer/Protocol Buffers Roadmap.md",
+                "file": "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization/Software Efficiency Matters.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,59 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Protocol Buffers Roadmap"
-            }
-          },
-          {
-            "id": "baae5b49e0b060e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Literature notes/Protocol Buffer/What is serialization ?.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "What is serialization ?"
-            }
-          },
-          {
-            "id": "b5684bd8c090665e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Literature notes/Software Engineering/Algorithms/Dynamic Arrays & Amortized Growth.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Dynamic Arrays & Amortized Growth"
+              "title": "Software Efficiency Matters"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,11 +63,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "2025",
+                "query": "rune",
                 "matchingCase": false,
-                "explainSearch": true,
+                "explainSearch": false,
                 "collapseAll": false,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse"
               },
               "icon": "lucide-search",
@@ -137,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 371.5
   },
   "right": {
     "id": "7965c69a42e62fbd",
@@ -215,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Software Engineering/Algorithms/Dynamic Arrays & Amortized Growth.md",
+                "file": "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization/Software Efficiency Matters.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Dynamic Arrays & Amortized Growth"
+              "title": "Outline of Software Efficiency Matters"
             }
           },
           {
@@ -230,8 +181,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -262,8 +213,8 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "icon": "lucide-ghost",
+              "title": "copilot-chat-view"
             }
           }
         ],
@@ -271,7 +222,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5,
+    "width": 417.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -287,44 +238,44 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "b5684bd8c090665e",
+  "active": "8cedaa88421e0b3e",
   "lastOpenFiles": [
-    "Literature notes/Software Engineering/Algorithms/Arrays.md",
     "Literature notes/Software Engineering/Algorithms/Dynamic Arrays & Amortized Growth.md",
-    "Literature notes/Software Engineering/Algorithms/Complexity Analysis.md",
-    "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization/Software Efficiency Matters.md",
-    "Literature notes/CMake/CMake Study Plan.md",
     "Daily Notes/2026-07-16.md",
-    "Literature notes/Golang/Study Plan/Testing in Go.md",
-    "Literature notes/Software Engineering/Algorithms/Memory Layout & Cache-Friendly Programming.md",
-    "Daily Notes/2026-07-07.md",
-    "Literature notes/IPP/IPP Study Guide.md",
-    "Daily Notes/roya.md",
-    "Daily Notes/2026-07-06.md",
+    "Daily Notes/2026-07-14.md",
+    "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization/Software Efficiency Matters.md",
     "Literature notes/Linux/tar command.md",
-    "Literature notes/Golang/Study Plan/Interfaces + Dependency Injection + Mocking.md",
-    "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization",
-    "Literature notes/Software Engineering/References",
-    "Literature notes/Fundamentals of Software Architecture/Refrences/Identifying Architecture Characteristics.md",
-    "Literature notes/Software Engineering/Algorithms",
-    "Literature notes/Fundamentals of Software Architecture/Refrences/Architecture Characteristics Defined.md",
-    "Literature notes/Fundamentals of Software Architecture/Refrences/Architectural Thinking.md",
-    "Literature notes/Protocol Buffer/Install Protobuf.md",
-    "Literature notes/Software Engineering",
-    "Daily Notes/2026-02-16.md",
-    "Literature notes/Telecom/Event Driven Design/What is NATS ?.md",
     "Literature notes/Telecom/Event Driven Design/Installing NATS JetStream.md",
     "Literature notes/Telecom/Event Driven Design/Building the Broker Package.md",
-    "Literature notes/Telecom/Protocol Buffer/What is serialization ?.md",
-    "Literature notes/Telecom/Protocol Buffer/Protocol Buffers Roadmap.md",
-    "Literature notes/Telecom/SCTP Protocol/What problem SCTP solves.md",
-    "Literature notes/Telecom/SCTP Protocol/SS7 over SCTP.md",
-    "Literature notes/Telecom/SCTP Protocol",
-    "Literature notes/Telecom/Protocol Buffer",
-    "Literature notes/Telecom/Event Driven Design",
-    "Literature notes/Telecom",
+    "Literature notes/Telecom/Event Driven Design/What is NATS ?.md",
+    "Literature notes/Software Engineering/Algorithms/Memory Layout & Cache-Friendly Programming.md",
+    "Literature notes/Software Engineering/Algorithms/Complexity Analysis.md",
+    "Literature notes/Software Engineering/Algorithms/Arrays.md",
+    "Daily Notes/2026-07-07.md",
+    "Daily Notes/2026-07-06.md",
+    "Literature notes/SCTP Protocol/What problem SCTP solves.md",
+    "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization",
+    "Literature notes/Software Engineering/References",
+    "Literature notes/Software Engineering/Algorithms",
+    "Literature notes/Software Engineering",
+    "Literature notes/Protocol Buffer/Install Protobuf.md",
+    "Literature notes/SCTP Protocol/Learning Roadmap.md",
+    "Literature notes/SCTP Protocol/SS7 over SCTP.md",
+    "Literature notes/SCTP Protocol/Diameter over SCTP.md",
+    "Literature notes/Protocol Buffer/What is serialization ?.md",
+    "Literature notes/Protocol Buffer/Protocol Buffers Roadmap.md",
+    "Daily Notes/2026-02-16.md",
+    "Daily Notes/2026-06-24.md",
+    "Daily Notes/2026-06-25.md",
+    "Daily Notes/2026-07-01.md",
+    "copilot/copilot-custom-prompts/Translate to Chinese.md",
+    "copilot/copilot-custom-prompts/Summarize.md",
+    "copilot/copilot-custom-prompts",
+    "copilot/copilot-conversations",
+    "copilot",
+    "Literature notes/SCTP Protocol",
     "Literature notes/Protocol Buffer",
-    "Literature notes/VIM",
+    "Literature notes/Telecom/Event Driven Design",
     "Literature notes/WarGame/Linux Command.canvas"
   ]
 }
