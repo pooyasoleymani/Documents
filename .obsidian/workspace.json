@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization/Software Efficiency Matters.md",
+                "file": "Daily Notes/2026-07-20.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Software Efficiency Matters"
+              "title": "2026-07-20"
             }
           }
         ]
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization/Software Efficiency Matters.md",
+                "file": "Daily Notes/2026-07-20.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Software Efficiency Matters"
+              "title": "Outline of 2026-07-20"
             }
           },
           {
@@ -240,10 +240,11 @@
   },
   "active": "8cedaa88421e0b3e",
   "lastOpenFiles": [
+    "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization/Software Efficiency Matters.md",
+    "Daily Notes/2026-07-20.md",
     "Literature notes/Software Engineering/Algorithms/Dynamic Arrays & Amortized Growth.md",
     "Daily Notes/2026-07-16.md",
     "Daily Notes/2026-07-14.md",
-    "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization/Software Efficiency Matters.md",
     "Literature notes/Linux/tar command.md",
     "Literature notes/Telecom/Event Driven Design/Installing NATS JetStream.md",
     "Literature notes/Telecom/Event Driven Design/Building the Broker Package.md",
@@ -269,7 +270,6 @@
     "Daily Notes/2026-06-25.md",
     "Daily Notes/2026-07-01.md",
     "copilot/copilot-custom-prompts/Translate to Chinese.md",
-    "copilot/copilot-custom-prompts/Summarize.md",
     "copilot/copilot-custom-prompts",
     "copilot/copilot-conversations",
     "copilot",
