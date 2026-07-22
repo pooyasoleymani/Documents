@@ -222,7 +222,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 417.5
+    "width": 417.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -237,7 +238,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "12d83b769816be49",
+  "active": "8cedaa88421e0b3e",
   "lastOpenFiles": [
     "Literature notes/Software Engineering/Algorithms/Memory Layout & Cache-Friendly Programming.md",
     "Literature notes/Software Engineering/Algorithms/Arrays.md",
