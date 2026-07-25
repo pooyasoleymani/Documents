@@ -271,8 +271,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5,
-    "collapsed": true
+    "width": 296.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -287,7 +286,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "b5684bd8c090665e",
+  "active": "77b5d930ccb82103",
   "lastOpenFiles": [
     "Literature notes/Software Engineering/Algorithms/Arrays.md",
     "Literature notes/Software Engineering/Algorithms/Dynamic Arrays & Amortized Growth.md",
