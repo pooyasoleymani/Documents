@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Python/Object Oriented Design/Iterator Pattern.md",
+                "file": "Literature notes/Python/Object Oriented Design/Common Design Patterns.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Iterator Pattern"
+              "title": "Common Design Patterns"
             }
           }
         ]
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Python/Object Oriented Design/Iterator Pattern.md",
+                "file": "Literature notes/Python/Object Oriented Design/Common Design Patterns.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Iterator Pattern"
+              "title": "Outline of Common Design Patterns"
             }
           },
           {
@@ -240,6 +240,9 @@
   },
   "active": "8cedaa88421e0b3e",
   "lastOpenFiles": [
+    "Literature notes/Python/Object Oriented Design/Concurrency.md",
+    "Literature notes/Python/Object Oriented Design/Expecting the Unexpected.md",
+    "Literature notes/Python/Object Oriented Design/Iterator Pattern.md",
     "Literature notes/Golang/Study Plan/Databases (MySQL).md",
     "Literature notes/Golang/Study Plan/Router (chi).md",
     "Literature notes/Golang/Study Plan/Program Structure.md",
@@ -263,9 +266,6 @@
     "Fleeting note/Memory Pool in C++ and Memory Fragmenting.md",
     "Fleeting note/PEP 517.md",
     "Fleeting note/PEP 517 backend protocol.md",
-    "Fleeting note/pip.md",
-    "Fleeting note/pyproject.toml.md",
-    "Fleeting note/scikit-build-core CMake-Python bridge.md",
     "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization",
     "Literature notes/Software Engineering/References",
     "Literature notes/Software Engineering/Algorithms",

@@ -92,7 +92,7 @@ import io
 
 Address = Tuple[str, int]
 
-class LoogRoller:
+class LogRoller:
 	def __init__(self, dice: Callable[[bytes], bytes], remote_address: Address) -> None:
 	self.dice = dice
 	self.remote_address = remote_address
