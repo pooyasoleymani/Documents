@@ -3,7 +3,6 @@ Created Date: 2026-07-07
 tags:
   - software_engineering
 Next: "[[Dynamic Arrays & Amortized Growth]]"
-Related:
 ---
 ---
 # Lesson 1.3 — Arrays: The Foundation of Modern Software

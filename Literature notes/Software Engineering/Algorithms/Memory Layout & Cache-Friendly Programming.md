@@ -2,8 +2,7 @@
 Created Date: 2026-07-03
 tags:
   - software_engineering
-Related:
-Next:
+Next: "[[Arrays]]"
 ---
 ---
 # Lesson 1.2 — Memory Layout & Cache-Friendly Programming
