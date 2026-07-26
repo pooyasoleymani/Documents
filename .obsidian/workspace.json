@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Software Engineering/Algorithms/Sorting.md",
+                "file": "Literature notes/English Learning/lessons/lesson-1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Sorting"
+              "title": "lesson-1"
             }
           }
         ]
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Software Engineering/Algorithms/Sorting.md",
+                "file": "Literature notes/English Learning/lessons/lesson-1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Sorting"
+              "title": "Outline of lesson-1"
             }
           },
           {
@@ -237,8 +237,12 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "77b5d930ccb82103",
+  "active": "12d83b769816be49",
   "lastOpenFiles": [
+    "Literature notes/English Learning/Study Plan.md",
+    "Literature notes/English Learning/lessons/lesson-1.md",
+    "Literature notes/English Learning/lessons",
+    "Literature notes/Software Engineering/Algorithms/Sorting.md",
     "Literature notes/English Learning/assets",
     "Literature notes/English Learning",
     "Literature notes/Software Engineering/Algorithms/Memory Layout & Cache-Friendly Programming.md",
@@ -246,7 +250,6 @@
     "Literature notes/Software Engineering/Algorithms/Binary Search.md",
     "Literature notes/Software Engineering/Algorithms/Complexity Analysis.md",
     "Literature notes/Software Engineering/Algorithms/Dynamic Arrays & Amortized Growth.md",
-    "Literature notes/Software Engineering/Algorithms/Sorting.md",
     "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization/Software Efficiency Matters.md",
     "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming/Learning Go.md",
     "Literature notes/Golang/Biginner/Go Concurrency (Goroutines + Channels).md",
@@ -265,7 +268,6 @@
     "Literature notes/C++/Effective Modern C++/Effective Modern C++17.md",
     "Fleeting note/build automation reduce context switching.md",
     "Fleeting note/dependency isolation.md",
-    "Fleeting note/flow state.md",
     "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization",
     "Literature notes/Software Engineering/References",
     "Literature notes/Software Engineering/Algorithms",
@@ -273,8 +275,6 @@
     "copilot/copilot-custom-prompts",
     "copilot/copilot-conversations",
     "copilot",
-    "Literature notes/SCTP Protocol",
-    "Literature notes/Protocol Buffer",
     "Literature notes/WarGame/Linux Command.canvas"
   ]
 }
