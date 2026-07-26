@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/English Learning/lessons/Lesson-1.md",
+                "file": "Literature notes/English Learning/lessons/Pre-lesson.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Lesson-1"
+              "title": "Pre-lesson"
             }
           }
         ]
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/English Learning/lessons/Lesson-1.md",
+                "file": "Literature notes/English Learning/lessons/Pre-lesson.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Lesson-1"
+              "title": "Outline of Pre-lesson"
             }
           },
           {
@@ -239,8 +239,8 @@
   },
   "active": "8cedaa88421e0b3e",
   "lastOpenFiles": [
-    "Literature notes/English Learning/lessons/Pre-lesson.md",
     "Literature notes/English Learning/lessons/Lesson-1.md",
+    "Literature notes/English Learning/lessons/Pre-lesson.md",
     "Literature notes/English Learning/Study Plan.md",
     "Literature notes/English Learning/lessons",
     "Literature notes/Software Engineering/Algorithms/Sorting.md",
