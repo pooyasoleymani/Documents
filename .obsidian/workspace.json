@@ -222,8 +222,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 417.5,
-    "collapsed": true
+    "width": 417.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -238,8 +237,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "8cedaa88421e0b3e",
+  "active": "12d83b769816be49",
   "lastOpenFiles": [
+    "Literature notes/English Learning/assets",
+    "Literature notes/English Learning",
     "Literature notes/Software Engineering/Algorithms/Memory Layout & Cache-Friendly Programming.md",
     "Literature notes/Software Engineering/Algorithms/Arrays.md",
     "Literature notes/Software Engineering/Algorithms/Binary Search.md",
@@ -265,7 +266,6 @@
     "Fleeting note/build automation reduce context switching.md",
     "Fleeting note/dependency isolation.md",
     "Fleeting note/flow state.md",
-    "Fleeting note/Memory Pool in C++ and Memory Fragmenting.md",
     "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization",
     "Literature notes/Software Engineering/References",
     "Literature notes/Software Engineering/Algorithms",
@@ -275,7 +275,6 @@
     "copilot",
     "Literature notes/SCTP Protocol",
     "Literature notes/Protocol Buffer",
-    "Literature notes/Telecom/Event Driven Design",
     "Literature notes/WarGame/Linux Command.canvas"
   ]
 }
