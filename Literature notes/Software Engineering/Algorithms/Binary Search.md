@@ -2,7 +2,7 @@
 Created Date: 2026-07-22
 tags:
   - software_engineering
-Next:
+Next: "[[Sorting]]"
 ---
 ---
 
