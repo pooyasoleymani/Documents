@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🗣",
       "📩",
       "🎲",
       "LiSwords",
@@ -16,8 +17,7 @@
       "🐧",
       "🔱",
       "LiMessageSquareCode",
-      "🏢",
-      "🏗"
+      "🏢"
     ],
     "recentlyUsedIconsSize": 12,
     "rules": [],
@@ -61,5 +61,6 @@
   "Literature notes/Telecom": "📞",
   "Literature notes/VIM": "LiSwords",
   "Literature notes/WarGame": "🎲",
-  "Literature notes/SCTP Protocol": "📩"
+  "Literature notes/SCTP Protocol": "📩",
+  "Literature notes/تندخوانی": "🗣"
 }
