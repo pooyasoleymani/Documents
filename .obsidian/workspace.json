@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/English Learning/lessons/Lesson-1.md",
+                "file": "Literature notes/Golang/Study Plan/JWT Authentication.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Lesson-1"
+              "title": "JWT Authentication"
             }
           }
         ]
@@ -50,8 +50,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
+                "sortOrder": "byCreatedTimeReverse",
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 401.5
+    "width": 448.5
   },
   "right": {
     "id": "7965c69a42e62fbd",
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/English Learning/lessons/Lesson-1.md",
+                "file": "Literature notes/Golang/Study Plan/JWT Authentication.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Lesson-1"
+              "title": "Outline of JWT Authentication"
             }
           },
           {
@@ -240,8 +240,21 @@
   },
   "active": "8cedaa88421e0b3e",
   "lastOpenFiles": [
-    "Literature notes/English Learning/lessons/Pre-lesson.md",
+    "Literature notes/Golang/Study Plan/Interfaces + Dependency Injection + Mocking.md",
+    "Literature notes/Golang/Study Plan/JWT Authentication.md",
+    "Literature notes/Golang/Study Plan/sync.RWMutex.md",
+    "Literature notes/Golang/Study Plan/Command-Line Arguments.md",
+    "Literature notes/Golang/Study Plan/The Go Fundamentals.md",
+    "Literature notes/Golang/Study Plan/HTTP Server.md",
+    "Literature notes/Golang/Study Plan/Go Leaks.md",
+    "Literature notes/Golang/Study Plan/Full Go Project Wiring (Real Architecture).md",
+    "Literature notes/Golang/Study Plan/Error Handling.md",
+    "Literature notes/Golang/Study Plan/Channels (Go’s main communication system).md",
+    "Literature notes/Golang/Study Plan/Transactions.md",
+    "Literature notes/Golang/Study Plan/Typical CI-CD Flow.md",
+    "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
     "Literature notes/English Learning/lessons/Lesson-1.md",
+    "Literature notes/English Learning/lessons/Pre-lesson.md",
     "Literature notes/English Learning/Study Plan.md",
     "Literature notes/English Learning/lessons",
     "Literature notes/Software Engineering/Algorithms/Sorting.md",
@@ -256,19 +269,6 @@
     "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming/Learning Go.md",
     "Literature notes/Golang/Biginner/Go Concurrency (Goroutines + Channels).md",
     "Literature notes/Golang/Biginner/Go Memory Model.md",
-    "Literature notes/Golang/Biginner/Go Syntax and bsic Types.md",
-    "Literature notes/Golang/Biginner/Structs, interfaces, and Go’s approach to OOP.md",
-    "Literature notes/Golang/Study Plan/Middleware.md",
-    "Literature notes/Golang/Study Plan/Middleware (Real Production Pattern).md",
-    "Literature notes/Golang/Study Plan/Program Structure.md",
-    "Literature notes/Golang/Study Plan/Router (chi).md",
-    "Literature notes/Golang/Study Plan/Databases (MySQL).md",
-    "Literature notes/Python/Object Oriented Design/Iterator Pattern.md",
-    "Literature notes/Python/Object Oriented Design/Expecting the Unexpected.md",
-    "Literature notes/Python/Object Oriented Design/Concurrency.md",
-    "Literature notes/Python/Object Oriented Design/Common Design Patterns.md",
-    "Literature notes/C++/Effective Modern C++/Effective Modern C++17.md",
-    "Fleeting note/build automation reduce context switching.md",
     "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization",
     "Literature notes/Software Engineering/References",
     "Literature notes/Software Engineering/Algorithms",
