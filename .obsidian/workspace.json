@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Python/Object Oriented Design/Common Design Patterns.md",
+                "file": "Literature notes/C++/Effective Modern C++/References/Understand template type deduction.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Common Design Patterns"
+              "title": "Understand template type deduction"
             }
           }
         ]
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Python/Object Oriented Design/Common Design Patterns.md",
+                "file": "Literature notes/C++/Effective Modern C++/References/Understand template type deduction.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Common Design Patterns"
+              "title": "Outline of Understand template type deduction"
             }
           },
           {
@@ -239,6 +239,10 @@
   },
   "active": "8cedaa88421e0b3e",
   "lastOpenFiles": [
+    "Literature notes/C++/Effective Modern C++/References/Deducing Type.md",
+    "Literature notes/C++/Effective Modern C++/Effective Modern C++17.md",
+    "Literature notes/Python/Object Oriented Design/Iterator Pattern.md",
+    "Literature notes/Python/Object Oriented Design/Common Design Patterns.md",
     "Literature notes/Python/Object Oriented Design/Advanced Design Patterns.md",
     "Literature notes/Golang/Study Plan/JWT Authentication.md",
     "Daily Notes/2026-07-28.md",
@@ -264,10 +268,6 @@
     "Literature notes/Software Engineering/Algorithms/Memory Layout & Cache-Friendly Programming.md",
     "Literature notes/Software Engineering/Algorithms/Arrays.md",
     "Literature notes/Software Engineering/Algorithms/Binary Search.md",
-    "Literature notes/Software Engineering/Algorithms/Complexity Analysis.md",
-    "Literature notes/Software Engineering/Algorithms/Dynamic Arrays & Amortized Growth.md",
-    "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization/Software Efficiency Matters.md",
-    "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming/Learning Go.md",
     "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization",
     "Literature notes/Software Engineering/References",
     "Literature notes/Software Engineering/Algorithms",
