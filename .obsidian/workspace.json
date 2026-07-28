@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/C++/Effective Modern C++/References/Use shared_ptr for shared-ownership resource management.md",
+                "file": "Daily Notes/2026-07-28.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Use shared_ptr for shared-ownership resource management"
+              "title": "2026-07-28"
             }
           }
         ]
@@ -167,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/C++/Effective Modern C++/References/Use shared_ptr for shared-ownership resource management.md",
+                "file": "Daily Notes/2026-07-28.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Use shared_ptr for shared-ownership resource management"
+              "title": "Outline of 2026-07-28"
             }
           },
           {
@@ -223,7 +223,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 417.5
+    "width": 417.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,8 +241,9 @@
   },
   "active": "8cedaa88421e0b3e",
   "lastOpenFiles": [
-    "Literature notes/C++/Effective Modern C++/References/Curiously Recurring Template Pattern (CRTP).md",
     "Literature notes/C++/Effective Modern C++/References/Use shared_ptr for shared-ownership resource management.md",
+    "Daily Notes/2026-07-28.md",
+    "Literature notes/C++/Effective Modern C++/References/Curiously Recurring Template Pattern (CRTP).md",
     "Literature notes/C++/Effective Modern C++/References/Use unique_ptr for exclusive-ownership resource management.md",
     "Literature notes/C++/Effective Modern C++/References/Smart Pointers.md",
     "Literature notes/C++/Effective Modern C++/References/Understand special member function generation.md",
@@ -265,7 +267,6 @@
     "Literature notes/C++/Effective Modern C++/References/Deducing Type.md",
     "Literature notes/C++/Effective Modern C++/Effective Modern C++17.md",
     "Literature notes/Python/Object Oriented Design/Iterator Pattern.md",
-    "Literature notes/Python/Object Oriented Design/Common Design Patterns.md",
     "Literature notes/English Learning/lessons",
     "Literature notes/English Learning/assets",
     "Literature notes/English Learning",
