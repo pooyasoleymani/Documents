@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/JWT Authentication.md",
+                "file": "Daily Notes/2026-07-28.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "JWT Authentication"
+              "title": "2026-07-28"
             }
           }
         ]
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Golang/Study Plan/JWT Authentication.md",
+                "file": "Daily Notes/2026-07-28.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of JWT Authentication"
+              "title": "Outline of 2026-07-28"
             }
           },
           {
@@ -240,8 +240,9 @@
   },
   "active": "8cedaa88421e0b3e",
   "lastOpenFiles": [
-    "Literature notes/Golang/Study Plan/Interfaces + Dependency Injection + Mocking.md",
     "Literature notes/Golang/Study Plan/JWT Authentication.md",
+    "Daily Notes/2026-07-28.md",
+    "Literature notes/Golang/Study Plan/Interfaces + Dependency Injection + Mocking.md",
     "Literature notes/Golang/Study Plan/sync.RWMutex.md",
     "Literature notes/Golang/Study Plan/Command-Line Arguments.md",
     "Literature notes/Golang/Study Plan/The Go Fundamentals.md",
@@ -268,7 +269,6 @@
     "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization/Software Efficiency Matters.md",
     "Literature notes/Golang/An Idiomatic Approach to  Real-World Go Programming/Learning Go.md",
     "Literature notes/Golang/Biginner/Go Concurrency (Goroutines + Channels).md",
-    "Literature notes/Golang/Biginner/Go Memory Model.md",
     "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization",
     "Literature notes/Software Engineering/References",
     "Literature notes/Software Engineering/Algorithms",
