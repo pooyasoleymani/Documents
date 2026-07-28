@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2026-07-28.md",
+                "file": "Literature notes/SCTP Protocol/Go implementation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-07-28"
+              "title": "Go implementation"
             }
           }
         ]
@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 448.5,
-    "collapsed": true
+    "width": 448.5
   },
   "right": {
     "id": "7965c69a42e62fbd",
@@ -167,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2026-07-28.md",
+                "file": "Literature notes/SCTP Protocol/Go implementation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2026-07-28"
+              "title": "Outline of Go implementation"
             }
           },
           {
@@ -241,6 +240,24 @@
   },
   "active": "8cedaa88421e0b3e",
   "lastOpenFiles": [
+    "Literature notes/SCTP Protocol/How SCTP works internally.md",
+    "Literature notes/SCTP Protocol/Go implementation.md",
+    "Literature notes/SCTP Protocol/Diameter over SCTP.md",
+    "Literature notes/Software Engineering/Algorithms/Sorting.md",
+    "Literature notes/Fundamentals of Software Architecture/Refrences/Introduction.md",
+    "Literature notes/Fundamentals of Software Architecture/Refrences/Modularity.md",
+    "Literature notes/Fundamentals of Software Architecture/Refrences/Architectural Thinking.md",
+    "Literature notes/Fundamentals of Software Architecture/Refrences/Measuring and Governing Architecture Characteristics.md",
+    "Literature notes/Fundamentals of Software Architecture/Refrences/Identifying Architecture Characteristics.md",
+    "Literature notes/Fundamentals of Software Architecture/Refrences/Architecture Characteristics Defined.md",
+    "Literature notes/C++/Effective Modern C++/Effective Modern C++17.md",
+    "Literature notes/C++/Effective Modern C++/References/Distinguish universal references from rvalue references.md",
+    "Literature notes/C++/Effective Modern C++/References/Use move on rvalue references, forward on universal references.md",
+    "Literature notes/C++/Effective Modern C++/References/Rvalue References, Move Semantics, and Perfect Forwarding.md",
+    "Literature notes/C++/Effective Modern C++/References/Understand move and forward.md",
+    "Literature notes/C++/Effective Modern C++/References/When using the Pimpl Idiom, define special member functions in the implementation file.md",
+    "Literature notes/C++/Effective Modern C++/References/Prefer make_unique and make_shared to direct use of new.md",
+    "Literature notes/C++/Effective Modern C++/References/Use weak_ptr for shared_ptr like pointers that can dangle.md",
     "Literature notes/C++/Effective Modern C++/References/Use shared_ptr for shared-ownership resource management.md",
     "Daily Notes/2026-07-28.md",
     "Literature notes/C++/Effective Modern C++/References/Curiously Recurring Template Pattern (CRTP).md",
@@ -249,24 +266,6 @@
     "Literature notes/C++/Effective Modern C++/References/Understand special member function generation.md",
     "Literature notes/C++/Effective Modern C++/References/Make const member functions thread safe.md",
     "Literature notes/C++/Effective Modern C++/References/Use constexpr whenever possible.md",
-    "Literature notes/C++/Effective Modern C++/References/Declare functions noexcept if they won’t emit exceptions.md",
-    "Literature notes/C++/Effective Modern C++/References/Prefer const_iterators to iterators.md",
-    "Literature notes/C++/Effective Modern C++/References/Declare overriding functions override.md",
-    "Literature notes/C++/Effective Modern C++/References/Prefer deleted functions to private undefinedones.md",
-    "Literature notes/C++/Effective Modern C++/References/Prefer scoped enums to unscoped enums.md",
-    "Literature notes/C++/Effective Modern C++/References/Prefer alias declarations to typedefs.md",
-    "Literature notes/C++/Effective Modern C++/References/Prefer nullptr to 0 and NULL.md",
-    "Literature notes/C++/Effective Modern C++/References/Distinguish between () and {} when creating objects.md",
-    "Literature notes/C++/Effective Modern C++/References/Use the explicitly typed initializer idiom when auto deduces undesired types.md",
-    "Literature notes/C++/Effective Modern C++/References/Prefer auto to explicit type declarations.md",
-    "Literature notes/C++/Effective Modern C++/References/auto.md",
-    "Literature notes/C++/Effective Modern C++/References/Know how to view deduced types.md",
-    "Literature notes/C++/Effective Modern C++/References/Understand decltype.md",
-    "Literature notes/C++/Effective Modern C++/References/Understand auto type deduction.md",
-    "Literature notes/C++/Effective Modern C++/References/Understand template type deduction.md",
-    "Literature notes/C++/Effective Modern C++/References/Deducing Type.md",
-    "Literature notes/C++/Effective Modern C++/Effective Modern C++17.md",
-    "Literature notes/Python/Object Oriented Design/Iterator Pattern.md",
     "Literature notes/English Learning/lessons",
     "Literature notes/English Learning/assets",
     "Literature notes/English Learning",

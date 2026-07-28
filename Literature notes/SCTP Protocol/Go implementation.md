@@ -267,15 +267,10 @@ M3UA over SCTP signaling stack
 Used in:
 
 - HLR systems
-    
 - STPs
-    
 - SMSCs
-    
 - Roaming hubs
-    
 - Diameter gateways (conceptually similar state machines)
-    
 
 ---
 

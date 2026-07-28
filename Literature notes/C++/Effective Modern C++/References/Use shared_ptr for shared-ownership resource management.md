@@ -203,6 +203,7 @@ auto w = std::shared_ptr<Widget>(new Widget(args...)); // ❌ Two allocations
 ---
 
 ## ✅ Operations That Do **NOT** Dereference
+
 | Operation                  | Example                   | Dereferences?                    |
 | -------------------------- | ------------------------- | -------------------------------- |
 | **Boolean check**          | `if (ptr)` or `if (!ptr)` | ❌ No                             |
