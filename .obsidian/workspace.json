@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/C++/Effective Modern C++/References/Prefer nullptr to 0 and NULL.md",
+                "file": "Literature notes/C++/Effective Modern C++/References/Use shared_ptr for shared-ownership resource management.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Prefer nullptr to 0 and NULL"
+              "title": "Use shared_ptr for shared-ownership resource management"
             }
           }
         ]
@@ -167,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/C++/Effective Modern C++/References/Prefer nullptr to 0 and NULL.md",
+                "file": "Literature notes/C++/Effective Modern C++/References/Use shared_ptr for shared-ownership resource management.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Prefer nullptr to 0 and NULL"
+              "title": "Outline of Use shared_ptr for shared-ownership resource management"
             }
           },
           {
@@ -240,6 +240,20 @@
   },
   "active": "8cedaa88421e0b3e",
   "lastOpenFiles": [
+    "Literature notes/C++/Effective Modern C++/References/Curiously Recurring Template Pattern (CRTP).md",
+    "Literature notes/C++/Effective Modern C++/References/Use shared_ptr for shared-ownership resource management.md",
+    "Literature notes/C++/Effective Modern C++/References/Use unique_ptr for exclusive-ownership resource management.md",
+    "Literature notes/C++/Effective Modern C++/References/Smart Pointers.md",
+    "Literature notes/C++/Effective Modern C++/References/Understand special member function generation.md",
+    "Literature notes/C++/Effective Modern C++/References/Make const member functions thread safe.md",
+    "Literature notes/C++/Effective Modern C++/References/Use constexpr whenever possible.md",
+    "Literature notes/C++/Effective Modern C++/References/Declare functions noexcept if they won’t emit exceptions.md",
+    "Literature notes/C++/Effective Modern C++/References/Prefer const_iterators to iterators.md",
+    "Literature notes/C++/Effective Modern C++/References/Declare overriding functions override.md",
+    "Literature notes/C++/Effective Modern C++/References/Prefer deleted functions to private undefinedones.md",
+    "Literature notes/C++/Effective Modern C++/References/Prefer scoped enums to unscoped enums.md",
+    "Literature notes/C++/Effective Modern C++/References/Prefer alias declarations to typedefs.md",
+    "Literature notes/C++/Effective Modern C++/References/Prefer nullptr to 0 and NULL.md",
     "Literature notes/C++/Effective Modern C++/References/Distinguish between () and {} when creating objects.md",
     "Literature notes/C++/Effective Modern C++/References/Use the explicitly typed initializer idiom when auto deduces undesired types.md",
     "Literature notes/C++/Effective Modern C++/References/Prefer auto to explicit type declarations.md",
@@ -252,20 +266,6 @@
     "Literature notes/C++/Effective Modern C++/Effective Modern C++17.md",
     "Literature notes/Python/Object Oriented Design/Iterator Pattern.md",
     "Literature notes/Python/Object Oriented Design/Common Design Patterns.md",
-    "Literature notes/Python/Object Oriented Design/Advanced Design Patterns.md",
-    "Literature notes/Golang/Study Plan/JWT Authentication.md",
-    "Daily Notes/2026-07-28.md",
-    "Literature notes/Golang/Study Plan/Interfaces + Dependency Injection + Mocking.md",
-    "Literature notes/Golang/Study Plan/sync.RWMutex.md",
-    "Literature notes/Golang/Study Plan/Command-Line Arguments.md",
-    "Literature notes/Golang/Study Plan/The Go Fundamentals.md",
-    "Literature notes/Golang/Study Plan/HTTP Server.md",
-    "Literature notes/Golang/Study Plan/Go Leaks.md",
-    "Literature notes/Golang/Study Plan/Full Go Project Wiring (Real Architecture).md",
-    "Literature notes/Golang/Study Plan/Error Handling.md",
-    "Literature notes/Golang/Study Plan/Channels (Go’s main communication system).md",
-    "Literature notes/Golang/Study Plan/Transactions.md",
-    "Literature notes/Golang/Study Plan/Typical CI-CD Flow.md",
     "Literature notes/English Learning/lessons",
     "Literature notes/English Learning/assets",
     "Literature notes/English Learning",
