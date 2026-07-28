@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/C++/Effective Modern C++/References/Understand template type deduction.md",
+                "file": "Literature notes/C++/Effective Modern C++/References/Prefer nullptr to 0 and NULL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Understand template type deduction"
+              "title": "Prefer nullptr to 0 and NULL"
             }
           }
         ]
@@ -167,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/C++/Effective Modern C++/References/Understand template type deduction.md",
+                "file": "Literature notes/C++/Effective Modern C++/References/Prefer nullptr to 0 and NULL.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Understand template type deduction"
+              "title": "Outline of Prefer nullptr to 0 and NULL"
             }
           },
           {
@@ -240,6 +240,14 @@
   },
   "active": "8cedaa88421e0b3e",
   "lastOpenFiles": [
+    "Literature notes/C++/Effective Modern C++/References/Distinguish between () and {} when creating objects.md",
+    "Literature notes/C++/Effective Modern C++/References/Use the explicitly typed initializer idiom when auto deduces undesired types.md",
+    "Literature notes/C++/Effective Modern C++/References/Prefer auto to explicit type declarations.md",
+    "Literature notes/C++/Effective Modern C++/References/auto.md",
+    "Literature notes/C++/Effective Modern C++/References/Know how to view deduced types.md",
+    "Literature notes/C++/Effective Modern C++/References/Understand decltype.md",
+    "Literature notes/C++/Effective Modern C++/References/Understand auto type deduction.md",
+    "Literature notes/C++/Effective Modern C++/References/Understand template type deduction.md",
     "Literature notes/C++/Effective Modern C++/References/Deducing Type.md",
     "Literature notes/C++/Effective Modern C++/Effective Modern C++17.md",
     "Literature notes/Python/Object Oriented Design/Iterator Pattern.md",
@@ -258,17 +266,9 @@
     "Literature notes/Golang/Study Plan/Channels (Go’s main communication system).md",
     "Literature notes/Golang/Study Plan/Transactions.md",
     "Literature notes/Golang/Study Plan/Typical CI-CD Flow.md",
-    "Literature notes/Golang/Study Plan/Advanced HTTP & REST APIs.md",
-    "Literature notes/English Learning/lessons/Lesson-1.md",
-    "Literature notes/English Learning/lessons/Pre-lesson.md",
-    "Literature notes/English Learning/Study Plan.md",
     "Literature notes/English Learning/lessons",
-    "Literature notes/Software Engineering/Algorithms/Sorting.md",
     "Literature notes/English Learning/assets",
     "Literature notes/English Learning",
-    "Literature notes/Software Engineering/Algorithms/Memory Layout & Cache-Friendly Programming.md",
-    "Literature notes/Software Engineering/Algorithms/Arrays.md",
-    "Literature notes/Software Engineering/Algorithms/Binary Search.md",
     "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization",
     "Literature notes/Software Engineering/References",
     "Literature notes/Software Engineering/Algorithms",
