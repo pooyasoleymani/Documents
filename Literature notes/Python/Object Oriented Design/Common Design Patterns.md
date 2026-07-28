@@ -132,6 +132,7 @@ def dice_response(client: socket.socket) -> None:
 
 
 ### Decorator in python
+
 **Decorator** in python have additional options .
 for example *monkey-patching* changing *class definition* at *runtime* to get similar effect.
 
@@ -171,6 +172,7 @@ class NamedLogger:
 
 ----
 ## The Observer pattern
+
 The **Observer pattern** is useful for *state monitoring* and *event handling* situations. This pattern allows a given *object* to be *monitored* by an *unknown* and *dynamic group* of *observer objects*. The core *object* being *observed* needs to implement an *interface* that makes it *observable*.
 
 This allows tremendous *flexibility* by *decoupling* the *response* to a **state change** from the *change itself*.
@@ -241,6 +243,7 @@ class SaveZonkHand(Observer):
 
 ---
 ## The Strategy pattern
+
 The **Strategy pattern** is a common demonstration of *abstraction* in *object-oriented programming*. The pattern implements *different solutions* to a *single problem*, each in a different *object*. The *core class* can then choose the most appropriate implementation *dynamically* at *runtime*.
 ```python
 import abc  
@@ -287,6 +290,7 @@ class Resizer:
 ```
 
 ### Strategy in Python
+
 These **strategy classes** each define *objects* that do nothing but provide a *single method*. We could just as easily *call* that function `__call__ `and make the *object callable* directly. Since there is no other data associated with the *object*, we need do no more than create a set of *top-level functions* and pass them around as our *strategies instead*.
 
 ```python
@@ -299,6 +303,7 @@ Because we have a choice between an *abstract class* and a *type hint*, the **St
 
 ---
 ## The Command pattern
+
 When we think about *class responsibilities*, we can sometimes distinguish *"passive" classes* that hold *objects* and *maintain* an *internal state*, but don't *initiate* very much, and *"active" classes* that reach out into other *objects* to take *action* and *do things*.
 
 The **Command pattern** generally involves a *hierarchy* of *classes* that each do *something*. A **Core class** can create a *command* (or a *sequence* of *commands*) to carry out *actions*.
@@ -390,6 +395,7 @@ dice.Dice.from_text("4d6k3")
 
 ---
 ## The State pattern
+
 The **State pattern** is structurally similar to the *Strategy pattern*, but its intent and purpose are very different. 
 The goal of the **State pattern** is to represent *state transition* *systems*: *systems* where an *object's* *behavior* is constrained by the *state* it's in, and there are narrowly defined *transitions* to other *states*.
 
@@ -523,12 +529,14 @@ class Reader:
 
 
 ### State VS Strategy
+
 These two patterns are similar because they both *delegate* work to *other objects*. This *decomposes* a *complex* *problem* into several closely related but *simpler problems*. The **Strategy pattern** is used to choose an *algorithm* at *runtime*; generally, only one of those *algorithms* is going to be chosen for a particular *use case*. The idea here is to provide an implementation choice at *runtime*, as late in the design process as possible. *Strategy class* definitions are *rarely* *aware* of *other implementations*; each *Strategy* generally *stands alone*.
 The **State pattern**, on the other hand, is designed to allow *switching* between different *states dynamically*, as some *process* evolves.
 
 
 ---
 ## The Singleton pattern
+
 **Singleton pattern** is to allow exactly *one instance* of a certain *object* to exist.
 ```sh
 >>> class OneOnly:
