@@ -125,11 +125,8 @@ docker run \
 Advantages:
 
 - same version everywhere
-    
 - easy rollback
-    
 - works well in Kubernetes
-    
 
 ---
 
@@ -197,11 +194,8 @@ at the same time.
 Potential problems:
 
 - locks
-    
 - startup failures
-    
 - deployment race conditions
-    
 
 Better:
 

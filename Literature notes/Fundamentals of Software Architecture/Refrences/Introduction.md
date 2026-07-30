@@ -27,5 +27,6 @@ If it can be changed in an afternoon without consequences, it’s probably _not_
 
 ## The two laws of software architecture
 
+
 ### First law
 Everything in *software architecture* is a *trade-off*.

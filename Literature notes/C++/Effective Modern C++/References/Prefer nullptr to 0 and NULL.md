@@ -27,7 +27,7 @@ f(nullptr) // call f(void*) overload
 
 
 >**nullptr**’s advantage is that it doesn’t have an **integral type**.
->
+
 
 - **nullptr** shines especially brightly when **templates** enter the picture:
 

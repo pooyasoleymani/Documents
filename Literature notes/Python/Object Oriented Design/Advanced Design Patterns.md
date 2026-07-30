@@ -376,6 +376,7 @@ Point(latitude=37.387458333333335, longitude=-121.97236)
 
 ---
 ### Memory optimization via Python's `__slots__`
+
 Instead of a *Flyweight design*– where *storage* is *intentionally shared* – a **slots design** creates *objects* with their own *private data*, but avoids Python's *built-in dictionary*. Instead, there is *direct mapping* from *attribute name* to a *sequence* of values, avoiding the rather *large hash table* that is a part of every Python *dict object*.
 
 ```python
@@ -397,6 +398,7 @@ class Point:
 
 ---
 ## Abstract Factory pattern
+
 The **Abstract Factory** pattern is appropriate when we have *multiple* possible implementations of a *system* that depend on some *configuration* or *platform* detail. The calling *code requests* an *object* from the **Abstract Factory**, not knowing exactly what *class* of *object* will be returned. The underlying implementation returned may depend on a variety of factors, such as the *current locale*, *operating system*, or *local configuration*.
 
 **Example:**  operation-system-independent toolkit, database backends
@@ -505,6 +507,7 @@ class PokerHand(Hand):
 
 ---
 ### Abstract Factory in python
+
 In python we don't need *abstract base class* .
 This *class* have *separate modules* we can import factory method like that `from cribbage import CardGameFactory` 
 
@@ -527,6 +530,7 @@ class CardGameFactoryProtocol(Protocol):
 
 ---
 ## The Composite pattern
+
 The **Composite pattern** allows *complex tree structures* to be built from *simple components*, often called **nodes**.
 
 A *composite object* is – generally – *a container object*, where the content may be another *composite object*.
@@ -600,6 +604,7 @@ class File(Node):
 
 ---
 ## The Template pattern
+
 The **Template pattern (Template method)** is useful for *removing* *duplicate code*; it's intended to support the **Don't Repeat Yourself principle**. It is designed for situations where we have several *different tasks* to accomplish that have some, *but not all*, steps in *common*. The *common* steps are implemented in a *base class*, and the *distinct* steps are *overridden* in *subclasses* to provide custom *behavior*.
 
 
