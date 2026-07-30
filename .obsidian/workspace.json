@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2026-07-30.md",
+                "file": "Literature notes/Software Engineering/Algorithms/Dynamic Arrays & Amortized Growth.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-07-30"
+              "title": "Dynamic Arrays & Amortized Growth"
             }
           }
         ],
@@ -215,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2026-07-30.md",
+                "file": "Literature notes/Software Engineering/Algorithms/Dynamic Arrays & Amortized Growth.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2026-07-30"
+              "title": "Outline of Dynamic Arrays & Amortized Growth"
             }
           },
           {
@@ -289,8 +289,8 @@
   },
   "active": "b5684bd8c090665e",
   "lastOpenFiles": [
-    "Literature notes/Software Engineering/Algorithms/Dynamic Arrays & Amortized Growth.md",
     "Daily Notes/2026-07-30.md",
+    "Literature notes/Software Engineering/Algorithms/Dynamic Arrays & Amortized Growth.md",
     "Literature notes/Software Engineering/Algorithms/Sorting.md",
     "Literature notes/Golang/Study Plan/JWT Authentication.md",
     "Literature notes/English Learning/lessons/Pre-lesson.md",
