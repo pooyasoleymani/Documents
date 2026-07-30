@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Software Engineering/Algorithms/Dynamic Arrays & Amortized Growth.md",
+                "file": "Daily Notes/2026-07-30.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Dynamic Arrays & Amortized Growth"
+              "title": "2026-07-30"
             }
           }
         ],
@@ -215,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Software Engineering/Algorithms/Dynamic Arrays & Amortized Growth.md",
+                "file": "Daily Notes/2026-07-30.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Dynamic Arrays & Amortized Growth"
+              "title": "Outline of 2026-07-30"
             }
           },
           {
@@ -271,7 +271,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 296.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -286,8 +287,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "12d83b769816be49",
+  "active": "b5684bd8c090665e",
   "lastOpenFiles": [
+    "Literature notes/Software Engineering/Algorithms/Dynamic Arrays & Amortized Growth.md",
+    "Daily Notes/2026-07-30.md",
     "Literature notes/Software Engineering/Algorithms/Sorting.md",
     "Literature notes/Golang/Study Plan/JWT Authentication.md",
     "Literature notes/English Learning/lessons/Pre-lesson.md",
@@ -298,8 +301,6 @@
     "Literature notes/C++/Effective Modern C++/References/Use move on rvalue references, forward on universal references.md",
     "Literature notes/C++/Effective Modern C++/References/Rvalue References, Move Semantics, and Perfect Forwarding.md",
     "Literature notes/C++/Effective Modern C++/References/Curiously Recurring Template Pattern (CRTP).md",
-    "Daily Notes/2026-07-30.md",
-    "Literature notes/Software Engineering/Algorithms/Dynamic Arrays & Amortized Growth.md",
     "Literature notes/Software Engineering/Algorithms/Binary Search.md",
     "Fleeting note/scikit-build-core CMake-Python bridge.md",
     "Fleeting note/flow state.md",
