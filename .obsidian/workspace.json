@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Software Engineering/Algorithms/Dynamic Arrays & Amortized Growth.md",
+                "file": "Daily Notes/2026-07-30.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Dynamic Arrays & Amortized Growth"
+              "title": "2026-07-30"
             }
           }
         ],
@@ -215,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Software Engineering/Algorithms/Dynamic Arrays & Amortized Growth.md",
+                "file": "Daily Notes/2026-07-30.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Dynamic Arrays & Amortized Growth"
+              "title": "Outline of 2026-07-30"
             }
           },
           {
@@ -271,7 +271,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 296.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -286,13 +287,14 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "12d83b769816be49",
+  "active": "b5684bd8c090665e",
   "lastOpenFiles": [
+    "Literature notes/Software Engineering/Algorithms/Dynamic Arrays & Amortized Growth.md",
+    "Daily Notes/2026-07-30.md",
     "Literature notes/Software Engineering/Algorithms/Binary Search.md",
     "Fleeting note/scikit-build-core CMake-Python bridge.md",
     "Fleeting note/flow state.md",
     "Literature notes/Software Engineering/Algorithms/Arrays.md",
-    "Literature notes/Software Engineering/Algorithms/Dynamic Arrays & Amortized Growth.md",
     "Literature notes/Software Engineering/Algorithms/Complexity Analysis.md",
     "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization/Software Efficiency Matters.md",
     "Literature notes/CMake/CMake Study Plan.md",
@@ -317,7 +319,6 @@
     "Literature notes/Telecom/Event Driven Design/What is NATS ?.md",
     "Literature notes/Telecom/Event Driven Design/Installing NATS JetStream.md",
     "Literature notes/Telecom/Event Driven Design/Building the Broker Package.md",
-    "Literature notes/Telecom/Protocol Buffer/What is serialization ?.md",
     "Literature notes/Telecom/SCTP Protocol",
     "Literature notes/Telecom/Protocol Buffer",
     "Literature notes/Telecom/Event Driven Design",
