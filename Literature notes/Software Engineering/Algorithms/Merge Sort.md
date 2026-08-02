@@ -58,11 +58,8 @@ After this lesson you will understand:
 Many difficult problems become easy if we:
 
 1. Divide the problem
-    
 2. Solve smaller problems
-    
 3. Combine the results
-    
 
 Instead of sorting:
 
@@ -391,13 +388,9 @@ No.
 Algorithm:
 
 1. Read a chunk.
-    
 2. Sort it in memory.
-    
 3. Write it back to disk.
-    
 4. Repeat.
-    
 
 Now we have many sorted files.
 
@@ -462,20 +455,14 @@ Why?
 Because Merge Sort:
 
 - Allocates extra memory
-    
 - Copies elements
-    
 - Has allocation overhead
-    
 
 Go prioritizes:
 
 - Low allocations
-    
 - Cache efficiency
-    
 - Fast average-case performance
-    
 
 So it uses **PDQSort**, a highly optimized Quick Sort variant.
 
@@ -495,17 +482,17 @@ This is an example of exposing different algorithms because they solve different
 
 # Complexity Summary
 
-|Property|Merge Sort|
-|---|---|
-|Best|O(n log n)|
-|Average|O(n log n)|
-|Worst|O(n log n)|
-|Extra Memory|O(n)|
-|Stable|✅|
-|In-place|❌|
-|Parallelizable|Excellent|
-|External Sorting|Excellent|
-|Cache Behavior|Good|
+| Property         | Merge Sort |
+| ---------------- | ---------- |
+| Best             | O(n log n) |
+| Average          | O(n log n) |
+| Worst            | O(n log n) |
+| Extra Memory     | O(n)       |
+| Stable           | ✅          |
+| In-place         | ❌          |
+| Parallelizable   | Excellent  |
+| External Sorting | Excellent  |
+| Cache Behavior   | Good       |
 
 ---
 
@@ -514,17 +501,11 @@ This is an example of exposing different algorithms because they solve different
 Merge Sort is widely used in:
 
 - Database external sorting
-    
 - Distributed systems (MapReduce, Spark)
-    
 - Log processing pipelines
-    
 - Stable sorting libraries
-    
 - File sorting utilities
-    
 - Data warehousing
-    
 
 ---
 
