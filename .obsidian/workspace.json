@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "baae5b49e0b060e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Literature notes/Python/Object Oriented Design/Objects in Python.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Objects in Python"
-            }
-          },
-          {
             "id": "b5684bd8c090665e",
             "type": "leaf",
             "state": {
@@ -190,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Python/Object Oriented Design/Objects in Python.md",
+                "file": "Literature notes/Software Engineering/Algorithms/Merge Sort.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Objects in Python"
+              "title": "Outline of Merge Sort"
             }
           },
           {
@@ -262,11 +238,12 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "baae5b49e0b060e3",
+  "active": "b5684bd8c090665e",
   "lastOpenFiles": [
-    "Literature notes/Protocol Buffer/What is serialization ?.md",
-    "Literature notes/Protocol Buffer/Protocol Buffers Roadmap.md",
     "Literature notes/Software Engineering/Algorithms/Merge Sort.md",
+    "Literature notes/Protocol Buffer/What is serialization ?.md",
+    "Literature notes/Python/Object Oriented Design/Objects in Python.md",
+    "Literature notes/Protocol Buffer/Protocol Buffers Roadmap.md",
     "Literature notes/Software Engineering/Algorithms/Sorting Fundamental.md",
     "Literature notes/Software Engineering/Algorithms/Dynamic Arrays & Amortized Growth.md",
     "Daily Notes/2026-07-30.md",
@@ -291,7 +268,6 @@
     "Literature notes/Software Engineering/Algorithms/Memory Layout & Cache-Friendly Programming.md",
     "Daily Notes/2026-07-07.md",
     "Literature notes/IPP/IPP Study Guide.md",
-    "Daily Notes/roya.md",
     "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization",
     "Literature notes/Software Engineering/References",
     "Literature notes/Software Engineering/Algorithms",
