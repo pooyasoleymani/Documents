@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Software Engineering/Algorithms/Quick Sort (From Textbook to PDQSort).md",
+                "file": "Daily Notes/2026-08-04.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,23 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Quick Sort (From Textbook to PDQSort)"
+              "title": "2026-08-04"
+            }
+          },
+          {
+            "id": "5b210798f4b280d3",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.13.4"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -51,7 +64,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -79,7 +94,10 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
@@ -166,13 +184,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Software Engineering/Algorithms/Quick Sort (From Textbook to PDQSort).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Quick Sort (From Textbook to PDQSort)"
+              "title": "Outline"
             }
           },
           {
@@ -222,7 +239,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 296.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -237,10 +255,11 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "b5684bd8c090665e",
+  "active": "5b210798f4b280d3",
   "lastOpenFiles": [
-    "Literature notes/Software Engineering/Algorithms/Merge Sort.md",
     "Literature notes/Software Engineering/Algorithms/Quick Sort (From Textbook to PDQSort).md",
+    "Daily Notes/2026-08-04.md",
+    "Literature notes/Software Engineering/Algorithms/Merge Sort.md",
     "Literature notes/Protocol Buffer/What is serialization ?.md",
     "Literature notes/Python/Object Oriented Design/Objects in Python.md",
     "Literature notes/Protocol Buffer/Protocol Buffers Roadmap.md",
@@ -266,7 +285,6 @@
     "Daily Notes/2026-07-16.md",
     "Literature notes/Golang/Study Plan/Testing in Go.md",
     "Literature notes/Software Engineering/Algorithms/Memory Layout & Cache-Friendly Programming.md",
-    "Daily Notes/2026-07-07.md",
     "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization",
     "Literature notes/Software Engineering/References",
     "Literature notes/Software Engineering/Algorithms",
