@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "20734ecb0ccc1176",
+        "id": "50b5da0f6983d96b",
         "type": "tabs",
         "children": [
           {
-            "id": "b5684bd8c090665e",
+            "id": "165be88260c9010c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2026-08-04.md",
+                "file": "Literature notes/Software Engineering/Algorithms/Quick Sort (From Textbook to PDQSort).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,23 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-08-04"
-            }
-          },
-          {
-            "id": "5b210798f4b280d3",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.13.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.13.4"
+              "title": "Quick Sort (From Textbook to PDQSort)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,6 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Literature notes/Software Engineering/Algorithms/Quick Sort (From Textbook to PDQSort).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -255,10 +243,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "5b210798f4b280d3",
+  "active": "165be88260c9010c",
   "lastOpenFiles": [
-    "Literature notes/Software Engineering/Algorithms/Quick Sort (From Textbook to PDQSort).md",
     "Daily Notes/2026-08-04.md",
+    "Literature notes/Software Engineering/Algorithms/Quick Sort (From Textbook to PDQSort).md",
     "Literature notes/Software Engineering/Algorithms/Merge Sort.md",
     "Literature notes/Protocol Buffer/What is serialization ?.md",
     "Literature notes/Python/Object Oriented Design/Objects in Python.md",
