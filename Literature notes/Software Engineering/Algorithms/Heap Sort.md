@@ -431,17 +431,11 @@ Now we can use a heap to sort.
 For ascending order:
 
 1. Build a max-heap.
-    
 2. Largest element is at root.
-    
 3. Move root to the end.
-    
 4. Reduce heap size.
-    
 5. Restore heap property.
-    
 6. Repeat.
-    
 
 Example:
 
@@ -454,7 +448,7 @@ Build max heap:
 ```text
           8
        /     \
-      4       7
+      4        7
      / \     /
     3   1   5
 ```
