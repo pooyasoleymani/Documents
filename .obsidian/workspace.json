@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Software Engineering/Algorithms/Quick Sort (From Textbook to PDQSort).md",
+                "file": "Daily Notes/2026-08-10.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Quick Sort (From Textbook to PDQSort)"
+              "title": "2026-08-10"
             }
           }
         ]
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Software Engineering/Algorithms/Quick Sort (From Textbook to PDQSort).md",
+                "file": "Daily Notes/2026-08-10.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -244,8 +244,9 @@
   },
   "active": "165be88260c9010c",
   "lastOpenFiles": [
-    "Daily Notes/2026-08-04.md",
     "Literature notes/Software Engineering/Algorithms/Quick Sort (From Textbook to PDQSort).md",
+    "Daily Notes/2026-08-10.md",
+    "Daily Notes/2026-08-04.md",
     "Literature notes/Software Engineering/Algorithms/Merge Sort.md",
     "Literature notes/Protocol Buffer/What is serialization ?.md",
     "Literature notes/Python/Object Oriented Design/Objects in Python.md",
@@ -271,7 +272,6 @@
     "Literature notes/CMake/CMake Study Plan.md",
     "Daily Notes/2026-07-16.md",
     "Literature notes/Golang/Study Plan/Testing in Go.md",
-    "Literature notes/Software Engineering/Algorithms/Memory Layout & Cache-Friendly Programming.md",
     "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization",
     "Literature notes/Software Engineering/References",
     "Literature notes/Software Engineering/Algorithms",
