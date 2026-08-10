@@ -140,9 +140,7 @@ Everything else is recursion.
 There are two famous partition algorithms:
 
 - Lomuto
-    
 - Hoare
-    
 
 Understanding their trade-offs is far more important than memorizing code.
 
@@ -191,20 +189,15 @@ Popular in textbooks.
 ## Advantages
 
 - Easy to understand
-    
 - Easy to verify
-    
 - Good for teaching
-    
 
 ---
 
 ## Disadvantages
 
 Lots of swaps.
-
 Even when unnecessary.
-
 That increases memory writes.
 
 ---
@@ -252,13 +245,9 @@ Repeat.
 Advantages
 
 - Fewer swaps
-    
 - Faster
-    
 - Better cache behavior
-    
 - Used in many production implementations
-    
 
 ---
 
@@ -558,15 +547,10 @@ Improves Quick Sort by detecting bad partition patterns.
 Features
 
 - Better pivot selection
-    
 - Handles duplicates efficiently
-    
 - Detects nearly sorted input
-    
 - Reduces branch mispredictions
-    
 - Avoids common Quick Sort worst cases
-    
 
 Result
 
@@ -610,30 +594,30 @@ Not stable.
 
 # Complexity Summary
 
-|Property|Quick Sort|
-|---|---|
-|Best|O(n log n)|
-|Average|O(n log n)|
-|Worst|O(n²)|
-|Stable|❌|
-|In-place|✅|
-|Cache Friendly|Excellent|
-|Extra Memory|O(log n)|
-|Parallelizable|Good|
+| Property       | Quick Sort |
+| -------------- | ---------- |
+| Best           | O(n log n) |
+| Average        | O(n log n) |
+| Worst          | O(n²)      |
+| Stable         | ❌          |
+| In-place       | ✅          |
+| Cache Friendly | Excellent  |
+| Extra Memory   | O(log n)   |
+| Parallelizable | Good       |
 
 ---
 
 # Merge Sort vs Quick Sort
 
-|Feature|Merge Sort|Quick Sort|
-|---|---|---|
-|Stable|✅|❌|
-|Extra Memory|O(n)|O(log n) stack|
-|Worst Case|O(n log n)|O(n²)|
-|Average Speed|Very Good|Excellent|
-|Cache Locality|Good|Excellent|
-|External Sorting|Excellent|Poor|
-|Default in Go|❌|Foundation of PDQSort|
+| Feature          | Merge Sort | Quick Sort            |
+| ---------------- | ---------- | --------------------- |
+| Stable           | ✅          | ❌                     |
+| Extra Memory     | O(n)       | O(log n) stack        |
+| Worst Case       | O(n log n) | O(n²)                 |
+| Average Speed    | Very Good  | Excellent             |
+| Cache Locality   | Good       | Excellent             |
+| External Sorting | Excellent  | Poor                  |
+| Default in Go    | ❌          | Foundation of PDQSort |
 
 ---
 
@@ -642,15 +626,10 @@ Not stable.
 Quick Sort (or its descendants) is used in:
 
 - Go runtime (`slices.Sort`)
-    
 - Rust standard library
-    
 - C++ `std::sort` (via Introsort)
-    
 - Java primitive sorting (dual-pivot Quick Sort)
-    
 - Many embedded systems
-    
 
 ---
 
@@ -659,17 +638,11 @@ Quick Sort (or its descendants) is used in:
 Avoid these pitfalls:
 
 1. Poor pivot selection leading to O(n²).
-    
 2. Infinite recursion when partition boundaries are wrong.
-    
 3. Stack overflow from deep recursion.
-    
 4. Mishandling duplicate values.
-    
 5. Assuming Quick Sort is stable.
-    
 6. Forgetting to optimize for small partitions (many runtimes switch to Insertion Sort).
-    
 
 ---
 
@@ -680,21 +653,13 @@ Avoid these pitfalls:
 Answer these:
 
 1. Why is partitioning the core operation of Quick Sort?
-    
 2. Compare Lomuto and Hoare partition schemes. What are the trade-offs?
-    
 3. Why does choosing the last element as pivot degrade performance on sorted input?
-    
 4. Why does randomized pivot selection reduce the chance of worst-case behavior?
-    
 5. Why is Quick Sort generally faster than Merge Sort on modern CPUs?
-    
 6. Why is Quick Sort not stable?
-    
 7. What problem does Introsort solve?
-    
 8. What improvements does PDQSort add over classic Quick Sort?
-    
 
 ---
 
@@ -709,19 +674,12 @@ func QuickSort[T cmp.Ordered](arr []T)
 Requirements:
 
 - Start with Lomuto partition.
-    
 - Then implement Hoare partition.
-    
 - Benchmark both.
-    
 - Compare against:
-    
     - Merge Sort
-        
     - `slices.Sort`
-        
 - Run:
-    
 
 ```bash
 go test -bench=. -benchmem
@@ -730,11 +688,8 @@ go test -bench=. -benchmem
 Record:
 
 - ns/op
-    
 - B/op
-    
 - allocs/op
-    
 
 ---
 
@@ -743,9 +698,7 @@ Record:
 Implement Quick Sort using:
 
 - Lomuto partition
-    
 - Hoare partition
-    
 
 Compare both with:
 
@@ -756,11 +709,8 @@ sorted(...)
 Observe:
 
 - runtime
-    
 - recursion depth
-    
 - behavior on already sorted input
-    
 
 ---
 
@@ -788,13 +738,9 @@ Analyze differences in performance and behavior.
 Study:
 
 1. Go's `slices.Sort` documentation.
-    
 2. The PDQSort paper (high-level overview is sufficient for now).
-    
 3. C++ `std::sort` complexity guarantees.
-    
 4. Tony Hoare's original partition algorithm.
-    
 
 Focus on **why** runtime libraries evolved beyond textbook Quick Sort.
 
@@ -807,25 +753,16 @@ You're building a log-processing service that sorts **100 million log entries** 
 Characteristics:
 
 - 95% of the data is already sorted.
-    
 - Many entries have identical timestamps.
-    
 - Low memory overhead is required.
-    
 - Throughput is more important than latency.
-    
 
 Questions:
 
 1. Would you choose classic Quick Sort? Why or why not?
-    
 2. How could many duplicate keys hurt a naïve Quick Sort implementation?
-    
 3. Why would PDQSort likely outperform textbook Quick Sort on this workload?
-    
 4. Would a stable sort provide any benefit here? Explain your reasoning.
-    
 5. If the dataset grows beyond RAM, how would your sorting strategy change?
-    
 
 This scenario reflects the kinds of trade-offs engineers make when designing high-performance backend and data-processing systems.
