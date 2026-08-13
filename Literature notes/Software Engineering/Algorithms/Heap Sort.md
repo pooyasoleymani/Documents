@@ -873,13 +873,13 @@ Task scheduling and delayed jobs.
 
 # 20. Heap Trade-offs
 
-|Operation|Complexity|
-|---|--:|
-|Peek|O(1)|
-|Insert|O(log n)|
-|Extract|O(log n)|
-|Search arbitrary element|O(n)|
-|Build Heap|O(n)|
+| Operation                | Complexity |
+| ------------------------ | ---------: |
+| Peek                     |       O(1) |
+| Insert                   |   O(log n) |
+| Extract                  |   O(log n) |
+| Search arbitrary element |       O(n) |
+| Build Heap               |       O(n) |
 
 A heap is **not** a general-purpose sorted structure.
 
