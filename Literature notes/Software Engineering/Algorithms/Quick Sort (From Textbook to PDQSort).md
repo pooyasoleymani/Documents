@@ -4,7 +4,6 @@ tags:
   - software_engineering
 ---
 
-
 ---
 
 # Module 1 — Algorithms & Performance Engineering
