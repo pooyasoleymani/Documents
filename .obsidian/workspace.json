@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/English Learning/lessons/Pre-lesson.md",
+                "file": "Literature notes/Python/django/adac-energy/Bootstrap the Django Project.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Pre-lesson"
+              "title": "Bootstrap the Django Project"
             }
           }
         ]
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/English Learning/lessons/Pre-lesson.md",
+                "file": "Literature notes/Python/django/adac-energy/Bootstrap the Django Project.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -245,6 +245,12 @@
   },
   "active": "5252a02b3c240fa5",
   "lastOpenFiles": [
+    "Literature notes/Python/django/adac-energy/repository.md",
+    "Literature notes/Python/django/adac-energy/Bootstrap the Django Project.md",
+    "Literature notes/Python/django/adac-energy/final architecture.md",
+    "Literature notes/English Learning/lessons/Pre-lesson.md",
+    "Literature notes/Python/django/adac-energy",
+    "Literature notes/Python/django",
     "Literature notes/English Learning/Study Plan.md",
     "Literature notes/Software Engineering/Algorithms/Quick Sort (From Textbook to PDQSort).md",
     "Literature notes/Software Engineering/Algorithms/Sorting Fundamental.md",
@@ -259,7 +265,6 @@
     "Literature notes/Protocol Buffer/Protocol Buffers Roadmap.md",
     "Daily Notes/2026-07-30.md",
     "Literature notes/Golang/Study Plan/JWT Authentication.md",
-    "Literature notes/English Learning/lessons/Pre-lesson.md",
     "Literature notes/English Learning/lessons/Lesson-1.md",
     "Literature notes/English Learning/lessons",
     "Literature notes/English Learning",
@@ -270,17 +275,12 @@
     "Fleeting note/scikit-build-core CMake-Python bridge.md",
     "Fleeting note/flow state.md",
     "Literature notes/Software Engineering/Algorithms/Arrays.md",
-    "Literature notes/Software Engineering/Algorithms/Complexity Analysis.md",
-    "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization/Software Efficiency Matters.md",
-    "Literature notes/CMake/CMake Study Plan.md",
     "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization",
     "Literature notes/Software Engineering/References",
     "Literature notes/Software Engineering/Algorithms",
     "Literature notes/Software Engineering",
     "Literature notes/Telecom/SCTP Protocol",
     "Literature notes/Telecom/Protocol Buffer",
-    "Literature notes/Telecom/Event Driven Design",
-    "Literature notes/Telecom",
     "Literature notes/WarGame/Linux Command.canvas"
   ]
 }
