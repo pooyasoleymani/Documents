@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Python/django/adac-energy/Bootstrap the Django Project.md",
+                "file": "Daily Notes/2026-08-25.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Bootstrap the Django Project"
+              "title": "2026-08-25"
             }
           }
         ]
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Python/django/adac-energy/Bootstrap the Django Project.md",
+                "file": "Daily Notes/2026-08-25.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -186,8 +186,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -218,8 +218,8 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "icon": "lucide-ghost",
+              "title": "copilot-chat-view"
             }
           }
         ],
@@ -227,8 +227,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5,
-    "collapsed": true
+    "width": 296.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -245,8 +244,9 @@
   },
   "active": "5252a02b3c240fa5",
   "lastOpenFiles": [
-    "Literature notes/Python/django/adac-energy/final architecture.md",
     "Literature notes/Python/django/adac-energy/Bootstrap the Django Project.md",
+    "Daily Notes/2026-08-25.md",
+    "Literature notes/Python/django/adac-energy/final architecture.md",
     "Literature notes/Python/django/adac-energy/repository.md",
     "Literature notes/English Learning/lessons/Pre-lesson.md",
     "Literature notes/Python/django/adac-energy",
@@ -274,7 +274,6 @@
     "Literature notes/Software Engineering/Algorithms/Binary Search.md",
     "Fleeting note/scikit-build-core CMake-Python bridge.md",
     "Fleeting note/flow state.md",
-    "Literature notes/Software Engineering/Algorithms/Arrays.md",
     "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization",
     "Literature notes/Software Engineering/References",
     "Literature notes/Software Engineering/Algorithms",
