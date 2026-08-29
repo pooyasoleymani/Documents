@@ -242,13 +242,14 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "5252a02b3c240fa5",
+  "active": "12d83b769816be49",
   "lastOpenFiles": [
-    "Literature notes/C++/Hands-On GUI Programming with C++ and Qt5/01-introdution-to-Qt.md",
-    "Daily Notes/2026-08-04.md",
-    "Daily Notes/2026-08-10.md",
-    "Daily Notes/2026-08-25.md",
     "Daily Notes/2026-08-26.md",
+    "Daily Notes/2026-08-25.md",
+    "Daily Notes/2026-08-15.md",
+    "Daily Notes/2026-08-10.md",
+    "Daily Notes/2026-08-04.md",
+    "Literature notes/C++/Hands-On GUI Programming with C++ and Qt5/01-introdution-to-Qt.md",
     "Daily Notes/2026-08-29.md",
     "Permanet Note/streambuf.md",
     "Literature notes/C++/Hands-On GUI Programming with C++ and Qt5",
@@ -265,7 +266,6 @@
     "Literature notes/English Learning/Study Plan.md",
     "Literature notes/Software Engineering/Algorithms/Quick Sort (From Textbook to PDQSort).md",
     "Literature notes/Software Engineering/Algorithms/Sorting Fundamental.md",
-    "Daily Notes/2026-08-15.md",
     "Literature notes/Software Engineering/Algorithms/Heap Sort.md",
     "Literature notes/Software Engineering/Algorithms/Dynamic Arrays & Amortized Growth.md",
     "Literature notes/Software Engineering/Algorithms/Merge Sort.md",
