@@ -186,8 +186,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -218,8 +218,8 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "copilot-chat-view"
+              "icon": "message-square",
+              "title": "Copilot"
             }
           }
         ],
@@ -227,7 +227,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 296.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -259,6 +260,7 @@
     "CI/CI-CD pipeline speed.md",
     "Literature notes/Python/django/adac-energy/Bootstrap the Django Project.md",
     "Literature notes/Python/django/adac-energy/final architecture.md",
+    "Literature notes/Python/django/adac-energy/Bootstrap the Django Project.md",
     "Literature notes/Python/django/adac-energy/repository.md",
     "Literature notes/English Learning/lessons/Pre-lesson.md",
     "Literature notes/Python/django/adac-energy",
@@ -275,6 +277,7 @@
     "Daily Notes/2026-07-30.md",
     "Literature notes/English Learning/lessons",
     "Literature notes/English Learning",
+    "Literature notes/C++/Effective Modern C++/References/Use move on rvalue references, forward on universal references.md",
     "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization",
     "Literature notes/Software Engineering/References",
     "Literature notes/Software Engineering/Algorithms",
