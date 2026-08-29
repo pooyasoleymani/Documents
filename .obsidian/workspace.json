@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2026-02-16.md",
+                "file": "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.1-Interduction.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-02-16"
+              "title": "lesson-1.1-Interduction"
             }
           }
         ]
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 395.5,
+    "collapsed": true
   },
   "right": {
     "id": "7965c69a42e62fbd",
@@ -171,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2026-02-16.md",
+                "file": "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.1-Interduction.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -245,6 +246,21 @@
   },
   "active": "5252a02b3c240fa5",
   "lastOpenFiles": [
+    "Literature notes/Software Architecture/Clean Architecture/interview/lesson-1.1-Interduction.md",
+    "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.1-Interduction.md",
+    "Literature notes/Software Architecture/Clean Architecture/mindset/0001.md",
+    "Literature notes/Software Architecture/Clean Architecture/Part-1/Chapter-01.md",
+    "Literature notes/Software Architecture/Clean Architecture/notes",
+    "Literature notes/Software Architecture/Clean Architecture/interview",
+    "Literature notes/Software Architecture/Clean Architecture/mindset",
+    "Literature notes/Software Architecture/Clean Architecture/glossary",
+    "Literature notes/Software Architecture/Clean Architecture/Untitled.md",
+    "Literature notes/Software Architecture/Clean Architecture/mistakes",
+    "Literature notes/Software Architecture/Clean Architecture/Part-1/Chapter-02.md",
+    "Daily Notes/2026-02-16.md",
+    "Literature notes/Software Architecture/Clean Architecture/Part-1",
+    "Literature notes/Software Architecture/Clean Architecture",
+    "Literature notes/Software Architecture",
     "Daily Notes/2026-08-26.md",
     "Daily Notes/2026-08-25.md",
     "Daily Notes/2026-08-15.md",
@@ -263,24 +279,9 @@
     "Literature notes/Python/django/adac-energy/repository.md",
     "Literature notes/English Learning/lessons/Pre-lesson.md",
     "Literature notes/Python/django/adac-energy",
-    "Literature notes/Python/django",
     "Literature notes/English Learning/Study Plan.md",
     "Literature notes/Software Engineering/Algorithms/Quick Sort (From Textbook to PDQSort).md",
     "Literature notes/Software Engineering/Algorithms/Sorting Fundamental.md",
-    "Literature notes/Software Engineering/Algorithms/Heap Sort.md",
-    "Literature notes/Software Engineering/Algorithms/Dynamic Arrays & Amortized Growth.md",
-    "Literature notes/Software Engineering/Algorithms/Merge Sort.md",
-    "Literature notes/Protocol Buffer/What is serialization ?.md",
-    "Literature notes/Python/Object Oriented Design/Objects in Python.md",
-    "Literature notes/Protocol Buffer/Protocol Buffers Roadmap.md",
-    "Daily Notes/2026-07-30.md",
-    "Literature notes/English Learning/lessons",
-    "Literature notes/English Learning",
-    "Literature notes/Software Engineering/References/Efficient Go Data-Driven Performance Optimization",
-    "Literature notes/Software Engineering/References",
-    "Literature notes/Software Engineering/Algorithms",
-    "Literature notes/Software Engineering",
-    "Literature notes/Telecom/SCTP Protocol",
     "Literature notes/WarGame/Linux Command.canvas"
   ]
 }
