@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "lesson-1.1-Interduction"
             }
+          },
+          {
+            "id": "1380e7dd96c29389",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.2-table-of-two-values.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "lesson-1.2-table-of-two-values"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,7 +197,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.1-Interduction.md",
+                "file": "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.2-table-of-two-values.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -244,10 +269,12 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "5252a02b3c240fa5",
+  "active": "1380e7dd96c29389",
   "lastOpenFiles": [
-    "Literature notes/Software Architecture/Clean Architecture/interview/lesson-1.1-Interduction.md",
     "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.1-Interduction.md",
+    "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.2-table-of-two-values.md",
+    "Literature notes/Software Architecture/Clean Architecture/glossary/TDD.md",
+    "Literature notes/Software Architecture/Clean Architecture/interview/lesson-1.1-Interduction.md",
     "Literature notes/Software Architecture/Clean Architecture/mindset/0001.md",
     "Literature notes/Software Architecture/Clean Architecture/Part-1/Chapter-01.md",
     "Literature notes/Software Architecture/Clean Architecture/notes",
@@ -280,8 +307,6 @@
     "Literature notes/English Learning/lessons/Pre-lesson.md",
     "Literature notes/Python/django/adac-energy",
     "Literature notes/English Learning/Study Plan.md",
-    "Literature notes/Software Engineering/Algorithms/Quick Sort (From Textbook to PDQSort).md",
-    "Literature notes/Software Engineering/Algorithms/Sorting Fundamental.md",
     "Literature notes/WarGame/Linux Command.canvas"
   ]
 }
