@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.1-Interduction.md",
+                "file": "Literature notes/Python/django/adac-energy/Bootstrap the Django Project.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "lesson-1.1-Interduction"
-            }
-          },
-          {
-            "id": "1380e7dd96c29389",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.2-table-of-two-values.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "lesson-1.2-table-of-two-values"
+              "title": "Bootstrap the Django Project"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 395.5,
-    "collapsed": true
+    "width": 276.5
   },
   "right": {
     "id": "7965c69a42e62fbd",
@@ -197,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.2-table-of-two-values.md",
+                "file": "Literature notes/Python/django/adac-energy/Bootstrap the Django Project.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -212,8 +186,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -244,8 +218,8 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "copilot-chat-view"
+              "icon": "message-square",
+              "title": "Copilot"
             }
           }
         ],
@@ -253,7 +227,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 296.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -268,44 +243,44 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "1380e7dd96c29389",
+  "active": "5252a02b3c240fa5",
   "lastOpenFiles": [
-    "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.1-Interduction.md",
+    "Literature notes/Software Architecture/Fundamentals of Software Architecture/Refrences/Modularity.md",
+    "Literature notes/Software Architecture/Fundamentals of Software Architecture/Refrences/Measuring and Governing Architecture Characteristics.md",
+    "Literature notes/Software Architecture/Fundamentals of Software Architecture/Refrences/Introduction.md",
+    "Literature notes/Software Architecture/Fundamentals of Software Architecture/Refrences/Identifying Architecture Characteristics.md",
+    "Literature notes/Software Architecture/Fundamentals of Software Architecture/Refrences/Architecture Characteristics Defined.md",
+    "Literature notes/Software Architecture/Fundamentals of Software Architecture/Refrences/Architectural Thinking.md",
     "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.2-table-of-two-values.md",
-    "Literature notes/Software Architecture/Clean Architecture/glossary/TDD.md",
-    "Literature notes/Software Architecture/Clean Architecture/interview/lesson-1.1-Interduction.md",
+    "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.1-Interduction.md",
     "Literature notes/Software Architecture/Clean Architecture/mindset/0001.md",
-    "Literature notes/Software Architecture/Clean Architecture/Part-1/Chapter-01.md",
+    "Literature notes/Software Architecture/Clean Architecture/interview/lesson-1.1-Interduction.md",
+    "Literature notes/Software Architecture/Clean Architecture/glossary/TDD.md",
+    "Literature notes/Software Architecture/Fundamentals of Software Architecture/Refrences",
     "Literature notes/Software Architecture/Clean Architecture/notes",
-    "Literature notes/Software Architecture/Clean Architecture/interview",
     "Literature notes/Software Architecture/Clean Architecture/mindset",
+    "Literature notes/Software Architecture/Clean Architecture/interview",
     "Literature notes/Software Architecture/Clean Architecture/glossary",
-    "Literature notes/Software Architecture/Clean Architecture/Untitled.md",
-    "Literature notes/Software Architecture/Clean Architecture/mistakes",
-    "Literature notes/Software Architecture/Clean Architecture/Part-1/Chapter-02.md",
-    "Daily Notes/2026-02-16.md",
-    "Literature notes/Software Architecture/Clean Architecture/Part-1",
+    "Literature notes/Software Architecture/Fundamentals of Software Architecture",
     "Literature notes/Software Architecture/Clean Architecture",
     "Literature notes/Software Architecture",
-    "Daily Notes/2026-08-26.md",
-    "Daily Notes/2026-08-25.md",
-    "Daily Notes/2026-08-15.md",
-    "Daily Notes/2026-08-10.md",
-    "Daily Notes/2026-08-04.md",
+    "Literature notes/Telecom/Protocol Buffer/What is serialization _.md",
+    "Literature notes/Telecom/Event Driven Design/What is NATS _.md",
+    "Literature notes/Python/Object Oriented Design/The Intersection of Object_Oriented and Functional __Programming.md",
+    "Literature notes/Protocol Buffer/What is serialization _.md",
     "Literature notes/C++/Hands-On GUI Programming with C++ and Qt5/01-introdution-to-Qt.md",
-    "Daily Notes/2026-08-29.md",
-    "Permanet Note/streambuf.md",
     "Literature notes/C++/Hands-On GUI Programming with C++ and Qt5",
-    "Permanet Note/Socket.md",
-    "Permanet Note/SFINAE.md",
-    "Permanet Note/declval().md",
-    "CI/CI-CD pipeline speed.md",
-    "Literature notes/Python/django/adac-energy/Bootstrap the Django Project.md",
+    "Daily Notes/2026-08-25.md",
     "Literature notes/Python/django/adac-energy/final architecture.md",
+    "Literature notes/Python/django/adac-energy/Bootstrap the Django Project.md",
     "Literature notes/Python/django/adac-energy/repository.md",
     "Literature notes/English Learning/lessons/Pre-lesson.md",
     "Literature notes/Python/django/adac-energy",
     "Literature notes/English Learning/Study Plan.md",
+    "Literature notes/Software Engineering/Algorithms/Quick Sort (From Textbook to PDQSort).md",
+    "Literature notes/Software Engineering/Algorithms/Sorting Fundamental.md",
+    "Daily Notes/2026-08-15.md",
+    "Literature notes/Software Engineering/Algorithms/Heap Sort.md",
     "Literature notes/WarGame/Linux Command.canvas"
   ]
 }
