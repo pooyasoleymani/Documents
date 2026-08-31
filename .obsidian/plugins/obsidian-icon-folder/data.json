@@ -6,8 +6,6 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiBrushCleaning",
-      "🏗",
       "🗣",
       "📩",
       "🎲",
@@ -17,7 +15,9 @@
       "🐍",
       "📫",
       "🐧",
-      "🔱"
+      "🔱",
+      "LiMessageSquareCode",
+      "🏢"
     ],
     "recentlyUsedIconsSize": 12,
     "rules": [],
@@ -61,8 +61,5 @@
   "Literature notes/VIM": "LiSwords",
   "Literature notes/WarGame": "🎲",
   "Literature notes/SCTP Protocol": "📩",
-  "Literature notes/تندخوانی": "🗣",
-  "Literature notes/Software Architecture": "🏗",
-  "Literature notes/Software Architecture/Fundamentals of Software Architecture": "🏢",
-  "Literature notes/Software Architecture/Clean Architecture": "LiBrushCleaning"
+  "Literature notes/تندخوانی": "🗣"
 }
