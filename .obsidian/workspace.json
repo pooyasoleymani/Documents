@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.2-table-of-two-values.md",
+                "file": "Daily Notes/2026-08-31.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "lesson-1.2-table-of-two-values"
+              "title": "2026-08-31"
             }
           }
         ],
@@ -197,7 +197,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.2-table-of-two-values.md",
+                "file": "Daily Notes/2026-08-31.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -270,8 +270,9 @@
   },
   "active": "1380e7dd96c29389",
   "lastOpenFiles": [
-    "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.1-Interduction.md",
     "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.2-table-of-two-values.md",
+    "Daily Notes/2026-08-31.md",
+    "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.1-Interduction.md",
     "Literature notes/Software Architecture/Clean Architecture/glossary/TDD.md",
     "Literature notes/Software Architecture/Clean Architecture/interview/lesson-1.1-Interduction.md",
     "Literature notes/Software Architecture/Clean Architecture/mindset/0001.md",
@@ -305,7 +306,6 @@
     "Literature notes/Python/django/adac-energy/repository.md",
     "Literature notes/English Learning/lessons/Pre-lesson.md",
     "Literature notes/Python/django/adac-energy",
-    "Literature notes/English Learning/Study Plan.md",
     "Literature notes/WarGame/Linux Command.canvas"
   ]
 }
