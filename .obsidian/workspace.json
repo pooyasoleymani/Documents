@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2026-09-01.md",
+                "file": "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.2-table-of-two-values.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-09-01"
+              "title": "lesson-1.2-table-of-two-values"
             }
           },
           {
@@ -195,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2026-09-01.md",
+                "file": "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.2-table-of-two-values.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -268,11 +268,11 @@
   },
   "active": "5252a02b3c240fa5",
   "lastOpenFiles": [
-    "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.2-table-of-two-values.md",
-    "Daily Notes/2026-09-01.md",
     "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.1-Interduction.md",
-    "Daily Notes/2026-08-31.md",
     "Literature notes/Software Architecture/Clean Architecture/interview/lesson-1.1-Interduction.md",
+    "Daily Notes/2026-09-01.md",
+    "Daily Notes/2026-08-31.md",
+    "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.2-table-of-two-values.md",
     "Literature notes/Software Architecture/Clean Architecture/glossary/TDD.md",
     "Literature notes/Software Architecture/Clean Architecture/mindset/0001.md",
     "Literature notes/Software Architecture/Clean Architecture/Part-1/Chapter-01.md",
