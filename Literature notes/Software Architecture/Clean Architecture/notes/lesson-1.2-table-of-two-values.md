@@ -4,7 +4,7 @@ tags:
   - architecture
   - software_engineering
 Related:
-Next:
+Next: "[[lesson-2.1-pardaim-overview]]"
 ---
 ---
 
