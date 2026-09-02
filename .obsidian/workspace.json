@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Software Architecture/Clean Architecture/notes/lesson-2.1-pardaim-overview.md",
+                "file": "Literature notes/Software Architecture/Clean Architecture/notes/lesson-2.1-pardaigm-overview.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "lesson-2.1-pardaim-overview"
+              "title": "lesson-2.1-pardaigm-overview"
             }
           },
           {
@@ -117,7 +117,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 395.5
+    "width": 395.5,
+    "collapsed": true
   },
   "right": {
     "id": "7965c69a42e62fbd",
@@ -195,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Software Architecture/Clean Architecture/notes/lesson-2.1-pardaim-overview.md",
+                "file": "Literature notes/Software Architecture/Clean Architecture/notes/lesson-2.1-pardaigm-overview.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -251,7 +252,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 296.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -268,8 +270,10 @@
   },
   "active": "5252a02b3c240fa5",
   "lastOpenFiles": [
+    "Literature notes/Software Engineering/Algorithms/Binary Search.md",
+    "Daily Notes/2026-09-02.md",
+    "Literature notes/Software Architecture/Clean Architecture/notes/lesson-2.1-pardaigm-overview.md",
     "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.2-table-of-two-values.md",
-    "Literature notes/Software Architecture/Clean Architecture/notes/lesson-2.1-pardaim-overview.md",
     "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.1-Interduction.md",
     "Literature notes/Software Architecture/Clean Architecture/interview/lesson-1.1-Interduction.md",
     "Daily Notes/2026-09-01.md",
@@ -301,8 +305,6 @@
     "Permanet Note/SFINAE.md",
     "Permanet Note/declval().md",
     "CI/CI-CD pipeline speed.md",
-    "Literature notes/Python/django/adac-energy/Bootstrap the Django Project.md",
-    "Literature notes/Python/django/adac-energy/final architecture.md",
     "Literature notes/Python/django/adac-energy",
     "Literature notes/WarGame/Linux Command.canvas"
   ]
