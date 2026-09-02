@@ -117,8 +117,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 395.5,
-    "collapsed": true
+    "width": 395.5
   },
   "right": {
     "id": "7965c69a42e62fbd",
@@ -252,7 +251,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 296.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -269,9 +269,10 @@
   },
   "active": "5252a02b3c240fa5",
   "lastOpenFiles": [
+    "Literature notes/Software Architecture/Clean Architecture/notes/lesson-2.2-structured-programming.md",
+    "Literature notes/Software Architecture/Clean Architecture/notes/lesson-2.1-pardaigm-overview.md",
     "Literature notes/Software Engineering/Algorithms/Binary Search.md",
     "Daily Notes/2026-09-02.md",
-    "Literature notes/Software Architecture/Clean Architecture/notes/lesson-2.1-pardaigm-overview.md",
     "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.2-table-of-two-values.md",
     "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.1-Interduction.md",
     "Literature notes/Software Architecture/Clean Architecture/interview/lesson-1.1-Interduction.md",
@@ -303,7 +304,6 @@
     "Permanet Note/Socket.md",
     "Permanet Note/SFINAE.md",
     "Permanet Note/declval().md",
-    "CI/CI-CD pipeline speed.md",
     "Literature notes/Python/django/adac-energy",
     "Literature notes/WarGame/Linux Command.canvas"
   ]
