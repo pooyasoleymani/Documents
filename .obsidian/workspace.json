@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Python/django/adac-energy/Bootstrap the Django Project.md",
+                "file": "Daily Notes/2026-09-10.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Bootstrap the Django Project"
+              "title": "2026-09-10"
             }
           }
         ]
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Python/django/adac-energy/Bootstrap the Django Project.md",
+                "file": "Daily Notes/2026-09-10.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -245,6 +245,8 @@
   },
   "active": "5252a02b3c240fa5",
   "lastOpenFiles": [
+    "Literature notes/Python/django/adac-energy/Bootstrap the Django Project.md",
+    "Daily Notes/2026-09-10.md",
     "Literature notes/Software Architecture/Fundamentals of Software Architecture/Refrences/Modularity.md",
     "Literature notes/Software Architecture/Fundamentals of Software Architecture/Refrences/Measuring and Governing Architecture Characteristics.md",
     "Literature notes/Software Architecture/Fundamentals of Software Architecture/Refrences/Introduction.md",
@@ -272,7 +274,6 @@
     "Literature notes/C++/Hands-On GUI Programming with C++ and Qt5",
     "Daily Notes/2026-08-25.md",
     "Literature notes/Python/django/adac-energy/final architecture.md",
-    "Literature notes/Python/django/adac-energy/Bootstrap the Django Project.md",
     "Literature notes/Python/django/adac-energy/repository.md",
     "Literature notes/English Learning/lessons/Pre-lesson.md",
     "Literature notes/Python/django/adac-energy",
@@ -280,7 +281,6 @@
     "Literature notes/Software Engineering/Algorithms/Quick Sort (From Textbook to PDQSort).md",
     "Literature notes/Software Engineering/Algorithms/Sorting Fundamental.md",
     "Daily Notes/2026-08-15.md",
-    "Literature notes/Software Engineering/Algorithms/Heap Sort.md",
     "Literature notes/WarGame/Linux Command.canvas"
   ]
 }
