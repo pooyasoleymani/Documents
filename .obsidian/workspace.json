@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 395.5,
+    "collapsed": true
   },
   "right": {
     "id": "7965c69a42e62fbd",
@@ -186,8 +187,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -218,8 +219,8 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "icon": "lucide-ghost",
+              "title": "copilot-chat-view"
             }
           }
         ],
@@ -255,23 +256,24 @@
     "Literature notes/Software Architecture/Fundamentals of Software Architecture/Refrences/Architectural Thinking.md",
     "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.2-table-of-two-values.md",
     "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.1-Interduction.md",
-    "Literature notes/Software Architecture/Clean Architecture/mindset/0001.md",
     "Literature notes/Software Architecture/Clean Architecture/interview/lesson-1.1-Interduction.md",
+    "Daily Notes/2026-09-01.md",
+    "Daily Notes/2026-08-31.md",
     "Literature notes/Software Architecture/Clean Architecture/glossary/TDD.md",
-    "Literature notes/Software Architecture/Fundamentals of Software Architecture/Refrences",
+    "Literature notes/Software Architecture/Clean Architecture/mindset/0001.md",
+    "Literature notes/Software Architecture/Clean Architecture/Part-1/Chapter-01.md",
     "Literature notes/Software Architecture/Clean Architecture/notes",
-    "Literature notes/Software Architecture/Clean Architecture/mindset",
     "Literature notes/Software Architecture/Clean Architecture/interview",
+    "Literature notes/Software Architecture/Clean Architecture/mindset",
     "Literature notes/Software Architecture/Clean Architecture/glossary",
-    "Literature notes/Software Architecture/Fundamentals of Software Architecture",
+    "Literature notes/Software Architecture/Clean Architecture/Untitled.md",
+    "Literature notes/Software Architecture/Clean Architecture/mistakes",
+    "Literature notes/Software Architecture/Clean Architecture/Part-1/Chapter-02.md",
+    "Daily Notes/2026-02-16.md",
+    "Literature notes/Software Architecture/Clean Architecture/Part-1",
     "Literature notes/Software Architecture/Clean Architecture",
     "Literature notes/Software Architecture",
-    "Literature notes/Telecom/Protocol Buffer/What is serialization _.md",
-    "Literature notes/Telecom/Event Driven Design/What is NATS _.md",
-    "Literature notes/Python/Object Oriented Design/The Intersection of Object_Oriented and Functional __Programming.md",
-    "Literature notes/Protocol Buffer/What is serialization _.md",
-    "Literature notes/C++/Hands-On GUI Programming with C++ and Qt5/01-introdution-to-Qt.md",
-    "Literature notes/C++/Hands-On GUI Programming with C++ and Qt5",
+    "Daily Notes/2026-08-26.md",
     "Daily Notes/2026-08-25.md",
     "Literature notes/Python/django/adac-energy/final architecture.md",
     "Literature notes/Python/django/adac-energy/repository.md",
