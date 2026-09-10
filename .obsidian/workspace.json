@@ -11,10 +11,24 @@
             "id": "a573d33aa50ae9cf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Literature notes/Software Engineering/Algorithms/Arrays.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Arrays"
             }
           }
         ]
@@ -157,6 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Literature notes/Software Engineering/Algorithms/Arrays.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
