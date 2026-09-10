@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2495c3d43858e530",
+        "id": "67ea34839e27c1e5",
         "type": "tabs",
         "children": [
           {
-            "id": "f4532f17ebfa7c19",
+            "id": "a573d33aa50ae9cf",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -212,7 +212,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 296.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -227,9 +228,15 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "f4532f17ebfa7c19",
+  "active": "a573d33aa50ae9cf",
   "lastOpenFiles": [
     "Daily Notes/2026-09-10.md",
+    "Permanet Note/Build Toolchain Performance Chain.md",
+    "Permanet Note/declval().md",
+    "Permanet Note/Interface and Abstract Class in C++.md",
+    "Literature notes/Python/Object Oriented Design/Advanced Design Patterns.md",
+    "Literature notes/Python/Object Oriented Design/Common Design Patterns.md",
+    "Literature notes/Python/Object Oriented Design/Object Oriented Design.md",
     "Literature notes/Software Architecture/Clean Architecture/notes/lesson-2.2-structured-programming.md",
     "Literature notes/Software Architecture/Clean Architecture/notes/lesson-2.1-pardaigm-overview.md",
     "Daily Notes/2026-09-07.md",
@@ -257,13 +264,7 @@
     "Literature notes/Software Architecture/Clean Architecture",
     "Literature notes/Software Architecture",
     "Literature notes/Telecom/Protocol Buffer/What is serialization _.md",
-    "Literature notes/Telecom/Event Driven Design/What is NATS _.md",
-    "Literature notes/Python/Object Oriented Design/The Intersection of Object_Oriented and Functional __Programming.md",
-    "Literature notes/Protocol Buffer/What is serialization _.md",
-    "Literature notes/C++/Hands-On GUI Programming with C++ and Qt5/01-introdution-to-Qt.md",
     "Literature notes/C++/Hands-On GUI Programming with C++ and Qt5",
-    "Daily Notes/2026-08-25.md",
-    "Literature notes/Python/django/adac-energy/final architecture.md",
     "Literature notes/Python/django/adac-energy",
     "Literature notes/WarGame/Linux Command.canvas"
   ]
