@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature notes/Software Engineering/Algorithms/Arrays.md",
+                "file": "Daily Notes/2026-09-12.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Arrays"
+              "title": "2026-09-12"
             }
           }
         ]
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Software Engineering/Algorithms/Arrays.md",
+                "file": "Daily Notes/2026-09-12.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -245,6 +245,8 @@
   },
   "active": "a573d33aa50ae9cf",
   "lastOpenFiles": [
+    "Literature notes/Software Engineering/Algorithms/Arrays.md",
+    "Daily Notes/2026-09-12.md",
     "Daily Notes/2026-09-10.md",
     "Permanet Note/Build Toolchain Performance Chain.md",
     "Permanet Note/declval().md",
@@ -269,7 +271,6 @@
     "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.1-Interduction.md",
     "Literature notes/Software Architecture/Clean Architecture/mindset/0001.md",
     "Literature notes/Software Architecture/Clean Architecture/interview/lesson-1.1-Interduction.md",
-    "Literature notes/Software Architecture/Clean Architecture/glossary/TDD.md",
     "Literature notes/Software Architecture/Fundamentals of Software Architecture/Refrences",
     "Literature notes/Software Architecture/Clean Architecture/notes",
     "Literature notes/Software Architecture/Clean Architecture/mindset",
@@ -278,7 +279,6 @@
     "Literature notes/Software Architecture/Fundamentals of Software Architecture",
     "Literature notes/Software Architecture/Clean Architecture",
     "Literature notes/Software Architecture",
-    "Literature notes/Telecom/Protocol Buffer/What is serialization _.md",
     "Literature notes/C++/Hands-On GUI Programming with C++ and Qt5",
     "Literature notes/Python/django/adac-energy",
     "Literature notes/WarGame/Linux Command.canvas"
