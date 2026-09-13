@@ -6,7 +6,7 @@ tags:
   - programming
 Next: "[[Testing Object-Oriented Programs]]"
 ---
----
+ ---
 ## What we Learn
 - The *Adapter* pattern
 - The *Façade* pattern
