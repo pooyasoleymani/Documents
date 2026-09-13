@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5252a02b3c240fa5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Literature notes/Software Architecture/Clean Architecture/notes/lesson-2.2-structured-programming.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "lesson-2.2-structured-programming"
-            }
-          },
-          {
             "id": "1380e7dd96c29389",
             "type": "leaf",
             "state": {
@@ -54,8 +30,33 @@
               "icon": "lucide-file",
               "title": "2026-08-31"
             }
+          },
+          {
+            "id": "a6cc41007ad71fcf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/2026-09-13.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2026-09-13"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,8 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 395.5,
-    "collapsed": true
+    "width": 395.5
   },
   "right": {
     "id": "7965c69a42e62fbd",
@@ -196,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Software Architecture/Clean Architecture/notes/lesson-2.2-structured-programming.md",
+                "file": "Daily Notes/2026-09-13.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -268,18 +268,19 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "5252a02b3c240fa5",
+  "active": "a6cc41007ad71fcf",
   "lastOpenFiles": [
+    "Daily Notes/2026-09-01.md",
     "Daily Notes/2026-09-07.md",
-    "Literature notes/Software Architecture/Clean Architecture/notes/lesson-2.1-pardaigm-overview.md",
-    "Literature notes/Software Architecture/Clean Architecture/notes/lesson-2.2-structured-programming.md",
-    "Literature notes/Software Engineering/Algorithms/Binary Search.md",
     "Daily Notes/2026-09-02.md",
+    "Daily Notes/2026-09-13.md",
+    "Daily Notes/2026-08-31.md",
+    "Literature notes/Software Architecture/Clean Architecture/notes/lesson-2.2-structured-programming.md",
+    "Literature notes/Software Architecture/Clean Architecture/notes/lesson-2.1-pardaigm-overview.md",
+    "Literature notes/Software Engineering/Algorithms/Binary Search.md",
     "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.2-table-of-two-values.md",
     "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.1-Interduction.md",
     "Literature notes/Software Architecture/Clean Architecture/interview/lesson-1.1-Interduction.md",
-    "Daily Notes/2026-09-01.md",
-    "Daily Notes/2026-08-31.md",
     "Literature notes/Software Architecture/Clean Architecture/glossary/TDD.md",
     "Literature notes/Software Architecture/Clean Architecture/mindset/0001.md",
     "Literature notes/Software Architecture/Clean Architecture/Part-1/Chapter-01.md",
@@ -304,7 +305,6 @@
     "Permanet Note/streambuf.md",
     "Literature notes/C++/Hands-On GUI Programming with C++ and Qt5",
     "Permanet Note/Socket.md",
-    "Permanet Note/SFINAE.md",
     "Literature notes/Python/django/adac-energy",
     "Literature notes/WarGame/Linux Command.canvas"
   ]
