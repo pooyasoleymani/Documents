@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanet Note/Untitled.md",
+                "file": "Permanet Note/Qt worker object pattern.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Qt worker object pattern"
             }
           }
         ],
@@ -196,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanet Note/Untitled.md",
+                "file": "Permanet Note/Qt worker object pattern.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -252,8 +252,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5,
-    "collapsed": true
+    "width": 296.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -271,7 +270,7 @@
   "active": "a6cc41007ad71fcf",
   "lastOpenFiles": [
     "Daily Notes/2026-09-22.md",
-    "Permanet Note/Untitled.md",
+    "Permanet Note/Qt worker object pattern.md",
     "Permanet Note/map vs unordered_map in C++.md",
     "Permanet Note/at() vs operator in vector.md",
     "Daily Notes/2026-09-15.md",
