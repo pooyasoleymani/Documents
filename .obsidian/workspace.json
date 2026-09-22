@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanet Note/map vs unordered_map in C++.md",
+                "file": "Permanet Note/Untitled.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "map vs unordered_map in C++"
+              "title": "Untitled"
             }
           }
         ],
@@ -118,8 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 395.5,
-    "collapsed": true
+    "width": 395.5
   },
   "right": {
     "id": "7965c69a42e62fbd",
@@ -197,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanet Note/map vs unordered_map in C++.md",
+                "file": "Permanet Note/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -271,8 +270,10 @@
   },
   "active": "a6cc41007ad71fcf",
   "lastOpenFiles": [
-    "Permanet Note/at() vs operator in vector.md",
+    "Daily Notes/2026-09-22.md",
+    "Permanet Note/Untitled.md",
     "Permanet Note/map vs unordered_map in C++.md",
+    "Permanet Note/at() vs operator in vector.md",
     "Daily Notes/2026-09-15.md",
     "Daily Notes/2026-09-13.md",
     "Permanet Note/Interface and Abstract Class in C++.md",
@@ -303,8 +304,6 @@
     "Literature notes/Software Architecture",
     "Daily Notes/2026-08-26.md",
     "Daily Notes/2026-08-25.md",
-    "Daily Notes/2026-08-15.md",
-    "Daily Notes/2026-08-10.md",
     "Literature notes/C++/Hands-On GUI Programming with C++ and Qt5",
     "Literature notes/Python/django/adac-energy",
     "Literature notes/WarGame/Linux Command.canvas"
