@@ -31,7 +31,8 @@
               "title": "Stream Buffer"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 395.5
   },
   "right": {
     "id": "7965c69a42e62fbd",
@@ -186,8 +187,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -218,8 +219,8 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "icon": "lucide-ghost",
+              "title": "copilot-chat-view"
             }
           }
         ],
@@ -272,10 +273,14 @@
     "Permanet Note/Concepts and Generic Programming.md",
     "Literature notes/Software Architecture/Fundamentals of Software Architecture/Refrences",
     "Literature notes/Software Architecture/Clean Architecture/notes",
-    "Literature notes/Software Architecture/Clean Architecture/mindset",
     "Literature notes/Software Architecture/Clean Architecture/interview",
+    "Literature notes/Software Architecture/Clean Architecture/mindset",
     "Literature notes/Software Architecture/Clean Architecture/glossary",
-    "Literature notes/Software Architecture/Fundamentals of Software Architecture",
+    "Literature notes/Software Architecture/Clean Architecture/Untitled.md",
+    "Literature notes/Software Architecture/Clean Architecture/mistakes",
+    "Literature notes/Software Architecture/Clean Architecture/Part-1/Chapter-02.md",
+    "Daily Notes/2026-02-16.md",
+    "Literature notes/Software Architecture/Clean Architecture/Part-1",
     "Literature notes/Software Architecture/Clean Architecture",
     "Literature notes/Software Architecture",
     "Literature notes/C++/Hands-On GUI Programming with C++ and Qt5",
