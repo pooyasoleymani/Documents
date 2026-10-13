@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "d77b5de9076182ee",
+        "id": "393419fd696c2df4",
         "type": "tabs",
         "children": [
           {
-            "id": "d2d92debe961d195",
+            "id": "c87c6def5a90f83c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Permanet Note/Stream Buffer.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Stream Buffer"
             }
           }
         ]
@@ -157,6 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Permanet Note/Stream Buffer.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -227,34 +242,34 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "d2d92debe961d195",
+  "active": "c87c6def5a90f83c",
   "lastOpenFiles": [
-    "Daily Notes/2026-10-13.md",
-    "Daily Notes/2026-09-01.md",
-    "Literature notes/Software Engineering/Algorithms/Arrays.md",
-    "Daily Notes/2026-09-02.md",
-    "Daily Notes/2026-09-07.md",
-    "Daily Notes/2026-09-12.md",
-    "Daily Notes/2026-09-10.md",
-    "Permanet Note/Build Toolchain Performance Chain.md",
-    "Permanet Note/declval().md",
+    "Permanet Note/Socket.md",
+    "Permanet Note/Stream Buffer.md",
+    "Permanet Note/streambuf.md",
+    "Permanet Note/SFINAE.md",
+    "Permanet Note/Scope and Lifetime (C++).md",
+    "Permanet Note/scikit-build-core Bridge CMake and Python.md",
+    "Permanet Note/run-time.md",
+    "Permanet Note/Random Access Iterator.md",
+    "Permanet Note/Python build system knowledge map.md",
+    "Permanet Note/Metafunction Composition.md",
+    "Permanet Note/Metafunction.md",
+    "Permanet Note/linked list.md",
+    "Permanet Note/Iterator vs Pointer.md",
     "Permanet Note/Interface and Abstract Class in C++.md",
-    "Literature notes/Python/Object Oriented Design/Advanced Design Patterns.md",
-    "Literature notes/Python/Object Oriented Design/Common Design Patterns.md",
-    "Literature notes/Python/Object Oriented Design/Object Oriented Design.md",
-    "Literature notes/Software Architecture/Clean Architecture/notes/lesson-2.2-structured-programming.md",
-    "Literature notes/Software Architecture/Clean Architecture/notes/lesson-2.1-pardaigm-overview.md",
-    "Daily Notes/2026-08-31.md",
-    "Literature notes/Python/django/adac-energy/Bootstrap the Django Project.md",
-    "Literature notes/Software Architecture/Fundamentals of Software Architecture/Refrences/Modularity.md",
-    "Literature notes/Software Architecture/Fundamentals of Software Architecture/Refrences/Measuring and Governing Architecture Characteristics.md",
-    "Literature notes/Software Architecture/Fundamentals of Software Architecture/Refrences/Introduction.md",
-    "Literature notes/Software Architecture/Fundamentals of Software Architecture/Refrences/Identifying Architecture Characteristics.md",
-    "Literature notes/Software Architecture/Fundamentals of Software Architecture/Refrences/Architecture Characteristics Defined.md",
-    "Literature notes/Software Architecture/Fundamentals of Software Architecture/Refrences/Architectural Thinking.md",
-    "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.2-table-of-two-values.md",
-    "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.1-Interduction.md",
-    "Literature notes/Software Architecture/Clean Architecture/mindset/0001.md",
+    "Permanet Note/instantiation time.md",
+    "Permanet Note/instantiation.md",
+    "Permanet Note/Input and Output.md",
+    "Permanet Note/Generic Type Filtering.md",
+    "Permanet Note/Function Template Restrices.md",
+    "Permanet Note/Function Template.md",
+    "Permanet Note/Function Object.md",
+    "Permanet Note/Forward Iterator.md",
+    "Permanet Note/Dockerize Applications.md",
+    "Permanet Note/Dependency Hell.md",
+    "Permanet Note/declval().md",
+    "Permanet Note/Concepts and Generic Programming.md",
     "Literature notes/Software Architecture/Fundamentals of Software Architecture/Refrences",
     "Literature notes/Software Architecture/Clean Architecture/notes",
     "Literature notes/Software Architecture/Clean Architecture/mindset",
