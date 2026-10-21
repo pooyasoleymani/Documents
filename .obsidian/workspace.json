@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanet Note/Dockerize Applications.md",
+                "file": "Daily Notes/2026-09-01.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Dockerize Applications"
+              "title": "2026-09-01"
             }
           }
         ]
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanet Note/Dockerize Applications.md",
+                "file": "Daily Notes/2026-09-01.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -244,15 +244,17 @@
   },
   "active": "3dbc1e36135af16d",
   "lastOpenFiles": [
+    "Permanet Note/Dockerize Applications.md",
+    "Daily Notes/2026-09-13.md",
+    "Daily Notes/2026-09-15.md",
+    "Daily Notes/2026-09-22.md",
+    "Daily Notes/2026-10-10.md",
+    "Daily Notes/2026-10-13.md",
     "Daily Notes/2026-10-21.md",
     "Permanet Note/Stream Buffer.md",
     "Permanet Note/map vs unordered_map in C++.md",
     "Permanet Note/at() vs operator in vector.md",
     "Permanet Note/Qt worker object pattern.md",
-    "Daily Notes/2026-10-10.md",
-    "Daily Notes/2026-09-22.md",
-    "Daily Notes/2026-09-15.md",
-    "Daily Notes/2026-09-13.md",
     "Permanet Note/Socket.md",
     "Permanet Note/streambuf.md",
     "Permanet Note/SFINAE.md",
@@ -268,8 +270,6 @@
     "Permanet Note/Interface and Abstract Class in C++.md",
     "Permanet Note/instantiation time.md",
     "Permanet Note/instantiation.md",
-    "Permanet Note/Input and Output.md",
-    "Permanet Note/Generic Type Filtering.md",
     "Literature notes/Software Architecture/Fundamentals of Software Architecture/Refrences",
     "Literature notes/Software Architecture/Clean Architecture/notes",
     "Literature notes/Software Architecture/Clean Architecture/mindset",
