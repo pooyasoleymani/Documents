@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanet Note/Stream Buffer.md",
+                "file": "Daily Notes/2026-10-21.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,19 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Stream Buffer"
+              "title": "2026-10-21"
+            }
+          },
+          {
+            "id": "c30d72a8e56ad757",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.14.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.14.4"
             }
           }
         ],
@@ -94,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 395.5
+    "width": 276.5
   },
   "right": {
     "id": "7965c69a42e62fbd",
@@ -172,7 +184,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanet Note/Stream Buffer.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -187,8 +198,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -219,8 +230,8 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "copilot-chat-view"
+              "icon": "message-square",
+              "title": "Copilot"
             }
           }
         ],
@@ -243,10 +254,18 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "c87c6def5a90f83c",
+  "active": "c30d72a8e56ad757",
   "lastOpenFiles": [
-    "Permanet Note/Socket.md",
+    "Daily Notes/2026-10-21.md",
     "Permanet Note/Stream Buffer.md",
+    "Permanet Note/map vs unordered_map in C++.md",
+    "Permanet Note/at() vs operator in vector.md",
+    "Permanet Note/Qt worker object pattern.md",
+    "Daily Notes/2026-10-10.md",
+    "Daily Notes/2026-09-22.md",
+    "Daily Notes/2026-09-15.md",
+    "Daily Notes/2026-09-13.md",
+    "Permanet Note/Socket.md",
     "Permanet Note/streambuf.md",
     "Permanet Note/SFINAE.md",
     "Permanet Note/Scope and Lifetime (C++).md",
@@ -263,24 +282,12 @@
     "Permanet Note/instantiation.md",
     "Permanet Note/Input and Output.md",
     "Permanet Note/Generic Type Filtering.md",
-    "Permanet Note/Function Template Restrices.md",
-    "Permanet Note/Function Template.md",
-    "Permanet Note/Function Object.md",
-    "Permanet Note/Forward Iterator.md",
-    "Permanet Note/Dockerize Applications.md",
-    "Permanet Note/Dependency Hell.md",
-    "Permanet Note/declval().md",
-    "Permanet Note/Concepts and Generic Programming.md",
     "Literature notes/Software Architecture/Fundamentals of Software Architecture/Refrences",
     "Literature notes/Software Architecture/Clean Architecture/notes",
-    "Literature notes/Software Architecture/Clean Architecture/interview",
     "Literature notes/Software Architecture/Clean Architecture/mindset",
+    "Literature notes/Software Architecture/Clean Architecture/interview",
     "Literature notes/Software Architecture/Clean Architecture/glossary",
-    "Literature notes/Software Architecture/Clean Architecture/Untitled.md",
-    "Literature notes/Software Architecture/Clean Architecture/mistakes",
-    "Literature notes/Software Architecture/Clean Architecture/Part-1/Chapter-02.md",
-    "Daily Notes/2026-02-16.md",
-    "Literature notes/Software Architecture/Clean Architecture/Part-1",
+    "Literature notes/Software Architecture/Fundamentals of Software Architecture",
     "Literature notes/Software Architecture/Clean Architecture",
     "Literature notes/Software Architecture",
     "Literature notes/C++/Hands-On GUI Programming with C++ and Qt5",
