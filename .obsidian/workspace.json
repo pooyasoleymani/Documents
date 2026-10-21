@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2026-09-01.md",
+                "file": "Literature notes/Software Engineering/Algorithms/Arrays.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-09-01"
+              "title": "Arrays"
             }
           }
         ]
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2026-09-01.md",
+                "file": "Literature notes/Software Engineering/Algorithms/Arrays.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -227,7 +227,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 296.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -244,6 +245,7 @@
   },
   "active": "3dbc1e36135af16d",
   "lastOpenFiles": [
+    "Daily Notes/2026-09-01.md",
     "Permanet Note/Dockerize Applications.md",
     "Daily Notes/2026-09-13.md",
     "Daily Notes/2026-09-15.md",
@@ -269,7 +271,6 @@
     "Permanet Note/Iterator vs Pointer.md",
     "Permanet Note/Interface and Abstract Class in C++.md",
     "Permanet Note/instantiation time.md",
-    "Permanet Note/instantiation.md",
     "Literature notes/Software Architecture/Fundamentals of Software Architecture/Refrences",
     "Literature notes/Software Architecture/Clean Architecture/notes",
     "Literature notes/Software Architecture/Clean Architecture/mindset",
