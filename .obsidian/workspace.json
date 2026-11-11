@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5ba337da85d4b843",
+        "id": "e93aedfc46287c6a",
         "type": "tabs",
         "children": [
           {
-            "id": "3dbc1e36135af16d",
+            "id": "1a1b922ec65fd501",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Literature notes/Software Engineering/Algorithms/Arrays.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Arrays"
+              "title": "New tab"
             }
           }
         ]
@@ -171,7 +157,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Software Engineering/Algorithms/Arrays.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -243,8 +228,20 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "3dbc1e36135af16d",
+  "active": "1a1b922ec65fd501",
   "lastOpenFiles": [
+    "Daily Notes/2026-11-11.md",
+    "Daily Notes/۲۰۲۶-۱۱-۱۱.md",
+    "Literature notes/Windows Programming/PE (Portable Executable).md",
+    "Literature notes/Software Engineering/Algorithms/Arrays.md",
+    "Literature notes/Windows Programming",
+    "Literature notes/Software Architecture/Clean Architecture/notes/lesson-2.1-pardaigm-overview.md",
+    "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.2-table-of-two-values.md",
+    "Literature notes/Software Architecture/Clean Architecture/notes/lesson-1.1-Interduction.md",
+    "Literature notes/Software Architecture/Clean Architecture/mindset/0001.md",
+    "Literature notes/Software Architecture/Clean Architecture/interview/lesson-1.1-Interduction.md",
+    "Literature notes/Software Architecture/Clean Architecture/glossary/TDD.md",
+    "Permanet Note/Random Numbers.md",
     "Daily Notes/2026-09-01.md",
     "Permanet Note/Dockerize Applications.md",
     "Daily Notes/2026-09-13.md",
@@ -260,17 +257,6 @@
     "Permanet Note/Socket.md",
     "Permanet Note/streambuf.md",
     "Permanet Note/SFINAE.md",
-    "Permanet Note/Scope and Lifetime (C++).md",
-    "Permanet Note/scikit-build-core Bridge CMake and Python.md",
-    "Permanet Note/run-time.md",
-    "Permanet Note/Random Access Iterator.md",
-    "Permanet Note/Python build system knowledge map.md",
-    "Permanet Note/Metafunction Composition.md",
-    "Permanet Note/Metafunction.md",
-    "Permanet Note/linked list.md",
-    "Permanet Note/Iterator vs Pointer.md",
-    "Permanet Note/Interface and Abstract Class in C++.md",
-    "Permanet Note/instantiation time.md",
     "Literature notes/Software Architecture/Fundamentals of Software Architecture/Refrences",
     "Literature notes/Software Architecture/Clean Architecture/notes",
     "Literature notes/Software Architecture/Clean Architecture/mindset",
@@ -280,7 +266,6 @@
     "Literature notes/Software Architecture/Clean Architecture",
     "Literature notes/Software Architecture",
     "Literature notes/C++/Hands-On GUI Programming with C++ and Qt5",
-    "Literature notes/Python/django/adac-energy",
     "Literature notes/WarGame/Linux Command.canvas"
   ]
 }
