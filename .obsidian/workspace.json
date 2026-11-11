@@ -11,10 +11,24 @@
             "id": "1a1b922ec65fd501",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Literature notes/Windows Programming/PE (Portable Executable).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "PE (Portable Executable)"
             }
           }
         ]
@@ -79,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 276.5,
+    "collapsed": true
   },
   "right": {
     "id": "7965c69a42e62fbd",
@@ -157,6 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Literature notes/Windows Programming/PE (Portable Executable).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
