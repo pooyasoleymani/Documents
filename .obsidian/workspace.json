@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e93aedfc46287c6a",
+        "id": "68e61f30b0e0d6d7",
         "type": "tabs",
         "children": [
           {
-            "id": "1a1b922ec65fd501",
+            "id": "eb57bfc1b31c5cd9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Literature notes/Windows Programming/PE (Portable Executable).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "PE (Portable Executable)"
+              "title": "New tab"
             }
           }
         ]
@@ -93,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5,
-    "collapsed": true
+    "width": 276.5
   },
   "right": {
     "id": "7965c69a42e62fbd",
@@ -172,7 +157,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature notes/Windows Programming/PE (Portable Executable).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -187,8 +171,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -197,8 +181,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           },
           {
@@ -219,8 +203,8 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "icon": "lucide-ghost",
+              "title": "copilot-chat-view"
             }
           }
         ],
@@ -244,11 +228,12 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "1a1b922ec65fd501",
+  "active": "eb57bfc1b31c5cd9",
   "lastOpenFiles": [
+    "Daily Notes/2026-11-15.md",
+    "Literature notes/Windows Programming/PE (Portable Executable).md",
     "Daily Notes/2026-11-11.md",
     "Daily Notes/۲۰۲۶-۱۱-۱۱.md",
-    "Literature notes/Windows Programming/PE (Portable Executable).md",
     "Literature notes/Software Engineering/Algorithms/Arrays.md",
     "Literature notes/Windows Programming",
     "Literature notes/Software Architecture/Clean Architecture/notes/lesson-2.1-pardaigm-overview.md",
@@ -272,7 +257,6 @@
     "Permanet Note/Qt worker object pattern.md",
     "Permanet Note/Socket.md",
     "Permanet Note/streambuf.md",
-    "Permanet Note/SFINAE.md",
     "Literature notes/Software Architecture/Fundamentals of Software Architecture/Refrences",
     "Literature notes/Software Architecture/Clean Architecture/notes",
     "Literature notes/Software Architecture/Clean Architecture/mindset",
