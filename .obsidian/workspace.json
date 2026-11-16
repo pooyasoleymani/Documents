@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "68e61f30b0e0d6d7",
+        "id": "9db079d423cfaaa6",
         "type": "tabs",
         "children": [
           {
-            "id": "eb57bfc1b31c5cd9",
+            "id": "e8983cede1c27da7",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 276.5,
+    "collapsed": true
   },
   "right": {
     "id": "7965c69a42e62fbd",
@@ -228,10 +229,11 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "eb57bfc1b31c5cd9",
+  "active": "e8983cede1c27da7",
   "lastOpenFiles": [
-    "Daily Notes/2026-11-15.md",
+    "Daily Notes/2026-11-16.md",
     "Literature notes/Windows Programming/PE (Portable Executable).md",
+    "Daily Notes/2026-11-15.md",
     "Daily Notes/2026-11-11.md",
     "Daily Notes/۲۰۲۶-۱۱-۱۱.md",
     "Literature notes/Software Engineering/Algorithms/Arrays.md",
@@ -256,7 +258,6 @@
     "Permanet Note/at() vs operator in vector.md",
     "Permanet Note/Qt worker object pattern.md",
     "Permanet Note/Socket.md",
-    "Permanet Note/streambuf.md",
     "Literature notes/Software Architecture/Fundamentals of Software Architecture/Refrences",
     "Literature notes/Software Architecture/Clean Architecture/notes",
     "Literature notes/Software Architecture/Clean Architecture/mindset",
